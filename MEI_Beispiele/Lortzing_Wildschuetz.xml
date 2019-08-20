@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.music-encoding.org/ns/mei"
+     meiversion="4.0.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Der Wildschütz </title>
+            <title type="subordinate">Komische Oper in 3 Akten</title>
+            <respStmt>
+               <resp>Composed by:</resp>
+               <persName role="composer"
+                         auth="GND"
+                         auth.uri="http://d-nb.info/gnd/"
+                         codedval="118574469">Albert Lortzing</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt>
+            <unpub/>
+         </pubStmt>
+         <sourceDesc>
+            <!-- MEI-L: Which sources should be listed here? -->
+            <source>
+               <!-- MEI-L: Clarify use of <locus> -->
+               <locus></locus>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>Quellenbeschreibung</p>
+         </samplingDecl>
+         <classDecls>
+            <taxonomy>
+               <head>Genre</head>
+              <!-- <category xml:id="OCLC" auth.uri="http://www.oclc.org/dewey/resources/summaries/default.htm#700">
+               </category>
+               <category xml:id="OSWD"
+                  auth.uri="BSZ"
+                  auth="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl"/> -->
+            </taxonomy>
+            <taxonomy></taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList>
+         <work>
+            <title>Der Wildschütz oder: Die Stimme der Natur</title>
+            <composer>
+               <persName>Albert Lortzing</persName>
+            </composer>
+            <!-- More generic, but restricted to certain roles (contributors only) -->
+            <!-- Discuss at Github? Missing: a generic element for grouping agents of all kinds. Rename <contributor> perhaps? -->
+            <contributor>
+               <persName role="cmp">Albert Lortzing</persName>
+            </contributor>
+            <langUsage>
+               <language>German</language>
+            </langUsage>
+            <perfMedium>
+               <perfResList>
+                  <perfRes n="1" codedval="va">Graf von Eberbach</perfRes>
+                  <perfRes n="2" codedval="va">Die Gräfin, seine Gemahlin</perfRes>
+                  <perfRes n="3">Baron Kronthal, Bruder der Gräfin</perfRes>
+                   <perfRes n="4">Baronin Freimann, eine junge Witwe, Schwester des Grafen</perfRes>
+                   <perfRes n="5">Nanette, ihr Kammermädchen</perfRes>
+                   <perfRes n="6">Baculus, Schulmeister auf einem Gute des Grafen</perfRes>
+                   <perfRes n="7">Gretchen, seine Braut</perfRes>
+                   <perfRes n="8">Pankratius, Haushofmeister auf dem Schlosse des Grafen</perfRes>
+                   <perfRes n="9">Ein Gast</perfRes>
+               </perfResList>
+            </perfMedium>
+            <expressionList>
+               <expression>
+                  <title></title>
+                  <classification>
+                     <termList>
+                        <term class="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl">
+                            <identifier codedval="4043582-9"></identifier>
+                           <title>Oper</title>
+                        </term>
+                         <term class="http://d-nb.info/gnd/4043582-9">
+                           <title>Oper</title>
+                        </term>
+                     </termList>
+                  </classification>
+                  
+               </expression>
+            </expressionList>
+            <componentList>
+               <work n="1">
+                  <title type="main">Der Abendstern</title>
+                  <title type="uniform">Lieder für die Jugend &lt;Der Abendstern&gt;</title>
+                  <contributor>
+                     <persName role="composer"
+                               auth="GND"
+                               auth.uri="http://d-nb.info/gnd/"
+                               codedval="118611666">Robert Schumann</persName>
+                     <persName role="lyricist"
+                               auth="GND"
+                               auth.uri="http://d-nb.info/gnd/"
+                               codedval="118552589">August Heinrich Hoffmann von Fallersleben</persName>
+                  </contributor>
+                  <key>A major</key>
+                  <meter count="2" unit="4"/>
+                  <!-- Moved <incip> to <expression>; Add recommendation in the guidelines: Incipit should not be given at work level -->
+                  <expressionList>
+                     <expression>
+                        <title></title>
+                        <incip>
+                           <incipText>
+                              <p>Du lieblicher Stern</p>
+                           </incipText>
+                           <score>
+                              <scoreDef>
+                                 <staffGrp>
+                                    <staffDef n="1"
+                                       label="Singstimme"
+                                       lines="5"
+                                       meter.count="2"
+                                       meter.unit="4"
+                                       clef.shape="G"
+                                       clef.line="2"
+                                       key.sig="3s"/>
+                                    <staffGrp label="Pianoforte" symbol="brace">
+                                       <staffDef n="2"
+                                          lines="5"
+                                          meter.count="2"
+                                          meter.unit="4"
+                                          clef.shape="G"
+                                          clef.line="2"
+                                          key.sig="3s"/>
+                                       <staffDef n="3"
+                                          lines="5"
+                                          meter.count="2"
+                                          meter.unit="4"
+                                          clef.shape="F"
+                                          clef.line="4"
+                                          key.sig="3s"/>
+                                    </staffGrp>
+                                 </staffGrp>
+                              </scoreDef>
+                              <section>
+                                 <measure n="0" metcon="false">
+                                    <staff n="1">
+                                       <layer>
+                                          <note pname="a" oct="4" dur="8">
+                                             <verse n="1">
+                                                <syl>Du</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>Wie</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl>So</syl>
+                                             </verse>
+                                             <verse n="4">
+                                                <syl>Wie</syl>
+                                             </verse>
+                                          </note>
+                                       </layer>
+                                    </staff>
+                                    <staff n="2">
+                                       <layer>
+                                          <note pname="a" oct="4" dur="8"/>
+                                       </layer>
+                                    </staff>
+                                    <staff n="3">
+                                       <layer>
+                                          <note pname="a" oct="3" dur="8"/>
+                                       </layer>
+                                    </staff>
+                                    <slur tstamp="0.5" curvedir="below" tstamp2="1m+2.5" staff="2"/>
+                                    <dynam place="below" tstamp="0.5" staff="1">p</dynam>
+                                    <dir place="above" staff="1" layer="1" tstamp="0">Langsam.</dir>
+                                    <dynam place="below" tstamp="0.5" staff="2">p</dynam>
+                                 </measure>
+                                 <measure n="1">
+                                    <staff n="1">
+                                       <layer>
+                                          <note pname="c" oct="5" dur="4">
+                                             <verse n="1">
+                                                <syl con="d">lieb</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>lieb'</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl>blick'</syl>
+                                             </verse>
+                                             <verse n="4">
+                                                <syl>nickst</syl>
+                                             </verse>
+                                          </note>
+                                          <note pname="b" oct="4" dur="8">
+                                             <verse n="1">
+                                                <syl con="d">li</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>ich</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl>ich</syl>
+                                             </verse>
+                                             <verse n="4">
+                                                <syl>du</syl>
+                                             </verse>
+                                          </note>
+                                          <note pname="a" oct="4" dur="8">
+                                             <verse n="1">
+                                                <syl>cher</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>doch</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl>nach</syl>
+                                             </verse>
+                                             <verse n="4">
+                                                <syl>mir</syl>
+                                             </verse>
+                                          </note>
+                                       </layer>
+                                    </staff>
+                                    <staff n="2">
+                                       <layer>
+                                          <chord dur="4">
+                                             <note pname="c" oct="4"/>
+                                             <note pname="e" oct="4"/>
+                                             <note pname="a" oct="4"/>
+                                             <note pname="c" oct="5"/>
+                                          </chord>
+                                          <beam>
+                                             <chord dur="8">
+                                                <note pname="d" oct="4"/>
+                                                <note pname="e" oct="4"/>
+                                                <note pname="g" oct="4"/>
+                                                <note pname="b" oct="4"/>
+                                             </chord>
+                                             <chord dur="8">
+                                                <note pname="e" oct="4"/>
+                                                <note pname="a" oct="4"/>
+                                             </chord>
+                                          </beam>
+                                       </layer>
+                                    </staff>
+                                    <staff n="3">
+                                       <layer>
+                                          <chord dur="4">
+                                             <note pname="a" oct="2"/>
+                                             <note pname="e" oct="3"/>
+                                             <note pname="a" oct="3"/>
+                                          </chord>
+                                          <beam>
+                                             <chord dur="8">
+                                                <note pname="b" oct="2"/>
+                                                <note pname="e" oct="3"/>
+                                             </chord>
+                                             <chord dur="8">
+                                                <note pname="c" oct="3"/>
+                                                <note pname="e" oct="3"/>
+                                                <note pname="a" oct="3"/>
+                                             </chord>
+                                          </beam>
+                                       </layer>
+                                    </staff>
+                                 </measure>
+                                 <measure n="2">
+                                    <staff n="1">
+                                       <layer>
+                                          <note pname="f" oct="4" dur="4" dots="1">
+                                             <verse n="1">
+                                                <syl>Stern,</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>dich</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl>dir,</syl>
+                                             </verse>
+                                             <verse n="4">
+                                                <syl>zu</syl>
+                                             </verse>
+                                          </note>
+                                       </layer>
+                                    </staff>
+                                    <staff n="2">
+                                       <layer>
+                                          <chord dur="2">
+                                             <note pname="d" oct="4"/>
+                                             <note pname="f" oct="4"/>
+                                          </chord>
+                                       </layer>
+                                    </staff>
+                                    <staff n="3">
+                                       <layer>
+                                          <chord dur="2">
+                                             <note pname="d" oct="3"/>
+                                             <note pname="a" oct="3"/>
+                                          </chord>
+                                       </layer>
+                                    </staff>
+                                 </measure>
+                              </section>
+                           </score>
+                        </incip>
+                     </expression>
+                  </expressionList>
+               </work>
+               <work n="2">
+                  <title type="main">Schmetterling</title>
+                  <title type="uniform">Lieder für die Jugend &lt;Schmetterling&gt;</title>
+                  <contributor>
+                     <persName role="composer"
+                               auth="GND"
+                               auth.uri="http://d-nb.info/gnd/"
+                               codedval="118611666">Robert Schumann</persName>
+                     <persName role="lyricist"
+                               auth="GND"
+                               auth.uri="http://d-nb.info/gnd/"
+                               codedval="118552589">August Heinrich Hoffmann von Fallersleben</persName>
+                  </contributor>
+                  <key>D major</key>
+                  <meter count="3" unit="8"/>
+                  <expressionList>
+                     <expression>
+                        <title></title>
+                        <incip>
+                           <incipText>
+                              <p>O Schmetterling sprich,</p>
+                           </incipText>
+                           <score>
+                              <scoreDef>
+                                 <staffGrp>
+                                    <staffDef n="1"
+                                       label="Singstimme"
+                                       lines="5"
+                                       meter.count="3"
+                                       meter.unit="8"
+                                       clef.shape="G"
+                                       clef.line="2"
+                                       key.sig="2s"/>
+                                    <staffGrp label="Pianoforte" symbol="brace">
+                                       <staffDef n="2"
+                                          lines="5"
+                                          meter.count="3"
+                                          meter.unit="8"
+                                          clef.shape="G"
+                                          clef.line="2"
+                                          key.sig="2s"/>
+                                       <staffDef n="3"
+                                          lines="5"
+                                          meter.count="3"
+                                          meter.unit="8"
+                                          clef.shape="F"
+                                          clef.line="4"
+                                          key.sig="2s"/>
+                                    </staffGrp>
+                                 </staffGrp>
+                              </scoreDef>
+                              <section>
+                                 <measure n="0">
+                                    <staff n="1">
+                                       <layer>
+                                          <rest dur="8"/>
+                                       </layer>
+                                    </staff>
+                                    <staff n="2">
+                                       <layer>
+                                          <note pname="a" oct="4" dur="8" artic="stacc"/>
+                                       </layer>
+                                    </staff>
+                                    <staff n="3">
+                                       <layer>
+                                          <note pname="a" oct="3" dur="8" artic="stacc"/>
+                                       </layer>
+                                    </staff>
+                                    <dir tstamp="0.5" place="above" staff="1">Schnell.</dir>
+                                    <dynam place="below" staff="2" tstamp.ges="1">p</dynam>
+                                 </measure>
+                                 <measure n="1">
+                                    <staff n="1">
+                                       <layer>
+                                          <mRest/>
+                                       </layer>
+                                    </staff>
+                                    <staff n="2">
+                                       <layer>
+                                          <beam>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="a" oct="4"/>
+                                                <note pname="d" oct="5"/>
+                                             </chord>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="c" oct="5"/>
+                                                <note pname="e" oct="5"/>
+                                             </chord>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="d" oct="5"/>
+                                                <note pname="f" oct="5"/>
+                                             </chord>
+                                          </beam>
+                                       </layer>
+                                    </staff>
+                                    <staff n="3">
+                                       <layer>
+                                          <beam>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="f" oct="3"/>
+                                                <note pname="d" oct="4"/>
+                                             </chord>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="a" oct="3"/>
+                                                <note pname="e" oct="4"/>
+                                             </chord>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="d" oct="4"/>
+                                                <note pname="f" oct="4"/>
+                                             </chord>
+                                          </beam>
+                                       </layer>
+                                    </staff>
+                                 </measure>
+                                 <measure n="2">
+                                    <staff n="1">
+                                       <layer>
+                                          <rest dur="8"/>
+                                          <rest dur="8"/>
+                                          <note pname="a" oct="4" dur="8">
+                                             <verse n="1" label="V. 1.">
+                                                <syl>O</syl>
+                                             </verse>
+                                             <verse n="2" label="V. 2.">
+                                                <syl>Jetzt</syl>
+                                             </verse>
+                                             <verse n="3" label="V. 3.">
+                                                <syl>Ich</syl>
+                                             </verse>
+                                             <verse n="4" label="V. 4.">
+                                                <syl>So</syl>
+                                             </verse>
+                                          </note>
+                                       </layer>
+                                    </staff>
+                                    <staff n="2">
+                                       <layer>
+                                          <chord dur="8" artic="stacc">
+                                             <note pname="c" oct="5"/>
+                                             <note pname="e" oct="5"/>
+                                          </chord>
+                                          <rest dur="8"/>
+                                          <note pname="a" oct="4" dur="8" artic="stacc"/>
+                                       </layer>
+                                    </staff>
+                                    <staff n="3">
+                                       <layer>
+                                          <chord dur="8" artic="stacc">
+                                             <note pname="a" oct="3"/>
+                                             <note pname="e" oct="4"/>
+                                          </chord>
+                                          <rest dur="8"/>
+                                          <rest dur="8"/>
+                                       </layer>
+                                    </staff>
+                                    <dynam tstamp="1.5" place="above" staff="1">p</dynam>
+                                 </measure>
+                                 <measure n="3">
+                                    <staff n="1">
+                                       <layer>
+                                          <note pname="d" oct="5" dur="8">
+                                             <verse n="1">
+                                                <syl con="d" wordpos="i">Schmet</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>fern</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl>thu'</syl>
+                                             </verse>
+                                             <verse n="4">
+                                                <syl>spräch'</syl>
+                                             </verse>
+                                          </note>
+                                          <note pname="e" oct="5" dur="8">
+                                             <verse n="1">
+                                                <syl con="d" wordpos="m">ter</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>und</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl>dir</syl>
+                                             </verse>
+                                             <verse n="4">
+                                                <syl>ich</syl>
+                                             </verse>
+                                          </note>
+                                          <note pname="f" oct="5" dur="8">
+                                             <verse n="1">
+                                                <syl wordpos="t">ling</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>dann</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl>kein</syl>
+                                             </verse>
+                                             <verse n="4">
+                                                <syl>zu</syl>
+                                             </verse>
+                                          </note>
+                                       </layer>
+                                    </staff>
+                                    <staff n="2">
+                                       <layer>
+                                          <beam>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="f" oct="4"/>
+                                                <note pname="a" oct="4"/>
+                                                <note pname="d" oct="5"/>
+                                             </chord>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="a" oct="4"/>
+                                                <note pname="c" oct="5"/>
+                                                <note pname="e" oct="5"/>
+                                             </chord>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="d" oct="5"/>
+                                                <note pname="f" oct="5"/>
+                                             </chord>
+                                          </beam>
+                                       </layer>
+                                    </staff>
+                                    <staff n="3">
+                                       <layer>
+                                          <mRest/>
+                                       </layer>
+                                    </staff>
+                                 </measure>
+                                 <measure n="4">
+                                    <staff n="1">
+                                       <layer>
+                                          <note pname="e" oct="5" dur="8">
+                                             <verse n="1">
+                                                <syl>sprich,</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>nah,</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl>Leid:</syl>
+                                             </verse>
+                                             <verse n="4">
+                                                <syl>dir:</syl>
+                                             </verse>
+                                          </note>
+                                          <rest dur="8"/>
+                                          <rest dur="8"/>
+                                       </layer>
+                                    </staff>
+                                    <staff n="2">
+                                       <layer>
+                                          <chord dur="8" artic="stacc">
+                                             <note pname="a" oct="4"/>
+                                             <note pname="c" oct="5"/>
+                                             <note pname="e" oct="5"/>
+                                          </chord>
+                                          <rest dur="8"/>
+                                          <note pname="a" oct="4" artic="stacc"/>
+                                       </layer>
+                                    </staff>
+                                    <staff n="3">
+                                       <layer>
+                                          <rest dur="8"/>
+                                          <rest dur="8"/>
+                                          <note pname="a" oct="3" dur="8" artic="stacc"/>
+                                       </layer>
+                                    </staff>
+                                 </measure>
+                                 <sb/>
+                              </section>
+                           </score>
+                        </incip>
+                     </expression>
+                  </expressionList>
+               </work>
+               <work n="3">
+                  <title type="main">Frühlingsbotschaft</title>
+                  <title type="uniform">Lieder für die Jugend &lt;Frühlingsbotschaft&gt;</title>
+                  <contributor>
+                     <persName role="composer"
+                               auth="GND"
+                               auth.uri="http://d-nb.info/gnd/"
+                               codedval="118611666">Robert Schumann</persName>
+                     <persName role="lyricist"
+                               auth="GND"
+                               auth.uri="http://d-nb.info/gnd/"
+                               codedval="118552589">August Heinrich Hoffmann von Fallersleben</persName>
+                  </contributor>
+                  <key>G major</key>
+                  <meter count="2" unit="4"/>
+                  <expressionList>
+                     <expression>
+                        <title></title>
+                        <incip>
+                           <incipText>
+                              <p>Kuckuck, Kuckuck ruft aus dem Wald</p>
+                           </incipText>
+                           <score>
+                              <scoreDef>
+                                 <staffGrp>
+                                    <staffDef n="1"
+                                       label="Singstimme"
+                                       lines="5"
+                                       meter.count="2"
+                                       meter.unit="4"
+                                       clef.shape="G"
+                                       clef.line="2"
+                                       key.sig="1s"/>
+                                    <staffGrp label="Pianoforte" symbol="brace">
+                                       <staffDef n="2"
+                                          lines="5"
+                                          meter.count="2"
+                                          meter.unit="4"
+                                          clef.shape="G"
+                                          clef.line="2"
+                                          key.sig="1s"/>
+                                       <staffDef n="3"
+                                          lines="5"
+                                          meter.count="2"
+                                          meter.unit="4"
+                                          clef.shape="F"
+                                          clef.line="4"
+                                          key.sig="1s"/>
+                                    </staffGrp>
+                                 </staffGrp>
+                              </scoreDef>
+                              <section>
+                                 <measure n="1">
+                                    <staff n="1">
+                                       <layer>
+                                          <note pname="g" oct="4" dur="8" artic="stacc">
+                                             <verse n="1">
+                                                <syl wordpos="i">Kuc</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl wordpos="i">Kuc</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl wordpos="i">Kuc</syl>
+                                             </verse>
+                                          </note>
+                                          <note pname="a" oct="4" dur="8" artic="stacc">
+                                             <verse n="1">
+                                                <syl wordpos="t">kuck,</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl wordpos="t">kuck,</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl wordpos="t">kuck,</syl>
+                                             </verse>
+                                          </note>
+                                          <note pname="b" oct="4" dur="8" artic="stacc">
+                                             <verse n="1">
+                                                <syl wordpos="i">Kuc</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl wordpos="i">Kuc</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl wordpos="i">Kuc</syl>
+                                             </verse>
+                                          </note>
+                                          <note pname="g" oct="4" dur="8" artic="stacc">
+                                             <verse n="1">
+                                                <syl wordpos="t">kuck</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl wordpos="t">kuck</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl wordpos="t">kuck,</syl>
+                                             </verse>
+                                          </note>
+                                       </layer>
+                                    </staff>
+                                    <staff n="2">
+                                       <layer>
+                                          <beam>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="b" oct="3"/>
+                                                <note pname="g" oct="4"/>
+                                             </chord>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="d" oct="4"/>
+                                                <note pname="a" oct="4"/>
+                                             </chord>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="g" oct="4"/>
+                                                <note pname="b" oct="4"/>
+                                             </chord>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="b" oct="3"/>
+                                                <note pname="g" oct="4"/>
+                                             </chord>
+                                          </beam>
+                                       </layer>
+                                    </staff>
+                                    <staff n="3">
+                                       <layer>
+                                          <beam>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="b" oct="2"/>
+                                                <note pname="g" oct="3"/>
+                                             </chord>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="d" oct="3"/>
+                                                <note pname="a" oct="3"/>
+                                             </chord>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="g" oct="3"/>
+                                                <note pname="b" oct="3"/>
+                                             </chord>
+                                             <chord dur="8" artic="stacc">
+                                                <note pname="b" oct="2"/>
+                                                <note pname="g" oct="3"/>
+                                             </chord>
+                                          </beam>
+                                       </layer>
+                                    </staff>
+                                    <hairpin form="cres" staff="2" tstamp="1" tstamp2="0m+2.5"/>
+                                 </measure>
+                                 <measure n="2">
+                                    <staff n="1">
+                                       <layer>
+                                          <note pname="c" oct="5" dur="8">
+                                             <verse n="1">
+                                                <syl>ruft</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>lässt</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl con="d" wordpos="i">treff</syl>
+                                             </verse>
+                                          </note>
+                                          <note pname="d" oct="5" dur="16">
+                                             <verse n="1">
+                                                <syl>aus</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>nicht</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl con="d" wordpos="m">li</syl>
+                                             </verse>
+                                          </note>
+                                          <note pname="e" oct="5" dur="16">
+                                             <verse n="1">
+                                                <syl>dem</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>sein</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl wordpos="t">cher</syl>
+                                             </verse>
+                                          </note>
+                                          <note pname="d" oct="5" dur="4">
+                                             <verse n="1">
+                                                <syl>Wald:</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>Schrein:</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl>Held!</syl>
+                                             </verse>
+                                          </note>
+                                       </layer>
+                                    </staff>
+                                    <staff n="2">
+                                       <layer>
+                                          <chord dur="4">
+                                             <note pname="e" oct="4"/>
+                                             <note pname="g" oct="4"/>
+                                             <note pname="c" oct="5"/>
+                                          </chord>
+                                          <chord dur="4">
+                                             <note pname="d" oct="4"/>
+                                             <note pname="g" oct="4"/>
+                                             <note pname="b" oct="4"/>
+                                          </chord>
+                                       </layer>
+                                    </staff>
+                                    <staff n="3">
+                                       <layer>
+                                          <chord dur="4">
+                                             <note pname="g" oct="3"/>
+                                             <note pname="c" oct="4"/>
+                                          </chord>
+                                          <chord dur="4">
+                                             <note pname="g" oct="3"/>
+                                             <note pname="b" oct="3"/>
+                                          </chord>
+                                       </layer>
+                                    </staff>
+                                    <dynam tstamp="1" place="below" staff="2">fp</dynam>
+                                 </measure>
+                              </section>
+                           </score>
+                        </incip>
+                     </expression>
+                  </expressionList>
+               </work>
+               <work n="4">
+                  <title type="main">Frühlingsgruss</title>
+                  <title type="uniform">Lieder für die Jugend &lt;Frühlingsgruss&gt;</title>
+                  <contributor>
+                     <persName role="composer"
+                               auth="GND"
+                               auth.uri="http://d-nb.info/gnd/"
+                               codedval="118611666">Robert Schumann</persName>
+                     <persName role="lyricist"
+                               auth="GND"
+                               auth.uri="http://d-nb.info/gnd/"
+                               codedval="118552589">August Heinrich Hoffmann von Fallersleben</persName>
+                  </contributor>
+                  <key>G major</key>
+                  <expressionList>
+                     <expression>
+                        <title></title>
+                        <incip>
+                           <incipText>
+                              <p>So sei gegrüsst viel tausendmal</p>
+                           </incipText>
+                           <score>
+                              <scoreDef>
+                                 <staffGrp>
+                                    <staffDef n="1"
+                                       label="Singstimme"
+                                       lines="5"
+                                       meter.count="3"
+                                       meter.unit="4"
+                                       clef.shape="G"
+                                       clef.line="2"
+                                       key.sig="1s"/>
+                                    <staffGrp label="Pianoforte" symbol="brace">
+                                       <staffDef n="2"
+                                          lines="5"
+                                          meter.count="3"
+                                          meter.unit="4"
+                                          clef.shape="G"
+                                          clef.line="2"
+                                          key.sig="1s"/>
+                                       <staffDef n="3"
+                                          lines="5"
+                                          meter.count="3"
+                                          meter.unit="4"
+                                          clef.shape="F"
+                                          clef.line="4"
+                                          key.sig="1s"/>
+                                    </staffGrp>
+                                 </staffGrp>
+                              </scoreDef>
+                              <section>
+                                 <measure n="0" metcon="false">
+                                    <staff n="1">
+                                       <layer>
+                                          <note pname="d" oct="4" dur="4">
+                                             <verse n="1">
+                                                <syl>So</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>Du</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl>So</syl>
+                                             </verse>
+                                          </note>
+                                       </layer>
+                                    </staff>
+                                    <staff n="2">
+                                       <layer>
+                                          <note pname="d" oct="4" dur="4"/>
+                                       </layer>
+                                    </staff>
+                                    <staff n="3">
+                                       <layer>
+                                          <note pname="d" oct="3" dur="4"/>
+                                       </layer>
+                                    </staff>
+                                 </measure>
+                                 <measure n="1">
+                                    <staff n="1">
+                                       <layer>
+                                          <note pname="g" oct="4" dur="8" dots="1">
+                                             <verse n="1">
+                                                <syl>sei</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>kommst,</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl>sei</syl>
+                                             </verse>
+                                          </note>
+                                          <note pname="b" oct="4" dur="16">
+                                             <verse n="1">
+                                                <syl wordpos="i">ge</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>und</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl wordpos="i">ge</syl>
+                                             </verse>
+                                          </note>
+                                          <note pname="a" oct="4" dur="4">
+                                             <verse n="1">
+                                                <syl wordpos="t">grüsst</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>froh</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl wordpos="t">grüsst</syl>
+                                             </verse>
+                                          </note>
+                                          <note pname="g" oct="4" dur="4">
+                                             <verse n="1">
+                                                <syl>viel</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>ist</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl>viel</syl>
+                                             </verse>
+                                          </note>
+                                       </layer>
+                                    </staff>
+                                    <staff n="2">
+                                       <layer>
+                                          <beam>
+                                             <chord dur="8" dots="1">
+                                                <note pname="b" oct="3"/>
+                                                <note pname="g" oct="4"/>
+                                             </chord>
+                                             <chord dur="16">
+                                                <note pname="d" oct="4"/>
+                                                <note pname="b" oct="4"/>
+                                             </chord>
+                                          </beam>
+                                          <chord dur="4">
+                                             <note pname="c" oct="4"/>
+                                             <note pname="g" oct="4"/>
+                                             <note pname="a" oct="4"/>
+                                          </chord>
+                                          <chord dur="4">
+                                             <note pname="b" oct="3"/>
+                                             <note pname="g" oct="4"/>
+                                          </chord>
+                                       </layer>
+                                    </staff>
+                                    <staff n="3">
+                                       <layer n="1">
+                                          <beam>
+                                             <note pname="g" oct="2" dur="8" dots="1"/>
+                                             <note pname="g" oct="3" dur="16"/>
+                                          </beam>
+                                          <note pname="g" oct="3" dur="4"/>
+                                          <note pname="g" oct="3" dur="4"/>
+                                       </layer>
+                                       <layer n="2">
+                                          <note pname="g" oct="2" dur="2" dots="1"/>
+                                       </layer>
+                                    </staff>
+                                 </measure>
+                                 <measure n="2">
+                                    <staff n="1">
+                                       <layer>
+                                          <note pname="e" oct="5" dur="8" dots="1">
+                                             <verse n="1">
+                                                <syl wordpos="i">tau</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl con="d" wordpos="i">al</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl wordpos="i">tau</syl>
+                                             </verse>
+                                          </note>
+                                          <note pname="c" oct="5" dur="16">
+                                             <verse n="1">
+                                                <syl con="d" wordpos="m">send</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl wordpos="t">le</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl con="d" wordpos="m">send</syl>
+                                             </verse>
+                                          </note>
+                                          <note pname="a" oct="4" dur="2">
+                                             <verse n="1">
+                                                <syl wordpos="t">mal,</syl>
+                                             </verse>
+                                             <verse n="2">
+                                                <syl>Welt,</syl>
+                                             </verse>
+                                             <verse n="3">
+                                                <syl wordpos="t">mal,</syl>
+                                             </verse>
+                                          </note>
+                                       </layer>
+                                    </staff>
+                                    <staff n="2">
+                                       <layer>
+                                          <chord dur="4">
+                                             <note pname="e" oct="4"/>
+                                             <note pname="g" oct="4"/>
+                                             <note pname="e" oct="5"/>
+                                          </chord>
+                                          <chord dur="2">
+                                             <note pname="d" oct="4"/>
+                                             <note pname="f" oct="4"/>
+                                             <note pname="a" oct="4"/>
+                                          </chord>
+                                       </layer>
+                                    </staff>
+                                    <staff n="3">
+                                       <layer>
+                                          <note pname="c" oct="3" dur="4"/>
+                                          <note pname="d" oct="3" dur="2"/>
+                                       </layer>
+                                    </staff>
+                                 </measure>
+                              </section>
+                           </score>
+                        </incip>
+                     </expression>
+                  </expressionList>
+               </work>
+            </componentList>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation>
+            <titleStmt type="short"> <!-- oder hier nur type=uniform empfehlen? -->
+               <title>Der Wildschütz</title>
+               <title type="subordinate">Klavierauszug</title>
+               <respStmt>
+                  <persName role="composer"
+                     auth="GND"
+                     auth.uri="http://d-nb.info/gnd/"
+                     codedval="118574469">Albert Lortzing</persName>
+                 <!-- <resp>Herausgegeben von</resp>-->
+                  <persName role="editor"
+                     auth.uri="http://d-nb.info/gnd/"
+                     auth="GND"
+                     codedval="116574976">Georg Richard Kruse</persName>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Klavierauszug</edition>
+            </editionStmt>
+            <pubStmt>
+               <respStmt>
+                  <corpName role="publisher"
+                     auth="GND"
+                     auth.uri="http://d-nb.info/gnd/"
+                     codedval="5135549-8">C. F. Peters Leipzig</corpName>
+                  <resp>Druck:</resp>
+                  <corpName role="printer">VEB Deutsche Graphische Werkstätten, Leipzig</corpName>
+                   <resp>Stich:</resp>
+                   <persName role="">C. G. Röder, Leipzig</persName>
+               </respStmt>
+               <address>
+                  <addrLine>Leipzig</addrLine>
+                  <addrLine>Germany</addrLine>
+               </address>
+               <identifier type="ordernumber">Edition Peters Nr. 2054</identifier>
+               <!--<availability>
+                  <useRestrict>© 1991 by Breitkopf &amp; Härtel, Wiesbaden</useRestrict>
+               </availability>-->
+            </pubStmt>
+            <physDesc>
+               <titlePage n="1" type="cover">
+                  <p>Lortzing<lb/>Wildschütz<lb/>Klavier-Auszug<lb/>(Kruse)</p>
+               </titlePage>
+               <titlePage n="2" type="titlePage">
+                  <p>Der Wildschütz<lb/>oder<lb/>Die Stimme der Natur<lb/>Komische Oper in drei Akten<lb/>von<lb/>Albert Lortzing.<lb/>Klavierauszug<lb/>herausgegeben<lb/>von<lb/>Georg Richard Kruse<lb/>Neu revidierte Ausgabe.<lb/>Das Revisionsergebnis ist Eigentum<lb/>des Verlegers<lb/>Leipzig<lb/>C. F. Peters<lb/>10173</p>
+               </titlePage> 
+                <decoDesc><decoNote>mit Schmuckrahmen von F. Baumgarten</decoNote></decoDesc>
+                <dimensions unit="cm">18,9 x 27 cm</dimensions>
+               <extent unit="page">242</extent>
+               <plateNum>10173</plateNum><!-- ist eigentlich die Verlagsnummer, ist kein Plattendruck mehr -->
+            </physDesc>
+          <!--  <seriesStmt>
+               <title>Breitkopf-Archiv</title>
+               <respStmt>
+                  <resp>Herausgegeben von:</resp>
+                  <persName role="editor"
+                     auth.uri="http://d-nb.info/gnd/"
+                     auth="GND"
+                     codedval="123921228">Joachim Draheim</persName>
+               </respStmt>
+            </seriesStmt>-->
+            <contents>
+               <head>INHALT.</head>
+               <contentItem n="1">Zu Geschichte der Oper</contentItem>
+               <contentItem n="2">Ouvertüre</contentItem>
+               <contentItem n="3">Akt 1, Nr. 1 Introduktion</contentItem>
+               <contentItem n="4">Nr. 2 Duett</contentItem>
+               <contentItem n="5">Nr. 3 Arie</contentItem>
+               <contentItem n="6">Nr. 4 Quartett</contentItem>
+               <contentItem n="7">Nr. 6 Finale.</contentItem>
+               <contentItem n="8">AKt 2, Nr. 7 Introduktion</contentItem>
+               <contentItem n="9">Nr. 8 Duett und Arie</contentItem>
+               <contentItem n="10">Nr. 9 quintett.</contentItem>
+               <contentItem n="11">Nr. 10 Duett</contentItem>
+               <contentItem n="12">Nr. 11 Quintett</contentItem>
+               <contentItem n="13">Nr. 12 Arie</contentItem>
+               <contentItem n="14">Akt 3, Nr. 13 Arie</contentItem>
+               <contentItem n="15">Nr. 14 Ensemble</contentItem>
+               <contentItem n="16">Nr. 15 Terzett</contentItem>
+               <contentItem n="17">Nr. 16 Finale</contentItem>
+            </contents>
+            <itemList>
+                <item>
+                    <physLoc>
+                        <repository>Privatbesitz</repository>
+                    </physLoc>
+                </item>
+               <!--<item n="1">
+                  <physLoc>
+                     <repository>
+                        <corpName>Deutsche Nationalbibliothek</corpName>
+                        <geogName>Leipzig</geogName>
+                        <identifier auth="DNB" auth.uri="http://d-nb.info/350613826">M 1991 B 2419</identifier><!-\- Sind das Signaturen??? -\->
+                     </repository>
+                  </physLoc>
+               </item>-->
+            </itemList>
+         </manifestation>
+      </manifestationList>
+   </meiHead>
+   <music/>
+</mei>
