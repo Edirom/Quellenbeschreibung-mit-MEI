@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/2019_ESS_SourceDesc_01.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/2019_ESS_SourceDesc_01.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Photoptosis P5 Source Description</title>
+      </titleStmt>
+      <pubStmt>
+        <unpub/>
+      </pubStmt>
+      <sourceDesc>
+        <source recordtype="c">
+          <bibl><abbr>[Zimm70]</abbr> <composer>Zimmermann, Bernd Alois</composer>: <title>Photoptosis. Prélude für großes Orchester. Studien-Partitur.</title> <pubPlace>Mainz</pubPlace> : <publisher>B. Schott’s Söhne</publisher>, <date>1970</date></bibl>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+  </meiHead>
+  <music/>
+</mei>

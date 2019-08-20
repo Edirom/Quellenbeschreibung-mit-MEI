@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/2019_ESS_SourceDesc_01.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schemata/2019_ESS_SourceDesc_01.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Photoptosis P5 Source Description</title>
+      </titleStmt>
+      <pubStmt>
+        <unpub/>
+      </pubStmt>
+      <sourceDesc>
+        <source recordtype="c">
+          <biblStruct>
+            <monogr>
+              <composer>Bernd Alois Zimmermann</composer>
+              <title>Photoptosis. Prélude für großes Orchester (1968). Studien-Partitur</title>
+              <imprint>
+                <publisher>B Schott's Söhne</publisher>
+                <pubPlace>Mainz</pubPlace>
+                <date isodate="1970">1970</date>
+              </imprint>
+              <extent quantity="83" unit="page"/>
+            </monogr>
+          </biblStruct>
+        </source>
+      </sourceDesc>
+    </fileDesc>
+  </meiHead>
+  <music/>
+</mei>
