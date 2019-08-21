@@ -1,12 +1,10 @@
 # MEI
 
-
 # MEI.analytical
-
 
 # MEI.cmn
 
-* arpeg
+~~* arpeg
 * attacca
 * beam
 * beamSpan
@@ -22,10 +20,13 @@
 * hairpin
 * halfmRpt
 * harpPedal
-* lv
+* lv~~
+
 * measure
-* meterSig
-* meterSigGrp
+
+~~* meterSig
+* meterSigGrp~~~
+
 * mNum
 * mRest
 * mRpt
@@ -33,16 +34,17 @@
 * mSpace
 * multiRest
 * multiRpt
-* octave
+
+~~* octave
 * oLayer
 * ossia
 * oStaff
 * pedal
 * reh
 * slur
-* tie
+* tie~
 * tuplet
-* tupletSpan
+* tupletSpan~~
 
 # MEI.cmnOrnaments
 
