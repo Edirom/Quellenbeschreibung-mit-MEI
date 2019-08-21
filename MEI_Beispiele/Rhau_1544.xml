@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.music-encoding.org/ns/mei"
+     meiversion="4.0.0">
+   <meiHead><!-- ich habe mich hier jetzt im Wesentlichen auf die manifestation beschränkt  -->
+      <fileDesc>
+         <titleStmt>
+            <title>Neue deutsche geistliche Gesänge</title>
+            <respStmt>
+               <resp></resp>
+               <persName role="printer"
+                         auth="GND"
+                         auth.uri="http://d-nb.info/gnd/"
+                         codedval="115690387">Georg Rhau</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt>
+            <unpub/>
+         </pubStmt>
+         <sourceDesc>
+            <!-- MEI-L: Which sources should be listed here? -->
+            <source>
+               <!-- MEI-L: Clarify use of <locus> -->
+               <locus></locus>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>nur Quellenbeschreibung</p>
+         </samplingDecl>
+        <!-- <classDecls>
+            <taxonomy>
+               <head>Genre</head>
+              <!-\- <category xml:id="OCLC" auth.uri="http://www.oclc.org/dewey/resources/summaries/default.htm#700">
+               </category>
+               <category xml:id="OSWD"
+                  auth.uri="BSZ"
+                  auth="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl"/> -\->
+            </taxonomy>
+            <taxonomy></taxonomy>
+         </classDecls>-->
+      </encodingDesc>
+      <workList>
+         <work>
+            <title>Neue Deutsche Geistliche Gesänge</title>
+            <contributor>
+               <persName role="printer">Gerog Rhau</persName>
+            </contributor>
+            <langUsage>
+               <language>German</language>
+            </langUsage>
+            <perfMedium>
+               <perfResList>
+                  <perfRes n="1">Discantus</perfRes>
+                  <perfRes n="2">Altus</perfRes>
+                  <perfRes n="3">Tenor</perfRes>
+                   <perfRes n="4">Bassus</perfRes>
+               </perfResList>
+            </perfMedium>
+            <expressionList>
+               <expression>
+                  <title></title>
+                 <!-- <classification>
+                     <termList>
+                        <term class="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl">
+                            <identifier></identifier>
+                           <title>Vokalmusik</title>
+                        </term>
+                         <term class="http://d-nb.info/gnd/">
+                           <title>Chormusik</title>
+                        </term>
+                     </termList>
+                  </classification>-->      
+               </expression>
+            </expressionList> 
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation n="1">
+            <titleStmt type="short"> 
+               <title>Neue deutsche Geistliche Gesänge</title>
+               <title type="subordinate">Stimmbuch Tenor</title>
+            </titleStmt>
+            <editionStmt>
+               <edition>Stimmbuch</edition>
+            </editionStmt>
+            <pubStmt>
+               <respStmt label="original">
+                  <corpName role="publisher"
+                     auth="GND"
+                     auth.uri="http://d-nb.info/gnd/"
+                     codedval="115690387">Georg Rauh</corpName>
+               </respStmt>
+               <address>
+                  <addrLine>Wittenberg</addrLine>
+                  <addrLine>Germany</addrLine>
+               </address>
+            </pubStmt>
+            <physDesc>
+               <titlePage n="1" type="titlePage">
+                  <p>Newe Deudsche Geistliche<lb/>Gesenge CXXIII. Mit Vier und Fünff Stim-<lb/>men / Für die gemeinen <rend rend="smcaps">Schulen</rend> / Mit<lb/>sonderlichem vleis aus vielen erlesen / <lb/>Der zuuor keins im druck ausgangen.<lb/>Gedrueckt zu Wittemberg / durch Georgen Rhau.<lb/>1544.</p>
+               </titlePage> 
+                <decoDesc><decoNote>mit Schmuckrahmen, dabei unten fünf runde Bilder</decoNote></decoDesc>
+                <titlePage n="2" label="Titel zum Anhang"><p>Georg Rhau<lb/>Neue deutsche geistliche Gesänge<lb/>Faksimile-Neudruck<lb/>Mit einem Nachwort von Ludwig Finscher<lb/>[Verlags-Zeichen]<lb/>Bärenreiter Kassel - Basel - Paris - London<lb/>1969</p></titlePage>
+                <dimensions unit="cm">19,5 x 15cm</dimensions>
+               <extent unit="page">242</extent><!-- andere alte Zählung -->
+            </physDesc>
+            <contents>
+               <contentItem n="1">123 neue geistliche Gesänge</contentItem>
+            </contents>
+            <itemList>
+                <item>
+                    <physLoc>
+                        <repository>Privatbesitz</repository>
+                    </physLoc>
+                </item>
+            </itemList>
+         </manifestation>
+         <manifestation n="2">
+            <titleStmt type="short"> 
+               <title>Neue deutsche Geistliche Gesänge</title>
+               <title type="subordinate">Stimmbuch Bass</title>
+            </titleStmt>
+            <editionStmt>
+               <edition>Stimmbuch</edition>
+            </editionStmt>
+            <pubStmt>
+               <respStmt label="original">
+                  <corpName role="publisher"
+                     auth="GND"
+                     auth.uri="http://d-nb.info/gnd/"
+                     codedval="115690387">Georg Rauh</corpName>
+               </respStmt>
+               <address>
+                  <addrLine>Wittenberg</addrLine>
+                  <addrLine>Germany</addrLine>
+               </address>
+            </pubStmt>
+            <physDesc>
+               <titlePage n="1" type="titlePage">
+                  <p>Bassus<lb/>Der newen deudsch-<lb/>en geistlichen lieder.</p>
+               </titlePage> 
+               <decoDesc><decoNote>mit Schmuckrahmen, im unteren Bereich mit Instrumentendarstellungen</decoNote></decoDesc>
+               <colophon label="lastPage">Gedruckt zu Wittenberg<lb/>durch Georgen<lb/>Rhaw.</colophon>
+               <dimensions unit="cm">19,5 x 15cm</dimensions>
+               <extent unit="page">242</extent><!-- andere alte Zählung -->
+            </physDesc>
+            <contents>
+               <contentItem n="1">123 neue geistliche Gesänge </contentItem>
+            </contents>
+            <itemList>
+               <item>
+                  <physLoc>
+                     <repository>Privatbesitz</repository>
+                  </physLoc>
+               </item>
+            </itemList>
+         </manifestation>
+         <manifestation n="3">
+            <titleStmt type="short"> 
+               <title>Neue deutsche Geistliche Gesänge</title>
+               <title type="subordinate">Stimmbuch Discantus</title>
+            </titleStmt>
+            <editionStmt>
+               <edition>Stimmbuch</edition>
+            </editionStmt>
+            <pubStmt>
+               <respStmt label="original">
+                  <corpName role="publisher"
+                     auth="GND"
+                     auth.uri="http://d-nb.info/gnd/"
+                     codedval="115690387">Georg Rauh</corpName>
+               </respStmt>
+               <address>
+                  <addrLine>Wittenberg</addrLine>
+                  <addrLine>Germany</addrLine>
+               </address>
+            </pubStmt>
+            <physDesc>
+               <titlePage n="1" type="titlePage">
+                  <p>Discantus.<lb/>Der newen deudsch-<lb/>en lieder.</p>
+               </titlePage> 
+               <decoDesc><decoNote>mit Schmuckrahmen, im unteren Bereich Darstellung von Instrumenten</decoNote></decoDesc>
+              <colophon label="lastPage">Gedruckt zu Wittemberg<lb/>durch Georgen<lb/>Rhaw.</colophon>
+               <dimensions unit="cm">19,5 x 15cm</dimensions>
+               <extent unit="page">242</extent><!-- andere alte Zählung -->
+            </physDesc>
+            <contents>
+               <contentItem n="1">123 neue geistliche Gesänge </contentItem>
+            </contents>
+            <itemList>
+               <item>
+                  <physLoc>
+                     <repository>Privatbesitz</repository>
+                  </physLoc>
+               </item>
+            </itemList>
+         </manifestation>
+         <manifestation n="4">
+            <titleStmt type="short"> 
+               <title>Neue deutsche Geistliche Gesänge</title>
+               <title type="subordinate">Stimmbuch Altus</title>
+            </titleStmt>
+            <editionStmt>
+               <edition>Stimmbuch</edition>
+            </editionStmt>
+            <pubStmt>
+               <respStmt label="original">
+                  <corpName role="publisher"
+                     auth="GND"
+                     auth.uri="http://d-nb.info/gnd/"
+                     codedval="115690387">Georg Rauh</corpName>
+               </respStmt>
+               <address>
+                  <addrLine>Wittenberg</addrLine>
+                  <addrLine>Germany</addrLine>
+               </address>
+            </pubStmt>
+            <physDesc>
+               <titlePage n="1" type="titlePage">
+                  <p><rend rend="smcaps">Altus</rend>.<lb/>Der newen deudsch-<lb/>en lieder.</p>
+               </titlePage> 
+               <decoDesc><decoNote>mit Schmuckrahmen, im unteren Bereich Darstellung von Instrumenten</decoNote></decoDesc>
+               <colophon label="lastPage">Gedruckt zu Wittemberg<lb/>durch Georgen<lb/>Rhaw.</colophon>
+               <dimensions unit="cm">19,5 x 15cm</dimensions>
+               <extent unit="page">242</extent><!-- andere alte Zählung -->
+            </physDesc>
+            <contents>
+               <contentItem n="1">123 neue geistliche Gesänge </contentItem>
+            </contents>
+            <itemList>
+               <item>
+                  <physLoc>
+                     <repository>Privatbesitz</repository>
+                  </physLoc>
+               </item>
+            </itemList>
+         </manifestation>
+      </manifestationList>
+   </meiHead>
+   <music/>
+</mei>
+
+
