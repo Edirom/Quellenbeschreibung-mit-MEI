@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.music-encoding.org/ns/mei"
+     meiversion="4.0.0">
+   <meiHead><!-- Uebung 1 als manifestation! Sollte man wahrscheinlich noch einmal schrittweise reduzieren  -->
+      <fileDesc>
+         <titleStmt>
+            <title>Photoptosis as source in manifestation</title>
+         </titleStmt>
+         <pubStmt>
+            <unpub/>
+         </pubStmt>
+         <sourceDesc>
+            <!-- MEI-L: Which sources should be listed here? -->
+            <source>
+               <!-- MEI-L: Clarify use of <locus> -->
+               <locus></locus>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+      </encodingDesc>
+      <workList>
+         <work>
+            <title>Photoptosis</title>
+            <contributor>
+               <persName role="composer">Bernd Alois Zimmermann</persName>
+            </contributor>
+            <perfMedium>
+               <castList>
+                  <castItem>4 Fl</castItem>
+                  <castItem>3 Ob</castItem>
+                  <castItem>4 Klar</castItem>
+                  <castItem> ... </castItem>
+               </castList>
+            </perfMedium>
+            <perfDuration>12'</perfDuration>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation n="1">
+            <identifier>ISMN 979-0-001-06714-0</identifier>
+            <titleStmt type="short"> 
+               <title>Photoptosis</title>
+            </titleStmt>
+          <!--  <editionStmt>
+               <edition>Stichvorlage</edition>
+            </editionStmt>-->
+          <!--  <pubStmt>
+               <respStmt label="original">
+                  <corpName role="publisher"
+                     auth="GND"
+                     auth.uri="http://d-nb.info/gnd/"
+                     codedval="115690387">Georg Rauh</corpName>
+               </respStmt>
+               <address>
+                  <addrLine>Wittenberg</addrLine>
+                  <addrLine>Germany</addrLine>
+               </address>
+            </pubStmt>-->
+            <physDesc>
+               <titlePage n="1" type="cover">
+                  <p>Musik unserer Zeit – Music of Our Time – Musique de Notre Temps – [japan]<lb/>Bernd Alois Zimmermann<lb/>Photoptosis<lb/>Prélude für großes Orchester<lb/>(1968)<lb/>Study Score<lb/>ED 6311<lb/><fig><figDesc>Verlagslogo</figDesc></fig> </p>
+               </titlePage> 
+               <titlePage n="2" label="titlePage"><p>Musik unserer Zeit – Music of Our Time – Musique de Notre Temps – [japan]<lb/><persName role="cmp">Bernd Alois Zimmermann</persName><lb/><title>Photoptosis</title><lb/><title type="subordinate">Prélude für großes Orchester</title><lb/>(1968)<lb/><identifier type="VN">ED 6311</identifier><lb/>www.schott-music.com<fig><figDesc>Verlagslogo</figDesc></fig><lb/>Mainz London Berlin Madrid New York Paris Prague Tokyo Toronto<lb/>c 1970 SCHOTT MUSIC GmbH &amp; Co. KG. Mainz Printed in Germany</p></titlePage>
+               <extent unit="pp">88</extent>
+               <dimensions unit="cm">???</dimensions>
+               <bindingDesc>Schott-gelber Einband mit Bild darauf; Rückendrahtheftung</bindingDesc>
+               <scoreFormat>Studienpartitur</scoreFormat>
+            </physDesc>
+            <seriesStmt>
+               <title>Musik unserer Zeit</title>
+            </seriesStmt>
+            <creation>
+               <date isodate="1969-02-19"></date> <corpName>Musiktheater im Revier</corpName> <corpName>Städtisches Orchester Gelsenkirchen <persName role="conuctor">Ljubomir Romansky</persName></corpName>
+            </creation>
+            <itemList>
+                <item>
+                    <physLoc>
+                        <repository>Privatbesitz</repository>
+                    </physLoc>
+                </item>
+            </itemList>
+         </manifestation>
+      </manifestationList>
+   </meiHead>
+   <music/>
+</mei>
+
+

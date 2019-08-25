@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.music-encoding.org/ns/mei"
+     meiversion="4.0.0">
+   <meiHead><!-- Beispiel für Handschrift, nach gedruckter Quellenbescheribung  -->
+      <fileDesc>
+         <titleStmt>
+            <title>Jubel-Kantate</title>
+            <respStmt>
+               <resp></resp>
+               <persName role="composer"
+                         auth="GND"
+                         auth.uri="http://d-nb.info/gnd/"
+                         codedval="118629662">Carl Maria von Weber</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt>
+            <unpub/>
+         </pubStmt>
+         <sourceDesc>
+            <!-- MEI-L: Which sources should be listed here? -->
+            <source>
+               <!-- MEI-L: Clarify use of <locus> -->
+               <locus></locus>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>nur Quellenbeschreibung</p>
+         </samplingDecl>
+        <!-- <classDecls>
+            <taxonomy>
+               <head>Genre</head>
+              <!-\- <category xml:id="OCLC" auth.uri="http://www.oclc.org/dewey/resources/summaries/default.htm#700">
+               </category>
+               <category xml:id="OSWD"
+                  auth.uri="BSZ"
+                  auth="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl"/> -\->
+            </taxonomy>
+            <taxonomy></taxonomy>
+         </classDecls>-->
+      </encodingDesc>
+      <workList>
+         <work>
+            <title>Jubel-Kantate</title>
+            <contributor>
+               <persName role="composer">Carl Maria von Weber</persName>
+            </contributor>
+            <langUsage>
+               <language>German</language>
+            </langUsage>
+            <perfMedium>
+               <perfResList>
+                  <perfRes n="1">Soli</perfRes>
+                  <perfRes n="2">Chor</perfRes>
+                  <perfRes n="3">Orchester</perfRes>
+               </perfResList>
+            </perfMedium>
+            <expressionList>
+               <expression>
+                  <title></title>
+                 <!-- <classification>
+                     <termList>
+                        <term class="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl">
+                            <identifier></identifier>
+                           <title>Vokalmusik</title>
+                        </term>
+                         <term class="http://d-nb.info/gnd/">
+                           <title>Chormusik</title>
+                        </term>
+                     </termList>
+                  </classification>-->      
+               </expression>
+            </expressionList> 
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation n="1">
+            <titleStmt type="short"> 
+               <title>Jubel-Kantate</title>
+               <title type="subordinate">Zur Feier des 50-jährigen Regierungsantritts des Königs Friedrich August I. von Sachsen (1818)</title>
+            </titleStmt>
+          <!--  <editionStmt>
+               <edition>Stichvorlage</edition>
+            </editionStmt>-->
+          <!--  <pubStmt>
+               <respStmt label="original">
+                  <corpName role="publisher"
+                     auth="GND"
+                     auth.uri="http://d-nb.info/gnd/"
+                     codedval="115690387">Georg Rauh</corpName>
+               </respStmt>
+               <address>
+                  <addrLine>Wittenberg</addrLine>
+                  <addrLine>Germany</addrLine>
+               </address>
+            </pubStmt>-->
+            <physDesc>
+               <titlePage n="1" type="titlePage">
+                  <p>Jubel-Cantate<lb/>zur Feyer des 50 jährigen RegierungsAntritts<lb/>Sr Maj: des Königs von SAchsen<lb/>den 20t Sept: 1818<lb/>Gedicht von Friedrich Kind<lb/>Musik von Carl Maria von Weber.<lb/><fig><figDesc>Doppelstrich</figDesc></fig><lb/>oder<lb/>Erndte Cantate.<lb/><add>Nach Friedrich Kinds Jubel Cantate<lb/>gedichtet von A. Wendt.<lb/>Musik von Carl Maria von Weber<lb/><fig><figDesc>zwei Zierbögen</figDesc></fig></add><lb/>Op: 58</p>
+               </titlePage> 
+                <decoDesc><decoNote>mit Schmuckrahmen, dabei unten fünf runde Bilder</decoNote></decoDesc>
+                <titlePage n="2" label="cover"><p>Jubel-<lb/>oder<lb/>Erndte-Cantate<lb/>von<lb/>Carl Maria v. Weber.<lb/><fig><figDesc>Dünne Linie</figDesc></fig><lb/>Partitur.<lb/><fig><figDesc>doppelte dünne Linie</figDesc></fig></p></titlePage>
+               <extent unit="fol">50 (96 beschriebene Seiten)</extent>
+               <dimensions unit="cm">31 x 24,5</dimensions>
+               <dimensions><locusGrp><locus from="fol33" to="fol48"></locus><locus from="fol89" to="fol96"></locus></locusGrp>30 x 24,5</dimensions><!-- Seite 33–48 und 89-96 sind schmaler und unten nicht beschnitten -->
+               <bindingDesc>fester mit braunem Papier kaschierter Pappeinband</bindingDesc>
+               <condition>Ecken und Rücken des Einbands sind leicht bestoßen. Äußere Seiten nachgedunkelt</condition>
+               <scriptDesc></scriptDesc>
+               <stamp n="1">rechteckiger Stempel: Manskopfsches Museum<lb/>für<lb/>Musik- und Theatergeschichte<lb/>Frankfurt a. Main</stamp>
+               <stamp n="2"><locusGrp><locus>Bl3r</locus><locus>p93</locus><locus>p94</locus></locusGrp>rechteckiger Stempel: Manskopfsches Museum<lb/>f. Musik- u. Theatergesch.<lb/>Stadt Frankfurt a. M.</stamp><!-- Bl 3r und S. 93/94 -->
+               <handList>
+                  <hand medium="ink" initial="true">Friederike Koch</hand>
+                  <hand medium="red ink" initial="false">Carl Maria von Weber<annot>(Nachträge und Korrekturen)</annot></hand>
+               </handList>
+            </physDesc>
+            <physLoc>
+               <repository>Universitätsbibliothek J. C. Senckenberg <settlement>Frankfurt am Main</settlement> <identifier>Mus Hs 353</identifier></repository>
+               <history>
+                  <provenance n="1">Verlagsarchiv Schlesinger</provenance>
+                  <provenance n="2">Friedrich Wilhelm Jähns? (von Liepmannssohn so interpretiert)</provenance>
+                  <provenance n="3">Leo Liepmannssohn, Berlin, Katalog zur Versteigerung am 18./19. November 1889, Nr. 229</provenance>
+                  <provenance n="4">Leo Liepmannssohn, Berlin, Katalog zur XVIII. Autographen-Versteigerung (17. Oktober 1896), Nr. 222</provenance>
+                  <provenance n="5">1941 erworben durch das Manskopfsche Museum in Frankfurt/Main</provenance>
+                  <provenance n="6">seit 1947 Bestandteil der Musik- und Theaterabteilung der Universitätsbibliothek</provenance>
+               </history>
+            </physLoc>
+            <creation>
+               <date label="Notentext" notafter="1818-09-10">vor 10. September 1818</date>
+               <date label="titlePage" isodate="1819-06-22">22. Juni 1819: Titelblatt und rote Nachträge Webers</date><!-- wie Verweise auf Herkunft der Daten? -->
+            </creation>
+            <contents>
+               <contentItem n="1">vollständige Partitur</contentItem>
+            </contents>
+            <itemList>
+                <item>
+                    <physLoc>
+                        <repository>Privatbesitz</repository>
+                    </physLoc>
+                </item>
+            </itemList>
+         </manifestation>
+      </manifestationList>
+   </meiHead>
+   <music/>
+</mei>
+
+
