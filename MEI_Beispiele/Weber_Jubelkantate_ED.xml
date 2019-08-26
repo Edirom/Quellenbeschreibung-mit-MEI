@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.music-encoding.org/ns/mei"
+     meiversion="4.0.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Jubel-Cantate </title>
+            <respStmt>
+               <resp>Composed by:</resp>
+               <persName role="composer"
+                         auth="GND"
+                         auth.uri="http://d-nb.info/gnd/"
+                         codedval="118629662">Carl Maria von Weber</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt>
+            <unpub/>
+         </pubStmt>
+         <sourceDesc>
+            <!-- MEI-L: Which sources should be listed here? -->
+            <source>
+               <!-- MEI-L: Clarify use of <locus> -->
+               <locus></locus>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>Quellenbeschreibung</p>
+         </samplingDecl>
+         <classDecls>
+            <taxonomy>
+               <head>Genre</head>
+              <!-- <category xml:id="OCLC" auth.uri="http://www.oclc.org/dewey/resources/summaries/default.htm#700">
+               </category>
+               <category xml:id="OSWD"
+                  auth.uri="BSZ"
+                  auth="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl"/> -->
+            </taxonomy>
+            <taxonomy></taxonomy>
+         </classDecls>
+      </encodingDesc>
+      <workList>
+         <work>
+            <identifier auth="WeGA" auth.uri="">WeV B.15</identifier>
+            <identifier auth="Jähns">J 244</identifier>
+            <identifier auth="opuszahl">op. 58</identifier>
+            <title>Jubel-Kantate</title>
+            <contributor>
+               <persName role="composer">Carl Maria von Weber</persName>
+            </contributor>
+            <langUsage>
+               <language>German</language>
+            </langUsage>
+            <perfMedium>
+               <perfResList>
+                  <perfRes n="1">Soli</perfRes>
+                  <perfRes n="2">Chor</perfRes>
+                  <perfRes n="3">Orchester</perfRes>
+               </perfResList>
+            </perfMedium>
+            <expressionList>
+               <expression>
+                  <title></title>
+                  <!-- <classification>
+                     <termList>
+                        <term class="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl">
+                            <identifier></identifier>
+                           <title>Vokalmusik</title>
+                        </term>
+                         <term class="http://d-nb.info/gnd/">
+                           <title>Chormusik</title>
+                        </term>
+                     </termList>
+                  </classification>-->      
+               </expression>
+            </expressionList> 
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation>
+            <titleStmt type="short"> <!-- oder hier nur type=uniform empfehlen? -->
+               <title>Jubel-Cantate</title>
+               <title type="subordinate">Partitur Erstdruck</title>
+               <respStmt>
+                  <persName role="composer"
+                     auth="GND"
+                     auth.uri="http://d-nb.info/gnd/"
+                     codedval="118629662">Carl Maria von Weber</persName>
+               </respStmt>
+            </titleStmt>
+            <editionStmt>
+               <edition>Partitur</edition>
+            </editionStmt>
+            <pubStmt>
+               <respStmt>
+                  <corpName role="publisher"
+                     auth="GND"
+                     auth.uri="http://d-nb.info/gnd/"
+                     codedval="1073054446">Schlesingersche Buch- und Musikhandlung</corpName></respStmt>
+                <address>
+                  <addrLine>Berlin</addrLine>
+                   <addrLine>Unte den Linden Nr. 34</addrLine>
+                  <addrLine>Germany</addrLine>
+               </address>
+            </pubStmt>
+            <physDesc>
+               <titlePage n="1" type="titlePage">
+                  <p>Jubel Cantate<lb/>zur<lb/>Feier des funfzig-jährigen Regierungsantritts<lb/>Sr. Majestät des Königs von Sachsen<lb/>am 20ten September 1818.<lb/>Gedicht von Friedrich Kind, nebst einem zweiten Texte:<lb/>Erndte Cantate<lb/>Gedicht von Wendt<lb/>Musik von<lb/>Carl Maria v. Weber.<lb/>Partitur.<lb/>M. Westphal sc.<lb/>Op. 58<lb/>No 1605.<lb/>Eigenthum des Verlegers.<lb/>Berlin,<lb/>in der Schlesinger'schen Buch u. Musikhandlung<lb/>Unter den Linden No. 34</p>
+               </titlePage> 
+                <decoDesc><decoNote>mit Schmuckrahmen von F. Baumgarten</decoNote></decoDesc>
+                <dimensions unit="cm">18,9 x 27 cm</dimensions>
+               <extent unit="page">134</extent>
+               <plateNum>1285</plateNum>
+            </physDesc>
+            <creation><date notbefore="1831-03" notafter="1831-04"></date></creation>
+          <!--  <seriesStmt>
+               <title>Breitkopf-Archiv</title>
+               <respStmt>
+                  <resp>Herausgegeben von:</resp>
+                  <persName role="editor"
+                     auth.uri="http://d-nb.info/gnd/"
+                     auth="GND"
+                     codedval="123921228">Joachim Draheim</persName>
+               </respStmt>
+            </seriesStmt>-->
+            <contents>
+               <contentItem n="1"><locus>S. 3–27</locus>Nr. 1 Coro. Allegro maestoso</contentItem>
+               <contentItem n="2"><locus>S. 28–52</locus>Nr. 2 Recitativo (ed Aria)</contentItem>
+               <contentItem n="3"><locus>S. 53-76</locus>Nr. 3 "Ein holder Lohn bis Leben du hinieden"</contentItem>
+               <contentItem n="4"><locus>S. 77–85</locus>Nr. 4 Coro</contentItem>
+               <contentItem n="5"><locus>S. 86–95</locus>Nr. 5 "Wohl furchtbar"</contentItem>
+               <contentItem n="6"><locus>S. 96–100</locus>Nr. 6 Recitativo</contentItem>
+               <contentItem n="7"><locus>S. 101–119</locus>Nr. 7 Coro</contentItem>
+               <contentItem n="8"><locus>S. 120–125</locus>Nr. 8 "So riefs in aller Herzen"</contentItem>
+               <contentItem n="9"><locus>S. 126–134</locus>NR. 9 "König! mög an deinem Thron"</contentItem>
+            </contents>
+            <itemList>
+                <item n="1">
+                   <physDesc>
+                      <titlePage><p>Jubel Cantate<lb/>zur<lb/>Feier des funfzig-jährigen Regierungsantritts<lb/>Sr. Majestät des Königs von Sachsen<lb/>am 20<rend>ten</rend> September 1818.<lb/>Gedicht von Friedrich Kind, nebst einem zweiten Texte:<lb/>Erndte Cantate<lb/>Gedicht von Wendt<lb/>Musik von<lb/>Carl Maria v. Weber.<lb/>Partitur.<lb/>M. Westphal sc.<lb/>Op. 58<lb/>No 1605.<lb/>Eigenthum des Verlegers.<lb/>Berlin,<lb/>in der Schlesinger'schen Buch u. Musikhandlung<lb/>Unter den Linden No. 34</p></titlePage>
+                      <extent unit="page">134</extent>
+                      <inscription><locus>unten links</locus><rend><del>72</del></rend> 89 b.</inscription>
+                      <stamp><locus>untenlinks, über inscription</locus>ovaler Stempel mit den verschlungenen Buchstaben MS</stamp>
+                      <bindingDesc>mit hellgrünem Leinen(?) kaschierter fester Pappumschlag; Rückenschild mit handschriftlichem Vermerk: Karl Maria von Weber: Jubelkantate<lb></lb>Partitur</bindingDesc>
+                   </physDesc>
+                    <physLoc>
+                        <repository>Privatbesitz</repository>
+                    </physLoc>
+                   <notesStmt>
+                      <annot>auf S. 76 fehlt die Angabe der PN</annot>
+                   </notesStmt>
+                </item>
+               <item n="2">
+                  <physDesc>
+                     <titlePage><p>Jubel Cantate<lb/>zur<lb/>Feier des funfzig-jährigen Regierungsantritts<lb/>Sr. Majestät des Königs von Sachsen<lb/>am 20<rend>ten</rend> September 1818.<lb/>Gedicht von Friedrich Kind, nebst einem zweiten Texte:<lb/>Erndte Cantate<lb/>Gedicht von Wendt<lb/>Musik von<lb/>Carl Maria v. Weber.<lb/>Partitur.<lb/>M. Westphal sc.<lb/>Op. 58<lb/>No 1605. Pr. 7 Rth<lb/>Eigenthum des Verlegers.<lb/>Berlin,<lb/>in der Schlesinger'schen Buch u. Musikhandlung<lb/>Unter den Linden No. 34</p></titlePage>
+                     <stamp><locus>untenlinks</locus>ovaler Stempel mit den verschlungenen Buchstaben MS</stamp>
+                     <bindingDesc></bindingDesc>
+                  </physDesc>
+                  <physLoc>
+                     <repository>D-B, Mus. 7655</repository>
+                  </physLoc>
+                  <notesStmt>
+                     <annot>auf S. 76 fehlt die Angabe der PN</annot>
+                  </notesStmt>
+               </item>
+            </itemList>
+         </manifestation>
+      </manifestationList>
+   </meiHead>
+   <music/>
+</mei>
