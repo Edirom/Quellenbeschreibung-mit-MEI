@@ -13,6 +13,9 @@
          <sourceDesc>
             <!-- MEI-L: Which sources should be listed here? -->
             <source>
+               <bibl><ref><![CDATA[https://de.schott-music.com/shop/pdfviewer/index/readfile/?idx=NTY4MDI=&idy=56802]]></ref></bibl>
+            </source>
+            <source>
                <!-- MEI-L: Clarify use of <locus> -->
                <locus></locus>
             </source>
