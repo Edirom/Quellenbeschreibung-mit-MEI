@@ -112,8 +112,8 @@
                         <lb/>© 1970 SCHOTT MUSIC GmbH &amp; Co. KG. Mainz • Printed in Germany</pgFoot>
                   </pb>
                </titlePage>
-               <extent unit="pp">88</extent>
-               <dimensions unit="cm">???</dimensions>
+               <extent unit="pp">88</extent><?TODO meines erachtens hier nicht richtig, da es item-spezifisch sein kann, z.B. wenn er neu gebunden wurde ?>
+               <dimensions unit="cm">???</dimensions><?TODO meines erachtens hier nicht richtig, da es item-spezifisch sein kann, z.B. wenn er neu gebunden wurde ?>
                <bindingDesc>Schott-gelber Einband mit Bild darauf; Rückendrahtheftung</bindingDesc>
                <scoreFormat>Studienpartitur</scoreFormat>
             </physDesc>
