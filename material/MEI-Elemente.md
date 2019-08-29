@@ -48,13 +48,13 @@
 
 # MEI.cmnOrnaments
 
-* mordent
+~~* mordent
 * trill
-* turn
+* turn~~
 
 # MEI.corpus
 
-* meiCorpus
+~~* meiCorpus~~
 
 # MEI.critapp
 
@@ -64,8 +64,8 @@
 
 # MEI.drama
 
-* sp
-* stageDir
+~~* sp
+* stageDir~~
 
 # MEI.edittrans
 
