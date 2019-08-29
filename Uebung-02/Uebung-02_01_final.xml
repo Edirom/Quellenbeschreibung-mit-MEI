@@ -25,6 +25,7 @@
       <encodingDesc><?TODO brauchen wir eigentlich nicht ?></encodingDesc>
       <workList>
          <work>
+            <identifier type="WeV">III,18</identifier>
             <title>Photoptosis</title>
             <contributor> <persName role="composer">Bernd Alois Zimmermann</persName> </contributor>
             <perfMedium><?TODO ggf. nicht Werk- sondern Expression-spezifisch ?>
