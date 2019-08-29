@@ -91,7 +91,27 @@
                      <figDesc>Verlagslogo Schott</figDesc>
                   </fig>
                </titlePage> 
-               <titlePage n="2" label="titlePage"><p>Musik unserer Zeit – Music of Our Time – Musique de Notre Temps – [japan]<lb/><persName role="cmp">Bernd Alois Zimmermann</persName><lb/><title>Photoptosis</title><lb/><title type="subordinate">Prélude für großes Orchester</title><lb/>(1968)<lb/><identifier type="VN">ED 6311</identifier><lb/>www.schott-music.com<fig><figDesc>Verlagslogo</figDesc></fig><lb/>Mainz London Berlin Madrid New York Paris Prague Tokyo Toronto<lb/>c 1970 SCHOTT MUSIC GmbH &amp; Co. KG. Mainz Printed in Germany</p></titlePage>
+               <titlePage n="2" label="titlePage">
+                  <pb n="1" folium="recto">
+                     <pgHead>Musik unserer Zeit – Music of Our Time – Musique de Notre Temps – [japan]</pgHead>
+                  </pb><contributor role="mar:cmp"></contributor>
+                  <lb/><composer >Bernd Alois Zimmermann</composer> <?TODO vs <persName role="marc:cmp">oder <contributor role="mar:cmp"> ?>
+                  <title type="main"><?TODO  mit oder ohne diesem einschließenden title-Element? ?>
+                     <lb/><titlePart type="main">Photoptosis</titlePart>
+                     <lb/><titlePart type="subordinate">Prélude für großes Orchester</titlePart>
+                     <lb/><titlePart type="date">(1968)</titlePart>
+                  </title>
+                  <title type="desc">
+                     <lb/>Study Score
+                     <lb/><identifier type="VN">ED 6311</identifier>
+                  </title>
+                  <pb>
+                     <pgFoot>
+                        <lb/>www.schott-music.com <fig><figDesc>Verlagslogo Schott</figDesc></fig>
+                        <lb/>Mainz • London • Berlin • Madrid • New • York • Paris • Prague • Tokyo • Toronto
+                        <lb/>© 1970 SCHOTT MUSIC GmbH &amp; Co. KG. Mainz • Printed in Germany</pgFoot>
+                  </pb>
+               </titlePage>
                <extent unit="pp">88</extent>
                <dimensions unit="cm">???</dimensions>
                <bindingDesc>Schott-gelber Einband mit Bild darauf; Rückendrahtheftung</bindingDesc>
