@@ -51,12 +51,7 @@
             <identifier label="Serie">ED 6311</identifier>
             <identifier label="Verlags-Nr.">42 537a</identifier><!-- benötigt Bestandskarte MDS als weitere Quelle -->
             <titleStmt>
-               <title type="main">
-                  <titlePart type="main">Photoptosis</titlePart>
-                  <titlePart type="subordinate">Prélude für großes Orchester</titlePart>
-                  <titlePart type="date">1968</titlePart>
-               </title>
-               <title type="abbreviated">Photoptosis</title>
+               <title type="abbreviated">Photoptosis Studienpartitur</title>
             </titleStmt>
           <!--  <editionStmt>
                <edition>Stichvorlage</edition>
