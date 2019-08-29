@@ -58,7 +58,7 @@
                   <addrLine>Germany</addrLine>
                </address>
             </pubStmt>-->
-            <physDesc>
+            <physDesc><!-- hier zu beschreiben, da die physische Präsenz einer Titelseite und deren Inhalt über alle Items der Manifestation konstant ist-->
                <titlePage n="1" type="cover">
                   <p>Musik unserer Zeit – Music of Our Time – Musique de Notre Temps – [japan]<lb/>Bernd Alois Zimmermann<lb/>Photoptosis<lb/>Prélude für großes Orchester<lb/>(1968)<lb/>Study Score<lb/>ED 6311<lb/><fig><figDesc>Verlagslogo</figDesc></fig> </p>
                </titlePage> 
