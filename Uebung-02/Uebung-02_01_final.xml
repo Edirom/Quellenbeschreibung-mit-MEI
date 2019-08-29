@@ -27,7 +27,7 @@
          <work>
             <title>Photoptosis</title>
             <contributor> <persName role="composer">Bernd Alois Zimmermann</persName> </contributor>
-            <perfMedium>
+            <perfMedium><?TODO ggf. nicht Werk- sondern Expression-spezifisch ?>
                <castList>
                   <castItem>4 Fl</castItem>
                   <castItem>3 Ob</castItem>
