@@ -2,7 +2,8 @@
 <?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
-   <meiHead><!-- Uebung 1 als manifestation! Sollte man wahrscheinlich noch einmal schrittweise reduzieren  -->
+   <meiHead>
+      <!-- Uebung 1 als manifestation! Sollte man wahrscheinlich noch einmal schrittweise reduzieren  -->
       <fileDesc>
          <titleStmt>
             <title>Photoptosis as source in manifestation</title>
@@ -17,18 +18,15 @@
             </source>
             <source>
                <!-- MEI-L: Clarify use of <locus> -->
-               <locus></locus>
+               <locus/>
             </source>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
-      </encodingDesc>
+      <encodingDesc><?TODO brauchen wir eigentlich nicht ?></encodingDesc>
       <workList>
          <work>
             <title>Photoptosis</title>
-            <contributor>
-               <persName role="composer">Bernd Alois Zimmermann</persName>
-            </contributor>
+            <contributor> <persName role="composer">Bernd Alois Zimmermann</persName> </contributor>
             <perfMedium>
                <castList>
                   <castItem>4 Fl</castItem>
@@ -49,14 +47,15 @@
          <manifestation n="1">
             <identifier>ISMN 979-0-001-06714-0</identifier>
             <identifier label="Serie">ED 6311</identifier>
-            <identifier label="Verlags-Nr.">42 537a</identifier><!-- benötigt Bestandskarte MDS als weitere Quelle -->
+            <identifier label="Verlags-Nr.">42 537a<!-- benötigt Bestandskarte MDS als weitere Quelle --></identifier>
             <titleStmt>
                <title type="abbreviated">Photoptosis Studienpartitur</title>
             </titleStmt>
-          <!--  <editionStmt>
+            <?TODO editionStmt tatsächlich hier eine interessante Frage, die Studienpartitur in der BAZ-GA sieht anders aus und ist anders gebunden, es handelt sich wohl tatsächlich um eine neue Auflage, (?ohne inhaltliche jedoch?) mit Einband-Abweichungen; meiner Einschätzung nach muss diese Umstellung innerhalb der letzten beiden Jahre erfolgt sein denn da war die Studienpartitur kurzzeitig nicht im Web-Shop verfügbar?>
+            <!--  <editionStmt>
                <edition>Stichvorlage</edition>
             </editionStmt>-->
-          <!--  <pubStmt>
+            <!--  <pubStmt>
                <respStmt label="original">
                   <corpName role="publisher"
                      auth="GND"
@@ -68,67 +67,57 @@
                   <addrLine>Germany</addrLine>
                </address>
             </pubStmt>-->
-            <physDesc><!-- hier zu beschreiben, da die physische Präsenz einer Titelseite und deren Inhalt über alle Items der Manifestation konstant ist-->
+            <physDesc>
+               <!-- hier zu beschreiben, da die physische Präsenz einer Titelseite und deren Inhalt über alle Items der Manifestation konstant ist-->
                <titlePage n="1" type="cover">
                   <pb n="0">
-                     <pgHead>Musik unserer Zeit – Music of Our Time – Musique de Notre Temps – [japan]</pgHead>
+                     <pgHead>Musik unserer Zeit • Music of Our Time • Musique de Notre Temps • [japan]</pgHead>
                   </pb>
-                  <lb/><composer>Zimmermann</composer>
-                  <title type="main"><?TODO  mit oder ohne diesem einschließenden title-Element? ?>
-                     <lb/><titlePart type="main">Photoptosis</titlePart>
-                     <lb/><titlePart type="subordinate">Prélude für großes Orchester</titlePart>
-                     <lb/><titlePart type="date">(1968)</titlePart>
-                  </title>
-                  <title type="desc">
-                     <lb/>ED 6311
-                  </title>
+                  <lb/>
+                  <composer>Zimmermann</composer>
+                  <title type="main"><?TODO mit oder ohne diesem einschließenden title-Element? ?> <lb/><titlePart type="main">Photoptosis</titlePart> <lb/><titlePart type="subordinate">Prélude für großes Orchester</titlePart> <lb/><titlePart type="date">(1968)</titlePart> </title>
+                  <title type="desc"> <lb/><identifier type="VN">ED 6311</identifier><?TODO eigentlich Serien-Nummer, Interne Verlags-Nr s.o. ?> </title>
                   <fig>
                      <figDesc>Verlagslogo Schott</figDesc>
                   </fig>
-               </titlePage> 
+               </titlePage>
                <titlePage n="2" label="titlePage">
                   <pb n="1" folium="recto">
-                     <pgHead>Musik unserer Zeit – Music of Our Time – Musique de Notre Temps – [japan]</pgHead>
-                  </pb><contributor role="mar:cmp"></contributor>
-                  <lb/><composer >Bernd Alois Zimmermann</composer> <?TODO vs <persName role="marc:cmp">oder <contributor role="mar:cmp"> ?>
-                  <title type="main"><?TODO  mit oder ohne diesem einschließenden title-Element? ?>
-                     <lb/><titlePart type="main">Photoptosis</titlePart>
-                     <lb/><titlePart type="subordinate">Prélude für großes Orchester</titlePart>
-                     <lb/><titlePart type="date">(1968)</titlePart>
-                  </title>
-                  <title type="desc">
-                     <lb/>Study Score
-                     <lb/><identifier type="VN">ED 6311</identifier>
-                  </title>
+                     <pgHead>Musik unserer Zeit • Music of Our Time • Musique de Notre Temps • [japan]</pgHead>
+                  </pb>
+                  <contributor role="mar:cmp"/>
+                  <lb/>
+                  <composer>Bernd Alois Zimmermann</composer>
+                  <?TODO vs <persName role="marc:cmp">oder <contributor role="mar:cmp"> ?>
+                  <title type="main"><?TODO mit oder ohne diesem einschließenden title-Element? ?> <lb/><titlePart type="main">Photoptosis</titlePart> <lb/><titlePart type="subordinate">Prélude für großes Orchester</titlePart> <lb/><titlePart type="date">(1968)</titlePart> </title>
+                  <title type="desc"> <lb/>Study Score <lb/><identifier type="VN">ED 6311</identifier><?TODO eigentlich Serien-Nummer, Interne Verlags-Nr s.o. ?> </title>
                   <pb>
-                     <pgFoot>
-                        <lb/>www.schott-music.com <fig><figDesc>Verlagslogo Schott</figDesc></fig>
-                        <lb/>Mainz • London • Berlin • Madrid • New • York • Paris • Prague • Tokyo • Toronto
-                        <lb/>© 1970 SCHOTT MUSIC GmbH &amp; Co. KG. Mainz • Printed in Germany</pgFoot>
+                     <pgFoot> <lb/>www.schott-music.com <fig>
+                        <figDesc>Verlagslogo Schott</figDesc>
+                        </fig> <lb/>Mainz • London • Berlin • Madrid • New • York • Paris • Prague • Tokyo • Toronto <lb/>© 1970 SCHOTT MUSIC GmbH &amp; Co. KG. Mainz • Printed in Germany</pgFoot>
                   </pb>
                </titlePage>
-               <extent unit="pp">88</extent><?TODO meines erachtens hier nicht richtig, da es item-spezifisch sein kann, z.B. wenn er neu gebunden wurde ?>
-               <dimensions unit="cm">???</dimensions><?TODO meines erachtens hier nicht richtig, da es item-spezifisch sein kann, z.B. wenn er neu gebunden wurde ?>
+               <extent unit="pp">88</extent>
+               <?TODO meines erachtens hier nicht richtig, da es item-spezifisch sein kann, z.B. wenn er neu gebunden wurde ?>
+               <dimensions unit="cm">???</dimensions>
+               <?TODO meines erachtens hier nicht richtig, da es item-spezifisch sein kann, z.B. wenn er neu gebunden wurde ?>
                <bindingDesc>Schott-gelber Einband mit Bild darauf; Rückendrahtheftung</bindingDesc>
                <scoreFormat>Studienpartitur</scoreFormat>
+               <?TODO oder einfach Partitur? ?>
             </physDesc>
             <seriesStmt>
                <title>Musik unserer Zeit</title>
             </seriesStmt>
-            <creation>
-               <date isodate="1969-02-19"></date> <corpName>Musiktheater im Revier</corpName> <corpName>Städtisches Orchester Gelsenkirchen <persName role="conuctor">Ljubomir Romansky</persName></corpName>
-            </creation>
+            <creation> <date isodate="1969-02-19"/> <corpName>Musiktheater im Revier</corpName> <corpName>Städtisches Orchester Gelsenkirchen <persName role="conuctor">Ljubomir Romansky</persName></corpName><?TODO hat an sich nichts mit dieser Manifestation zu tun; eher mit dem Werk ?> </creation>
             <itemList>
-                <item>
-                    <physLoc>
-                        <repository>Privatbesitz</repository>
-                    </physLoc>
-                </item>
+               <item>
+                  <physLoc>
+                     <repository>Privatbesitz</repository>
+                  </physLoc>
+               </item>
             </itemList>
          </manifestation>
       </manifestationList>
    </meiHead>
    <music/>
 </mei>
-
-
