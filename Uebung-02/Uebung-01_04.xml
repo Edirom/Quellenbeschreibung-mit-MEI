@@ -40,6 +40,8 @@
       <manifestationList>
          <manifestation n="1">
             <identifier>ISMN 979-0-001-06714-0</identifier>
+            <identifier label="Serie">ED 6311</identifier>
+            <identifier label="Verlags-Nr.">42 537a</identifier><!-- benötigt Bestandskarte MDS als weitere Quelle -->
             <titleStmt> 
                <title type="abbreviated">Photoptosis</title>
             </titleStmt>
