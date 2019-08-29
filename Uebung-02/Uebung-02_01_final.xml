@@ -28,6 +28,17 @@
             <identifier type="WeV">III,18</identifier>
             <title>Photoptosis</title>
             <contributor> <persName role="composer">Bernd Alois Zimmermann</persName> </contributor>
+            <creation>
+               <date notafter="1969-02-19"/>
+            </creation>
+            <history>
+               <eventList>
+                  <event>
+                     <date isodate="1969-02-19"/>
+                     <desc>Uraufführung</desc>
+                  </event>
+               </eventList>
+            </history>
             <perfMedium><?TODO ggf. nicht Werk- sondern Expression-spezifisch ?>
                <castList>
                   <castItem>4 Fl</castItem>
