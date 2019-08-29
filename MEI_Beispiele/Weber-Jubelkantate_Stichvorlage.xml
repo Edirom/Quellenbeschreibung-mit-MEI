@@ -45,7 +45,9 @@
       </encodingDesc>
       <workList>
          <work>
-            <title>Jubel-Kantate</title>
+            <identifier auth="VIAF" auth.uri="viaf.org/viaf">174832641</identifier>
+            <identifier auth="GND" auth.uri="d-nb.info/gnd/1075939194"></identifier>
+            <title type="uniform">Jubel-Cantate</title><!-- Einheitssachtitel: Jubel-Cantate-->
             <contributor>
                <persName role="composer">Carl Maria von Weber</persName>
             </contributor>
