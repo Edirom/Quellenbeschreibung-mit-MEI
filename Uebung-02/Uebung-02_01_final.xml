@@ -75,7 +75,21 @@
             </pubStmt>-->
             <physDesc><!-- hier zu beschreiben, da die physische Präsenz einer Titelseite und deren Inhalt über alle Items der Manifestation konstant ist-->
                <titlePage n="1" type="cover">
-                  <p>Musik unserer Zeit – Music of Our Time – Musique de Notre Temps – [japan]<lb/>Bernd Alois Zimmermann<lb/>Photoptosis<lb/>Prélude für großes Orchester<lb/>(1968)<lb/>Study Score<lb/>ED 6311<lb/><fig><figDesc>Verlagslogo</figDesc></fig> </p>
+                  <pb n="0">
+                     <pgHead>Musik unserer Zeit – Music of Our Time – Musique de Notre Temps – [japan]</pgHead>
+                  </pb>
+                  <lb/><composer>Zimmermann</composer>
+                  <title type="main"><?TODO  mit oder ohne diesem einschließenden title-Element? ?>
+                     <lb/><titlePart type="main">Photoptosis</titlePart>
+                     <lb/><titlePart type="subordinate">Prélude für großes Orchester</titlePart>
+                     <lb/><titlePart type="date">(1968)</titlePart>
+                  </title>
+                  <title type="desc">
+                     <lb/>ED 6311
+                  </title>
+                  <fig>
+                     <figDesc>Verlagslogo Schott</figDesc>
+                  </fig>
                </titlePage> 
                <titlePage n="2" label="titlePage"><p>Musik unserer Zeit – Music of Our Time – Musique de Notre Temps – [japan]<lb/><persName role="cmp">Bernd Alois Zimmermann</persName><lb/><title>Photoptosis</title><lb/><title type="subordinate">Prélude für großes Orchester</title><lb/>(1968)<lb/><identifier type="VN">ED 6311</identifier><lb/>www.schott-music.com<fig><figDesc>Verlagslogo</figDesc></fig><lb/>Mainz London Berlin Madrid New York Paris Prague Tokyo Toronto<lb/>c 1970 SCHOTT MUSIC GmbH &amp; Co. KG. Mainz Printed in Germany</p></titlePage>
                <extent unit="pp">88</extent>
