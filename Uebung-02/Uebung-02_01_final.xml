@@ -35,6 +35,11 @@
                </castList>
             </perfMedium>
             <perfDuration>12'</perfDuration>
+            <expressionList>
+               <expression xml:id="photoptosis_exp_score">
+                  <title>Partitur</title>
+               </expression>
+            </expressionList>
          </work>
       </workList>
       <manifestationList>
