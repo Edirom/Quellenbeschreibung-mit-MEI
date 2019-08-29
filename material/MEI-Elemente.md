@@ -109,8 +109,8 @@
 
 # MEI.fingering
 
-* fing
-* fingGrp
+~~* fing
+* fingGrp~~
 
 # MEI.frbr
 
@@ -123,8 +123,8 @@
 
 # MEI.genetic
 
-* genDesc
-* genState
+~~* genDesc
+* genState~
 
 # MEI.gestural
 
@@ -234,19 +234,19 @@
 
 # MEI.lyrics
 
-* refrain
+~~* refrain
 * verse
-* volta
+* volta~~
 
 # MEI.mensural
 
-* ligature
+~~* ligature
 * mensur
-* proport
+* proport~~
 
 # MEI.midi
 
-* cc
+~~* cc
 * chan
 * chanPr
 * cue
@@ -262,7 +262,7 @@
 * prog
 * seqNum
 * trkName
-* vel
+* vel~~
 
 # MEI.msDesc
 
@@ -320,7 +320,7 @@
 
 # MEI.neumes
 
-* episema
+~~* episema
 * hispanTick
 * liquescent
 * nc
@@ -330,7 +330,7 @@
 * quilisma
 * signifLet
 * strophicus
-* syllable
+* syllable~~
 
 # MEI.performance
 
@@ -490,7 +490,7 @@
 
 # MEI.usersymbols
 
-* anchoredText
+~~* anchoredText
 * curve
 * line
 * mapping
@@ -499,7 +499,7 @@
 * symbolDef
 * symName
 * symProp
-* symbolTable
+* symbolTable~~
 
 # MEI.visual
 
