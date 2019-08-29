@@ -15,7 +15,9 @@
           <biblStruct>
             <monogr>
               <composer>Bernd Alois Zimmermann</composer>
-              <title>Photoptosis. Prélude für großes Orchester (1968). Studien-Partitur</title>
+              <title type="main">Photoptosis</title>
+              <title type="subordinate">Prélude für großes Orchester (1968)</title>
+              <title type="desc">Studien-Partitur</title>
               <imprint>
                 <publisher>B Schott's Söhne</publisher>
                 <pubPlace>Mainz</pubPlace>
