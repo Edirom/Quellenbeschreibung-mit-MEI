@@ -40,8 +40,8 @@
       <manifestationList>
          <manifestation n="1">
             <identifier>ISMN 979-0-001-06714-0</identifier>
-            <titleStmt type="short"> 
-               <title>Photoptosis</title>
+            <titleStmt> 
+               <title type="abbreviated">Photoptosis</title>
             </titleStmt>
           <!--  <editionStmt>
                <edition>Stichvorlage</edition>
