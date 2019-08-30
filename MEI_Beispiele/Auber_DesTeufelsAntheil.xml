@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.music-encoding.org/ns/mei"
+     meiversion="4.0.0">
+   <meiHead><!-- Beispiel für Handschrift, nach gedruckter Quellenbescheribung  -->
+      <fileDesc>
+         <titleStmt>
+            <title analog="marc:240a" xml:lang="fr">La Part du diable</title>
+            <title xml:lang="de">Des Teufels Anteil</title>
+         </titleStmt>
+         <pubStmt>
+            <unpub/>
+         </pubStmt>
+         <sourceDesc>
+            <!-- MEI-L: Which sources should be listed here? -->
+            <source>
+               <!-- MEI-L: Clarify use of <locus> -->
+               <locus></locus>
+            </source>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <samplingDecl>
+            <p>nur Quellenbeschreibung</p>
+         </samplingDecl>
+        <!-- <classDecls>
+            <taxonomy>
+               <head>Genre</head>
+              <!-\- <category xml:id="OCLC" auth.uri="http://www.oclc.org/dewey/resources/summaries/default.htm#700">
+               </category>
+               <category xml:id="OSWD"
+                  auth.uri="BSZ"
+                  auth="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl"/> -\->
+            </taxonomy>
+            <taxonomy></taxonomy>
+         </classDecls>-->
+      </encodingDesc>
+      <workList>
+         <work>
+            <identifier auth="VIAF" auth.uri="viaf.org/viaf">182261875</identifier>
+            <identifier auth="GND" auth.uri="d-nb.info/gnd/1034788477"></identifier>
+            <identifier auth="Werkverzeichnis">AW 36</identifier>
+            <title type="uniform">La Part du diable</title><!-- = Einheitssachtitel-->
+            <contributor>
+                     <persName role="marc:cmp" analog="marc:100a" codedval="H000137">Auber, Daniel-François-Esprit </persName>
+                     <persName role="marc:lbt" analog="marc:700a" codedval="H000442">Börnstein, Heinrich </persName>
+                     <persName role="marc:trl" analog="marc:700a" codedval="H000872">Gollmick, Carl </persName>
+                     <persName role="marc:lbt" analog="marc:700a" codedval="H000138">Scribe, Eugène </persName> 
+            </contributor>
+            <langUsage>
+               <language>German</language>
+            </langUsage>
+            <perfMedium>
+               <perfResList>
+                  <perfRes n="1">Soli</perfRes>
+                  <perfRes n="2">Chor</perfRes>
+                  <perfRes n="3">Orchester</perfRes>
+               </perfResList>
+            </perfMedium>
+            <expressionList>
+               <expression>
+                  <title></title>
+                 <!-- <classification>
+                     <termList>
+                        <term class="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl">
+                            <identifier></identifier>
+                           <title>Vokalmusik</title>
+                        </term>
+                         <term class="http://d-nb.info/gnd/">
+                           <title>Chormusik</title>
+                        </term>
+                     </termList>
+                  </classification>-->      
+               </expression>
+            </expressionList> 
+         </work>
+      </workList>
+      <manifestationList>
+         <head>vollständiges Aufführungsmaterial</head>
+         <manifestation n="1" recordtype="d" type="ms_score" xml:id="H220079_score">
+            <titleStmt type="short"> 
+               <title>Partitur</title>
+            </titleStmt>
+            <physDesc>
+               <titlePage n="1" type="titlePage">
+                  <p>Des Teufels Antheil.<lb/>Komische Oper in drei Acten.<lb/>Musik von Auber.</p>
+               </titlePage> 
+               <titlePage n="2" label="cover"><p>Des Teufels Antheil<lb/>Komische Oper in 3 Ackten<lb/>von<lb/>Auber</p></titlePage>
+               <extent unit="fol" analog="marc:300a">172</extent>
+               <dimensions analog="marc:300c" unit="cm">26,5 x 34</dimensions>
+               <bindingDesc>mit braunem Leinen kaschierter Pappumschlag</bindingDesc>
+            </physDesc>
+            <physLoc>
+               <repository analog="marc:852">
+                  <name>Lippische Landesbibliothek Detmold</name>
+                  <identifier label="RISM-label" analog="marc:852a">D-DT</identifier>
+               </repository>
+               <identifier type="shelfLocation" analog="marc:852c">Mus-n 16</identifier>
+            </physLoc>
+            <history>
+               <eventList>
+                  <event label="Detmolder Erstaufführung"><date isodate="1844-05-31">31</date> <geogName>Detmold</geogName></event>
+                  <event label="Aufführung"><date isodate="1866-12-04"></date><geogName>Münster</geogName></event>
+               </eventList>
+            </history>
+            <contents>
+               <contentItem>Ouvertüre Bl. 2r-14r</contentItem>
+               <contentItem>No. 1 Arie (Rafael) Bl. 14v-19r</contentItem>
+               <contentItem>No. 2 Arie (Carlo) Bl. 19v-25v</contentItem>
+               <contentItem>No. 3 Romanze (Casilda) Bl. 26r-27r</contentItem>
+               <contentItem>No. 4 Duo (Carlo, Casilda) Bl. 27v-31v</contentItem>
+               <contentItem>No. 5 Romanze et Trio (Carlo, Königin, König) Bl. 32r-39r</contentItem>
+               <contentItem>No. 6 Chor und Duett. Finale (Carlo, Rafael, Chor der Jäger) Bl. 39v-60r</contentItem>
+               <contentItem>No. 7 Coro, Scene e Aria (Carlo, La reine, Le roi, Un Inquisiteur, Choeur) Bl. 60v-73r</contentItem>
+               <contentItem>No. 8 Coro (Carlo, Rafael, Vargas, Choeur d'Officiers) Bl. 73v-89v</contentItem>
+               <contentItem>No. 9 Quatuor (Carlo, Casilda, La Reine, Le Roi) Bl. 90r-102v</contentItem>
+               <contentItem>No. 10 Duetto (Casilda, Rafael) Bl. 103r-112v</contentItem>
+               <contentItem>No. 11 Finale (Carlo, Rafael, Le roi, Vargas, Fray Antonio, Coro) Bl. 113r-137v</contentItem>
+               <contentItem>No. 12 EntrActe et Cavatine (Carlo) Bl. 138r-149r</contentItem>
+               <contentItem>No. 12bis Bl 149v</contentItem>
+               <contentItem>No. 13 Duo (Casilda, Rafael) Bl. 150r-160r</contentItem>
+               <contentItem>No. 14 Finale (Carlo e Casilda, Königin, Rafael, König, Vargas e Fray Antonio, Dames et Seigneurs) Bl. 160v-172v</contentItem>
+            </contents>
+            <biblList>
+               <biblStruct>
+                  <monogr>
+                     <imprint></imprint>
+                  </monogr>
+               </biblStruct>
+            </biblList>
+            <notesStmt>
+               <annot>kein Stempel </annot>
+               <annot>auf Vorsatzblatt der Vermerk von Elzner: "Zum ersten Male aufgeführt, Detmold<lb/>Freitag den 31ten May 1844.<lb/>Dauer 2 3/4 Stunden."</annot>
+               <annot>auf hinterem Einband innen: "Münster den 4/12. 66. F. N. sehr gut"</annot>
+               <annot>Dirigiereintragungen mit Bleistift und blauem Buntstift; über allen Nummern: "s. K. Pr."</annot>
+            </notesStmt>
+            <relationList>
+               <relation rel="isPartOf" target="#H220079"/>
+            </relationList>
+         </manifestation>
+         <manifestation n="2" type="ms_solo_part" xml:id="H220079_part1">
+            <identifier label="Inventarnummer">No. 95 / g</identifier>
+            <titleStmt>
+               <title type="short">Parthie <name type="character" codedval="H040012">Antonio</name></title>
+            </titleStmt>
+            <physDesc>
+               <titlePage n="1" label="titlePage"><p>Des Teufels Antheil.<lb/>Komische Oper in 3 Ackten<lb/>von<lb/>Auber.<lb/>Parthie:<lb/>Fray Antonio, Groß-Inquisitor</p></titlePage>
+               <titlePage n="2" label="cover"><p>Des Teufels Antheill<lb/>Komische Oper in 3 Ackten<lb/>von<lb/> Auber.<lb/>Parthie:<lb/>Antonio</p></titlePage>
+               <extent unit="fol" analog="marc:300a">4</extent><!-- letzte Seite rastriert aber leer -->
+               <dimensions analog="marc:300c" unit="cm">34 x 25</dimensions>
+               <bindingDesc>blauer Papierumschlag</bindingDesc>
+               <stamp>FB, LLB</stamp>
+               <inscription label="cover">
+                  <persName codedval="H000029">Herr Gladbach</persName>
+                  <persName codedval="H000799">Herr Kieter</persName>
+                  <persName codedval="H000861" cert="low">Herr Kartne</persName> <!--(?)-->
+                  <persName codedval="H000800">Herr Lingen</persName>
+                  <persName codedval="H000801">Herr Hausmann</persName>
+                  <persName codedval="H000802">Herr Stephani</persName>
+                  <!-- in blei, 2mal -->
+                  <persName codedval="H000803">Herr Wagner</persName>
+                  <!-- in blei -->
+               </inscription>
+               <inscription label="titlePage">
+                  <persName codedval="H000029">Gladbach</persName>
+                  <persName codedval="H000845">Lehman</persName>
+                  <persName codedval="H000846">Decker</persName>
+                  <persName codedval="H000847">Gorlich</persName>
+                  <persName codedval="H000848" cert="low">Brisik</persName> <!--(?)-->
+                  <persName codedval="H000849">Schmalfeld</persName>
+               </inscription>
+            </physDesc>  
+            <physLoc>
+               <repository analog="marc:852">
+                  <name>Lippische Landesbibliothek Detmold</name>
+                  <identifier label="RISM-label" analog="marc:852a">D-DT</identifier>
+               </repository>
+               <identifier type="shelfLocation" analog="marc:852c">Mus-n 16 (1)</identifier>
+            </physLoc>
+            <contents>
+               <contentItem>Nr. 7</contentItem>
+               <contentItem>Nr. 11</contentItem>
+               <contentItem>Nr. 14</contentItem>
+            </contents>
+            <notesStmt>
+               <annot>auf Umschlag vorne der Vermerk "Rolle fehlt" [vgl. aber Mus-n 16 (76)]</annot>
+               <annot>am Ende Eintragungen verwischt: <persName>Kirchner</persName></annot>
+               <annot>letzte Seite rastriert aber leer</annot>
+               <annot>Vermerk auf hinterem Umschlag innen: "<geogName>Pirmont</geogName> d <date isodate="1844-07-29">29 July 1844</date>. +++"</annot>
+            </notesStmt>
+         </manifestation>
+         <manifestation n="4" type="ms_solo_Part" xml:id="H220079_part4">
+            <titleStmt>
+               <title type="short">Parthie <name type="character" codedval="H040013">Carlo Broschi</name></title>
+            </titleStmt>
+            <physDesc>
+               <titlePage label="firstPage"><p>Carlo Broschi. Des Teufels Antheil Komische Oper in 3 Acten<lb/> von Auber</p></titlePage>
+               <extent unit="fol" analog="marc:300a">12</extent>
+               <dimensions analog="marc:300c" unit="cm">25,5 x 33</dimensions>
+               <bindingDesc>ohne Umschlag; Rückenbindung mit Zeitungspapier</bindingDesc>
+               
+            </physDesc>
+            <physLoc>
+               <repository analog="marc:852">
+                  <name>Lippische Landesbibliothek Detmold</name>
+                  <identifier label="RISM-label" analog="marc:852a">D-DT</identifier>
+               </repository>
+               <identifier type="shelfLocation" analog="marc:852c">Mus-n 16 (4)</identifier>
+            </physLoc>
+            <creation>
+                  <date isodate="1866-09-24">24/9 866.</date> <!-- Datierung der Abschrift der Partie -->
+            </creation>
+            <history> 
+               <eventList>
+                  <event>
+                     <date isodate="1866-10-18">1866. 18. Oktober</date>
+                  </event>
+                  <event>
+                     <date isodate="1866-10-22">1866. 22. Oktober</date>
+                  </event>
+                  <event>
+                     <date isodate="1866-10-25">1866. 25. Oktober</date>
+                  </event>
+                  <event>
+                     <date isodate="1866-10-27">1866. 27. Oktober</date>
+                  </event>
+                  <event>
+                     <date isodate="1866-11-04">1866. 4. November</date>
+                  </event>
+               </eventList>
+            </history>
+            <contents>
+               <contentItem>Nr. 2</contentItem>
+               <contentItem>Nr. 4</contentItem>
+               <contentItem>Nr. 5</contentItem>
+               <contentItem>Nr. 6</contentItem>
+               <contentItem>Nr. 7</contentItem>
+               <contentItem>Nr. 8</contentItem>
+               <contentItem>Nr. 9</contentItem>
+               <contentItem>Nr. 11</contentItem>
+               <contentItem>Nr. 12</contentItem>
+               <contentItem>Nr. 14</contentItem>
+            </contents>
+           <notesStmt>
+              <annot>am Ende vermerkt: "Ende der Parthie <date isodate="1866-09-24">24/9 866</date>", von anderer Hand links Aufführungsvermerke: <date isodate="1866-10-18">1866. 18t. Donerstag. Oktober</date><lb/>
+                 <date isodate="1866-10-22">1866. 22. Montag. Oktober</date><lb/>
+                 <date isodate="1866-10-25">1866. 25. Donerstag. Oktober</date><lb/>
+                 <date isodate="1866-10-27">1866. 27. Samstag. Oktober</date><lb/>
+                 <date isodate="1866-11-04">1866. 4. Sontag. November</date></annot>
+           </notesStmt>
+            <relationList>
+               <relation rel="isPartOf" target="#H220079"/>
+            </relationList>
+         </manifestation>
+         <manifestation n="25" type="ms_choral_part" xml:id="H220079_part25">
+            <identifier label="Inventarnummer">No. 95.<lb/>d 2</identifier>
+            <titleStmt>
+               <title type="short">Chor: Tenor IIdo</title>
+               
+            </titleStmt>
+            <physDesc>
+               <titlePage n="1" label="titlePage">
+                  <p>Chor:<lb/>Tenor IIdo.<lb/>Des Teufels Antheil.<lb/>Komische Oper in 3 Akten<lb/>von<lb/>Auber.</p>
+               </titlePage>
+               <titlePage type="cover"><p>&gt;Chor:<lb/>Tenor IIdo.<lb/>Des Teufels Antheil.<lb/>Komische Oper in 3 Akten<lb/>von<lb/>Auber.</p></titlePage>
+               <extent unit="fol" analog="marc:300a">7</extent>
+               <dimensions analog="marc:300c" unit="cm">33,5 x 25</dimensions>
+               <bindingDesc>blauer Papierumschlag, mit gelber Rückenbindung</bindingDesc>
+               <stamp>FB, LLB</stamp>
+               <inscription>
+                  <persName codedval="H000022">Herr Elzner</persName> u. 
+                  <persName codedval="H000219">Dumont</persName>
+               </inscription>
+            </physDesc>
+            <physLoc>
+               <repository analog="marc:852">
+                  <name>Lippische Landesbibliothek Detmold</name>
+                  <identifier label="RISM-label" analog="marc:852a">D-DT</identifier>
+               </repository>
+               <identifier type="shelfLocation" analog="marc:852c">Mus-n 16 (25)</identifier>
+            </physLoc>
+            <history>
+               <eventList>
+                  <event label="Erste Probe">
+                     <date isodate="1844-05-10" cert="low">10ten(?) May 844</date>
+                     <geogName>Detmold</geogName>
+                  </event>
+                  <event label="Erste Aufführung">
+                     <date isodate="1844-05-31">31t May 844</date> <!--Daten mit Spielplan abgeglichen-->
+                     <geogName>Detmold</geogName>
+                  </event>
+                  <event label="Aufführung">
+                     <date isodate="1844-06-02">Sonntag den 2ten Juny</date>
+                     <geogName>Detmold</geogName>
+                  </event>
+                  <event label="Aufführung">
+                     <date isodate="1844-07-25">Donnerstag den 25ten July</date> 
+                     <geogName type="place" codedval="2953379" auth="GeoNames" auth.uri="http://www.geonames.org">Pyrmont</geogName>
+                  </event>
+                  <event label="Aufführung">
+                     <date isodate="1844-08-10">Samstag den 10ten August</date>
+                     <geogName type="place" codedval="2953379" auth="GeoNames" auth.uri="http://www.geonames.org">Pyrmont</geogName>
+                  </event>
+                  <event label="Aufführung">
+                     <date isodate="1845-01-26">26ten Januar 845</date>
+                     <geogName>Detmold</geogName>
+                  </event>
+                  <event label="Aufführung">
+                     <date isodate="1846-01-21">21t Januar 846</date>
+                     <geogName>Detmold</geogName>
+                  </event>
+               </eventList>
+            </history>
+            <contents>
+               <contentItem>Nr. 6</contentItem>
+               <contentItem>Nr. 7</contentItem>
+               <contentItem>Nr. 8</contentItem>
+               <contentItem>Nr. 11</contentItem>
+               <contentItem>Nr. 14</contentItem>
+            </contents>
+            <notesStmt>
+               <annot>Nr. 11: Strich T. 234-241, T. 407 bzw. 423-446 </annot>
+               <annot>einige Anmerkungen mit roter Tinte von <persName codedval="H000022">Elzner</persName></annot>
+               <annot>am Ende Vermerk von <persName codedval="H000022">Friedrich Elzner</persName>: "Erste Probe <lb/><geogName>Detmold</geogName> <date isodate="1844-05-10" cert="low">Freitag den 10ten(?) May 844</date>.<lb/> Erste Vorstellung<lb/> <geogName>Detmold</geogName> <date isodate="1844-05-31">Freitag den 31t May 844</date>. Dauer 2 3/4 Stunden<lb/> ibidem <date isodate="1844-06-02">Sonntag den 2ten Juny</date> <lb/> <geogName type="place" codedval="2953379" auth="GeoNames" auth.uri="http://www.geonames.org">Pyrmont</geogName> <date isodate="1844-07-25">Donnerstag den 25ten July</date><lb/> ibidem <date isodate="1844-08-10">Samstag den 10ten August</date> <geogName>Detmold</geogName> <date isodate="1845-01-26">Sonntag den 26ten Januar 845</date> <lb/> ibidem <date isodate="1846-01-21">Mittwoch den 21t Januar
+                     846</date>.</annot>
+            </notesStmt> 
+            <relationList>
+               <relation rel="isPartOf" target="#H220079"/>
+            </relationList>
+         </manifestation>
+      </manifestationList>
+   </meiHead>
+   <music/>
+</mei>
+
+
