@@ -8,23 +8,18 @@
       <fileDesc>
          <titleStmt>
             <title>Der Wildschütz </title>
-            <title type="subordinate">Komische Oper in 3 Akten</title>
+            <title>Komische Oper in 3 Akten</title>
             <respStmt>
                <resp>Composed by:</resp>
-               <persName role="composer"
-                         auth="GND"
-                         auth.uri="http://d-nb.info/gnd/"
-                         codedval="118574469">Albert Lortzing</persName>
+               <persName>Albert Lortzing</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
             <unpub/>
          </pubStmt>
          <sourceDesc>
-            <!-- MEI-L: Which sources should be listed here? -->
-            <source>
-               <!-- MEI-L: Clarify use of <locus> -->
-               <locus></locus>
+              <source>
+                 <locus></locus>
             </source>
          </sourceDesc>
       </fileDesc>
@@ -33,14 +28,6 @@
             <p>Quellenbeschreibung</p>
          </samplingDecl>
          <classDecls>
-            <taxonomy>
-               <head>Genre</head>
-              <!-- <category xml:id="OCLC" auth.uri="http://www.oclc.org/dewey/resources/summaries/default.htm#700">
-               </category>
-               <category xml:id="OSWD"
-                  auth.uri="BSZ"
-                  auth="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl"/> -->
-            </taxonomy>
             <taxonomy></taxonomy>
          </classDecls>
       </encodingDesc>
@@ -50,18 +37,17 @@
             <composer>
                <persName>Albert Lortzing</persName>
             </composer>
-            <!-- More generic, but restricted to certain roles (contributors only) -->
-            <!-- Discuss at Github? Missing: a generic element for grouping agents of all kinds. Rename <contributor> perhaps? -->
-            <contributor>
-               <persName role="cmp">Albert Lortzing</persName>
-            </contributor>
+            <librettist>Albert Lortzing</librettist>
+          <!--  <contributor>
+               <persName>Albert Lortzing</persName>
+            </contributor>-->
             <langUsage>
                <language>German</language>
             </langUsage>
             <perfMedium>
                <perfResList>
-                  <perfRes n="1" codedval="va">Graf von Eberbach</perfRes>
-                  <perfRes n="2" codedval="va">Die Gräfin, seine Gemahlin</perfRes>
+                  <perfRes n="1">Graf von Eberbach</perfRes>
+                  <perfRes n="2">Die Gräfin, seine Gemahlin</perfRes>
                   <perfRes n="3">Baron Kronthal, Bruder der Gräfin</perfRes>
                    <perfRes n="4">Baronin Freimann, eine junge Witwe, Schwester des Grafen</perfRes>
                    <perfRes n="5">Nanette, ihr Kammermädchen</perfRes>
@@ -91,19 +77,12 @@
       </workList>
       <manifestationList>
          <manifestation>
-            <titleStmt type="short"> <!-- oder hier nur type=uniform empfehlen? -->
+            <titleStmt> <!-- oder hier nur type=uniform empfehlen? -->
                <title>Der Wildschütz</title>
-               <title type="subordinate">Komische Oper in 3 Akten</title>
+               <title>Komische Oper in 3 Akten</title>
                <respStmt>
-                  <persName role="composer"
-                     auth="GND"
-                     auth.uri="http://d-nb.info/gnd/"
-                     codedval="118574469">Albert Lortzing</persName>
-                 <!-- <resp>Herausgegeben von</resp>-->
-                  <persName role="editor"
-                     auth.uri="http://d-nb.info/gnd/"
-                     auth="GND"
-                     codedval="116574976">Georg Richard Kruse</persName>
+                  <persName>Albert Lortzing</persName>
+                  <persName>Georg Richard Kruse</persName>
                </respStmt>
             </titleStmt>
             <editionStmt>
@@ -111,31 +90,28 @@
             </editionStmt>
             <pubStmt>
                <respStmt>
-                  <corpName role="publisher"
-                     auth="GND"
-                     auth.uri="http://d-nb.info/gnd/"
-                     codedval="5135549-8">C. F. Peters Leipzig</corpName>
+                  <corpName>C. F. Peters Leipzig</corpName>
                   <resp>Druck:</resp>
-                  <corpName role="printer">VEB Deutsche Graphische Werkstätten, Leipzig</corpName>
+                  <corpName>VEB Deutsche Graphische Werkstätten, Leipzig</corpName>
                    <resp>Stich:</resp>
-                   <persName role="">C. G. Röder, Leipzig</persName>
+                   <persName>C. G. Röder, Leipzig</persName>
                </respStmt>
                <address>
                   <addrLine>Leipzig</addrLine>
                   <addrLine>Germany</addrLine>
                </address>
-               <identifier type="ordernumber">Edition Peters Nr. 2054</identifier>
+               <identifier>Edition Peters Nr. 2054</identifier>
             </pubStmt>
             <physDesc>
-               <titlePage n="1" type="cover">
+               <titlePage n="1">
                   <p>Lortzing<lb/>Wildschütz<lb/>Klavier-Auszug<lb/>(Kruse)</p>
                </titlePage>
-               <titlePage n="2" type="titlePage">
+               <titlePage n="2">
                   <p>Der Wildschütz<lb/>oder<lb/>Die Stimme der Natur<lb/>Komische Oper in drei Akten<lb/>von<lb/>Albert Lortzing.<lb/>Klavierauszug<lb/>herausgegeben<lb/>von<lb/>Georg Richard Kruse<lb/>Neu revidierte Ausgabe.<lb/>Das Revisionsergebnis ist Eigentum<lb/>des Verlegers<lb/>Leipzig<lb/>C. F. Peters<lb/>10173</p>
                </titlePage> 
                 <decoDesc><decoNote>mit Schmuckrahmen von F. Baumgarten</decoNote></decoDesc>
-                <dimensions unit="cm">18,9 x 27 cm</dimensions>
-               <extent unit="page">242</extent>
+                <dimensions>18,9 x 27 cm</dimensions>
+               <extent>242</extent>
                <plateNum>10173</plateNum><!-- ist eigentlich die Verlagsnummer, ist kein Plattendruck mehr -->
             </physDesc>
             <contents>
