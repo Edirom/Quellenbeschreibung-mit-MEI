@@ -37,7 +37,7 @@
             <composer>
                <persName>Albert Lortzing</persName>
             </composer>
-            <librettist>Albert Lortzing</librettist>
+            <librettist><persName>Albert Lortzing</persName></librettist>
           <!--  <contributor>
                <persName>Albert Lortzing</persName>
             </contributor>-->
@@ -107,7 +107,7 @@
                   <p>Lortzing<lb/>Wildschütz<lb/>Klavier-Auszug<lb/>(Kruse)</p>
                </titlePage>
                <titlePage n="2">
-                  <p>Der Wildschütz<lb/>oder<lb/>Die Stimme der Natur<lb/>Komische Oper in drei Akten<lb/>von<lb/>Albert Lortzing.<lb/>Klavierauszug<lb/>herausgegeben<lb/>von<lb/>Georg Richard Kruse<lb/>Neu revidierte Ausgabe.<lb/>Das Revisionsergebnis ist Eigentum<lb/>des Verlegers<lb/>Leipzig<lb/>C. F. Peters<lb/>10173</p>
+                  <p>Der <rend>Wildschütz</rend><lb/>oder<lb/>Die Stimme der Natur<lb/>Komische Oper in drei Akten<lb/>von<lb/>Albert Lortzing.<lb/>Klavierauszug<lb/>herausgegeben<lb/>von<lb/>Georg Richard Kruse<lb/>Neu revidierte Ausgabe.<lb/>Das Revisionsergebnis ist Eigentum<lb/>des Verlegers<lb/>Leipzig<lb/>C. F. Peters<lb/>10173</p>
                </titlePage> 
                 <decoDesc><decoNote>mit Schmuckrahmen von F. Baumgarten</decoNote></decoDesc>
                 <dimensions>18,9 x 27 cm</dimensions>
@@ -140,18 +140,10 @@
                         <repository>Privatbesitz</repository>
                     </physLoc>
                 </item>
-               <!--<item n="1">
-                  <physLoc>
-                     <repository>
-                        <corpName>Deutsche Nationalbibliothek</corpName>
-                        <geogName>Leipzig</geogName>
-                        <identifier auth="DNB" auth.uri="http://d-nb.info/350613826">M 1991 B 2419</identifier><!-\- Sind das Signaturen??? -\->
-                     </repository>
-                  </physLoc>
-               </item>-->
             </itemList>
          </manifestation>
       </manifestationList>
+      <
    </meiHead>
    <music/>
 </mei>

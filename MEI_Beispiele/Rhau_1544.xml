@@ -98,6 +98,9 @@
                   <addrLine>Wittenberg</addrLine>
                   <addrLine>Germany</addrLine>
                </address>
+               <respStmt label="Reprint">
+                  <corpName role="Bärenreiter">Bärenreiter-Verlag</corpName>
+               </respStmt>
             </pubStmt>
             <physDesc>
                <titlePage n="1" type="titlePage">
