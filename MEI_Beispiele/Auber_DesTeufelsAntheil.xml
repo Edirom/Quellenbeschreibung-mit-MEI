@@ -4,7 +4,7 @@
 <mei xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns="http://www.music-encoding.org/ns/mei"
      meiversion="4.0.0">
-   <meiHead><!-- Beispiel für Handschrift, nach gedruckter Quellenbescheribung  -->
+   <meiHead><!-- Beispiel für Handschrift, nach gedruckter Quellenbescheribung  nach H220079-->
       <fileDesc>
          <titleStmt>
             <title analog="marc:240a" xml:lang="fr">La Part du diable</title>
@@ -14,17 +14,13 @@
             <unpub/>
          </pubStmt>
          <sourceDesc>
-            <!-- MEI-L: Which sources should be listed here? -->
             <source>
-               <!-- MEI-L: Clarify use of <locus> -->
                <locus></locus>
             </source>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <samplingDecl>
-            <p>nur Quellenbeschreibung</p>
-         </samplingDecl>
+            <editorialDecl><p>nur Quellenbeschreibung</p></editorialDecl>
         <!-- <classDecls>
             <taxonomy>
                <head>Genre</head>
@@ -62,17 +58,8 @@
             <expressionList>
                <expression>
                   <title></title>
-                 <!-- <classification>
-                     <termList>
-                        <term class="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl">
-                            <identifier></identifier>
-                           <title>Vokalmusik</title>
-                        </term>
-                         <term class="http://d-nb.info/gnd/">
-                           <title>Chormusik</title>
-                        </term>
-                     </termList>
-                  </classification>-->      
+                  <incip></incip>
+                  <scoreFormat></scoreFormat>
                </expression>
             </expressionList> 
          </work>
@@ -84,20 +71,22 @@
                <title>Partitur</title>
             </titleStmt>
             <physDesc>
-               <titlePage n="1" type="titlePage">
+               <titlePage n="1" label="titlePage">
                   <p>Des Teufels Antheil.<lb/>Komische Oper in drei Acten.<lb/>Musik von Auber.</p>
                </titlePage> 
                <titlePage n="2" label="cover"><p>Des Teufels Antheil<lb/>Komische Oper in 3 Ackten<lb/>von<lb/>Auber</p></titlePage>
                <extent unit="fol" analog="marc:300a">172</extent>
                <dimensions analog="marc:300c" unit="cm">26,5 x 34</dimensions>
                <bindingDesc>mit braunem Leinen kaschierter Pappumschlag</bindingDesc>
+               <perfDuration>2 3/4 Stunden</perfDuration>
+               <stamp></stamp>
             </physDesc>
             <physLoc>
                <repository analog="marc:852">
-                  <name>Lippische Landesbibliothek Detmold</name>
+                  <name auth.uri="https://opac.rism.info" auth="RISM" label="RISM-label" analog="marc:852a">Lippische Landesbibliothek Detmold</name>
                   <identifier label="RISM-label" analog="marc:852a">D-DT</identifier>
                </repository>
-               <identifier type="shelfLocation" analog="marc:852c">Mus-n 16</identifier>
+               <identifier auth.uri="https://opac.rism.info" auth="RISM" type="shelfLocation" analog="marc:852c">Mus-n 16</identifier>
             </physLoc>
             <history>
                <eventList>
