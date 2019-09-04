@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/2019_ESS_SourceDesc_02_manifestation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<manifestation xmlns="http://www.music-encoding.org/ns/mei">
+  <!-- hier arbeiten -->
+  
+</manifestation>
