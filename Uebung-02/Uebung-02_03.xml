@@ -90,14 +90,436 @@
                 <p>Ebenfalls den Richtlinien der TEI entsprechend wurden die 10 ausgewählten Referenztexte ausgezeichnet (die drei zusätzlichen Texte mit Schillers "Wallenstein"-Trilogie entstammen dem TextGrid-Repository). Zu sämtlichen Texten wurden Metadaten erstellt, sowie soweit möglich, ein Digitalisat der Handschrift bzw. eines Druck-Exemplars beigegeben und mit der Übertragung parallelisiert.</p><!-- TODO Absatz zur TextEdition -->
                 <p>Aus der akustischen Domäne sind in diesem Bereich strukturierte Metadaten der im Rahmen des Projektes angefertigten Einspielung (Bloemeke 2013) enthalten, sowie zu den Einspielungen von Ackermann 1951, <!--Furtwängler 1954, -->Erich Kleiber 1955, Jochum 1960, Carlos Kleiber 1973 und Janowski 1994. Letztere wurden uns dankenswerter Weise von den Rechteinhabern auch zur Verwendung in der Online-Publikation zur Verfügung gestellt. Dieser Datensatz teilt sich gemäß der FRBR-Implementierung in MEI auf zwei Bereiche auf: (1) die "freidi-work.xml" Datei enthält die Angaben zur sog. "expression", also der aufgezeichneten Aufführung; (2) die Dateien im Ordner "audioSources", z.B. "freidi-recording_Bloemeke2013.xml", enthalten dagegen die Daten zur sog. "manifestation" der Aufnahme, d.h. die zur Publikation überarbeitete Version. Weiterhin enthalten die Codierungen die am Projektstandort Erlangen algorithmisch gewonnenen "Taktannotationen" der Einspielungen, die eine gezielte Ansteuerung der Audio-Daten auf Taktebene ermöglichen. Zusätzlich ist in der Datei "freidi-recordingDesc-Bloemeke2013.xml" eine textliche Beschreibung der im Rahmen des Projektes angefertigten Einspielung enthalten, die auch Referenzen auf weitere, diese Aufnahme betreffende Texte enthält.</p>
             </samplingDecl>
-            <classDecls>
-                <taxonomy>
-                    <category xml:id="mo-musicalManifestation" auth="The Music Ontology" auth.uri="http://purl.org/ontology/mo/" codedval="MusicalManifestation">
-                        <label>musical manifestation</label>
-                    </category>
-                </taxonomy>
-            </classDecls>
         </encodingDesc>
+        <workList>
+            <work>
+                <identifier type="opus">77</identifier>
+            <!-- from WeGA-->
+                <identifier type="catalog" auth="WeV">C.7</identifier>
+            <!-- from WeGA-->
+                <identifier type="internal" label="WeGA" auth="Carl-Maria-von-Weber-Gesamtausgabe" auth.uri="http://www.weber-gesamtausgabe.de">A020040</identifier>
+                <identifier type="catalog" auth="GND" auth.uri="http://d-nb.info/gnd/">30017148X</identifier>
+                <title>Der Freischütz, romantische Oper in drei Aufzügen</title>
+                <composer>
+                    <persName role="cmp" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Weber, Carl Maria von</persName>
+                </composer>
+                <librettist>
+                    <persName role="lbt" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Friedrich Kind</persName>
+                </librettist>
+                
+                <history><!-- from WeGA -->
+                    <p>Vollendet am <date isodate="1820-05-13">13. Mai 1820</date>.</p>
+                    <p>Mit nachkomponierter Arie Nr. 13: Komponiert am <date isodate="1821-05-28">28. Mai
+                        1821</date>.</p>
+                </history>
+                <!--<notesStmt>
+                </notesStmt>-->
+                <classification>
+                    <termList class="https://www.dnb.de/SharedDocs/Downloads/DE/Service/Hilfe/service/ddcSachgruppenDNBMusikKonkordanzAltNeu.html">
+                        <term>
+                            <identifier>02a</identifier>
+                            <term>Werke für Einzelstimmen</term>
+                        </term>
+                        <term>
+                            <term>Oper</term>
+                        </term>
+                    </termList>
+                    <termList>
+                        <term class="http://purl.org/ontology/mo/MusicalWork">MusicalWork</term>
+                    </termList>
+                </classification>
+                <expressionList>
+                   <expression label="A" xml:id="freidi-work_exp-musicSource_A">
+                       <title>Langfassung</title>
+                        <componentList>
+                            <expression label="A_mov6" xml:id="freidi-work_exp-musicSource_A_mov6">
+                                    <title>No. 6. Duetto.</title>
+                                <perfMedium>
+                                    <perfResList>
+                                        <perfRes xml:id="incef21254-611d-434c-be03-73f6e70e8d8e"
+                                          label="Flauti"
+                                          n="1"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="wa"/>
+                                        <perfRes xml:id="in9abbba97-05d4-44dd-8137-475635566a9c"
+                                          label="Clarinetti A"
+                                          n="2"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="wf"/>
+                                        <perfRes xml:id="in0962e3c9-2beb-47cc-ad18-25ae80e4bc84"
+                                          label="Corni A"
+                                          n="3"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="wf"/>
+                                        <perfRes xml:id="ind3394847-3687-4cab-82c3-992cc8b8d119"
+                                          label="Fagotti"
+                                          n="4"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="wd"/>
+                                        <perfRes xml:id="in6987f814-559b-4154-a848-1df9bd6be9bb"
+                                          label="Violini I"
+                                          n="5"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="sa"/>
+                                        <perfRes xml:id="in8464d66b-a4fc-44cf-973b-aaf6e7dd7978"
+                                          label="Violini II"
+                                          n="6"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="sa"/>
+                                        <perfRes xml:id="inb6764074-c16b-4507-9773-a0371b5300e0"
+                                          label="Viole"
+                                          n="7"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="sb"/>
+                                        <perfRes xml:id="in182fae35-109d-43ce-bb8e-4c9ec75a1fc5"
+                                          label="Agathe"
+                                          n="8"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="va"/>
+                                        <perfRes xml:id="in1522dfec-54a1-475a-8aee-2aa0bcb9c8a1"
+                                          label="Ännchen"
+                                          n="9"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="va"
+                                          solo="true"/>
+                                        <perfRes xml:id="inc1792e34-bcb4-4073-a3ce-447321e089d7"
+                                          label="Violoncelli"
+                                          n="10"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="sc"/>
+                                        <perfRes xml:id="incb77b90f-c0f5-4cd0-a583-f04a9f79ff33"
+                                          label="Bassi"
+                                          n="11"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="sd"/>
+                                    </perfResList>
+                                </perfMedium>
+                            </expression>
+                            
+                            <expression label="A_mov8" xml:id="freidi-work_exp-musicSource_A_mov8">
+                                    <title>
+                                        Nro: 8. Scena ed Aria.
+                                    </title>
+                                <perfMedium>
+                                    <perfResList>
+                                        <perfRes xml:id="in1586b29c-7f5e-4f1d-8208-0f19a40783b6"
+                                          label="Flauti"
+                                          n="1"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="wa"/>
+                                        <perfRes xml:id="in64fb3f86-c5d6-40e1-944f-6b76d527621d"
+                                          label="Oboi"
+                                          n="2"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="wb"/>
+                                        <perfRes xml:id="in6563dfcc-9e63-4f33-87e9-bd79aa942cca"
+                                          label="Clarinetti A"
+                                          n="3"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="wc"/>
+                                        <perfRes xml:id="inabbdf112-27a0-4868-bbaa-6dc1238f1dbc"
+                                          label="Corni E"
+                                          n="4"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="wf"/>
+                                        <perfRes xml:id="in8d6f0979-0661-4796-911d-debe1b876e57"
+                                          label="Corni C"
+                                          n="5"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="wf"/>
+                                        <perfRes xml:id="in121d9b9f-e8a5-4027-942a-92ce20b5880e"
+                                          label="Fagotti"
+                                          n="6"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="wd"/>
+                                        <perfRes xml:id="in85fbefd3-5241-4e40-a52f-fc6611606d30"
+                                          label="Violini I"
+                                          n="7"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="sa"/>
+                                        <perfRes xml:id="ind7b8837d-2ef8-42d8-aeb4-2eb18c8cf120"
+                                          label="Violini II"
+                                          n="8"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="sa"/>
+                                        <perfRes xml:id="in1aae098f-35be-428c-b580-0626c8ea2550"
+                                          label="Viole"
+                                          n="9"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="sb"/>
+                                        <perfRes xml:id="in7e63ac45-ca18-49c6-9f11-73b5f9a1cbf1"
+                                          label="Agathe"
+                                          n="10"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="va"
+                                          solo="true"/>
+                                        <perfRes xml:id="in9b60811f-053a-467f-aa57-abb95fc91b11"
+                                          label="Violoncelli"
+                                          n="11"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="sc"/>
+                                        <perfRes xml:id="in786ed9fc-9d03-4bb7-b48e-71e27c6c5698"
+                                          label="Bassi"
+                                          n="12"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="sd"/>
+                                       
+                                    </perfResList>
+                                </perfMedium>
+                            </expression>
+                            <expression label="A_mov9" xml:id="freidi-work_exp-musicSource_A_mov9">
+                                    <title>
+                                        Nro. 9. Terzetto.
+                                    </title>
+                                <perfMedium>
+                                    <perfResList>
+                                        <perfRes xml:id="in47162fd8-64cd-419b-938e-0b2352e9187f"
+                                          label="Flauti"
+                                          n="1"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="wa"/>
+                                        <perfRes xml:id="in413d5458-fb36-4dc0-ac36-b4061fb276f1"
+                                          label="Clarinetti B"
+                                          n="2"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="wc"/>
+                                        <perfRes xml:id="in796a1d11-c6ee-475c-b9ff-db2fe0b1efb3"
+                                          label="Corni Es"
+                                          n="3"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="wf"/>
+                                        <perfRes xml:id="inb89bb81e-a46e-44fb-8ebe-8cbe3a653f1b"
+                                          label="Fagotti"
+                                          n="4"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="wd"/>
+                                        <perfRes xml:id="in5750d6ea-e941-4220-98b8-a0b984af40e2"
+                                          label="Violini I"
+                                          n="5"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="sa"/>
+                                        <perfRes xml:id="in49de499c-e2f7-4ca1-9f01-9b5b4625d70c"
+                                          label="Violini II"
+                                          n="6"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="sa"/>
+                                        <perfRes xml:id="in8b9b7d51-3497-4642-a73a-4c50cc10c56c"
+                                          label="Viole"
+                                          n="7"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="sb"/>
+                                        <perfRes xml:id="in53382a90-816d-4ae8-9018-53547b5deba4"
+                                          label="Agathe"
+                                          n="8"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="va"
+                                          solo="true"/>
+                                        <perfRes xml:id="in3c095f72-26c6-4833-b4df-6f76fb59609d"
+                                          label="Ännchen"
+                                          n="9"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="va"
+                                          solo="true"/>
+                                        <perfRes xml:id="incb25774d-01b3-4fd8-999c-8e59a256a0f8"
+                                          label="Max"
+                                          n="10"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="vd"
+                                          solo="true"/>
+                                        <perfRes xml:id="in3d50ab6a-3467-416c-a8f7-9fa085745671"
+                                          label="Violoncelli"
+                                          n="11"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="sc"/>
+                                        <perfRes xml:id="incde47967-bc12-4c82-a2cd-58978d8afa4b"
+                                          label="Bassi"
+                                          n="12"
+                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                                          codedval="sd"/>
+                                    </perfResList>
+                                </perfMedium>
+                            </expression>
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </componentList>
+                    </expression>
+                    
+                    <!-- für alle musicSources anlegen -->
+                    
+                    <!-- chronologisch einsortieren nur zur Dokumentation -->
+                  
+                    <!-- Aufführungen -->
+                    
+                    <expression label="Ackermann 1951" xml:id="freidi-work_exp-Ackermann1951">
+                        <title>
+                            <persName>Ackermann, Otto</persName>
+                            <date isodate="1951-04">April 1951</date>
+                            <geogName>Salzburg</geogName>
+                        </title>
+                        <contributor>
+                            <corpName role="mus"
+                                auth="GND"
+                                auth.uri="http://d-nb.info/gnd/"
+                                codedval="802137-5">Chor der Wiener Staatsoper</corpName>
+                        </contributor>
+                        <contributor>
+                            <corpName role="mus"
+                                auth="GND"
+                                auth.uri="http://d-nb.info/gnd/"
+                                codedval="2017806-2">Wiener Philharmonisches Orchester</corpName>
+                        </contributor>
+                        <contributor>
+                            <persName role="cnd"
+                                auth="GND"
+                                auth.uri="http://d-nb.info/gnd/"
+                                codedval="119385996">Otto Ackermann</persName>
+                        </contributor>
+                        
+                        <perfMedium>
+                            <castList>
+                                <castGrp label="singers">
+                                    
+                                    <castItem>
+                                        <actor>Poell, Alfred</actor>
+                                        <role>Ottokar</role>
+                                        <roleDesc>böhmischer Fürst</roleDesc>
+                                    </castItem>
+                                    
+                                    <castItem>
+                                        <actor>Bierbach, Franz</actor>
+                                        <role>Kuno</role>
+                                        <roleDesc>fürstlicher Erbförster</roleDesc>
+                                    </castItem>
+                                    
+                                    <castItem>
+                                        <actor>Cunitz, Maud</actor>
+                                        <role>Agathe</role>
+                                        <roleDesc>seine Tochter</roleDesc>
+                                    </castItem>
+                                    
+                                    <castItem>
+                                        <actor>Loose, Emmy</actor>
+                                        <role>Ännchen</role>
+                                        <roleDesc>eine junge Verwandte</roleDesc>
+                                    </castItem>
+                                    
+                                    <castItem>
+                                        <actor>Rus, Marjan</actor>
+                                        <role>Kaspar</role>
+                                        <roleDesc>erster Jägerbursche</roleDesc>
+                                    </castItem>
+                                    
+                                    <castItem>
+                                        <actor>Hopf, Hans</actor>
+                                        <role>Max</role>
+                                        <roleDesc>zweiter Jägerbursche</roleDesc>
+                                    </castItem>
+                                    
+                                    <castItem>
+                                        <actor>Edelmann, Otto</actor>
+                                        <role>Ein Eremit</role>
+                                    </castItem>
+                                    
+                                    <castItem>
+                                        <actor>Dönch, Karl</actor>
+                                        <role>Kilian</role>
+                                        <roleDesc>ein reicher Bauer</roleDesc>
+                                    </castItem>
+                                    
+                                    <castItem>
+                                        <actor>Schober, Maria</actor>
+                                        <role>Brautjungfer</role>
+                                    </castItem>
+                                    
+                                    <castItem>
+                                        <actor>Felbermayer, Anny</actor>
+                                        <role>Brautjungfer</role>
+                                    </castItem>
+                                    
+                                    <castItem>
+                                        <actor>Siegert, Reinhold</actor>
+                                        <role>Samiel</role>
+                                        <roleDesc>der schwarze Jäger</roleDesc>
+                                    </castItem>
+                                    
+                                </castGrp>
+                            </castList>
+                        </perfMedium>
+                        
+                        <classification>
+                            <termList>
+                                <term class="http://purl.org/ontology/mo/Performance">Performance</term>
+                                <term class="http://purl.org/ontology/mo/Recording">Recording</term>
+                            </termList>
+                        </classification>
+                        
+                        <relationList>
+                            <relation rel="isRealizationOf" target="#freidi-work"/>
+                            <relation rel="hasEmbodiment"
+                               target="audioSources/freidi-recoding_Ackermann1951.xml#freidi-recoding_Ackermann1951"/>
+                        </relationList>
+                    </expression>
+                </expressionList>
+                <componentList><!-- TODO titel eintragen -->
+                    <work xml:id="freidi-work_no0">
+                        <title>Ouvertüre</title>
+                    </work>
+                    <work xml:id="freidi-work_no01">
+                        <title>Nummer 1</title>
+                    </work>
+                    <work xml:id="freidi-work_no02">
+                        <title>Nummer 2</title>
+                    </work>
+                    <work xml:id="freidi-work_no03">
+                        <title>Nummer 3</title>
+                    </work>
+                    <work xml:id="freidi-work_no04">
+                        <title>Nummer 4</title>
+                    </work>
+                    <work xml:id="freidi-work_no05">
+                        <title>Nummer 5</title>
+                    </work>
+                    <work xml:id="freidi-work_no06">
+                        <title>Nummer 6</title>
+                    </work>
+                    <work xml:id="freidi-work_no07">
+                        <title>Nummer 7</title>
+                    </work>
+                    <work xml:id="freidi-work_no08">
+                        <title>Nummer 8</title>
+                    </work>
+                    <work xml:id="freidi-work_no09">
+                        <title>Nummer 9</title>
+                    </work>
+                    <work xml:id="freidi-work_no10">
+                        <title>Nummer 10</title>
+                    </work>
+                    <work xml:id="freidi-work_no11">
+                        <title>Nummer 11</title>
+                    </work>
+                    <work xml:id="freidi-work_no12">
+                        <title>Nummer 12</title>
+                    </work>
+                    <work xml:id="freidi-work_no13">
+                        <title>Nummer 13</title>
+                    </work>
+                    <work xml:id="freidi-work_no14">
+                        <title>Nummer 14</title>
+                    </work>
+                    <work xml:id="freidi-work_no15">
+                        <title>Nummer 15</title>
+                    </work>
+                    <work xml:id="freidi-work_no16">
+                        <title>Nummer 16</title>
+                    </work>
+                </componentList>
+            </work>
+        </workList>
         <manifestationList>
             <manifestation>
                 <identifier type="labelCode">LC 00171</identifier>
@@ -157,7 +579,7 @@
                             <title>Weber: "Schelm! Halt fest!" [Der Freischütz - Act 2]</title>
                         </titleStmt>
                         <relationList>
-                            <relation rel="isEmbodimentOf" target="freidi-work.xml#freidi-work_exp-Ackermann1951_no6"/>
+                            <relation rel="isEmbodimentOf" target="#freidi-work_exp-Ackermann1951_no6"/>
                             <relation rel="hasExemplar" target="#freidi-recording_Ackermann1951_no06"/>
                         </relationList>
                     </manifestation>
@@ -166,7 +588,7 @@
                             <title>Weber: "Wie nahte mir der Schlummer" - "Leise, leise, fromme Weise!" [Der Freischütz - Act 2]</title>
                         </titleStmt>
                         <relationList>
-                            <relation rel="isEmbodimentOf" target="freidi-work.xml#freidi-work_exp-Ackermann1951_no8"/>
+                            <relation rel="isEmbodimentOf" target="#freidi-work_exp-Ackermann1951_no8"/>
                             <relation rel="hasExemplar" target="#freidi-recording_Ackermann1951_no08"/>
                         </relationList>
                     </manifestation>
@@ -175,13 +597,13 @@
                             <title>Weber: "Wie? Was? Entzetzen!" [Der Freischütz - Act 2]</title>
                         </titleStmt>
                         <relationList>
-                            <relation rel="isEmbodimentOf" target="freidi-work.xml#freidi-work_exp-Ackermann1951_no9"/>
+                            <relation rel="isEmbodimentOf" target="#freidi-work_exp-Ackermann1951_no9"/>
                             <relation rel="hasExemplar" target="#freidi-recording_Ackermann1951_no09"/>
                         </relationList>
                     </manifestation>
                 </componentList>
                 <relationList>
-                    <relation rel="isEmbodimentOf" target="freidi-work.xml#freidi-work_exp-Ackermann1951"/>
+                    <relation rel="isEmbodimentOf" target="#freidi-work_exp-Ackermann1951"/>
                 </relationList>
             </manifestation>
         </manifestationList>
@@ -209,7 +631,16 @@
                     <persName>Benjamin W. Bohl</persName>
                 </respStmt>
                 <changeDesc>
-                    <p>Update dat to MEI v4.0.1</p>
+                    <p>Update data to MEI v4.0.1</p>
+                </changeDesc>
+                <date isodate="2019-09-04">Benjamin W. Bohl</date>
+            </change>
+            <change n="3">
+                <respStmt>
+                    <persName>Benjamin W. Bohl</persName>
+                </respStmt>
+                <changeDesc>
+                    <p>Add some data from freidi-work.xml and update to MEI v4.0.1</p>
                 </changeDesc>
                 <date isodate="2019-09-04">Benjamin W. Bohl</date>
             </change>
