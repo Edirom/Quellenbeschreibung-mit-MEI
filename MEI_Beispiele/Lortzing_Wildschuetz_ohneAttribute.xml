@@ -8,7 +8,8 @@
       <fileDesc>
          <titleStmt>
             <title>Der Wildschütz </title>
-            <title>Komische Oper in 3 Akten</title>
+            <title type="subordinate">Komische Oper in 3 Akten</title>
+            <composer></composer>
             <respStmt>
                <resp>Composed by:</resp>
                <persName>Albert Lortzing</persName>
@@ -143,7 +144,6 @@
             </itemList>
          </manifestation>
       </manifestationList>
-      <
    </meiHead>
    <music/>
 </mei>
