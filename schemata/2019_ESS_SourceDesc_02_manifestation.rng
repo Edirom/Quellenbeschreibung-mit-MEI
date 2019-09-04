@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.music-encoding.org/ns/mei"><!--
-Schema generated from ODD source 2019-08-20T15:49:28Z. .
+Schema generated from ODD source 2019-09-04T10:48:58Z. .
 TEI Edition: Version 4.0.0
 TEI Edition Location: http://www.tei-c.org/Vault/P5//
   
@@ -17116,9 +17116,6 @@ Suggested values include: 1] glue; 2] thread; 3] needle; 4] tape; 5] staple</a:d
       <element name="binding">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(binding) – Contains a description of one binding, i.e. type of covering, boards, etc. applied to an item.</a:documentation>
          <zeroOrMore>
-            <ref name="mei_head"/>
-         </zeroOrMore>
-         <zeroOrMore>
             <choice>
                <ref name="mei_condition"/>
                <ref name="mei_decoNote"/>
@@ -17142,9 +17139,6 @@ Suggested values include: 1] glue; 2] thread; 3] needle; 4] tape; 5] staple</a:d
    <define name="mei_bindingDesc">
       <element name="bindingDesc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(binding description) – Describes the present and former bindings of an item.</a:documentation>
-         <zeroOrMore>
-            <ref name="mei_head"/>
-         </zeroOrMore>
          <choice>
             <group>
                <zeroOrMore>
@@ -17208,9 +17202,6 @@ Suggested values include: 1] glue; 2] thread; 3] needle; 4] tape; 5] staple</a:d
          <choice>
             <group>
                <zeroOrMore>
-                  <ref name="mei_head"/>
-               </zeroOrMore>
-               <zeroOrMore>
                   <choice>
                      <ref name="mei_condition"/>
                      <ref name="mei_decoNote"/>
@@ -17236,9 +17227,6 @@ Suggested values include: 1] glue; 2] thread; 3] needle; 4] tape; 5] staple</a:d
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(decoration note) – Contains a description of one or more decorative features of an item.</a:documentation>
          <choice>
             <group>
-               <zeroOrMore>
-                  <ref name="mei_head"/>
-               </zeroOrMore>
                <zeroOrMore>
                   <choice>
                      <ref name="mei_condition"/>
@@ -17363,9 +17351,6 @@ Suggested values include: 1] glue; 2] thread; 3] needle; 4] tape; 5] staple</a:d
          <choice>
             <group>
                <zeroOrMore>
-                  <ref name="mei_head"/>
-               </zeroOrMore>
-               <zeroOrMore>
                   <choice>
                      <ref name="mei_p"/>
                      <ref name="mei_layout"/>
@@ -17466,9 +17451,6 @@ Suggested values include: 1] glue; 2] thread; 3] needle; 4] tape; 5] staple</a:d
          <choice>
             <group>
                <zeroOrMore>
-                  <ref name="mei_head"/>
-               </zeroOrMore>
-               <zeroOrMore>
                   <ref name="mei_p"/>
                </zeroOrMore>
                <zeroOrMore>
@@ -17504,9 +17486,6 @@ Suggested values include: 1] glue; 2] thread; 3] needle; 4] tape; 5] staple</a:d
          <choice>
             <group>
                <zeroOrMore>
-                  <ref name="mei_head"/>
-               </zeroOrMore>
-               <zeroOrMore>
                   <choice>
                      <ref name="mei_condition"/>
                      <ref name="mei_decoNote"/>
@@ -17539,9 +17518,6 @@ Suggested values include: 1] glue; 2] thread; 3] needle; 4] tape; 5] staple</a:d
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(seal description) – Describes the seals or similar external attachments applied to an item.</a:documentation>
          <choice>
             <group>
-               <zeroOrMore>
-                  <ref name="mei_head"/>
-               </zeroOrMore>
                <choice>
                   <zeroOrMore>
                      <ref name="mei_seal"/>
@@ -17605,9 +17581,6 @@ Suggested values include: 1] glue; 2] thread; 3] needle; 4] tape; 5] staple</a:d
       <element name="support">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Provides a description of the physical support material of a written item.</a:documentation>
          <zeroOrMore>
-            <ref name="mei_head"/>
-         </zeroOrMore>
-         <zeroOrMore>
             <choice>
                <ref name="mei_condition"/>
                <ref name="mei_decoNote"/>
@@ -17626,9 +17599,6 @@ Suggested values include: 1] glue; 2] thread; 3] needle; 4] tape; 5] staple</a:d
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(support description) – Groups elements describing the physical support material of an item.</a:documentation>
          <choice>
             <group>
-               <zeroOrMore>
-                  <ref name="mei_head"/>
-               </zeroOrMore>
                <choice>
                   <zeroOrMore>
                      <ref name="mei_p"/>
@@ -17682,9 +17652,6 @@ Suggested values include: 1] paper; 2] parch; 3] mixed</a:documentation>
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(type description) – Contains a description of the typefaces or other aspects of the printing of a printed source.</a:documentation>
          <choice>
             <group>
-               <zeroOrMore>
-                  <ref name="mei_head"/>
-               </zeroOrMore>
                <zeroOrMore>
                   <ref name="mei_p"/>
                </zeroOrMore>
@@ -23490,9 +23457,7 @@ Suggested values include: 1] smufl</a:documentation>
       </choice>
    </define>
    <define name="mei_model.headLike">
-      <choice>
-         <ref name="mei_head"/>
-      </choice>
+      <notAllowed/>
    </define>
    <define name="mei_model.identifierLike">
       <choice>
@@ -25994,24 +25959,6 @@ Suggested values include: 1] abstract; 2] ack; 3] appendix; 4] bibliography; 5] 
          <ref name="mei_att.grpSym.vis.attributes"/>
          <ref name="mei_att.grpSym.ges.attributes"/>
          <ref name="mei_att.grpSym.anl.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="mei_head">
-      <element name="head">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(heading) – Contains any heading, for example, the title of a section of text, or the heading of a list.</a:documentation>
-         <zeroOrMore>
-            <choice>
-               <text/>
-               <ref name="mei_model.textPhraseLike"/>
-               <ref name="mei_model.editLike"/>
-               <ref name="mei_model.transcriptionLike"/>
-            </choice>
-         </zeroOrMore>
-         <ref name="mei_att.common.attributes"/>
-         <ref name="mei_att.facsimile.attributes"/>
-         <ref name="mei_att.lang.attributes"/>
-         <ref name="mei_att.xy.attributes"/>
          <empty/>
       </element>
    </define>

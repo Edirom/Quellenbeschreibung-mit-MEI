@@ -90,7 +90,7 @@
         <moduleRef key="MEI.neumes"/>
         <moduleRef key="MEI.performance"/>
         <moduleRef key="MEI.ptrref"/>
-        <moduleRef key="MEI.shared"/>
+        <moduleRef key="MEI.shared" except="head"/>
         <moduleRef key="MEI.stringtab"/>
         <moduleRef key="MEI.text"/>
         <moduleRef key="MEI.usersymbols"/>
