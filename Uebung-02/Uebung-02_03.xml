@@ -8,30 +8,23 @@
                 <title>Ackermann, Otto: Der Freischütz 1951, Wien</title><!-- iso=1951-04 -->
                 <respStmt>
                     <corpName role="pbl">Freischütz Digital</corpName>
-                    <persName authURI="http://d-nb.info/gnd/" authority="gnd" dbkey="1013411188" role="mrk">Benjamin W. Bohl</persName>
+                    <persName auth.uri="http://d-nb.info/gnd/" auth="gnd" codedval="1013411188" role="mrk">Benjamin W. Bohl</persName>
                 </respStmt>
             </titleStmt>
-            
-<!-- PROJEKT META vereinheitlichen und für alle Dateien konzipieren -->
             <editionStmt xmlns:xlink="http://www.w3.org/1999/xlink">
-                <!-- ABOUT Release Version -->
                 <edition>
                     <title>Freischütz Digital - Release 1.0.0</title>
                     <corpName role="dst">TextGrid</corpName>
-                    <identifier type="TextGridUri" authority="TextGrid" authURI="http://textgridrep.org" label="FreiDi-Release_1.0.0">textgrid:25418.0</identifier>
-                    <!-- TextGrid ID für Gesamt-Release -->
+                    <identifier type="TextGridUri" auth="TextGrid" auth.uri="http://textgridrep.org" label="FreiDi-Release_1.0.0">textgrid:25418.0</identifier>
                     <identifier type="handle"/>
-                    <!-- PID hdl: aus TextGrid -->
                     <ptr target="http://textgridrep.org/browse.html?id=textgrid:25418"/>
-                    <!-- link zum TextGrid-Release -->
                 </edition>
                 <respStmt>
-                    <resp code="com dtm edc">Release</resp>
-                    <persName role="com dtm edc">Bohl, Benjamin Wolff</persName>
-                    <persName role="com dtm edc">Kepper, Johannes</persName>
-                    <persName role="com dtm edc">Röwenstrunk, Daniel</persName>
+                    <resp codedval="com dtm edc">Release</resp>
+                    <persName>Bohl, Benjamin Wolff</persName>
+                    <persName>Kepper, Johannes</persName>
+                    <persName>Röwenstrunk, Daniel</persName>
                 </respStmt>
-                <!-- / ABOUT Release Version -->
             </editionStmt>
             <pubStmt xmlns:xlink="http://www.w3.org/1999/xlink">
                 <publisher>
@@ -73,113 +66,18 @@
                     <corpName role="fnd">Bundesministerium für Bildung und Forschung</corpName>
                 </respStmt>
                 <distributor>TextGrid</distributor>
-                <identifier type="TextGridUri" authority="TextGrid" authURI="http://textgridrep.org" label="FreiDi-Release_1.0.0"><!-- TODO TextGrid ID für Datei --></identifier>
-                <identifier type="handle"><!-- TODO TextGrid handle ? --></identifier>
+                <identifier type="TextGridUri" auth="TextGrid" auth.uri="http://textgridrep.org" label="FreiDi-Release_1.0.0"></identifier>
+                <identifier type="handle"></identifier>
                 <date isodate="2015-10-31">2015-10-31</date>
-                <!-- TODO aktualisieren -->
                 <availability label="restricted">
-                    <useRestrict>Copyright © 2015, Freischütz Digital; Detmold, Erlangen, Frankfurt,
-                        Paderborn <lb/>Alle Rechte an den Abbildungen bleiben bei den bewahrenden
-                        Bibliotheken und Institutionen. <lb/>
-                        <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA
-                            4.0</ref>
-                        <!--
-                        <lb/><ref target="http://opensource.org/licenses/BSD-2-Clause">BSD-2</ref>-->
+                    <useRestrict>
+                        <lb/>Copyright © 2015, Freischütz Digital; Detmold, Erlangen, Frankfurt, Paderborn
+                        <lb/>Alle Rechte an den Abbildungen bleiben bei den bewahrenden Bibliotheken und Institutionen.
+                        <lb/><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</ref>
                     </useRestrict>
                 </availability>
             </pubStmt>
-            
 <!-- / PROJEKT META -->
-            
-            <sourceDesc>
-                <source>
-<!--                    <identifier authority="DNB" authURI="http://d-nb.info/">351756876</identifier>--><!-- TODO: dnb Eintrag? -->
-                    <identifier type="labelCode">LC 00171</identifier>
-                    <identifier type="orderNo">4761512</identifier>
-                    <identifier type="EAN">0028947615125</identifier>
-                    <titleStmt>
-                        <title type="main" xml:lang="de">Der Freischütz</title>
-                        <respStmt>
-                            <resp>Recording producer</resp>
-                            <persName>Victor Olof</persName>
-                        </respStmt>
-                        <respStmt>
-                            <resp>Recorded by</resp>
-                            <persName>Cyril Windebank</persName>
-                        </respStmt>
-                    </titleStmt>
-                    <pubStmt>
-                        <date isodate="2003"/>
-                        <respStmt>
-                            <corpName>Universal Music Classics &amp; Jazz</corpName>
-                        </respStmt>
-                        <availability>
-                            <useRestrict>(P) 2003 Universal Music Classics &amp; Jazz, a division of Universal Music GmbH, (C) 2003 Universal Music Classics &amp; Jazz, a division of Universal Music GmbH</useRestrict>
-                        </availability>
-                    </pubStmt>
-                    <physDesc>
-                        <captureMode><abbr>ADD</abbr></captureMode>
-                        <carrierForm>CD</carrierForm>
-                        <fileChar>44.1 kHz, 16 bit</fileChar>
-                        <playingSpeed>44.1 kHz</playingSpeed>
-                        <soundChan>mono</soundChan>
-                        <extent label="soundCarrier" unit="cd">2</extent>
-                        <titlePage facs="#freidi-recording_Ackermann1951_cover">
-                            <list>
-                                <li>Otto Ackermann</li>
-                                <li>Carl Maria von Weber</li>
-                                <li>Der Freischütz</li>
-                                <li>Wiener Staatsopernchor</li>
-                                <li>Wiener Philharmoniker</li>
-                            </list>
-                        </titlePage>
-                    </physDesc>
-                    
-                    <seriesStmt>
-                        <title>eloquence Dokumente. Tondokumente großer Dirigenten.</title>
-                    </seriesStmt>
-                    
-                    <classification>
-                        <classCode authURI="http://purl.org/ontology/mo/">The Music Ontology Specification, Created: 2006/12/21 12:00:00, Date: 2013/07/22 16:54:19, Revision: 2.1.5, Authors: Yves Raimond, Thomas Gängler, Frédérick Giasson, Kurt Jacobson, George Fazekas, Simon Reinhardt, Alexandre Passant</classCode>
-                        <termList>
-                            <term>MusicalManifestation</term>
-                        </termList>
-                    </classification>
-                    
-                    <componentGrp>
-                        <source label="CD 1" n="12" xml:id="freidi-recording_Ackermann1951_track1-12">
-                            <titleStmt>
-                                <title>Weber: "Schelm! Halt fest!" [Der Freischütz - Act 2]</title>
-                            </titleStmt>
-                            <relationList>
-                                <relation rel="isEmbodimentOf" target="freidi-work.xml#freidi-work_exp-Ackermann1951_no6"/>
-                                <relation rel="hasExemplar" target="#freidi-recording_Ackermann1951_no06"/>
-                            </relationList>
-                        </source>
-                        <source label="CD 1" n="16" xml:id="freidi-recording_Ackermann1951_track1-16">
-                            <titleStmt>
-                                <title>Weber: "Wie nahte mir der Schlummer" - "Leise, leise, fromme Weise!" [Der Freischütz - Act 2]</title>
-                            </titleStmt>
-                            <relationList>
-                                <relation rel="isEmbodimentOf" target="freidi-work.xml#freidi-work_exp-Ackermann1951_no8"/>
-                                <relation rel="hasExemplar" target="#freidi-recording_Ackermann1951_no08"/>
-                            </relationList>
-                        </source>
-                        <source label="CD 1" n="18" xml:id="freidi-recording_Ackermann1951_track1-18">
-                            <titleStmt>
-                                <title>Weber: "Wie? Was? Entzetzen!" [Der Freischütz - Act 2]</title>
-                            </titleStmt>
-                            <relationList>
-                                <relation rel="isEmbodimentOf" target="freidi-work.xml#freidi-work_exp-Ackermann1951_no9"/>
-                                <relation rel="hasExemplar" target="#freidi-recording_Ackermann1951_no09"/>
-                            </relationList>
-                        </source>
-                    </componentGrp>
-                    <relationList>
-                        <relation rel="isEmbodimentOf" target="freidi-work.xml#freidi-work_exp-Ackermann1951"/>
-                    </relationList>
-                </source>
-            </sourceDesc>
         </fileDesc>
         <encodingDesc xmlns:xlink="http://www.w3.org/1999/xlink">
             <projectDesc xml:lang="de">
@@ -192,7 +90,101 @@
                 <p>Ebenfalls den Richtlinien der TEI entsprechend wurden die 10 ausgewählten Referenztexte ausgezeichnet (die drei zusätzlichen Texte mit Schillers "Wallenstein"-Trilogie entstammen dem TextGrid-Repository). Zu sämtlichen Texten wurden Metadaten erstellt, sowie soweit möglich, ein Digitalisat der Handschrift bzw. eines Druck-Exemplars beigegeben und mit der Übertragung parallelisiert.</p><!-- TODO Absatz zur TextEdition -->
                 <p>Aus der akustischen Domäne sind in diesem Bereich strukturierte Metadaten der im Rahmen des Projektes angefertigten Einspielung (Bloemeke 2013) enthalten, sowie zu den Einspielungen von Ackermann 1951, <!--Furtwängler 1954, -->Erich Kleiber 1955, Jochum 1960, Carlos Kleiber 1973 und Janowski 1994. Letztere wurden uns dankenswerter Weise von den Rechteinhabern auch zur Verwendung in der Online-Publikation zur Verfügung gestellt. Dieser Datensatz teilt sich gemäß der FRBR-Implementierung in MEI auf zwei Bereiche auf: (1) die "freidi-work.xml" Datei enthält die Angaben zur sog. "expression", also der aufgezeichneten Aufführung; (2) die Dateien im Ordner "audioSources", z.B. "freidi-recording_Bloemeke2013.xml", enthalten dagegen die Daten zur sog. "manifestation" der Aufnahme, d.h. die zur Publikation überarbeitete Version. Weiterhin enthalten die Codierungen die am Projektstandort Erlangen algorithmisch gewonnenen "Taktannotationen" der Einspielungen, die eine gezielte Ansteuerung der Audio-Daten auf Taktebene ermöglichen. Zusätzlich ist in der Datei "freidi-recordingDesc-Bloemeke2013.xml" eine textliche Beschreibung der im Rahmen des Projektes angefertigten Einspielung enthalten, die auch Referenzen auf weitere, diese Aufnahme betreffende Texte enthält.</p>
             </samplingDecl>
+            <classDecls>
+                <taxonomy>
+                    <category xml:id="mo-musicalManifestation" auth="The Music Ontology" auth.uri="http://purl.org/ontology/mo/" codedval="MusicalManifestation">
+                        <label>musical manifestation</label>
+                    </category>
+                </taxonomy>
+            </classDecls>
         </encodingDesc>
+        <manifestationList>
+            <manifestation>
+                <identifier type="labelCode">LC 00171</identifier>
+                <identifier type="orderNo">4761512</identifier>
+                <identifier type="EAN">0028947615125</identifier>
+                <titleStmt>
+                    <title type="main" xml:lang="de">Der Freischütz</title>
+                    <respStmt>
+                        <resp>Recording producer</resp>
+                        <persName>Victor Olof</persName>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Recorded by</resp>
+                        <persName>Cyril Windebank</persName>
+                    </respStmt>
+                </titleStmt>
+                <pubStmt>
+                    <date isodate="2003"/>
+                    <respStmt>
+                        <corpName>Universal Music Classics &amp; Jazz</corpName>
+                    </respStmt>
+                    <availability>
+                        <useRestrict>(P) 2003 Universal Music Classics &amp; Jazz, a division of Universal Music GmbH, (C) 2003 Universal Music Classics &amp; Jazz, a division of Universal Music GmbH</useRestrict>
+                    </availability>
+                </pubStmt>
+                <physDesc>
+                    <captureMode><abbr>ADD</abbr></captureMode>
+                    <carrierForm>CD</carrierForm>
+                    <fileChar>44.1 kHz, 16 bit</fileChar>
+                    <playingSpeed>44.1 kHz</playingSpeed>
+                    <soundChan>mono</soundChan>
+                    <extent label="soundCarrier" unit="cd">2</extent>
+                    <titlePage facs="#freidi-recording_Ackermann1951_cover">
+                        <list>
+                            <li>Otto Ackermann</li>
+                            <li>Carl Maria von Weber</li>
+                            <li>Der Freischütz</li>
+                            <li>Wiener Staatsopernchor</li>
+                            <li>Wiener Philharmoniker</li>
+                        </list>
+                    </titlePage>
+                </physDesc>
+                
+                <seriesStmt>
+                    <title>eloquence Dokumente. Tondokumente großer Dirigenten.</title>
+                </seriesStmt>
+                
+                <classification>
+                    <termList>
+                        <term class="http://purl.org/ontology/mo/MusicalManifestation">musical manifestation</term>
+                    </termList>
+                </classification>
+                
+                <componentList>
+                    <manifestation label="CD 1" n="12" xml:id="freidi-recording_Ackermann1951_track1-12">
+                        <titleStmt>
+                            <title>Weber: "Schelm! Halt fest!" [Der Freischütz - Act 2]</title>
+                        </titleStmt>
+                        <relationList>
+                            <relation rel="isEmbodimentOf" target="freidi-work.xml#freidi-work_exp-Ackermann1951_no6"/>
+                            <relation rel="hasExemplar" target="#freidi-recording_Ackermann1951_no06"/>
+                        </relationList>
+                    </manifestation>
+                    <manifestation label="CD 1" n="16" xml:id="freidi-recording_Ackermann1951_track1-16">
+                        <titleStmt>
+                            <title>Weber: "Wie nahte mir der Schlummer" - "Leise, leise, fromme Weise!" [Der Freischütz - Act 2]</title>
+                        </titleStmt>
+                        <relationList>
+                            <relation rel="isEmbodimentOf" target="freidi-work.xml#freidi-work_exp-Ackermann1951_no8"/>
+                            <relation rel="hasExemplar" target="#freidi-recording_Ackermann1951_no08"/>
+                        </relationList>
+                    </manifestation>
+                    <manifestation label="CD 1" n="18" xml:id="freidi-recording_Ackermann1951_track1-18">
+                        <titleStmt>
+                            <title>Weber: "Wie? Was? Entzetzen!" [Der Freischütz - Act 2]</title>
+                        </titleStmt>
+                        <relationList>
+                            <relation rel="isEmbodimentOf" target="freidi-work.xml#freidi-work_exp-Ackermann1951_no9"/>
+                            <relation rel="hasExemplar" target="#freidi-recording_Ackermann1951_no09"/>
+                        </relationList>
+                    </manifestation>
+                </componentList>
+                <relationList>
+                    <relation rel="isEmbodimentOf" target="freidi-work.xml#freidi-work_exp-Ackermann1951"/>
+                </relationList>
+            </manifestation>
+        </manifestationList>
         <revisionDesc>
             <change n="1">
                 <respStmt>
@@ -211,6 +203,15 @@
                     <p>included all clips into recordings for available tracks</p>
                 </changeDesc>
                 <date isodate="2015-10-23"/>
+            </change>
+            <change n="3">
+                <respStmt>
+                    <persName>Benjamin W. Bohl</persName>
+                </respStmt>
+                <changeDesc>
+                    <p>Update dat to MEI v4.0.1</p>
+                </changeDesc>
+                <date isodate="2019-09-04">Benjamin W. Bohl</date>
             </change>
         </revisionDesc>
     </meiHead>
