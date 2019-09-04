@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schemata/2019_ESS_SourceDesc_02_manifestation.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<manifestation xmlns="http://www.music-encoding.org/ns/mei" n="1">
+  <identifier>ISMN 979-0-001-06714-0</identifier>
+  <identifier label="Serie">ED 6311</identifier>
+  <identifier label="Verlags-Nr.">42 537a</identifier>
+  <titleStmt>
+    <title type="abbreviated">Photoptosis Studien-Partitur</title>
+  </titleStmt>
+  <editionStmt>
+    <edition>Studien-Partitur</edition>
+  </editionStmt>
+  <pubStmt>
+    <date>1970</date>
+    <publisher>B. Schott's Söhne</publisher>
+    <pubPlace>Mainz</pubPlace>
+    <availability>
+      <useRestrict>© 1970</useRestrict>
+    </availability>
+  </pubStmt>
+  <physDesc>
+    <!-- hier zu beschreiben, da die physische Präsenz einer Titelseite und deren Inhalt über alle Items der Manifestation konstant ist-->
+    <titlePage n="1" type="cover"><?TODO graphische auszeichnung ohne strukturelle daten ?>
+      <pb n="0">
+        <pgHead>Musik unserer Zeit • Music of Our Time • Musique de Notre Temps • [japan]</pgHead>
+      </pb>
+      <lb/><composer>Bernd Alois Zimmermann</composer>
+      <title type="main">
+        <lb/><titlePart type="main">Photoptosis</titlePart>
+        <lb/><titlePart type="subordinate">Prélude für großes Orchester</titlePart>
+        <lb/><titlePart type="date">(1968)</titlePart>
+      </title>
+      <title type="desc">
+        <lb/><identifier type="VN">ED 6311</identifier>
+      </title>
+      <fig>
+        <figDesc>Verlagslogo Schott</figDesc>
+      </fig>
+    </titlePage>
+    <titlePage n="2" label="titlePage"><?TODO mit strukturierten Daten selber machen ?>
+      <pb n="1" folium="recto">
+        <pgHead>Musik unserer Zeit • Music of Our Time • Musique de Notre Temps • [japan]</pgHead>
+        <pgFoot>
+          <lb/>www.schott-music.com <fig><figDesc>Verlagslogo Schott</figDesc></fig>
+          <lb/>Mainz • London • Berlin • Madrid • New • York • Paris • Prague • Tokyo • Toronto
+          <lb/>© 1970 SCHOTT MUSIC GmbH &amp; Co. KG. Mainz • Printed in Germany</pgFoot>
+      </pb>
+      <contributor role="marc:cmp">Bernd Alois Zimmermann</contributor>
+      <lb/><?TODO vs <persName role="marc:cmp">oder <contributor role="mar:cmp"> ?>
+      <title type="main"><?TODO mit oder ohne diesem einschließenden title-Element? ?> 
+        <lb/><titlePart type="main">Photoptosis</titlePart>
+        <lb/><titlePart type="subordinate">Prélude für großes Orchester</titlePart> <lb/><titlePart type="date">(1968)</titlePart>
+      </title>
+      <title type="desc">
+        <lb/>Study Score
+        <lb/><identifier type="VN">ED 6311</identifier>
+      </title>
+    </titlePage>
+    <extent unit="pp" quantity="88">88 S. (87 bedruckt)</extent>
+    <dimensions unit="cm">22,7x30</dimensions>
+    <captureMode auth.uri="http://id.loc.gov/vocabulary/mmusnotation/" codedval="staff">Common Western Notation</captureMode>
+    <bindingDesc>Schott-gelber Kartin-Einband mit Leimrückenbindung</bindingDesc>
+    <scoreFormat auth="LOC" auth.uri="http://loc.gov/marc/bibliographic/bd008m.html" codedval="marc:20b">Studien-Partitur</scoreFormat>
+  </physDesc>
+  <seriesStmt>
+    <title>Musik unserer Zeit</title>
+  </seriesStmt>
+  <itemList>
+    <item>
+      <physLoc>
+        <repository>
+          <corpName>Lippische Landesbibliothek</corpName>
+          <geogName>Detmold</geogName>
+          <identifier>Mus-n 13550</identifier>
+        </repository>
+      </physLoc>
+    </item>
+  </itemList>
+</manifestation>
