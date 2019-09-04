@@ -5,13 +5,92 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <title>Ackermann, Otto: Der Freischütz 1951, Wien</title>
+                <title>Ackermann, Otto: Der Freischütz 1951, Wien</title><!-- iso=1951-04 -->
+                <respStmt>
+                    <corpName role="pbl">Freischütz Digital</corpName>
+                    <persName auth.uri="http://d-nb.info/gnd/" auth="gnd" codedval="1013411188" role="mrk">Benjamin W. Bohl</persName>
+                </respStmt>
             </titleStmt>
-            <pubStmt>
-                <unpub/>
+            <editionStmt xmlns:xlink="http://www.w3.org/1999/xlink">
+                <edition>
+                    <title>Freischütz Digital - Release 1.0.0</title>
+                    <corpName role="dst">TextGrid</corpName>
+                    <identifier type="TextGridUri" auth="TextGrid" auth.uri="http://textgridrep.org" label="FreiDi-Release_1.0.0">textgrid:25418.0</identifier>
+                    <identifier type="handle"/>
+                    <ptr target="http://textgridrep.org/browse.html?id=textgrid:25418"/>
+                </edition>
+                <respStmt>
+                    <resp codedval="com dtm edc">Release</resp>
+                    <persName>Bohl, Benjamin Wolff</persName>
+                    <persName>Kepper, Johannes</persName>
+                    <persName>Röwenstrunk, Daniel</persName>
+                </respStmt>
+            </editionStmt>
+            <pubStmt xmlns:xlink="http://www.w3.org/1999/xlink">
+                <publisher>
+                    <corpName role="pbl">Freischütz Digital</corpName>
+                    <ptr target="http://freischuetz-digital.de/"/>
+                    <address>
+                        <addrLine>Musikwissenschaftliches Seminar Detmold/Paderborn</addrLine>
+                        <addrLine>Prof. Dr. Joachim Veit</addrLine>
+                        <addrLine>Hornsche Straße 39</addrLine>
+                        <addrLine>32756 Detmold</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                    <address>
+                        <addrLine>International Audio Laboratories Erlangen</addrLine>
+                        <addrLine>Prof. Dr. Meinard Müller</addrLine>
+                        <addrLine>Am Wolfsmantel 33</addrLine>
+                        <addrLine>91058</addrLine>
+                        <addrLine>Erlangen</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                    <address>
+                        <addrLine>Goethe-Universität, Institut für Musikwissenschaft</addrLine>
+                        <addrLine>Prof. Dr. Thomas Betzwieser</addrLine>
+                        <addrLine>Senckenberganlage 31</addrLine>
+                        <addrLine>60325</addrLine>
+                        <addrLine>Frankfurt am Main</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                    <address>
+                        <addrLine>Universität Paderborn, Institut für Informatik, Fachgebiet Mensch-Computer-Interaktion</addrLine>
+                        <addrLine>Prof. Dr. Gerd Szwillus</addrLine>
+                        <addrLine>Fürstenallee 11</addrLine>
+                        <addrLine>33102</addrLine>
+                        <addrLine>Paderborn</addrLine>
+                        <addrLine>Deutschland</addrLine>
+                    </address>
+                </publisher>
+                <respStmt>
+                    <corpName role="fnd">Bundesministerium für Bildung und Forschung</corpName>
+                </respStmt>
+                <distributor>TextGrid</distributor>
+                <identifier type="TextGridUri" auth="TextGrid" auth.uri="http://textgridrep.org" label="FreiDi-Release_1.0.0"></identifier>
+                <identifier type="handle"></identifier>
+                <date isodate="2015-10-31">2015-10-31</date>
+                <availability label="restricted">
+                    <useRestrict>
+                        <lb/>Copyright © 2015, Freischütz Digital; Detmold, Erlangen, Frankfurt, Paderborn
+                        <lb/>Alle Rechte an den Abbildungen bleiben bei den bewahrenden Bibliotheken und Institutionen.
+                        <lb/><ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</ref>
+                    </useRestrict>
+                </availability>
             </pubStmt>
+<!-- / PROJEKT META -->
         </fileDesc>
-        
+        <encodingDesc xmlns:xlink="http://www.w3.org/1999/xlink">
+            <projectDesc xml:lang="de">
+                <p>Das vom Bundesministerium für Bildung und Forschung (BMBF - Förderkennzeichen 01UG1239A bis 01UG1239C) geförderte Projekt “Freischütz Digital – Paradigmatische Umsetzung eines genuin digitalen Editionskonzepts” ist ein gemeinschaftliches Projekt der Goethe-Universität Frankfurt, der International Audio Laboratories Erlangen und der Universität Paderborn, letztere übernimmt dabei die Gesamtkoordination.</p>
+            </projectDesc>
+            <samplingDecl xml:lang="de">
+                <p>Das "Freischütz Digital - Release 1.0.0" umfasst die zum Ende des Förderzeitraums (31. Oktober 2015) bereitgestellten Daten aus den verschiedenen Teilbereichen des Projekts Freischütz Digital (FreiDi).</p>
+                <p>Auf Seiten der Musikedition sind 15 musikalischen Quellen zunächst durch Metadaten beschrieben, sowie die Positionen aller Takte auf den Faksimiles erfasst. Für alle Quellen liegt zudem eine Quellenbeschreibung als Fließtext vor; während diese für die handschriftlichen Quellen ausführlich auf unterschiedliche Aspekte eingeht, ist sie für die (überwiegend späteren, für den Überlieferungsprozess relevanten) Drucke knapp gehalten. Der musikalische Inhalt der einzelnen Quellen ist mit unterschiedlicher Erschließungstiefe erfasst. Grundsätzlich sind in allen Quellen außer D1849B, D1867, D1871, DJochum und ED-kl die Nummern 6, 8 und 9 im Sinne einer Quellenedition – nach dem an anderer Stelle beschriebenen "Core-Modell" – im Format der Music Encoding Initiative (MEI) erschlossen. Die Datei "freidi-work.xml" stellt diesem Modell folgend die "Core-Datei" dar und beschreibt die Gemeinsamkeiten und Unterschiede der einzelnen Quellen. Für alle Quellen (ausgenommen die bereits genannten) ist dies für die Nummern 6, 8 und 9 bis hin zur Ebene einzelner Noten oder anderer musikalischer Zeichen erfolgt, nur im Falle von Webers Autograph (A) auch für sämtliche anderen Nummern.</p>
+                <p>Die in diesem Release veröffentlichten Codierungen der Libretti sind nach den Richtlinien der Text Encoding Initiative (TEI) und hier speziell der Teilbereiche "Performance Texts" und "Critical Apparatus" durchgeführt worden und decken auch die editorischen Erkenntnisse zur jeweiligen quellenimmanenten Genese der Texte ab. Speziell im Falle von KA-tx4 sollten die Codierungskonzepte für Handschriften mit mehrfachen Überarbeitungsspuren (es handelt sich um Webers Handexemplar als Grundlage für die Komposition) verdeutlicht werden.</p>
+                <p>Ebenfalls den Richtlinien der TEI entsprechend wurden die 10 ausgewählten Referenztexte ausgezeichnet (die drei zusätzlichen Texte mit Schillers "Wallenstein"-Trilogie entstammen dem TextGrid-Repository). Zu sämtlichen Texten wurden Metadaten erstellt, sowie soweit möglich, ein Digitalisat der Handschrift bzw. eines Druck-Exemplars beigegeben und mit der Übertragung parallelisiert.</p><!-- TODO Absatz zur TextEdition -->
+                <p>Aus der akustischen Domäne sind in diesem Bereich strukturierte Metadaten der im Rahmen des Projektes angefertigten Einspielung (Bloemeke 2013) enthalten, sowie zu den Einspielungen von Ackermann 1951, <!--Furtwängler 1954, -->Erich Kleiber 1955, Jochum 1960, Carlos Kleiber 1973 und Janowski 1994. Letztere wurden uns dankenswerter Weise von den Rechteinhabern auch zur Verwendung in der Online-Publikation zur Verfügung gestellt. Dieser Datensatz teilt sich gemäß der FRBR-Implementierung in MEI auf zwei Bereiche auf: (1) die "freidi-work.xml" Datei enthält die Angaben zur sog. "expression", also der aufgezeichneten Aufführung; (2) die Dateien im Ordner "audioSources", z.B. "freidi-recording_Bloemeke2013.xml", enthalten dagegen die Daten zur sog. "manifestation" der Aufnahme, d.h. die zur Publikation überarbeitete Version. Weiterhin enthalten die Codierungen die am Projektstandort Erlangen algorithmisch gewonnenen "Taktannotationen" der Einspielungen, die eine gezielte Ansteuerung der Audio-Daten auf Taktebene ermöglichen. Zusätzlich ist in der Datei "freidi-recordingDesc-Bloemeke2013.xml" eine textliche Beschreibung der im Rahmen des Projektes angefertigten Einspielung enthalten, die auch Referenzen auf weitere, diese Aufnahme betreffende Texte enthält.</p>
+            </samplingDecl>
+        </encodingDesc>
         <workList>
             <work>
                 <identifier type="opus">77</identifier>
@@ -33,7 +112,8 @@
                     <p>Mit nachkomponierter Arie Nr. 13: Komponiert am <date isodate="1821-05-28">28. Mai
                         1821</date>.</p>
                 </history>
-                
+                <!--<notesStmt>
+                </notesStmt>-->
                 <classification>
                     <termList class="https://www.dnb.de/SharedDocs/Downloads/DE/Service/Hilfe/service/ddcSachgruppenDNBMusikKonkordanzAltNeu.html">
                         <term>
