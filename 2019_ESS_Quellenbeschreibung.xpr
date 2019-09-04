@@ -353,5 +353,8 @@
     </meta>
     <projectTree name="2019_ESS_Quellenbeschreibung.xpr">
         <folder path="."/>
+        <folder path="../../../SVN/zimmermann/trunk/Kompositionen/III-5/III-5_Photoptosis/Quellenbeschreibung/"/>
+        <file name="../../../SVN/zimmermann/trunk/Kompositionen/III-5/III-5_Photoptosis/Quellencodierung/Z100018_P1-HP1.xml"/>
+        <file name="../../../SVN/zimmermann/trunk/Kompositionen/III-5/III-5_Photoptosis/Quellencodierung/Z100018_P1-HP1_mod.xml"/>
     </projectTree>
 </project>
