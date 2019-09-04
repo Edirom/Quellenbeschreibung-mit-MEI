@@ -10,6 +10,21 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>odd/2019_ESS_SourceDesc_02_manifestation.odd</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>MEI ODD to RELAX NG (XML syntax)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>odd/2019_ESS_SourceDesc_01.odd</String>
                                 </field>
                                 <field name="scenarioIds">
