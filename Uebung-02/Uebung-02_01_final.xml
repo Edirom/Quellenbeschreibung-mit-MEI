@@ -22,7 +22,6 @@
             </source>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc><?TODO brauchen wir eigentlich nicht ?></encodingDesc>
       <workList>
          <work>
             <identifier type="WeV">III,18</identifier>
@@ -64,79 +63,72 @@
                <title type="abbreviated">Photoptosis Studienpartitur</title>
             </titleStmt>
             <?TODO editionStmt tatsächlich hier eine interessante Frage, die Studienpartitur in der BAZ-GA sieht anders aus und ist anders gebunden, es handelt sich wohl tatsächlich um eine neue Auflage, (?ohne inhaltliche jedoch?) mit Einband-Abweichungen; meiner Einschätzung nach muss diese Umstellung innerhalb der letzten beiden Jahre erfolgt sein denn da war die Studienpartitur kurzzeitig nicht im Web-Shop verfügbar?>
-            <!--  <editionStmt>
-               <edition>Stichvorlage</edition>
-            </editionStmt>-->
-            <!--  <pubStmt>
-               <respStmt label="original">
-                  <corpName role="publisher"
-                     auth="GND"
-                     auth.uri="http://d-nb.info/gnd/"
-                     codedval="115690387">Georg Rauh</corpName>
-               </respStmt>
-               <address>
-                  <addrLine>Wittenberg</addrLine>
-                  <addrLine>Germany</addrLine>
-               </address>
-            </pubStmt>-->
+            <editionStmt>
+               <edition>Studien-Partitur</edition>
+            </editionStmt>
+            <pubStmt>
+               <date>1970</date>
+               <publisher>B. Schott's Söhne</publisher>
+               <pubPlace>Mainz</pubPlace>
+               <availability>
+                  <useRestrict>© 1970</useRestrict>
+               </availability>
+            </pubStmt>
             <physDesc>
                <!-- hier zu beschreiben, da die physische Präsenz einer Titelseite und deren Inhalt über alle Items der Manifestation konstant ist-->
-               <titlePage n="1" type="cover">
+               <titlePage n="1" type="cover"><?TODO graphische auszeichnung ohne strukturelle daten ?>
                   <pb n="0">
                      <pgHead>Musik unserer Zeit • Music of Our Time • Musique de Notre Temps • [japan]</pgHead>
                   </pb>
-                  <lb/><composer>Zimmermann</composer>
-                  <title type="main"><?TODO mit oder ohne diesem einschließenden title-Element? ?>
+                  <lb/><composer>Bernd Alois Zimmermann</composer>
+                  <title type="main">
                      <lb/><titlePart type="main">Photoptosis</titlePart>
                      <lb/><titlePart type="subordinate">Prélude für großes Orchester</titlePart>
                      <lb/><titlePart type="date">(1968)</titlePart>
                   </title>
                   <title type="desc">
-                     <lb/><identifier type="VN">ED 6311</identifier><?TODO eigentlich Serien-Nummer, Interne Verlags-Nr s.o. ?>
+                     <lb/><identifier type="VN">ED 6311</identifier>
                   </title>
                   <fig>
                      <figDesc>Verlagslogo Schott</figDesc>
                   </fig>
                </titlePage>
-               <titlePage n="2" label="titlePage">
+               <titlePage n="2" label="titlePage"><?TODO ggf. mit strukturellen Daten ?>
                   <pb n="1" folium="recto">
                      <pgHead>Musik unserer Zeit • Music of Our Time • Musique de Notre Temps • [japan]</pgHead>
+                  <pgFoot>
+                        <lb/>www.schott-music.com <fig><figDesc>Verlagslogo Schott</figDesc></fig>
+                        <lb/>Mainz • London • Berlin • Madrid • New • York • Paris • Prague • Tokyo • Toronto
+                        <lb/>© 1970 SCHOTT MUSIC GmbH &amp; Co. KG. Mainz • Printed in Germany</pgFoot>
                   </pb>
-                  <contributor role="mar:cmp"/>
-                  <lb/>
-                  <composer>Bernd Alois Zimmermann</composer>
-                  <?TODO vs <persName role="marc:cmp">oder <contributor role="mar:cmp"> ?>
+                  <contributor role="marc:cmp">Bernd Alois Zimmermann</contributor>
+                  <lb/><?TODO vs <persName role="marc:cmp">oder <contributor role="mar:cmp"> ?>
                   <title type="main"><?TODO mit oder ohne diesem einschließenden title-Element? ?> 
                      <lb/><titlePart type="main">Photoptosis</titlePart>
                      <lb/><titlePart type="subordinate">Prélude für großes Orchester</titlePart> <lb/><titlePart type="date">(1968)</titlePart>
                   </title>
                   <title type="desc">
                      <lb/>Study Score
-                     <lb/><identifier type="VN">ED 6311</identifier><?TODO eigentlich Serien-Nummer, Interne Verlags-Nr s.o. ?>
+                     <lb/><identifier type="VN">ED 6311</identifier>
                   </title>
-                  <pb>
-                     <pgFoot>
-                        <lb/>www.schott-music.com <fig><figDesc>Verlagslogo Schott</figDesc></fig>
-                        <lb/>Mainz • London • Berlin • Madrid • New • York • Paris • Prague • Tokyo • Toronto
-                        <lb/>© 1970 SCHOTT MUSIC GmbH &amp; Co. KG. Mainz • Printed in Germany</pgFoot>
-                  </pb>
-               </titlePage>
-               <extent unit="pp">88</extent>
-               <?TODO meines erachtens hier nicht richtig, da es item-spezifisch sein kann, z.B. wenn er neu gebunden wurde ?>
-               <dimensions unit="cm">???</dimensions>
-               <?TODO meines erachtens hier nicht richtig, da es item-spezifisch sein kann, z.B. wenn er neu gebunden wurde ?>
-               <bindingDesc>Schott-gelber Einband mit Bild darauf; Rückendrahtheftung</bindingDesc>
-               <scoreFormat>Studienpartitur</scoreFormat>
-               <?TODO oder einfach Partitur? ?>
-            </physDesc>
+                  </titlePage>
+               <extent unit="pp" quantity="88">88 S. (87 bedruckt)</extent>
+               <dimensions unit="cm">22,7x30</dimensions>
+               <captureMode auth.uri="http://id.loc.gov/vocabulary/mmusnotation/" codedval="staff">Common Western Notation</captureMode>
+               <bindingDesc>Schott-gelber Kartin-Einband mit Leimrückenbindung</bindingDesc>
+               <scoreFormat auth="LOC" auth.uri="http://loc.gov/marc/bibliographic/bd008m.html" codedval="marc:20b">Studien-Partitur</scoreFormat>
+               </physDesc>
             <seriesStmt>
                <title>Musik unserer Zeit</title>
             </seriesStmt>
-            <creation> <date isodate="1969-02-19"/> <corpName>Musiktheater im Revier</corpName> <corpName>Städtisches Orchester Gelsenkirchen <persName role="conuctor">Ljubomir Romansky</persName></corpName><?TODO hat an sich nichts mit dieser Manifestation zu tun; eher mit dem Werk ?> </creation>
             <itemList>
                <item>
                   <physLoc>
-                     <repository>Privatbesitz</repository>
+                     <repository>
+                        <corpName>Lippische Landesbibliothek</corpName>
+                        <geogName>Detmold</geogName>
+                        <identifier>Mus-n 13550</identifier>
+                     </repository>
                   </physLoc>
                </item>
             </itemList>
