@@ -14,6 +14,17 @@
       <sourceDesc>
         <source>
           <bibl>[Zimm70] Zimmermann, Bernd Alois: Photoptosis. Prélude für großes Orchester. Studien-Partitur. Mainz : B. Schott’s Söhne, 1970</bibl>
+          <biblStruct>
+            <monogr>
+              <composer>Zimmermann, Bernd Alois</composer>
+              <title type="main">Photoptosis</title>
+              <title type="subordinate">Prelude für großes Orchester</title>
+              <imprint>
+                <publisher>B. Schott's Söhne</publisher>
+                <date>1970</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
         </source>
       </sourceDesc>
     </fileDesc>
