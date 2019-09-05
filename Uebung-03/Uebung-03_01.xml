@@ -2,1702 +2,282 @@
 <?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/4.0.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" xml:id="freidi-recording_Ackermann1951">
-    <meiHead>
-        <fileDesc>
-            <titleStmt>
-                <title>Ackermann, Otto: Der Freischütz 1951, Wien</title>
-            </titleStmt>
-            <pubStmt>
-                <unpub/>
-            </pubStmt>
-        </fileDesc>
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Ackermann, Otto: Der Freischütz 1951, Wien</title>
+      </titleStmt>
+      <pubStmt>
+        <unpub/>
+      </pubStmt>
+    </fileDesc>
+    
+    <workList>
+      <work>
+        <identifier type="opus">77</identifier>
+        <!-- from WeGA-->
+        <identifier type="catalog" auth="WeV">C.7</identifier>
+        <!-- from WeGA-->
+        <identifier type="internal" label="WeGA" auth="Carl-Maria-von-Weber-Gesamtausgabe" auth.uri="http://www.weber-gesamtausgabe.de">A020040</identifier>
+        <identifier type="catalog" auth="GND" auth.uri="http://d-nb.info/gnd/">30017148X</identifier>
+        <title>Der Freischütz, romantische Oper in drei Aufzügen</title>
+        <composer>
+          <persName role="cmp" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Weber, Carl Maria von</persName>
+        </composer>
+        <librettist>
+          <persName role="lbt" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Friedrich Kind</persName>
+        </librettist>
         
-        <workList>
-            <work>
-                <identifier type="opus">77</identifier>
-            <!-- from WeGA-->
-                <identifier type="catalog" auth="WeV">C.7</identifier>
-            <!-- from WeGA-->
-                <identifier type="internal" label="WeGA" auth="Carl-Maria-von-Weber-Gesamtausgabe" auth.uri="http://www.weber-gesamtausgabe.de">A020040</identifier>
-                <identifier type="catalog" auth="GND" auth.uri="http://d-nb.info/gnd/">30017148X</identifier>
-                <title>Der Freischütz, romantische Oper in drei Aufzügen</title>
-                <composer>
-                    <persName role="cmp" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Weber, Carl Maria von</persName>
-                </composer>
-                <librettist>
-                    <persName role="lbt" codedval="5115204-6" auth.uri="http://d-nb.info/gnd/" auth="GND">Friedrich Kind</persName>
-                </librettist>
-                
-                <history><!-- from WeGA -->
-                    <p>Vollendet am <date isodate="1820-05-13">13. Mai 1820</date>.</p>
-                    <p>Mit nachkomponierter Arie Nr. 13: Komponiert am <date isodate="1821-05-28">28. Mai
-                        1821</date>.</p>
-                </history>
-                
-                <classification>
-                    <termList class="https://www.dnb.de/SharedDocs/Downloads/DE/Service/Hilfe/service/ddcSachgruppenDNBMusikKonkordanzAltNeu.html">
-                        <term>
-                            <identifier>02a</identifier>
-                            <term>Werke für Einzelstimmen</term>
-                        </term>
-                        <term>
-                            <term>Oper</term>
-                        </term>
-                    </termList>
-                    <termList>
-                        <term class="http://purl.org/ontology/mo/MusicalWork">MusicalWork</term>
-                    </termList>
-                </classification>
-                <expressionList>
-                   <expression label="A" xml:id="freidi-work_exp-musicSource_A">
-                       <title>Langfassung</title>
-                        <componentList>
-                            <expression label="A_mov6" xml:id="freidi-work_exp-musicSource_A_mov6">
-                                    <title>No. 6. Duetto.</title>
-                                <perfMedium>
-                                    <perfResList>
-                                        <perfRes xml:id="incef21254-611d-434c-be03-73f6e70e8d8e"
-                                          label="Flauti"
-                                          n="1"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="wa"/>
-                                        <perfRes xml:id="in9abbba97-05d4-44dd-8137-475635566a9c"
-                                          label="Clarinetti A"
-                                          n="2"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="wf"/>
-                                        <perfRes xml:id="in0962e3c9-2beb-47cc-ad18-25ae80e4bc84"
-                                          label="Corni A"
-                                          n="3"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="wf"/>
-                                        <perfRes xml:id="ind3394847-3687-4cab-82c3-992cc8b8d119"
-                                          label="Fagotti"
-                                          n="4"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="wd"/>
-                                        <perfRes xml:id="in6987f814-559b-4154-a848-1df9bd6be9bb"
-                                          label="Violini I"
-                                          n="5"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="sa"/>
-                                        <perfRes xml:id="in8464d66b-a4fc-44cf-973b-aaf6e7dd7978"
-                                          label="Violini II"
-                                          n="6"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="sa"/>
-                                        <perfRes xml:id="inb6764074-c16b-4507-9773-a0371b5300e0"
-                                          label="Viole"
-                                          n="7"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="sb"/>
-                                        <perfRes xml:id="in182fae35-109d-43ce-bb8e-4c9ec75a1fc5"
-                                          label="Agathe"
-                                          n="8"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="va"/>
-                                        <perfRes xml:id="in1522dfec-54a1-475a-8aee-2aa0bcb9c8a1"
-                                          label="Ännchen"
-                                          n="9"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="va"
-                                          solo="true"/>
-                                        <perfRes xml:id="inc1792e34-bcb4-4073-a3ce-447321e089d7"
-                                          label="Violoncelli"
-                                          n="10"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="sc"/>
-                                        <perfRes xml:id="incb77b90f-c0f5-4cd0-a583-f04a9f79ff33"
-                                          label="Bassi"
-                                          n="11"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="sd"/>
-                                    </perfResList>
-                                </perfMedium>
-                            </expression>
-                            
-                            <expression label="A_mov8" xml:id="freidi-work_exp-musicSource_A_mov8">
-                                    <title>
-                                        Nro: 8. Scena ed Aria.
-                                    </title>
-                                <perfMedium>
-                                    <perfResList>
-                                        <perfRes xml:id="in1586b29c-7f5e-4f1d-8208-0f19a40783b6"
-                                          label="Flauti"
-                                          n="1"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="wa"/>
-                                        <perfRes xml:id="in64fb3f86-c5d6-40e1-944f-6b76d527621d"
-                                          label="Oboi"
-                                          n="2"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="wb"/>
-                                        <perfRes xml:id="in6563dfcc-9e63-4f33-87e9-bd79aa942cca"
-                                          label="Clarinetti A"
-                                          n="3"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="wc"/>
-                                        <perfRes xml:id="inabbdf112-27a0-4868-bbaa-6dc1238f1dbc"
-                                          label="Corni E"
-                                          n="4"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="wf"/>
-                                        <perfRes xml:id="in8d6f0979-0661-4796-911d-debe1b876e57"
-                                          label="Corni C"
-                                          n="5"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="wf"/>
-                                        <perfRes xml:id="in121d9b9f-e8a5-4027-942a-92ce20b5880e"
-                                          label="Fagotti"
-                                          n="6"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="wd"/>
-                                        <perfRes xml:id="in85fbefd3-5241-4e40-a52f-fc6611606d30"
-                                          label="Violini I"
-                                          n="7"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="sa"/>
-                                        <perfRes xml:id="ind7b8837d-2ef8-42d8-aeb4-2eb18c8cf120"
-                                          label="Violini II"
-                                          n="8"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="sa"/>
-                                        <perfRes xml:id="in1aae098f-35be-428c-b580-0626c8ea2550"
-                                          label="Viole"
-                                          n="9"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="sb"/>
-                                        <perfRes xml:id="in7e63ac45-ca18-49c6-9f11-73b5f9a1cbf1"
-                                          label="Agathe"
-                                          n="10"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="va"
-                                          solo="true"/>
-                                        <perfRes xml:id="in9b60811f-053a-467f-aa57-abb95fc91b11"
-                                          label="Violoncelli"
-                                          n="11"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="sc"/>
-                                        <perfRes xml:id="in786ed9fc-9d03-4bb7-b48e-71e27c6c5698"
-                                          label="Bassi"
-                                          n="12"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="sd"/>
-                                       
-                                    </perfResList>
-                                </perfMedium>
-                            </expression>
-                            <expression label="A_mov9" xml:id="freidi-work_exp-musicSource_A_mov9">
-                                    <title>
-                                        Nro. 9. Terzetto.
-                                    </title>
-                                <perfMedium>
-                                    <perfResList>
-                                        <perfRes xml:id="in47162fd8-64cd-419b-938e-0b2352e9187f"
-                                          label="Flauti"
-                                          n="1"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="wa"/>
-                                        <perfRes xml:id="in413d5458-fb36-4dc0-ac36-b4061fb276f1"
-                                          label="Clarinetti B"
-                                          n="2"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="wc"/>
-                                        <perfRes xml:id="in796a1d11-c6ee-475c-b9ff-db2fe0b1efb3"
-                                          label="Corni Es"
-                                          n="3"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="wf"/>
-                                        <perfRes xml:id="inb89bb81e-a46e-44fb-8ebe-8cbe3a653f1b"
-                                          label="Fagotti"
-                                          n="4"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="wd"/>
-                                        <perfRes xml:id="in5750d6ea-e941-4220-98b8-a0b984af40e2"
-                                          label="Violini I"
-                                          n="5"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="sa"/>
-                                        <perfRes xml:id="in49de499c-e2f7-4ca1-9f01-9b5b4625d70c"
-                                          label="Violini II"
-                                          n="6"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="sa"/>
-                                        <perfRes xml:id="in8b9b7d51-3497-4642-a73a-4c50cc10c56c"
-                                          label="Viole"
-                                          n="7"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="sb"/>
-                                        <perfRes xml:id="in53382a90-816d-4ae8-9018-53547b5deba4"
-                                          label="Agathe"
-                                          n="8"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="va"
-                                          solo="true"/>
-                                        <perfRes xml:id="in3c095f72-26c6-4833-b4df-6f76fb59609d"
-                                          label="Ännchen"
-                                          n="9"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="va"
-                                          solo="true"/>
-                                        <perfRes xml:id="incb25774d-01b3-4fd8-999c-8e59a256a0f8"
-                                          label="Max"
-                                          n="10"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="vd"
-                                          solo="true"/>
-                                        <perfRes xml:id="in3d50ab6a-3467-416c-a8f7-9fa085745671"
-                                          label="Violoncelli"
-                                          n="11"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="sc"/>
-                                        <perfRes xml:id="incde47967-bc12-4c82-a2cd-58978d8afa4b"
-                                          label="Bassi"
-                                          n="12"
-                                          auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
-                                          codedval="sd"/>
-                                    </perfResList>
-                                </perfMedium>
-                            </expression>
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                        </componentList>
-                    </expression>
+        <history><!-- from WeGA -->
+          <p>Vollendet am <date isodate="1820-05-13">13. Mai 1820</date>.</p>
+          <p>Mit nachkomponierter Arie Nr. 13: Komponiert am <date isodate="1821-05-28">28. Mai
+            1821</date>.</p>
+        </history>
+        
+        <classification>
+          <termList class="https://www.dnb.de/SharedDocs/Downloads/DE/Service/Hilfe/service/ddcSachgruppenDNBMusikKonkordanzAltNeu.html">
+            <term>
+              <identifier>02a</identifier>
+              <term>Werke für Einzelstimmen</term>
+            </term>
+            <term>
+              <term>Oper</term>
+            </term>
+          </termList>
+          <termList>
+            <term class="http://purl.org/ontology/mo/MusicalWork">MusicalWork</term>
+          </termList>
+        </classification>
+        <expressionList>
+          <expression label="A" xml:id="freidi-work_exp-musicSource_A">
+            <title>Langfassung</title>
+            <componentList>
+              <expression label="A_mov6" xml:id="freidi-work_exp-musicSource_A_mov6">
+                <title>No. 6. Duetto.</title>
+                <perfMedium>
+                  <perfResList>
+                    <perfRes xml:id="incef21254-611d-434c-be03-73f6e70e8d8e"
+                      label="Flauti"
+                      n="1"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="wa"/>
+                    <perfRes xml:id="in9abbba97-05d4-44dd-8137-475635566a9c"
+                      label="Clarinetti A"
+                      n="2"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="wf"/>
+                    <perfRes xml:id="in0962e3c9-2beb-47cc-ad18-25ae80e4bc84"
+                      label="Corni A"
+                      n="3"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="wf"/>
+                    <perfRes xml:id="ind3394847-3687-4cab-82c3-992cc8b8d119"
+                      label="Fagotti"
+                      n="4"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="wd"/>
+                    <perfRes xml:id="in6987f814-559b-4154-a848-1df9bd6be9bb"
+                      label="Violini I"
+                      n="5"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="sa"/>
+                    <perfRes xml:id="in8464d66b-a4fc-44cf-973b-aaf6e7dd7978"
+                      label="Violini II"
+                      n="6"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="sa"/>
+                    <perfRes xml:id="inb6764074-c16b-4507-9773-a0371b5300e0"
+                      label="Viole"
+                      n="7"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="sb"/>
+                    <perfRes xml:id="in182fae35-109d-43ce-bb8e-4c9ec75a1fc5"
+                      label="Agathe"
+                      n="8"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="va"/>
+                    <perfRes xml:id="in1522dfec-54a1-475a-8aee-2aa0bcb9c8a1"
+                      label="Ännchen"
+                      n="9"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="va"
+                      solo="true"/>
+                    <perfRes xml:id="inc1792e34-bcb4-4073-a3ce-447321e089d7"
+                      label="Violoncelli"
+                      n="10"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="sc"/>
+                    <perfRes xml:id="incb77b90f-c0f5-4cd0-a583-f04a9f79ff33"
+                      label="Bassi"
+                      n="11"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="sd"/>
+                  </perfResList>
+                </perfMedium>
+              </expression>
+              
+              <expression label="A_mov8" xml:id="freidi-work_exp-musicSource_A_mov8">
+                <title>
+                  Nro: 8. Scena ed Aria.
+                </title>
+                <perfMedium>
+                  <perfResList>
+                    <perfRes xml:id="in1586b29c-7f5e-4f1d-8208-0f19a40783b6"
+                      label="Flauti"
+                      n="1"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="wa"/>
+                    <perfRes xml:id="in64fb3f86-c5d6-40e1-944f-6b76d527621d"
+                      label="Oboi"
+                      n="2"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="wb"/>
+                    <perfRes xml:id="in6563dfcc-9e63-4f33-87e9-bd79aa942cca"
+                      label="Clarinetti A"
+                      n="3"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="wc"/>
+                    <perfRes xml:id="inabbdf112-27a0-4868-bbaa-6dc1238f1dbc"
+                      label="Corni E"
+                      n="4"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="wf"/>
+                    <perfRes xml:id="in8d6f0979-0661-4796-911d-debe1b876e57"
+                      label="Corni C"
+                      n="5"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="wf"/>
+                    <perfRes xml:id="in121d9b9f-e8a5-4027-942a-92ce20b5880e"
+                      label="Fagotti"
+                      n="6"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="wd"/>
+                    <perfRes xml:id="in85fbefd3-5241-4e40-a52f-fc6611606d30"
+                      label="Violini I"
+                      n="7"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="sa"/>
+                    <perfRes xml:id="ind7b8837d-2ef8-42d8-aeb4-2eb18c8cf120"
+                      label="Violini II"
+                      n="8"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="sa"/>
+                    <perfRes xml:id="in1aae098f-35be-428c-b580-0626c8ea2550"
+                      label="Viole"
+                      n="9"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="sb"/>
+                    <perfRes xml:id="in7e63ac45-ca18-49c6-9f11-73b5f9a1cbf1"
+                      label="Agathe"
+                      n="10"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="va"
+                      solo="true"/>
+                    <perfRes xml:id="in9b60811f-053a-467f-aa57-abb95fc91b11"
+                      label="Violoncelli"
+                      n="11"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="sc"/>
+                    <perfRes xml:id="in786ed9fc-9d03-4bb7-b48e-71e27c6c5698"
+                      label="Bassi"
+                      n="12"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="sd"/>
                     
-                    <!-- für alle musicSources anlegen -->
-                    
-                    <!-- chronologisch einsortieren nur zur Dokumentation -->
-                  
-                    <!-- Aufführungen -->
-                    
-                    <expression label="Ackermann 1951" xml:id="freidi-work_exp-Ackermann1951">
-                        <title>
-                            <persName>Ackermann, Otto</persName>
-                            <date isodate="1951-04">April 1951</date>
-                            <geogName>Salzburg</geogName>
-                        </title>
-                        <contributor>
-                            <corpName role="mus"
-                                auth="GND"
-                                auth.uri="http://d-nb.info/gnd/"
-                                codedval="802137-5">Chor der Wiener Staatsoper</corpName>
-                        </contributor>
-                        <contributor>
-                            <corpName role="mus"
-                                auth="GND"
-                                auth.uri="http://d-nb.info/gnd/"
-                                codedval="2017806-2">Wiener Philharmonisches Orchester</corpName>
-                        </contributor>
-                        <contributor>
-                            <persName role="cnd"
-                                auth="GND"
-                                auth.uri="http://d-nb.info/gnd/"
-                                codedval="119385996">Otto Ackermann</persName>
-                        </contributor>
-                        
-                        <perfMedium>
-                            <castList>
-                                <castGrp label="singers">
-                                    
-                                    <castItem>
-                                        <actor>Poell, Alfred</actor>
-                                        <role>Ottokar</role>
-                                        <roleDesc>böhmischer Fürst</roleDesc>
-                                    </castItem>
-                                    
-                                    <castItem>
-                                        <actor>Bierbach, Franz</actor>
-                                        <role>Kuno</role>
-                                        <roleDesc>fürstlicher Erbförster</roleDesc>
-                                    </castItem>
-                                    
-                                    <castItem>
-                                        <actor>Cunitz, Maud</actor>
-                                        <role>Agathe</role>
-                                        <roleDesc>seine Tochter</roleDesc>
-                                    </castItem>
-                                    
-                                    <castItem>
-                                        <actor>Loose, Emmy</actor>
-                                        <role>Ännchen</role>
-                                        <roleDesc>eine junge Verwandte</roleDesc>
-                                    </castItem>
-                                    
-                                    <castItem>
-                                        <actor>Rus, Marjan</actor>
-                                        <role>Kaspar</role>
-                                        <roleDesc>erster Jägerbursche</roleDesc>
-                                    </castItem>
-                                    
-                                    <castItem>
-                                        <actor>Hopf, Hans</actor>
-                                        <role>Max</role>
-                                        <roleDesc>zweiter Jägerbursche</roleDesc>
-                                    </castItem>
-                                    
-                                    <castItem>
-                                        <actor>Edelmann, Otto</actor>
-                                        <role>Ein Eremit</role>
-                                    </castItem>
-                                    
-                                    <castItem>
-                                        <actor>Dönch, Karl</actor>
-                                        <role>Kilian</role>
-                                        <roleDesc>ein reicher Bauer</roleDesc>
-                                    </castItem>
-                                    
-                                    <castItem>
-                                        <actor>Schober, Maria</actor>
-                                        <role>Brautjungfer</role>
-                                    </castItem>
-                                    
-                                    <castItem>
-                                        <actor>Felbermayer, Anny</actor>
-                                        <role>Brautjungfer</role>
-                                    </castItem>
-                                    
-                                    <castItem>
-                                        <actor>Siegert, Reinhold</actor>
-                                        <role>Samiel</role>
-                                        <roleDesc>der schwarze Jäger</roleDesc>
-                                    </castItem>
-                                    
-                                </castGrp>
-                            </castList>
-                        </perfMedium>
-                        
-                        <classification>
-                            <termList>
-                                <term class="http://purl.org/ontology/mo/Performance">Performance</term>
-                                <term class="http://purl.org/ontology/mo/Recording">Recording</term>
-                            </termList>
-                        </classification>
-                        
-                        <relationList>
-                            <relation rel="isRealizationOf" target="#freidi-work"/>
-                            <relation rel="hasEmbodiment"
-                               target="audioSources/freidi-recoding_Ackermann1951.xml#freidi-recoding_Ackermann1951"/>
-                        </relationList>
-                    </expression>
-                </expressionList>
-                <componentList><!-- TODO titel eintragen -->
-                    <work xml:id="freidi-work_no0">
-                        <title>Ouvertüre</title>
-                    </work>
-                    <work xml:id="freidi-work_no01">
-                        <title>Nummer 1</title>
-                    </work>
-                    <work xml:id="freidi-work_no02">
-                        <title>Nummer 2</title>
-                    </work>
-                    <work xml:id="freidi-work_no03">
-                        <title>Nummer 3</title>
-                    </work>
-                    <work xml:id="freidi-work_no04">
-                        <title>Nummer 4</title>
-                    </work>
-                    <work xml:id="freidi-work_no05">
-                        <title>Nummer 5</title>
-                    </work>
-                    <work xml:id="freidi-work_no06">
-                        <title>Nummer 6</title>
-                    </work>
-                    <work xml:id="freidi-work_no07">
-                        <title>Nummer 7</title>
-                    </work>
-                    <work xml:id="freidi-work_no08">
-                        <title>Nummer 8</title>
-                    </work>
-                    <work xml:id="freidi-work_no09">
-                        <title>Nummer 9</title>
-                    </work>
-                    <work xml:id="freidi-work_no10">
-                        <title>Nummer 10</title>
-                    </work>
-                    <work xml:id="freidi-work_no11">
-                        <title>Nummer 11</title>
-                    </work>
-                    <work xml:id="freidi-work_no12">
-                        <title>Nummer 12</title>
-                    </work>
-                    <work xml:id="freidi-work_no13">
-                        <title>Nummer 13</title>
-                    </work>
-                    <work xml:id="freidi-work_no14">
-                        <title>Nummer 14</title>
-                    </work>
-                    <work xml:id="freidi-work_no15">
-                        <title>Nummer 15</title>
-                    </work>
-                    <work xml:id="freidi-work_no16">
-                        <title>Nummer 16</title>
-                    </work>
-                </componentList>
-            </work>
-        </workList>
-        <manifestationList>
-            <manifestation>
-                <identifier type="labelCode">LC 00171</identifier>
-                <identifier type="orderNo">4761512</identifier>
-                <identifier type="EAN">0028947615125</identifier>
-                <titleStmt>
-                    <title type="main" xml:lang="de">Der Freischütz</title>
-                    <respStmt>
-                        <resp>Recording producer</resp>
-                        <persName>Victor Olof</persName>
-                    </respStmt>
-                    <respStmt>
-                        <resp>Recorded by</resp>
-                        <persName>Cyril Windebank</persName>
-                    </respStmt>
-                </titleStmt>
-                <pubStmt>
-                    <date isodate="2003"/>
-                    <respStmt>
-                        <corpName>Universal Music Classics &amp; Jazz</corpName>
-                    </respStmt>
-                    <availability>
-                        <useRestrict>(P) 2003 Universal Music Classics &amp; Jazz, a division of Universal Music GmbH, (C) 2003 Universal Music Classics &amp; Jazz, a division of Universal Music GmbH</useRestrict>
-                    </availability>
-                </pubStmt>
-                <physDesc>
-                    <captureMode><abbr>ADD</abbr></captureMode>
-                    <carrierForm>CD</carrierForm>
-                    <fileChar>44.1 kHz, 16 bit</fileChar>
-                    <playingSpeed>44.1 kHz</playingSpeed>
-                    <soundChan>mono</soundChan>
-                    <extent label="soundCarrier" unit="cd">2</extent>
-                    <titlePage facs="#freidi-recording_Ackermann1951_cover">
-                        <list>
-                            <li>Otto Ackermann</li>
-                            <li>Carl Maria von Weber</li>
-                            <li>Der Freischütz</li>
-                            <li>Wiener Staatsopernchor</li>
-                            <li>Wiener Philharmoniker</li>
-                        </list>
-                    </titlePage>
-                </physDesc>
-                
-                <seriesStmt>
-                    <title>eloquence Dokumente. Tondokumente großer Dirigenten.</title>
-                </seriesStmt>
-                
-                <classification>
-                    <termList>
-                        <term class="http://purl.org/ontology/mo/MusicalManifestation">musical manifestation</term>
-                    </termList>
-                </classification>
-                
-                <componentList>
-                    <manifestation label="CD 1" n="12" xml:id="freidi-recording_Ackermann1951_track1-12">
-                        <titleStmt>
-                            <title>Weber: "Schelm! Halt fest!" [Der Freischütz - Act 2]</title>
-                        </titleStmt>
-                        <relationList>
-                            <relation rel="isEmbodimentOf" target="#freidi-work_exp-Ackermann1951_no6"/>
-                            <relation rel="hasExemplar" target="#freidi-recording_Ackermann1951_no06"/>
-                        </relationList>
-                    </manifestation>
-                    <manifestation label="CD 1" n="16" xml:id="freidi-recording_Ackermann1951_track1-16">
-                        <titleStmt>
-                            <title>Weber: "Wie nahte mir der Schlummer" - "Leise, leise, fromme Weise!" [Der Freischütz - Act 2]</title>
-                        </titleStmt>
-                        <relationList>
-                            <relation rel="isEmbodimentOf" target="#freidi-work_exp-Ackermann1951_no8"/>
-                            <relation rel="hasExemplar" target="#freidi-recording_Ackermann1951_no08"/>
-                        </relationList>
-                    </manifestation>
-                    <manifestation label="CD 1" n="18" xml:id="freidi-recording_Ackermann1951_track1-18">
-                        <titleStmt>
-                            <title>Weber: "Wie? Was? Entzetzen!" [Der Freischütz - Act 2]</title>
-                        </titleStmt>
-                        <relationList>
-                            <relation rel="isEmbodimentOf" target="#freidi-work_exp-Ackermann1951_no9"/>
-                            <relation rel="hasExemplar" target="#freidi-recording_Ackermann1951_no09"/>
-                        </relationList>
-                    </manifestation>
-                </componentList>
-                <relationList>
-                    <relation rel="isEmbodimentOf" target="#freidi-work_exp-Ackermann1951"/>
-                </relationList>
-            </manifestation>
-        </manifestationList>
-        <revisionDesc>
-            <change n="1">
-                <respStmt>
-                    <persName>Benjamin W. Bohl</persName>
-                </respStmt>
-                <changeDesc>
-                    <p>First draft and file creation</p>
-                </changeDesc>
-                <date isodate="2015-04-16"/>
-            </change>
-            <change n="2">
-                <respStmt>
-                    <persName>Benjamin W. Bohl</persName>
-                </respStmt>
-                <changeDesc>
-                    <p>included all clips into recordings for available tracks</p>
-                </changeDesc>
-                <date isodate="2015-10-23"/>
-            </change>
-            <change n="3">
-                <respStmt>
-                    <persName>Benjamin W. Bohl</persName>
-                </respStmt>
-                <changeDesc>
-                    <p>Update data to MEI v4.0.1</p>
-                </changeDesc>
-                <date isodate="2019-09-04">Benjamin W. Bohl</date>
-            </change>
-            <change n="3">
-                <respStmt>
-                    <persName>Benjamin W. Bohl</persName>
-                </respStmt>
-                <changeDesc>
-                    <p>Add some data from freidi-work.xml and update to MEI v4.0.1</p>
-                </changeDesc>
-                <date isodate="2019-09-04">Benjamin W. Bohl</date>
-            </change>
-        </revisionDesc>
-    </meiHead>
-    <music>
-        <facsimile>
-            <surface xml:id="freidi-recording_Ackermann1951_cover">
-                <graphic xml:id="freidi-recording_Ackermann1951_cover_scan" target="freidi-recording_Ackermann1951.jpg" type="cover" width="500" height="500"/>
-            </surface>
-        </facsimile>
-        <performance>
-            <recording xml:id="freidi-recording_Ackermann1951_06" decls="#freidi-recording_Ackermann1951_track1-12">
-                <avFile target="Weber_Freischuetz-06_Ackermann1951.ogg"/>
-                <avFile target="Weber_Freischuetz-06_Ackermann1951.mp3"/>
-                <clip begin="01.21529167" end="03.06685417" betype="time" startid="#Ackermann1951_mov6_measure1" type="measure"/>
-                <clip begin="03.06685417" end="04.83597917" betype="time" startid="#Ackermann1951_mov6_measure2" type="measure"/>
-                <clip begin="04.83597917" end="06.42847917" betype="time" startid="#Ackermann1951_mov6_measure3" type="measure"/>
-                <clip begin="06.42847917" end="08.12064583" betype="time" startid="#Ackermann1951_mov6_measure4" type="measure"/>
-                <clip begin="08.12064583" end="09.84564583" betype="time" startid="#Ackermann1951_mov6_measure5" type="measure"/>
-                <clip begin="09.84564583" end="11.44460417" betype="time" startid="#Ackermann1951_mov6_measure6" type="measure"/>
-                <clip begin="11.44460417" end="13.62914583" betype="time" startid="#Ackermann1951_mov6_measure7" type="measure"/>
-                <clip begin="13.62914583" end="15.32843750" betype="time" startid="#Ackermann1951_mov6_measure8" type="measure"/>
-                <clip begin="15.32843750" end="16.80826041" betype="time" startid="#Ackermann1951_mov6_measure9" type="measure"/>
-                <clip begin="16.80826041" end="18.32097917" betype="time" startid="#Ackermann1951_mov6_measure10" type="measure"/>
-                <clip begin="18.32097917" end="20.25779167" betype="time" startid="#Ackermann1951_mov6_measure11" type="measure"/>
-                <clip begin="20.25779167" end="21.83445833" betype="time" startid="#Ackermann1951_mov6_measure12" type="measure"/>
-                <clip begin="21.83445833" end="23.59685417" betype="time" startid="#Ackermann1951_mov6_measure13" type="measure"/>
-                <clip begin="23.59685417" end="25.38697917" betype="time" startid="#Ackermann1951_mov6_measure14" type="measure"/>
-                <clip begin="25.38697917" end="27.04779167" betype="time" startid="#Ackermann1951_mov6_measure15" type="measure"/>
-                <clip begin="27.04779167" end="28.95356250" betype="time" startid="#Ackermann1951_mov6_measure16" type="measure"/>
-                <clip begin="28.95356250" end="30.71364583" betype="time" startid="#Ackermann1951_mov6_measure17" type="measure"/>
-                <clip begin="30.71364583" end="32.48325000" betype="time" startid="#Ackermann1951_mov6_measure18" type="measure"/>
-                <clip begin="32.48325000" end="34.60972917" betype="time" startid="#Ackermann1951_mov6_measure19" type="measure"/>
-                <clip begin="34.60972917" end="36.30868750" betype="time" startid="#Ackermann1951_mov6_measure20" type="measure"/>
-                <clip begin="36.30868750" end="37.96297917" betype="time" startid="#Ackermann1951_mov6_measure21" type="measure"/>
-                <clip begin="37.96297917" end="39.72468750" betype="time" startid="#Ackermann1951_mov6_measure22" type="measure"/>
-                <clip begin="39.72468750" end="41.47714583" betype="time" startid="#Ackermann1951_mov6_measure23" type="measure"/>
-                <clip begin="41.47714583" end="43.25360417" betype="time" startid="#Ackermann1951_mov6_measure24" type="measure"/>
-                <clip begin="43.25360417" end="45.06216667" betype="time" startid="#Ackermann1951_mov6_measure25" type="measure"/>
-                <clip begin="45.06216667" end="46.82137500" betype="time" startid="#Ackermann1951_mov6_measure26" type="measure"/>
-                <clip begin="46.82137500" end="48.80720833" betype="time" startid="#Ackermann1951_mov6_measure27" type="measure"/>
-                <clip begin="48.80720833" end="50.51466667" betype="time" startid="#Ackermann1951_mov6_measure28" type="measure"/>
-                <clip begin="50.51466667" end="52.65927083" betype="time" startid="#Ackermann1951_mov6_measure29" type="measure"/>
-                <clip begin="52.65927083" end="54.54233333" betype="time" startid="#Ackermann1951_mov6_measure30" type="measure"/>
-                <clip begin="54.54233333" end="55.93618750" betype="time" startid="#Ackermann1951_mov6_measure31" type="measure"/>
-                <clip begin="55.93618750" end="57.69533333" betype="time" startid="#Ackermann1951_mov6_measure32" type="measure"/>
-                <clip begin="57.69533333" end="59.50184375" betype="time" startid="#Ackermann1951_mov6_measure33" type="measure"/>
-                <clip begin="59.50184375" end="61.23708333" betype="time" startid="#Ackermann1951_mov6_measure34" type="measure"/>
-                <clip begin="61.23708333" end="63.16168750" betype="time" startid="#Ackermann1951_mov6_measure35" type="measure"/>
-                <clip begin="63.16168750" end="64.94672917" betype="time" startid="#Ackermann1951_mov6_measure36" type="measure"/>
-                <clip begin="64.94672917" end="66.67520833" betype="time" startid="#Ackermann1951_mov6_measure37" type="measure"/>
-                <clip begin="66.67520833" end="68.51291667" betype="time" startid="#Ackermann1951_mov6_measure38" type="measure"/>
-                <clip begin="68.51291667" end="70.44822917" betype="time" startid="#Ackermann1951_mov6_measure39" type="measure"/>
-                <clip begin="70.44822917" end="72.20316667" betype="time" startid="#Ackermann1951_mov6_measure40" type="measure"/>
-                <clip begin="72.20316667" end="73.67839583" betype="time" startid="#Ackermann1951_mov6_measure41" type="measure"/>
-                <clip begin="73.67839583" end="75.49027083" betype="time" startid="#Ackermann1951_mov6_measure42" type="measure"/>
-                <clip begin="75.49027083" end="77.10595833" betype="time" startid="#Ackermann1951_mov6_measure43" type="measure"/>
-                <clip begin="77.10595833" end="78.82875000" betype="time" startid="#Ackermann1951_mov6_measure44" type="measure"/>
-                <clip begin="78.82875000" end="80.69570833" betype="time" startid="#Ackermann1951_mov6_measure45" type="measure"/>
-                <clip begin="80.69570833" end="82.37985417" betype="time" startid="#Ackermann1951_mov6_measure46" type="measure"/>
-                <clip begin="82.37985417" end="84.02209375" betype="time" startid="#Ackermann1951_mov6_measure47" type="measure"/>
-                <clip begin="84.02209375" end="85.87658333" betype="time" startid="#Ackermann1951_mov6_measure48" type="measure"/>
-                <clip begin="85.87658333" end="87.61933333" betype="time" startid="#Ackermann1951_mov6_measure49" type="measure"/>
-                <clip begin="87.61933333" end="89.38941667" betype="time" startid="#Ackermann1951_mov6_measure50" type="measure"/>
-                <clip begin="89.38941667" end="91.14860417" betype="time" startid="#Ackermann1951_mov6_measure51" type="measure"/>
-                <clip begin="91.14860417" end="92.84245833" betype="time" startid="#Ackermann1951_mov6_measure52" type="measure"/>
-                <clip begin="92.84245833" end="94.60985417" betype="time" startid="#Ackermann1951_mov6_measure53" type="measure"/>
-                <clip begin="94.60985417" end="96.07193750" betype="time" startid="#Ackermann1951_mov6_measure54" type="measure"/>
-                <clip begin="96.07193750" end="97.71625000" betype="time" startid="#Ackermann1951_mov6_measure55" type="measure"/>
-                <clip begin="97.71625000" end="99.83906250" betype="time" startid="#Ackermann1951_mov6_measure56" type="measure"/>
-                <clip begin="99.83906250" end="101.42543750" betype="time" startid="#Ackermann1951_mov6_measure57" type="measure"/>
-                <clip begin="101.42543750" end="103.15729167" betype="time" startid="#Ackermann1951_mov6_measure58" type="measure"/>
-                <clip begin="103.15729167" end="104.89193750" betype="time" startid="#Ackermann1951_mov6_measure59" type="measure"/>
-                <clip begin="104.89193750" end="106.64800000" betype="time" startid="#Ackermann1951_mov6_measure60" type="measure"/>
-                <clip begin="106.64800000" end="108.35466667" betype="time" startid="#Ackermann1951_mov6_measure61" type="measure"/>
-                <clip begin="108.35466667" end="110.07589583" betype="time" startid="#Ackermann1951_mov6_measure62" type="measure"/>
-                <clip begin="110.07589583" end="111.92166667" betype="time" startid="#Ackermann1951_mov6_measure63" type="measure"/>
-                <clip begin="111.92166667" end="113.65225000" betype="time" startid="#Ackermann1951_mov6_measure64" type="measure"/>
-                <clip begin="113.65225000" end="115.39779167" betype="time" startid="#Ackermann1951_mov6_measure65" type="measure"/>
-                <clip begin="115.39779167" end="117.05118750" betype="time" startid="#Ackermann1951_mov6_measure66" type="measure"/>
-                <clip begin="117.05118750" end="118.77564583" betype="time" startid="#Ackermann1951_mov6_measure67" type="measure"/>
-                <clip begin="118.77564583" end="120.57356250" betype="time" startid="#Ackermann1951_mov6_measure68" type="measure"/>
-                <clip begin="120.57356250" end="122.34906250" betype="time" startid="#Ackermann1951_mov6_measure69" type="measure"/>
-                <clip begin="122.34906250" end="124.01972917" betype="time" startid="#Ackermann1951_mov6_measure70" type="measure"/>
-                <clip begin="124.01972917" end="125.80466667" betype="time" startid="#Ackermann1951_mov6_measure71" type="measure"/>
-                <clip begin="125.80466667" end="127.63137500" betype="time" startid="#Ackermann1951_mov6_measure72" type="measure"/>
-                <clip begin="127.63137500" end="129.22364583" betype="time" startid="#Ackermann1951_mov6_measure73" type="measure"/>
-                <clip begin="129.22364583" end="130.94097917" betype="time" startid="#Ackermann1951_mov6_measure74" type="measure"/>
-                <clip begin="130.94097917" end="132.67581250" betype="time" startid="#Ackermann1951_mov6_measure75" type="measure"/>
-                <clip begin="132.67581250" end="134.36112500" betype="time" startid="#Ackermann1951_mov6_measure76" type="measure"/>
-                <clip begin="134.36112500" end="136.02147917" betype="time" startid="#Ackermann1951_mov6_measure77" type="measure"/>
-                <clip begin="136.02147917" end="137.68475000" betype="time" startid="#Ackermann1951_mov6_measure78" type="measure"/>
-                <clip begin="137.68475000" end="139.39722917" betype="time" startid="#Ackermann1951_mov6_measure79" type="measure"/>
-                <clip begin="139.39722917" end="141.46100000" betype="time" startid="#Ackermann1951_mov6_measure80" type="measure"/>
-                <clip begin="141.46100000" end="143.12033333" betype="time" startid="#Ackermann1951_mov6_measure81" type="measure"/>
-                <clip begin="143.12033333" end="144.90304167" betype="time" startid="#Ackermann1951_mov6_measure82" type="measure"/>
-                <clip begin="144.90304167" end="146.72581250" betype="time" startid="#Ackermann1951_mov6_measure83" type="measure"/>
-                <clip begin="146.72581250" end="148.57562500" betype="time" startid="#Ackermann1951_mov6_measure84" type="measure"/>
-                <clip begin="148.57562500" end="150.42120833" betype="time" startid="#Ackermann1951_mov6_measure85" type="measure"/>
-                <clip begin="150.42120833" end="152.32793750" betype="time" startid="#Ackermann1951_mov6_measure86" type="measure"/>
-                <clip begin="152.32793750" end="154.08747917" betype="time" startid="#Ackermann1951_mov6_measure87" type="measure"/>
-                <clip begin="154.08747917" end="155.91708333" betype="time" startid="#Ackermann1951_mov6_measure88" type="measure"/>
-                <clip begin="155.91708333" end="157.77068750" betype="time" startid="#Ackermann1951_mov6_measure89" type="measure"/>
-                <clip begin="157.77068750" end="159.66731250" betype="time" startid="#Ackermann1951_mov6_measure90" type="measure"/>
-                <clip begin="159.66731250" end="161.49681250" betype="time" startid="#Ackermann1951_mov6_measure91" type="measure"/>
-                <clip begin="161.49681250" end="163.22940625" betype="time" startid="#Ackermann1951_mov6_measure92" type="measure"/>
-                <clip begin="163.22940625" end="164.99193750" betype="time" startid="#Ackermann1951_mov6_measure93" type="measure"/>
-                <clip begin="164.99193750" end="166.75233333" betype="time" startid="#Ackermann1951_mov6_measure94" type="measure"/>
-                <clip begin="166.75233333" end="168.49181250" betype="time" startid="#Ackermann1951_mov6_measure95" type="measure"/>
-                <clip begin="168.49181250" end="170.41283333" betype="time" startid="#Ackermann1951_mov6_measure96" type="measure"/>
-                <clip begin="170.41283333" end="172.29385417" betype="time" startid="#Ackermann1951_mov6_measure97" type="measure"/>
-                <clip begin="172.29385417" end="174.13814583" betype="time" startid="#Ackermann1951_mov6_measure98" type="measure"/>
-                <clip begin="174.13814583" end="176.10589583" betype="time" startid="#Ackermann1951_mov6_measure99" type="measure"/>
-                <clip begin="176.10589583" end="178.26602083" betype="time" startid="#Ackermann1951_mov6_measure100" type="measure"/>
-                <clip begin="178.26602083" end="180.01152083" betype="time" startid="#Ackermann1951_mov6_measure101" type="measure"/>
-                <clip begin="180.01152083" end="182.10897917" betype="time" startid="#Ackermann1951_mov6_measure102" type="measure"/>
-                <clip begin="182.10897917" end="183.89104167" betype="time" startid="#Ackermann1951_mov6_measure103" type="measure"/>
-                <clip begin="183.89104167" end="185.66804167" betype="time" startid="#Ackermann1951_mov6_measure104" type="measure"/>
-                <clip begin="185.66804167" end="187.47397917" betype="time" startid="#Ackermann1951_mov6_measure105" type="measure"/>
-                <clip begin="187.47397917" end="189.37831250" betype="time" startid="#Ackermann1951_mov6_measure106" type="measure"/>
-                <clip begin="189.37831250" end="191.26197917" betype="time" startid="#Ackermann1951_mov6_measure107" type="measure"/>
-                <clip begin="191.26197917" end="193.03025000" betype="time" startid="#Ackermann1951_mov6_measure108" type="measure"/>
-                <clip begin="193.03025000" end="194.82746875" betype="time" startid="#Ackermann1951_mov6_measure109" type="measure"/>
-                <clip begin="194.82746875" end="196.74141667" betype="time" startid="#Ackermann1951_mov6_measure110" type="measure"/>
-                <clip begin="196.74141667" end="198.63687500" betype="time" startid="#Ackermann1951_mov6_measure111" type="measure"/>
-                <clip begin="198.63687500" end="200.51312500" betype="time" startid="#Ackermann1951_mov6_measure112" type="measure"/>
-                <clip begin="200.51312500" end="202.27091667" betype="time" startid="#Ackermann1951_mov6_measure113" type="measure"/>
-                <clip begin="202.27091667" end="204.30725000" betype="time" startid="#Ackermann1951_mov6_measure114" type="measure"/>
-                <clip begin="204.30725000" end="206.08860417" betype="time" startid="#Ackermann1951_mov6_measure115" type="measure"/>
-                <clip begin="206.08860417" end="207.90143750" betype="time" startid="#Ackermann1951_mov6_measure116" type="measure"/>
-                <clip begin="207.90143750" end="209.93654167" betype="time" startid="#Ackermann1951_mov6_measure117" type="measure"/>
-                <clip begin="209.93654167" end="211.71879167" betype="time" startid="#Ackermann1951_mov6_measure118" type="measure"/>
-                <clip begin="211.71879167" end="213.48056250" betype="time" startid="#Ackermann1951_mov6_measure119" type="measure"/>
-                <clip begin="213.48056250" end="215.25287500" betype="time" startid="#Ackermann1951_mov6_measure120" type="measure"/>
-                <clip begin="215.25287500" end="217.00700000" betype="time" startid="#Ackermann1951_mov6_measure121" type="measure"/>
-                <clip begin="217.00700000" end="218.85743750" betype="time" startid="#Ackermann1951_mov6_measure122" type="measure"/>
-                <clip begin="218.85743750" end="221.08562500" betype="time" startid="#Ackermann1951_mov6_measure123" type="measure"/>
-                <clip begin="221.08562500" end="222.77637500" betype="time" startid="#Ackermann1951_mov6_measure124" type="measure"/>
-                <clip begin="222.77637500" end="224.78070833" betype="time" startid="#Ackermann1951_mov6_measure125" type="measure"/>
-                <clip begin="224.78070833" end="226.76175000" betype="time" startid="#Ackermann1951_mov6_measure126" type="measure"/>
-                <clip begin="226.76175000" end="228.93770833" betype="time" startid="#Ackermann1951_mov6_measure127" type="measure"/>
-                <clip begin="228.93770833" end="230.95677083" betype="time" startid="#Ackermann1951_mov6_measure128" type="measure"/>
-                <clip begin="230.95677083" end="232.77014583" betype="time" startid="#Ackermann1951_mov6_measure129" type="measure"/>
-                <clip begin="232.77014583" end="234.52395833" betype="time" startid="#Ackermann1951_mov6_measure130" type="measure"/>
-                <clip begin="234.52395833" end="236.61950000" betype="time" startid="#Ackermann1951_mov6_measure131" type="measure"/>
-                <clip begin="236.61950000" end="238.43350000" betype="time" startid="#Ackermann1951_mov6_measure132" type="measure"/>
-                <clip begin="238.43350000" end="240.40170833" betype="time" startid="#Ackermann1951_mov6_measure133" type="measure"/>
-                <clip begin="240.40170833" end="242.20643750" betype="time" startid="#Ackermann1951_mov6_measure134" type="measure"/>
-                <clip begin="242.20643750" end="244.21016667" betype="time" startid="#Ackermann1951_mov6_measure135" type="measure"/>
-                <clip begin="244.21016667" end="246.16275000" betype="time" startid="#Ackermann1951_mov6_measure136" type="measure"/>
-                <clip begin="246.16275000" end="248.06062500" betype="time" startid="#Ackermann1951_mov6_measure137" type="measure"/>
-                <clip begin="248.06062500" end="249.82200000" betype="time" startid="#Ackermann1951_mov6_measure138" type="measure"/>
-                <clip begin="249.82200000" end="251.73762500" betype="time" startid="#Ackermann1951_mov6_measure139" type="measure"/>
-                <clip begin="251.73762500" end="253.79975000" betype="time" startid="#Ackermann1951_mov6_measure140" type="measure"/>
-                <clip begin="253.79975000" end="255.71312500" betype="time" startid="#Ackermann1951_mov6_measure141" type="measure"/>
-                <clip begin="255.71312500" end="257.88235417" betype="time" startid="#Ackermann1951_mov6_measure142" type="measure"/>
-                <clip begin="257.88235417" end="260.24231250" betype="time" startid="#Ackermann1951_mov6_measure143" type="measure"/>
-                <clip begin="260.24231250" end="262.43693750" betype="time" startid="#Ackermann1951_mov6_measure144" type="measure"/>
-                <clip begin="262.43693750" end="264.18175000" betype="time" startid="#Ackermann1951_mov6_measure145" type="measure"/>
-                <clip begin="264.18175000" end="265.94954167" betype="time" startid="#Ackermann1951_mov6_measure146" type="measure"/>
-                <clip begin="265.94954167" end="267.87022917" betype="time" startid="#Ackermann1951_mov6_measure147" type="measure"/>
-                <clip begin="267.87022917" end="270.26958333" betype="time" startid="#Ackermann1951_mov6_measure148" type="measure"/>
-                <clip begin="270.26958333" end="274.38533333" betype="time" startid="#Ackermann1951_mov6_measure149" type="measure"/>
-            
-         </recording>
-            <recording xml:id="freidi-recording_Ackermann1951_08" decls="#freidi-recording_Ackermann1951_track1-16">
-                <avFile target="Weber_Freischuetz-08_Ackermann1951.ogg"/>
-                <avFile target="Weber_Freischuetz-08_Ackermann1951.mp3"/>
-                <clip begin="00.07695833" end="04.65635417" betype="time" startid="#Ackermann1951_mov8_measure1" type="measure"/>
-                <clip begin="04.65635417" end="07.43127083" betype="time" startid="#Ackermann1951_mov8_measure2" type="measure"/>
-                <clip begin="07.43127083" end="12.48989583" betype="time" startid="#Ackermann1951_mov8_measure3" type="measure"/>
-                <clip begin="12.48989583" end="16.42306250" betype="time" startid="#Ackermann1951_mov8_measure4" type="measure"/>
-                <clip begin="16.42306250" end="20.24752500" betype="time" startid="#Ackermann1951_mov8_measure5" type="measure"/>
-                <clip begin="20.24752500" end="23.94520833" betype="time" startid="#Ackermann1951_mov8_measure6" type="measure"/>
-                <clip begin="23.94520833" end="28.47454166" betype="time" startid="#Ackermann1951_mov8_measure7" type="measure"/>
-                <clip begin="28.47454166" end="31.98658334" betype="time" startid="#Ackermann1951_mov8_measure8" type="measure"/>
-                <clip begin="31.98658334" end="37.31437500" betype="time" startid="#Ackermann1951_mov8_measure9" type="measure"/>
-                <clip begin="37.31437500" end="40.30312500" betype="time" startid="#Ackermann1951_mov8_measure10" type="measure"/>
-                <clip begin="40.30312500" end="44.77997917" betype="time" startid="#Ackermann1951_mov8_measure11" type="measure"/>
-                <clip begin="44.77997917" end="49.08243750" betype="time" startid="#Ackermann1951_mov8_measure12" type="measure"/>
-                <clip begin="49.08243750" end="54.26562500" betype="time" startid="#Ackermann1951_mov8_measure13" type="measure"/>
-                <clip begin="54.26562500" end="65.00562500" betype="time" startid="#Ackermann1951_mov8_measure14" type="measure"/>
-                <clip begin="65.00562500" end="68.56031250" betype="time" startid="#Ackermann1951_mov8_measure15" type="measure"/>
-                <clip begin="68.56031250" end="72.34500000" betype="time" startid="#Ackermann1951_mov8_measure16" type="measure"/>
-                <clip begin="72.34500000" end="75.33733333" betype="time" startid="#Ackermann1951_mov8_measure17" type="measure"/>
-                <clip begin="75.33733333" end="78.17579166" betype="time" startid="#Ackermann1951_mov8_measure18" type="measure"/>
-                <clip begin="78.17579166" end="81.71145833" betype="time" startid="#Ackermann1951_mov8_measure19" type="measure"/>
-                <clip begin="81.71145833" end="85.15531250" betype="time" startid="#Ackermann1951_mov8_measure20" type="measure"/>
-                <clip begin="85.15531250" end="88.18552083" betype="time" startid="#Ackermann1951_mov8_measure21" type="measure"/>
-                <clip begin="88.18552083" end="92.06208333" betype="time" startid="#Ackermann1951_mov8_measure22" type="measure"/>
-                <clip begin="92.06208333" end="95.18720833" betype="time" startid="#Ackermann1951_mov8_measure23" type="measure"/>
-                <clip begin="95.18720833" end="98.20902083" betype="time" startid="#Ackermann1951_mov8_measure24" type="measure"/>
-                <clip begin="98.20902083" end="101.28016667" betype="time" startid="#Ackermann1951_mov8_measure25" type="measure"/>
-                <clip begin="101.28016667" end="104.47354167" betype="time" startid="#Ackermann1951_mov8_measure26" type="measure"/>
-                <clip begin="104.47354167" end="107.45062500" betype="time" startid="#Ackermann1951_mov8_measure27" type="measure"/>
-                <clip begin="107.45062500" end="110.84825000" betype="time" startid="#Ackermann1951_mov8_measure28" type="measure"/>
-                <clip begin="110.84825000" end="113.97556250" betype="time" startid="#Ackermann1951_mov8_measure29" type="measure"/>
-                <clip begin="113.97556250" end="118.88281250" betype="time" startid="#Ackermann1951_mov8_measure30" type="measure"/>
-                <clip begin="118.88281250" end="122.71043750" betype="time" startid="#Ackermann1951_mov8_measure31" type="measure"/>
-                <clip begin="122.71043750" end="125.97531250" betype="time" startid="#Ackermann1951_mov8_measure32" type="measure"/>
-                <clip begin="125.97531250" end="129.42812500" betype="time" startid="#Ackermann1951_mov8_measure33" type="measure"/>
-                <clip begin="129.42812500" end="133.41229167" betype="time" startid="#Ackermann1951_mov8_measure34" type="measure"/>
-                <clip begin="133.41229167" end="138.22108333" betype="time" startid="#Ackermann1951_mov8_measure35" type="measure"/>
-                <clip begin="138.22108333" end="142.63062500" betype="time" startid="#Ackermann1951_mov8_measure36" type="measure"/>
-                <clip begin="142.63062500" end="146.16031250" betype="time" startid="#Ackermann1951_mov8_measure37" type="measure"/>
-                <clip begin="146.16031250" end="148.85062500" betype="time" startid="#Ackermann1951_mov8_measure38" type="measure"/>
-                <clip begin="148.85062500" end="152.78562500" betype="time" startid="#Ackermann1951_mov8_measure39" type="measure"/>
-                <clip begin="152.78562500" end="158.22062500" betype="time" startid="#Ackermann1951_mov8_measure40" type="measure"/>
-                <clip begin="158.22062500" end="161.21262500" betype="time" startid="#Ackermann1951_mov8_measure41" type="measure"/>
-                <clip begin="161.21262500" end="164.61133333" betype="time" startid="#Ackermann1951_mov8_measure42" type="measure"/>
-                <clip begin="164.61133333" end="167.37604167" betype="time" startid="#Ackermann1951_mov8_measure43" type="measure"/>
-                <clip begin="167.37604167" end="170.33495833" betype="time" startid="#Ackermann1951_mov8_measure44" type="measure"/>
-                <clip begin="170.33495833" end="173.70478125" betype="time" startid="#Ackermann1951_mov8_measure45" type="measure"/>
-                <clip begin="173.70478125" end="177.13562500" betype="time" startid="#Ackermann1951_mov8_measure46" type="measure"/>
-                <clip begin="177.13562500" end="180.03062500" betype="time" startid="#Ackermann1951_mov8_measure47" type="measure"/>
-                <clip begin="180.03062500" end="183.91562500" betype="time" startid="#Ackermann1951_mov8_measure48" type="measure"/>
-                <clip begin="183.91562500" end="186.65562500" betype="time" startid="#Ackermann1951_mov8_measure49" type="measure"/>
-                <clip begin="186.65562500" end="189.84172917" betype="time" startid="#Ackermann1951_mov8_measure50" type="measure"/>
-                <clip begin="189.84172917" end="192.85640104" betype="time" startid="#Ackermann1951_mov8_measure51" type="measure"/>
-                <clip begin="192.85640104" end="196.12562500" betype="time" startid="#Ackermann1951_mov8_measure52" type="measure"/>
-                <clip begin="196.12562500" end="199.04804167" betype="time" startid="#Ackermann1951_mov8_measure53" type="measure"/>
-                <clip begin="199.04804167" end="202.31145833" betype="time" startid="#Ackermann1951_mov8_measure54" type="measure"/>
-                <clip begin="202.31145833" end="205.84602083" betype="time" startid="#Ackermann1951_mov8_measure55" type="measure"/>
-                <clip begin="205.84602083" end="209.87525000" betype="time" startid="#Ackermann1951_mov8_measure56" type="measure"/>
-                <clip begin="209.87525000" end="213.39597917" betype="time" startid="#Ackermann1951_mov8_measure57" type="measure"/>
-                <clip begin="213.39597917" end="216.41095833" betype="time" startid="#Ackermann1951_mov8_measure58" type="measure"/>
-                <clip begin="216.41095833" end="219.66162500" betype="time" startid="#Ackermann1951_mov8_measure59" type="measure"/>
-                <clip begin="219.66162500" end="223.24029167" betype="time" startid="#Ackermann1951_mov8_measure60" type="measure"/>
-                <clip begin="223.24029167" end="225.95095833" betype="time" startid="#Ackermann1951_mov8_measure61" type="measure"/>
-                <clip begin="225.95095833" end="228.71489583" betype="time" startid="#Ackermann1951_mov8_measure62" type="measure"/>
-                <clip begin="228.71489583" end="231.43912500" betype="time" startid="#Ackermann1951_mov8_measure63" type="measure"/>
-                <clip begin="231.43912500" end="234.05550000" betype="time" startid="#Ackermann1951_mov8_measure64" type="measure"/>
-                <clip begin="234.05550000" end="236.94714583" betype="time" startid="#Ackermann1951_mov8_measure65" type="measure"/>
-                <clip begin="236.94714583" end="239.49370833" betype="time" startid="#Ackermann1951_mov8_measure66" type="measure"/>
-                <clip begin="239.49370833" end="242.27593750" betype="time" startid="#Ackermann1951_mov8_measure67" type="measure"/>
-                <clip begin="242.27593750" end="244.90062500" betype="time" startid="#Ackermann1951_mov8_measure68" type="measure"/>
-                <clip begin="244.90062500" end="247.36752083" betype="time" startid="#Ackermann1951_mov8_measure69" type="measure"/>
-                <clip begin="247.36752083" end="250.28258333" betype="time" startid="#Ackermann1951_mov8_measure70" type="measure"/>
-                <clip begin="250.28258333" end="252.80450000" betype="time" startid="#Ackermann1951_mov8_measure71" type="measure"/>
-                <clip begin="252.80450000" end="255.62997917" betype="time" startid="#Ackermann1951_mov8_measure72" type="measure"/>
-                <clip begin="255.62997917" end="258.00464583" betype="time" startid="#Ackermann1951_mov8_measure73" type="measure"/>
-                <clip begin="258.00464583" end="261.59875000" betype="time" startid="#Ackermann1951_mov8_measure74" type="measure"/>
-                <clip begin="261.59875000" end="265.83895833" betype="time" startid="#Ackermann1951_mov8_measure75" type="measure"/>
-                <clip begin="265.83895833" end="268.63797917" betype="time" startid="#Ackermann1951_mov8_measure76" type="measure"/>
-                <clip begin="268.63797917" end="272.34829167" betype="time" startid="#Ackermann1951_mov8_measure77" type="measure"/>
-                <clip begin="272.34829167" end="275.29110417" betype="time" startid="#Ackermann1951_mov8_measure78" type="measure"/>
-                <clip begin="275.29110417" end="277.81495833" betype="time" startid="#Ackermann1951_mov8_measure79" type="measure"/>
-                <clip begin="277.81495833" end="279.85495833" betype="time" startid="#Ackermann1951_mov8_measure80" type="measure"/>
-                <clip begin="279.85495833" end="282.06389583" betype="time" startid="#Ackermann1951_mov8_measure81" type="measure"/>
-                <clip begin="282.06389583" end="283.98425000" betype="time" startid="#Ackermann1951_mov8_measure82" type="measure"/>
-                <clip begin="283.98425000" end="286.01866667" betype="time" startid="#Ackermann1951_mov8_measure83" type="measure"/>
-                <clip begin="286.01866667" end="288.34162500" betype="time" startid="#Ackermann1951_mov8_measure84" type="measure"/>
-                <clip begin="288.34162500" end="290.08152083" betype="time" startid="#Ackermann1951_mov8_measure85" type="measure"/>
-                <clip begin="290.08152083" end="291.64072917" betype="time" startid="#Ackermann1951_mov8_measure86" type="measure"/>
-                <clip begin="291.64072917" end="293.03627083" betype="time" startid="#Ackermann1951_mov8_measure87" type="measure"/>
-                <clip begin="293.03627083" end="294.43751042" betype="time" startid="#Ackermann1951_mov8_measure88" type="measure"/>
-                <clip begin="294.43751042" end="295.64062500" betype="time" startid="#Ackermann1951_mov8_measure89" type="measure"/>
-                <clip begin="295.64062500" end="296.71375000" betype="time" startid="#Ackermann1951_mov8_measure90" type="measure"/>
-                <clip begin="296.71375000" end="297.52212500" betype="time" startid="#Ackermann1951_mov8_measure91" type="measure"/>
-                <clip begin="297.52212500" end="299.89781250" betype="time" startid="#Ackermann1951_mov8_measure92" type="measure"/>
-                <clip begin="299.89781250" end="302.24578125" betype="time" startid="#Ackermann1951_mov8_measure93" type="measure"/>
-                <clip begin="302.24578125" end="305.56239583" betype="time" startid="#Ackermann1951_mov8_measure94" type="measure"/>
-                <clip begin="305.56239583" end="307.40437500" betype="time" startid="#Ackermann1951_mov8_measure95" type="measure"/>
-                <clip begin="307.40437500" end="309.58875000" betype="time" startid="#Ackermann1951_mov8_measure96" type="measure"/>
-                <clip begin="309.58875000" end="311.75568750" betype="time" startid="#Ackermann1951_mov8_measure97" type="measure"/>
-                <clip begin="311.75568750" end="313.46250000" betype="time" startid="#Ackermann1951_mov8_measure98" type="measure"/>
-                <clip begin="313.46250000" end="314.90125000" betype="time" startid="#Ackermann1951_mov8_measure99" type="measure"/>
-                <clip begin="314.90125000" end="316.57035417" betype="time" startid="#Ackermann1951_mov8_measure100" type="measure"/>
-                <clip begin="316.57035417" end="318.14675000" betype="time" startid="#Ackermann1951_mov8_measure101" type="measure"/>
-                <clip begin="318.14675000" end="320.37593750" betype="time" startid="#Ackermann1951_mov8_measure102" type="measure"/>
-                <clip begin="320.37593750" end="322.34062500" betype="time" startid="#Ackermann1951_mov8_measure103" type="measure"/>
-                <clip begin="322.34062500" end="325.39062500" betype="time" startid="#Ackermann1951_mov8_measure104" type="measure"/>
-                <clip begin="325.39062500" end="328.23370833" betype="time" startid="#Ackermann1951_mov8_measure105" type="measure"/>
-                <clip begin="328.23370833" end="332.50312500" betype="time" startid="#Ackermann1951_mov8_measure106" type="measure"/>
-                <clip begin="332.50312500" end="334.07625000" betype="time" startid="#Ackermann1951_mov8_measure107" type="measure"/>
-                <clip begin="334.07625000" end="335.56308333" betype="time" startid="#Ackermann1951_mov8_measure108" type="measure"/>
-                <clip begin="335.56308333" end="337.02541667" betype="time" startid="#Ackermann1951_mov8_measure109" type="measure"/>
-                <clip begin="337.02541667" end="338.54793750" betype="time" startid="#Ackermann1951_mov8_measure110" type="measure"/>
-                <clip begin="338.54793750" end="340.01727083" betype="time" startid="#Ackermann1951_mov8_measure111" type="measure"/>
-                <clip begin="340.01727083" end="341.48625000" betype="time" startid="#Ackermann1951_mov8_measure112" type="measure"/>
-                <clip begin="341.48625000" end="342.81250000" betype="time" startid="#Ackermann1951_mov8_measure113" type="measure"/>
-                <clip begin="342.81250000" end="344.34025000" betype="time" startid="#Ackermann1951_mov8_measure114" type="measure"/>
-                <clip begin="344.34025000" end="346.00958333" betype="time" startid="#Ackermann1951_mov8_measure115" type="measure"/>
-                <clip begin="346.00958333" end="347.64314583" betype="time" startid="#Ackermann1951_mov8_measure116" type="measure"/>
-                <clip begin="347.64314583" end="350.02195833" betype="time" startid="#Ackermann1951_mov8_measure117" type="measure"/>
-                <clip begin="350.02195833" end="351.43704167" betype="time" startid="#Ackermann1951_mov8_measure118" type="measure"/>
-                <clip begin="351.43704167" end="352.92745833" betype="time" startid="#Ackermann1951_mov8_measure119" type="measure"/>
-                <clip begin="352.92745833" end="354.42452083" betype="time" startid="#Ackermann1951_mov8_measure120" type="measure"/>
-                <clip begin="354.42452083" end="355.71645833" betype="time" startid="#Ackermann1951_mov8_measure121" type="measure"/>
-                <clip begin="355.71645833" end="357.42475000" betype="time" startid="#Ackermann1951_mov8_measure122" type="measure"/>
-                <clip begin="357.42475000" end="358.77816667" betype="time" startid="#Ackermann1951_mov8_measure123" type="measure"/>
-                <clip begin="358.77816667" end="360.19062500" betype="time" startid="#Ackermann1951_mov8_measure124" type="measure"/>
-                <clip begin="360.19062500" end="361.82235417" betype="time" startid="#Ackermann1951_mov8_measure125" type="measure"/>
-                <clip begin="361.82235417" end="363.28962500" betype="time" startid="#Ackermann1951_mov8_measure126" type="measure"/>
-                <clip begin="363.28962500" end="364.84470833" betype="time" startid="#Ackermann1951_mov8_measure127" type="measure"/>
-                <clip begin="364.84470833" end="366.33110417" betype="time" startid="#Ackermann1951_mov8_measure128" type="measure"/>
-                <clip begin="366.33110417" end="367.79476042" betype="time" startid="#Ackermann1951_mov8_measure129" type="measure"/>
-                <clip begin="367.79476042" end="369.38375000" betype="time" startid="#Ackermann1951_mov8_measure130" type="measure"/>
-                <clip begin="369.38375000" end="370.93125000" betype="time" startid="#Ackermann1951_mov8_measure131" type="measure"/>
-                <clip begin="370.93125000" end="372.50062500" betype="time" startid="#Ackermann1951_mov8_measure132" type="measure"/>
-                <clip begin="372.50062500" end="373.89562500" betype="time" startid="#Ackermann1951_mov8_measure133" type="measure"/>
-                <clip begin="373.89562500" end="375.54729167" betype="time" startid="#Ackermann1951_mov8_measure134" type="measure"/>
-                <clip begin="375.54729167" end="377.63266667" betype="time" startid="#Ackermann1951_mov8_measure135" type="measure"/>
-                <clip begin="377.63266667" end="382.25625000" betype="time" startid="#Ackermann1951_mov8_measure136" type="measure"/>
-                <clip begin="382.25625000" end="384.74562500" betype="time" startid="#Ackermann1951_mov8_measure137" type="measure"/>
-                <clip begin="384.74562500" end="386.53562500" betype="time" startid="#Ackermann1951_mov8_measure138" type="measure"/>
-                <clip begin="386.53562500" end="388.33562500" betype="time" startid="#Ackermann1951_mov8_measure139" type="measure"/>
-                <clip begin="388.33562500" end="390.62500000" betype="time" startid="#Ackermann1951_mov8_measure140" type="measure"/>
-                <clip begin="390.62500000" end="392.32510417" betype="time" startid="#Ackermann1951_mov8_measure141" type="measure"/>
-                <clip begin="392.32510417" end="393.83718750" betype="time" startid="#Ackermann1951_mov8_measure142" type="measure"/>
-                <clip begin="393.83718750" end="395.64160417" betype="time" startid="#Ackermann1951_mov8_measure143" type="measure"/>
-                <clip begin="395.64160417" end="397.37783333" betype="time" startid="#Ackermann1951_mov8_measure144" type="measure"/>
-                <clip begin="397.37783333" end="399.68562500" betype="time" startid="#Ackermann1951_mov8_measure145" type="measure"/>
-                <clip begin="399.68562500" end="401.68820833" betype="time" startid="#Ackermann1951_mov8_measure146" type="measure"/>
-                <clip begin="401.68820833" end="403.59000000" betype="time" startid="#Ackermann1951_mov8_measure147" type="measure"/>
-                <clip begin="403.59000000" end="405.72687500" betype="time" startid="#Ackermann1951_mov8_measure148" type="measure"/>
-                <clip begin="405.72687500" end="408.22429167" betype="time" startid="#Ackermann1951_mov8_measure149" type="measure"/>
-                <clip begin="408.22429167" end="410.15647917" betype="time" startid="#Ackermann1951_mov8_measure150" type="measure"/>
-                <clip begin="410.15647917" end="412.25875000" betype="time" startid="#Ackermann1951_mov8_measure151" type="measure"/>
-                <clip begin="412.25875000" end="414.47304167" betype="time" startid="#Ackermann1951_mov8_measure152" type="measure"/>
-                <clip begin="414.47304167" end="417.58770833" betype="time" startid="#Ackermann1951_mov8_measure153" type="measure"/>
-                <clip begin="417.58770833" end="421.43562500" betype="time" startid="#Ackermann1951_mov8_measure154" type="measure"/>
-                <clip begin="421.43562500" end="425.87697917" betype="time" startid="#Ackermann1951_mov8_measure155" type="measure"/>
-                <clip begin="425.87697917" end="428.94500000" betype="time" startid="#Ackermann1951_mov8_measure156" type="measure"/>
-                <clip begin="428.94500000" end="431.76085417" betype="time" startid="#Ackermann1951_mov8_measure157" type="measure"/>
-                <clip begin="431.76085417" end="435.79572917" betype="time" startid="#Ackermann1951_mov8_measure158" type="measure"/>
-                <clip begin="435.79572917" end="437.83287500" betype="time" startid="#Ackermann1951_mov8_measure159" type="measure"/>
-                <clip begin="437.83287500" end="440.70520833" betype="time" startid="#Ackermann1951_mov8_measure160" type="measure"/>
-                <clip begin="440.70520833" end="446.41941667" betype="time" startid="#Ackermann1951_mov8_measure161" type="measure"/>
-                <clip begin="446.41941667" end="448.19043750" betype="time" startid="#Ackermann1951_mov8_measure162" type="measure"/>
-                <clip begin="448.19043750" end="449.70337500" betype="time" startid="#Ackermann1951_mov8_measure163" type="measure"/>
-                <clip begin="449.70337500" end="451.16850000" betype="time" startid="#Ackermann1951_mov8_measure164" type="measure"/>
-                <clip begin="451.16850000" end="452.50754167" betype="time" startid="#Ackermann1951_mov8_measure165" type="measure"/>
-                <clip begin="452.50754167" end="453.83856250" betype="time" startid="#Ackermann1951_mov8_measure166" type="measure"/>
-                <clip begin="453.83856250" end="455.19733333" betype="time" startid="#Ackermann1951_mov8_measure167" type="measure"/>
-                <clip begin="455.19733333" end="456.49139583" betype="time" startid="#Ackermann1951_mov8_measure168" type="measure"/>
-                <clip begin="456.49139583" end="457.77495833" betype="time" startid="#Ackermann1951_mov8_measure169" type="measure"/>
-                <clip begin="457.77495833" end="459.09229167" betype="time" startid="#Ackermann1951_mov8_measure170" type="measure"/>
-                <clip begin="459.09229167" end="460.38800000" betype="time" startid="#Ackermann1951_mov8_measure171" type="measure"/>
-                <clip begin="460.38800000" end="461.77118750" betype="time" startid="#Ackermann1951_mov8_measure172" type="measure"/>
-                <clip begin="461.77118750" end="463.04266667" betype="time" startid="#Ackermann1951_mov8_measure173" type="measure"/>
-                <clip begin="463.04266667" end="464.39866667" betype="time" startid="#Ackermann1951_mov8_measure174" type="measure"/>
-                <clip begin="464.39866667" end="465.88625000" betype="time" startid="#Ackermann1951_mov8_measure175" type="measure"/>
-                <clip begin="465.88625000" end="467.17281250" betype="time" startid="#Ackermann1951_mov8_measure176" type="measure"/>
-                <clip begin="467.17281250" end="469.14133333" betype="time" startid="#Ackermann1951_mov8_measure177" type="measure"/>
-                <clip begin="469.14133333" end="470.74266667" betype="time" startid="#Ackermann1951_mov8_measure178" type="measure"/>
-                <clip begin="470.74266667" end="472.18000000" betype="time" startid="#Ackermann1951_mov8_measure179" type="measure"/>
-                <clip begin="472.18000000" end="474.04562500" betype="time" startid="#Ackermann1951_mov8_measure180" type="measure"/>
-                <clip begin="474.04562500" end="475.32133333" betype="time" startid="#Ackermann1951_mov8_measure181" type="measure"/>
-                <clip begin="475.32133333" end="476.75756250" betype="time" startid="#Ackermann1951_mov8_measure182" type="measure"/>
-                <clip begin="476.75756250" end="478.21895833" betype="time" startid="#Ackermann1951_mov8_measure183" type="measure"/>
-                <clip begin="478.21895833" end="480.13835417" betype="time" startid="#Ackermann1951_mov8_measure184" type="measure"/>
-                <clip begin="480.13835417" end="481.26989583" betype="time" startid="#Ackermann1951_mov8_measure185" type="measure"/>
-                <clip begin="481.26989583" end="482.50575000" betype="time" startid="#Ackermann1951_mov8_measure186" type="measure"/>
-                <clip begin="482.50575000" end="484.00412500" betype="time" startid="#Ackermann1951_mov8_measure187" type="measure"/>
-                <clip begin="484.00412500" end="485.43629167" betype="time" startid="#Ackermann1951_mov8_measure188" type="measure"/>
-                <clip begin="485.43629167" end="486.85585417" betype="time" startid="#Ackermann1951_mov8_measure189" type="measure"/>
-                <clip begin="486.85585417" end="488.47058333" betype="time" startid="#Ackermann1951_mov8_measure190" type="measure"/>
-                <clip begin="488.47058333" end="490.13895833" betype="time" startid="#Ackermann1951_mov8_measure191" type="measure"/>
-                <clip begin="490.13895833" end="493.50562500" betype="time" startid="#Ackermann1951_mov8_measure192" type="measure"/>
-                <clip begin="493.50562500" end="495.64183332" betype="time" startid="#Ackermann1951_mov8_measure193" type="measure"/>
-                <clip begin="495.64183332" end="497.21500000" betype="time" startid="#Ackermann1951_mov8_measure194" type="measure"/>
-                <clip begin="497.21500000" end="498.66250000" betype="time" startid="#Ackermann1951_mov8_measure195" type="measure"/>
-                <clip begin="498.66250000" end="500.06052083" betype="time" startid="#Ackermann1951_mov8_measure196" type="measure"/>
-                <clip begin="500.06052083" end="501.70289583" betype="time" startid="#Ackermann1951_mov8_measure197" type="measure"/>
-                <clip begin="501.70289583" end="502.45525000" betype="time" startid="#Ackermann1951_mov8_measure198" type="measure"/>
-            </recording>
-            <recording xml:id="freidi-recording_Ackermann1951_09" decls="#freidi-recording_Ackermann1951_track1-18">
-                <avFile target="Weber_Freischuetz-09_Ackermann1951.ogg"/>
-                <avFile target="Weber_Freischuetz-09_Ackermann1951.mp3"/>
-                <clip begin="00.05000000" end="01.38733333" betype="time" startid="#Ackermann1951_mov9_measure1" type="measure"/>
-                <clip begin="01.38733333" end="03.15410417" betype="time" startid="#Ackermann1951_mov9_measure2" type="measure"/>
-                <clip begin="03.15410417" end="04.83422917" betype="time" startid="#Ackermann1951_mov9_measure3" type="measure"/>
-                <clip begin="04.83422917" end="06.76000000" betype="time" startid="#Ackermann1951_mov9_measure4" type="measure"/>
-                <clip begin="06.76000000" end="08.68962500" betype="time" startid="#Ackermann1951_mov9_measure5" type="measure"/>
-                <clip begin="08.68962500" end="10.42750000" betype="time" startid="#Ackermann1951_mov9_measure6" type="measure"/>
-                <clip begin="10.42750000" end="12.68789583" betype="time" startid="#Ackermann1951_mov9_measure7" type="measure"/>
-                <clip begin="12.68789583" end="15.85937500" betype="time" startid="#Ackermann1951_mov9_measure8" type="measure"/>
-                <clip begin="15.85937500" end="20.10500000" betype="time" startid="#Ackermann1951_mov9_measure9" type="measure"/>
-                <clip begin="20.10500000" end="21.92329167" betype="time" startid="#Ackermann1951_mov9_measure10" type="measure"/>
-                <clip begin="21.92329167" end="23.59877083" betype="time" startid="#Ackermann1951_mov9_measure11" type="measure"/>
-                <clip begin="23.59877083" end="25.18533333" betype="time" startid="#Ackermann1951_mov9_measure12" type="measure"/>
-                <clip begin="25.18533333" end="26.96750000" betype="time" startid="#Ackermann1951_mov9_measure13" type="measure"/>
-                <clip begin="26.96750000" end="28.66245833" betype="time" startid="#Ackermann1951_mov9_measure14" type="measure"/>
-                <clip begin="28.66245833" end="30.49000000" betype="time" startid="#Ackermann1951_mov9_measure15" type="measure"/>
-                <clip begin="30.49000000" end="32.14533333" betype="time" startid="#Ackermann1951_mov9_measure16" type="measure"/>
-                <clip begin="32.14533333" end="33.98483333" betype="time" startid="#Ackermann1951_mov9_measure17" type="measure"/>
-                <clip begin="33.98483333" end="35.75691667" betype="time" startid="#Ackermann1951_mov9_measure18" type="measure"/>
-                <clip begin="35.75691667" end="37.43045833" betype="time" startid="#Ackermann1951_mov9_measure19" type="measure"/>
-                <clip begin="37.43045833" end="38.92116667" betype="time" startid="#Ackermann1951_mov9_measure20" type="measure"/>
-                <clip begin="38.92116667" end="40.66145833" betype="time" startid="#Ackermann1951_mov9_measure21" type="measure"/>
-                <clip begin="40.66145833" end="42.66454167" betype="time" startid="#Ackermann1951_mov9_measure22" type="measure"/>
-                <clip begin="42.66454167" end="44.27477083" betype="time" startid="#Ackermann1951_mov9_measure23" type="measure"/>
-                <clip begin="44.27477083" end="46.12312500" betype="time" startid="#Ackermann1951_mov9_measure24" type="measure"/>
-                <clip begin="46.12312500" end="47.70572917" betype="time" startid="#Ackermann1951_mov9_measure25" type="measure"/>
-                <clip begin="47.70572917" end="49.66966667" betype="time" startid="#Ackermann1951_mov9_measure26" type="measure"/>
-                <clip begin="49.66966667" end="51.19733333" betype="time" startid="#Ackermann1951_mov9_measure27" type="measure"/>
-                <clip begin="51.19733333" end="53.01916667" betype="time" startid="#Ackermann1951_mov9_measure28" type="measure"/>
-                <clip begin="53.01916667" end="54.72808333" betype="time" startid="#Ackermann1951_mov9_measure29" type="measure"/>
-                <clip begin="54.72808333" end="56.43266667" betype="time" startid="#Ackermann1951_mov9_measure30" type="measure"/>
-                <clip begin="56.43266667" end="58.30489583" betype="time" startid="#Ackermann1951_mov9_measure31" type="measure"/>
-                <clip begin="58.30489583" end="59.86739583" betype="time" startid="#Ackermann1951_mov9_measure32" type="measure"/>
-                <clip begin="59.86739583" end="61.51347917" betype="time" startid="#Ackermann1951_mov9_measure33" type="measure"/>
-                <clip begin="61.51347917" end="63.44145834" betype="time" startid="#Ackermann1951_mov9_measure34" type="measure"/>
-                <clip begin="63.44145834" end="65.24763889" betype="time" startid="#Ackermann1951_mov9_measure35" type="measure"/>
-                <clip begin="65.24763889" end="66.80414236" betype="time" startid="#Ackermann1951_mov9_measure36" type="measure"/>
-                <clip begin="66.80414236" end="68.43210417" betype="time" startid="#Ackermann1951_mov9_measure37" type="measure"/>
-                <clip begin="68.43210417" end="70.30189583" betype="time" startid="#Ackermann1951_mov9_measure38" type="measure"/>
-                <clip begin="70.30189583" end="72.01737500" betype="time" startid="#Ackermann1951_mov9_measure39" type="measure"/>
-                <clip begin="72.01737500" end="73.77454167" betype="time" startid="#Ackermann1951_mov9_measure40" type="measure"/>
-                <clip begin="73.77454167" end="75.70943750" betype="time" startid="#Ackermann1951_mov9_measure41" type="measure"/>
-                <clip begin="75.70943750" end="77.33445833" betype="time" startid="#Ackermann1951_mov9_measure42" type="measure"/>
-                <clip begin="77.33445833" end="79.30558333" betype="time" startid="#Ackermann1951_mov9_measure43" type="measure"/>
-                <clip begin="79.30558333" end="80.86000000" betype="time" startid="#Ackermann1951_mov9_measure44" type="measure"/>
-                <clip begin="80.86000000" end="83.24750000" betype="time" startid="#Ackermann1951_mov9_measure45" type="measure"/>
-                <clip begin="83.24750000" end="84.41125000" betype="time" startid="#Ackermann1951_mov9_measure46" type="measure"/>
-                <clip begin="84.41125000" end="86.15052083" betype="time" startid="#Ackermann1951_mov9_measure47" type="measure"/>
-                <clip begin="86.15052083" end="88.00406250" betype="time" startid="#Ackermann1951_mov9_measure48" type="measure"/>
-                <clip begin="88.00406250" end="89.79860417" betype="time" startid="#Ackermann1951_mov9_measure49" type="measure"/>
-                <clip begin="89.79860417" end="91.46733333" betype="time" startid="#Ackermann1951_mov9_measure50" type="measure"/>
-                <clip begin="91.46733333" end="93.04000000" betype="time" startid="#Ackermann1951_mov9_measure51" type="measure"/>
-                <clip begin="93.04000000" end="95.27670833" betype="time" startid="#Ackermann1951_mov9_measure52" type="measure"/>
-                <clip begin="95.27670833" end="97.20062500" betype="time" startid="#Ackermann1951_mov9_measure53" type="measure"/>
-                <clip begin="97.20062500" end="99.01933333" betype="time" startid="#Ackermann1951_mov9_measure54" type="measure"/>
-                <clip begin="99.01933333" end="101.11175000" betype="time" startid="#Ackermann1951_mov9_measure55" type="measure"/>
-                <clip begin="101.11175000" end="102.88893750" betype="time" startid="#Ackermann1951_mov9_measure56" type="measure"/>
-                <clip begin="102.88893750" end="105.19250000" betype="time" startid="#Ackermann1951_mov9_measure57" type="measure"/>
-                <clip begin="105.19250000" end="108.52437500" betype="time" startid="#Ackermann1951_mov9_measure58" type="measure"/>
-                <clip begin="108.52437500" end="110.53562500" betype="time" startid="#Ackermann1951_mov9_measure59" type="measure"/>
-                <clip begin="110.53562500" end="112.61645833" betype="time" startid="#Ackermann1951_mov9_measure60" type="measure"/>
-                <clip begin="112.61645833" end="114.22979167" betype="time" startid="#Ackermann1951_mov9_measure61" type="measure"/>
-                <clip begin="114.22979167" end="115.86833333" betype="time" startid="#Ackermann1951_mov9_measure62" type="measure"/>
-                <clip begin="115.86833333" end="117.68375000" betype="time" startid="#Ackermann1951_mov9_measure63" type="measure"/>
-                <clip begin="117.68375000" end="119.16893750" betype="time" startid="#Ackermann1951_mov9_measure64" type="measure"/>
-                <clip begin="119.16893750" end="120.83937500" betype="time" startid="#Ackermann1951_mov9_measure65" type="measure"/>
-                <clip begin="120.83937500" end="122.48750000" betype="time" startid="#Ackermann1951_mov9_measure66" type="measure"/>
-                <clip begin="122.48750000" end="124.08335417" betype="time" startid="#Ackermann1951_mov9_measure67" type="measure"/>
-                <clip begin="124.08335417" end="125.62919444" betype="time" startid="#Ackermann1951_mov9_measure68" type="measure"/>
-                <clip begin="125.62919444" end="127.45812500" betype="time" startid="#Ackermann1951_mov9_measure69" type="measure"/>
-                <clip begin="127.45812500" end="129.47200000" betype="time" startid="#Ackermann1951_mov9_measure70" type="measure"/>
-                <clip begin="129.47200000" end="131.37066667" betype="time" startid="#Ackermann1951_mov9_measure71" type="measure"/>
-                <clip begin="131.37066667" end="133.05083333" betype="time" startid="#Ackermann1951_mov9_measure72" type="measure"/>
-                <clip begin="133.05083333" end="135.32218750" betype="time" startid="#Ackermann1951_mov9_measure73" type="measure"/>
-                <clip begin="135.32218750" end="137.21200000" betype="time" startid="#Ackermann1951_mov9_measure74" type="measure"/>
-                <clip begin="137.21200000" end="138.84271667" betype="time" startid="#Ackermann1951_mov9_measure75" type="measure"/>
-                <clip begin="138.84271667" end="140.70256944" betype="time" startid="#Ackermann1951_mov9_measure76" type="measure"/>
-                <clip begin="140.70256944" end="142.29927083" betype="time" startid="#Ackermann1951_mov9_measure77" type="measure"/>
-                <clip begin="142.29927083" end="144.15333333" betype="time" startid="#Ackermann1951_mov9_measure78" type="measure"/>
-                <clip begin="144.15333333" end="146.18022917" betype="time" startid="#Ackermann1951_mov9_measure79" type="measure"/>
-                <clip begin="146.18022917" end="148.06666667" betype="time" startid="#Ackermann1951_mov9_measure80" type="measure"/>
-                <clip begin="148.06666667" end="149.73712500" betype="time" startid="#Ackermann1951_mov9_measure81" type="measure"/>
-                <clip begin="149.73712500" end="151.68979167" betype="time" startid="#Ackermann1951_mov9_measure82" type="measure"/>
-                <clip begin="151.68979167" end="153.56533333" betype="time" startid="#Ackermann1951_mov9_measure83" type="measure"/>
-                <clip begin="153.56533333" end="155.08868750" betype="time" startid="#Ackermann1951_mov9_measure84" type="measure"/>
-                <clip begin="155.08868750" end="156.84933333" betype="time" startid="#Ackermann1951_mov9_measure85" type="measure"/>
-                <clip begin="156.84933333" end="158.75466667" betype="time" startid="#Ackermann1951_mov9_measure86" type="measure"/>
-                <clip begin="158.75466667" end="160.30191667" betype="time" startid="#Ackermann1951_mov9_measure87" type="measure"/>
-                <clip begin="160.30191667" end="162.09900000" betype="time" startid="#Ackermann1951_mov9_measure88" type="measure"/>
-                <clip begin="162.09900000" end="163.95066667" betype="time" startid="#Ackermann1951_mov9_measure89" type="measure"/>
-                <clip begin="163.95066667" end="165.82662500" betype="time" startid="#Ackermann1951_mov9_measure90" type="measure"/>
-                <clip begin="165.82662500" end="167.56020833" betype="time" startid="#Ackermann1951_mov9_measure91" type="measure"/>
-                <clip begin="167.56020833" end="169.27877083" betype="time" startid="#Ackermann1951_mov9_measure92" type="measure"/>
-                <clip begin="169.27877083" end="171.05216667" betype="time" startid="#Ackermann1951_mov9_measure93" type="measure"/>
-                <clip begin="171.05216667" end="172.76300000" betype="time" startid="#Ackermann1951_mov9_measure94" type="measure"/>
-                <clip begin="172.76300000" end="174.42810417" betype="time" startid="#Ackermann1951_mov9_measure95" type="measure"/>
-                <clip begin="174.42810417" end="176.20306250" betype="time" startid="#Ackermann1951_mov9_measure96" type="measure"/>
-                <clip begin="176.20306250" end="178.07957292" betype="time" startid="#Ackermann1951_mov9_measure97" type="measure"/>
-                <clip begin="178.07957292" end="179.83277083" betype="time" startid="#Ackermann1951_mov9_measure98" type="measure"/>
-                <clip begin="179.83277083" end="181.86797917" betype="time" startid="#Ackermann1951_mov9_measure99" type="measure"/>
-                <clip begin="181.86797917" end="183.90527083" betype="time" startid="#Ackermann1951_mov9_measure100" type="measure"/>
-                <clip begin="183.90527083" end="185.54257813" betype="time" startid="#Ackermann1951_mov9_measure101" type="measure"/>
-                <clip begin="185.54257813" end="187.42650000" betype="time" startid="#Ackermann1951_mov9_measure102" type="measure"/>
-                <clip begin="187.42650000" end="189.37033334" betype="time" startid="#Ackermann1951_mov9_measure103" type="measure"/>
-                <clip begin="189.37033334" end="191.25333333" betype="time" startid="#Ackermann1951_mov9_measure104" type="measure"/>
-                <clip begin="191.25333333" end="193.13600000" betype="time" startid="#Ackermann1951_mov9_measure105" type="measure"/>
-                <clip begin="193.13600000" end="194.88000000" betype="time" startid="#Ackermann1951_mov9_measure106" type="measure"/>
-                <clip begin="194.88000000" end="196.68400000" betype="time" startid="#Ackermann1951_mov9_measure107" type="measure"/>
-                <clip begin="196.68400000" end="198.22243750" betype="time" startid="#Ackermann1951_mov9_measure108" type="measure"/>
-                <clip begin="198.22243750" end="199.85175000" betype="time" startid="#Ackermann1951_mov9_measure109" type="measure"/>
-                <clip begin="199.85175000" end="201.56343750" betype="time" startid="#Ackermann1951_mov9_measure110" type="measure"/>
-                <clip begin="201.56343750" end="203.12150000" betype="time" startid="#Ackermann1951_mov9_measure111" type="measure"/>
-                <clip begin="203.12150000" end="205.02412500" betype="time" startid="#Ackermann1951_mov9_measure112" type="measure"/>
-                <clip begin="205.02412500" end="206.77295833" betype="time" startid="#Ackermann1951_mov9_measure113" type="measure"/>
-                <clip begin="206.77295833" end="208.76833333" betype="time" startid="#Ackermann1951_mov9_measure114" type="measure"/>
-                <clip begin="208.76833333" end="210.49304167" betype="time" startid="#Ackermann1951_mov9_measure115" type="measure"/>
-                <clip begin="210.49304167" end="211.04042857" betype="time" startid="#Ackermann1951_mov9_measure116" type="measure"/>
-                <clip begin="211.04042857" end="211.07853922" betype="time" startid="#Ackermann1951_mov9_measure117" type="measure"/>
-                <clip begin="211.07853922" end="211.11061673" betype="time" startid="#Ackermann1951_mov9_measure118" type="measure"/>
-                <clip begin="211.11061673" end="211.14067555" betype="time" startid="#Ackermann1951_mov9_measure119" type="measure"/>
-                <clip begin="211.14067555" end="211.31044627" betype="time" startid="#Ackermann1951_mov9_measure120" type="measure"/>
-                <clip begin="211.31044627" end="212.05122459" betype="time" startid="#Ackermann1951_mov9_measure121" type="measure"/>
-                <clip begin="212.05122459" end="212.10045071" betype="time" startid="#Ackermann1951_mov9_measure122" type="measure"/>
-                <clip begin="212.10045071" end="212.25466667" betype="time" startid="#Ackermann1951_mov9_measure123" type="measure"/>
-                <clip begin="212.25466667" end="212.70829167" betype="time" startid="#Ackermann1951_mov9_measure124" type="measure"/>
-                <clip begin="212.70829167" end="213.55228479" betype="time" startid="#Ackermann1951_mov9_measure125" type="measure"/>
-                <clip begin="213.55228479" end="213.57330744" betype="time" startid="#Ackermann1951_mov9_measure126" type="measure"/>
-                <clip begin="213.57330744" end="213.59469256" betype="time" startid="#Ackermann1951_mov9_measure127" type="measure"/>
-                <clip begin="213.59469256" end="213.61773463" betype="time" startid="#Ackermann1951_mov9_measure128" type="measure"/>
-                <clip begin="213.61773463" end="213.64086549" betype="time" startid="#Ackermann1951_mov9_measure129" type="measure"/>
-                <clip begin="213.64086549" end="215.04125000" betype="time" startid="#Ackermann1951_mov9_measure130" type="measure"/>
-                <clip begin="215.04125000" end="215.98718750" betype="time" startid="#Ackermann1951_mov9_measure131" type="measure"/>
-                <clip begin="215.98718750" end="217.00365104" betype="time" startid="#Ackermann1951_mov9_measure132" type="measure"/>
-                <clip begin="217.00365104" end="218.26121296" betype="time" startid="#Ackermann1951_mov9_measure133" type="measure"/>
-                <clip begin="218.26121296" end="218.33581482" betype="time" startid="#Ackermann1951_mov9_measure134" type="measure"/>
-                <clip begin="218.33581482" end="219.51866667" betype="time" startid="#Ackermann1951_mov9_measure135" type="measure"/>
-                <clip begin="219.51866667" end="220.86660417" betype="time" startid="#Ackermann1951_mov9_measure136" type="measure"/>
-                <clip begin="220.86660417" end="221.98925000" betype="time" startid="#Ackermann1951_mov9_measure137" type="measure"/>
-                <clip begin="221.98925000" end="223.17863889" betype="time" startid="#Ackermann1951_mov9_measure138" type="measure"/>
-                <clip begin="223.17863889" end="223.26845938" betype="time" startid="#Ackermann1951_mov9_measure139" type="measure"/>
-                <clip begin="223.26845938" end="223.29778819" betype="time" startid="#Ackermann1951_mov9_measure140" type="measure"/>
-                <clip begin="223.29778819" end="223.69816667" betype="time" startid="#Ackermann1951_mov9_measure141" type="measure"/>
-                <clip begin="223.69816667" end="223.92263810" betype="time" startid="#Ackermann1951_mov9_measure142" type="measure"/>
-                <clip begin="223.92263810" end="225.84014583" betype="time" startid="#Ackermann1951_mov9_measure143" type="measure"/>
-                <clip begin="225.84014583" end="228.85504167" betype="time" startid="#Ackermann1951_mov9_measure144" type="measure"/>
-                <clip begin="228.85504167" end="229.26896035" betype="time" startid="#Ackermann1951_mov9_measure145" type="measure"/>
-                <clip begin="229.26896035" end="229.30245318" betype="time" startid="#Ackermann1951_mov9_measure146" type="measure"/>
-                <clip begin="229.30245318" end="229.33855511" betype="time" startid="#Ackermann1951_mov9_measure147" type="measure"/>
-                <clip begin="229.33855511" end="229.68009896" betype="time" startid="#Ackermann1951_mov9_measure148" type="measure"/>
-                <clip begin="229.68009896" end="229.94689423" betype="time" startid="#Ackermann1951_mov9_measure149" type="measure"/>
-                <clip begin="229.94689423" end="230.27244444" betype="time" startid="#Ackermann1951_mov9_measure150" type="measure"/>
-                <clip begin="230.27244444" end="230.90190476" betype="time" startid="#Ackermann1951_mov9_measure151" type="measure"/>
-                <clip begin="230.90190476" end="231.14863636" betype="time" startid="#Ackermann1951_mov9_measure152" type="measure"/>
-                <clip begin="231.14863636" end="231.46179634" betype="time" startid="#Ackermann1951_mov9_measure153" type="measure"/>
-                <clip begin="231.46179634" end="231.48359882" betype="time" startid="#Ackermann1951_mov9_measure154" type="measure"/>
-                <clip begin="231.48359882" end="231.50626068" betype="time" startid="#Ackermann1951_mov9_measure155" type="measure"/>
-                <clip begin="231.50626068" end="231.52845166" betype="time" startid="#Ackermann1951_mov9_measure156" type="measure"/>
-                <clip begin="231.52845166" end="231.54985043" betype="time" startid="#Ackermann1951_mov9_measure157" type="measure"/>
-                <clip begin="231.54985043" end="231.60152657" betype="time" startid="#Ackermann1951_mov9_measure158" type="measure"/>
-                <clip begin="231.60152657" end="231.64959179" betype="time" startid="#Ackermann1951_mov9_measure159" type="measure"/>
-                <clip begin="231.64959179" end="231.67870833" betype="time" startid="#Ackermann1951_mov9_measure160" type="measure"/>
-                <clip begin="231.67870833" end="231.70664426" betype="time" startid="#Ackermann1951_mov9_measure161" type="measure"/>
-                <clip begin="231.70664426" end="231.73582073" betype="time" startid="#Ackermann1951_mov9_measure162" type="measure"/>
-                <clip begin="231.73582073" end="233.00000000" betype="time" startid="#Ackermann1951_mov9_measure163" type="measure"/>
-                <clip begin="233.00000000" end="234.40855555" betype="time" startid="#Ackermann1951_mov9_measure164" type="measure"/>
-                <clip begin="234.40855555" end="236.31946667" betype="time" startid="#Ackermann1951_mov9_measure165" type="measure"/>
-                <clip begin="236.31946667" end="238.20138715" betype="time" startid="#Ackermann1951_mov9_measure166" type="measure"/>
-                <clip begin="238.20138715" end="240.19366666" betype="time" startid="#Ackermann1951_mov9_measure167" type="measure"/>
-                <clip begin="240.19366666" end="240.83372222" betype="time" startid="#Ackermann1951_mov9_measure168" type="measure"/>
-                <clip begin="240.83372222" end="241.25580313" betype="time" startid="#Ackermann1951_mov9_measure169" type="measure"/>
-                <clip begin="241.25580313" end="241.26484885" betype="time" startid="#Ackermann1951_mov9_measure170" type="measure"/>
-                <clip begin="241.26484885" end="241.27315115" betype="time" startid="#Ackermann1951_mov9_measure171" type="measure"/>
-                <clip begin="241.27315115" end="241.28252685" betype="time" startid="#Ackermann1951_mov9_measure172" type="measure"/>
-                <clip begin="241.28252685" end="241.29067380" betype="time" startid="#Ackermann1951_mov9_measure173" type="measure"/>
-                <clip begin="241.29067380" end="241.30068876" betype="time" startid="#Ackermann1951_mov9_measure174" type="measure"/>
-                <clip begin="241.30068876" end="241.30900280" betype="time" startid="#Ackermann1951_mov9_measure175" type="measure"/>
-                <clip begin="241.30900280" end="241.31858473" betype="time" startid="#Ackermann1951_mov9_measure176" type="measure"/>
-                <clip begin="241.31858473" end="241.32790478" betype="time" startid="#Ackermann1951_mov9_measure177" type="measure"/>
-                <clip begin="241.32790478" end="241.33738688" betype="time" startid="#Ackermann1951_mov9_measure178" type="measure"/>
-                <clip begin="241.33738688" end="241.34699049" betype="time" startid="#Ackermann1951_mov9_measure179" type="measure"/>
-                <clip begin="241.34699049" end="241.77001736" betype="time" startid="#Ackermann1951_mov9_measure180" type="measure"/>
-                <clip begin="241.77001736" end="241.94208854" betype="time" startid="#Ackermann1951_mov9_measure181" type="measure"/>
-                <clip begin="241.94208854" end="242.69927778" betype="time" startid="#Ackermann1951_mov9_measure182" type="measure"/>
-                <clip begin="242.69927778" end="242.98900000" betype="time" startid="#Ackermann1951_mov9_measure183" type="measure"/>
-                <clip begin="242.98900000" end="243.50728205" betype="time" startid="#Ackermann1951_mov9_measure184" type="measure"/>
-                <clip begin="243.50728205" end="243.57747917" betype="time" startid="#Ackermann1951_mov9_measure185" type="measure"/>
-                <clip begin="243.57747917" end="243.62264583" betype="time" startid="#Ackermann1951_mov9_measure186" type="measure"/>
-                <clip begin="243.62264583" end="243.98006845" betype="time" startid="#Ackermann1951_mov9_measure187" type="measure"/>
-                <clip begin="243.98006845" end="244.56666667" betype="time" startid="#Ackermann1951_mov9_measure188" type="measure"/>
-                <clip begin="244.56666667" end="246.02000000" betype="time" startid="#Ackermann1951_mov9_measure189" type="measure"/>
-                <clip begin="246.02000000" end="247.20453333" betype="time" startid="#Ackermann1951_mov9_measure190" type="measure"/>
-                <clip begin="247.20453333" end="247.45284226" betype="time" startid="#Ackermann1951_mov9_measure191" type="measure"/>
-                <clip begin="247.45284226" end="247.55517949" betype="time" startid="#Ackermann1951_mov9_measure192" type="measure"/>
-                <clip begin="247.55517949" end="247.72250000" betype="time" startid="#Ackermann1951_mov9_measure193" type="measure"/>
-                <clip begin="247.72250000" end="248.85500000" betype="time" startid="#Ackermann1951_mov9_measure194" type="measure"/>
-                <clip begin="248.85500000" end="249.94375000" betype="time" startid="#Ackermann1951_mov9_measure195" type="measure"/>
-                <clip begin="249.94375000" end="251.19750000" betype="time" startid="#Ackermann1951_mov9_measure196" type="measure"/>
-                <clip begin="251.19750000" end="252.63750000" betype="time" startid="#Ackermann1951_mov9_measure197" type="measure"/>
-                <clip begin="252.63750000" end="253.06000000" betype="time" startid="#Ackermann1951_mov9_measure198" type="measure"/>
-                <clip begin="253.06000000" end="256.24206250" betype="time" startid="#Ackermann1951_mov9_measure199" type="measure"/>
-         </recording>
-        </performance>
-        <body>
-            <mdiv xml:id="freidi-recording_Ackermann1951_mov6" label="Ackermann1951_mov6">
-            <score>
-               <section>
-                  <measure xml:id="Ackermann1951_mov6_measure1" sameas="../freidi-work.xml#core_mov6_measure1"/>
-                  <measure xml:id="Ackermann1951_mov6_measure2" sameas="../freidi-work.xml#core_mov6_measure2"/>
-                  <measure xml:id="Ackermann1951_mov6_measure3" sameas="../freidi-work.xml#core_mov6_measure3"/>
-                  <measure xml:id="Ackermann1951_mov6_measure4" sameas="../freidi-work.xml#core_mov6_measure4"/>
-                  <measure xml:id="Ackermann1951_mov6_measure5" sameas="../freidi-work.xml#core_mov6_measure5"/>
-                  <measure xml:id="Ackermann1951_mov6_measure6" sameas="../freidi-work.xml#core_mov6_measure6"/>
-                  <measure xml:id="Ackermann1951_mov6_measure7" sameas="../freidi-work.xml#core_mov6_measure7"/>
-                  <measure xml:id="Ackermann1951_mov6_measure8" sameas="../freidi-work.xml#core_mov6_measure8"/>
-                  <measure xml:id="Ackermann1951_mov6_measure9" sameas="../freidi-work.xml#core_mov6_measure9"/>
-                  <measure xml:id="Ackermann1951_mov6_measure10" sameas="../freidi-work.xml#core_mov6_measure10"/>
-                  <measure xml:id="Ackermann1951_mov6_measure11" sameas="../freidi-work.xml#core_mov6_measure11"/>
-                  <measure xml:id="Ackermann1951_mov6_measure12" sameas="../freidi-work.xml#core_mov6_measure12"/>
-                  <measure xml:id="Ackermann1951_mov6_measure13" sameas="../freidi-work.xml#core_mov6_measure13"/>
-                  <measure xml:id="Ackermann1951_mov6_measure14" sameas="../freidi-work.xml#core_mov6_measure14"/>
-                  <measure xml:id="Ackermann1951_mov6_measure15" sameas="../freidi-work.xml#core_mov6_measure15"/>
-                  <measure xml:id="Ackermann1951_mov6_measure16" sameas="../freidi-work.xml#core_mov6_measure16"/>
-                  <measure xml:id="Ackermann1951_mov6_measure17" sameas="../freidi-work.xml#core_mov6_measure17"/>
-                  <measure xml:id="Ackermann1951_mov6_measure18" sameas="../freidi-work.xml#core_mov6_measure18"/>
-                  <measure xml:id="Ackermann1951_mov6_measure19" sameas="../freidi-work.xml#core_mov6_measure19"/>
-                  <measure xml:id="Ackermann1951_mov6_measure20" sameas="../freidi-work.xml#core_mov6_measure20"/>
-                  <measure xml:id="Ackermann1951_mov6_measure21" sameas="../freidi-work.xml#core_mov6_measure21"/>
-                  <measure xml:id="Ackermann1951_mov6_measure22" sameas="../freidi-work.xml#core_mov6_measure22"/>
-                  <measure xml:id="Ackermann1951_mov6_measure23" sameas="../freidi-work.xml#core_mov6_measure23"/>
-                  <measure xml:id="Ackermann1951_mov6_measure24" sameas="../freidi-work.xml#core_mov6_measure24"/>
-                  <measure xml:id="Ackermann1951_mov6_measure25" sameas="../freidi-work.xml#core_mov6_measure25"/>
-                  <measure xml:id="Ackermann1951_mov6_measure26" sameas="../freidi-work.xml#core_mov6_measure26"/>
-                  <measure xml:id="Ackermann1951_mov6_measure27" sameas="../freidi-work.xml#core_mov6_measure27"/>
-                  <measure xml:id="Ackermann1951_mov6_measure28" sameas="../freidi-work.xml#core_mov6_measure28"/>
-                  <measure xml:id="Ackermann1951_mov6_measure29" sameas="../freidi-work.xml#core_mov6_measure29"/>
-                  <measure xml:id="Ackermann1951_mov6_measure30" sameas="../freidi-work.xml#core_mov6_measure30"/>
-                  <measure xml:id="Ackermann1951_mov6_measure31" sameas="../freidi-work.xml#core_mov6_measure31"/>
-                  <measure xml:id="Ackermann1951_mov6_measure32" sameas="../freidi-work.xml#core_mov6_measure32"/>
-                  <measure xml:id="Ackermann1951_mov6_measure33" sameas="../freidi-work.xml#core_mov6_measure33"/>
-                  <measure xml:id="Ackermann1951_mov6_measure34" sameas="../freidi-work.xml#core_mov6_measure34"/>
-                  <measure xml:id="Ackermann1951_mov6_measure35" sameas="../freidi-work.xml#core_mov6_measure35"/>
-                  <measure xml:id="Ackermann1951_mov6_measure36" sameas="../freidi-work.xml#core_mov6_measure36"/>
-                  <measure xml:id="Ackermann1951_mov6_measure37" sameas="../freidi-work.xml#core_mov6_measure37"/>
-                  <measure xml:id="Ackermann1951_mov6_measure38" sameas="../freidi-work.xml#core_mov6_measure38"/>
-                  <measure xml:id="Ackermann1951_mov6_measure39" sameas="../freidi-work.xml#core_mov6_measure39"/>
-                  <measure xml:id="Ackermann1951_mov6_measure40" sameas="../freidi-work.xml#core_mov6_measure40"/>
-                  <measure xml:id="Ackermann1951_mov6_measure41" sameas="../freidi-work.xml#core_mov6_measure41"/>
-                  <measure xml:id="Ackermann1951_mov6_measure42" sameas="../freidi-work.xml#core_mov6_measure42"/>
-                  <measure xml:id="Ackermann1951_mov6_measure43" sameas="../freidi-work.xml#core_mov6_measure43"/>
-                  <measure xml:id="Ackermann1951_mov6_measure44" sameas="../freidi-work.xml#core_mov6_measure44"/>
-                  <measure xml:id="Ackermann1951_mov6_measure45" sameas="../freidi-work.xml#core_mov6_measure45"/>
-                  <measure xml:id="Ackermann1951_mov6_measure46" sameas="../freidi-work.xml#core_mov6_measure46"/>
-                  <measure xml:id="Ackermann1951_mov6_measure47" sameas="../freidi-work.xml#core_mov6_measure47"/>
-                  <measure xml:id="Ackermann1951_mov6_measure48" sameas="../freidi-work.xml#core_mov6_measure48"/>
-                  <measure xml:id="Ackermann1951_mov6_measure49" sameas="../freidi-work.xml#core_mov6_measure49"/>
-                  <measure xml:id="Ackermann1951_mov6_measure50" sameas="../freidi-work.xml#core_mov6_measure50"/>
-                  <measure xml:id="Ackermann1951_mov6_measure51" sameas="../freidi-work.xml#core_mov6_measure51"/>
-                  <measure xml:id="Ackermann1951_mov6_measure52" sameas="../freidi-work.xml#core_mov6_measure52"/>
-                  <measure xml:id="Ackermann1951_mov6_measure53" sameas="../freidi-work.xml#core_mov6_measure53"/>
-                  <measure xml:id="Ackermann1951_mov6_measure54" sameas="../freidi-work.xml#core_mov6_measure54"/>
-                  <measure xml:id="Ackermann1951_mov6_measure55" sameas="../freidi-work.xml#core_mov6_measure55"/>
-                  <measure xml:id="Ackermann1951_mov6_measure56" sameas="../freidi-work.xml#core_mov6_measure56"/>
-                  <measure xml:id="Ackermann1951_mov6_measure57" sameas="../freidi-work.xml#core_mov6_measure57"/>
-                  <measure xml:id="Ackermann1951_mov6_measure58" sameas="../freidi-work.xml#core_mov6_measure58"/>
-                  <measure xml:id="Ackermann1951_mov6_measure59" sameas="../freidi-work.xml#core_mov6_measure59"/>
-                  <measure xml:id="Ackermann1951_mov6_measure60" sameas="../freidi-work.xml#core_mov6_measure60"/>
-                  <measure xml:id="Ackermann1951_mov6_measure61" sameas="../freidi-work.xml#core_mov6_measure61"/>
-                  <measure xml:id="Ackermann1951_mov6_measure62" sameas="../freidi-work.xml#core_mov6_measure62"/>
-                  <measure xml:id="Ackermann1951_mov6_measure63" sameas="../freidi-work.xml#core_mov6_measure63"/>
-                  <measure xml:id="Ackermann1951_mov6_measure64" sameas="../freidi-work.xml#core_mov6_measure64"/>
-                  <measure xml:id="Ackermann1951_mov6_measure65" sameas="../freidi-work.xml#core_mov6_measure65"/>
-                  <measure xml:id="Ackermann1951_mov6_measure66" sameas="../freidi-work.xml#core_mov6_measure66"/>
-                  <measure xml:id="Ackermann1951_mov6_measure67" sameas="../freidi-work.xml#core_mov6_measure67"/>
-                  <measure xml:id="Ackermann1951_mov6_measure68" sameas="../freidi-work.xml#core_mov6_measure68"/>
-                  <measure xml:id="Ackermann1951_mov6_measure69" sameas="../freidi-work.xml#core_mov6_measure69"/>
-                  <measure xml:id="Ackermann1951_mov6_measure70" sameas="../freidi-work.xml#core_mov6_measure70"/>
-                  <measure xml:id="Ackermann1951_mov6_measure71" sameas="../freidi-work.xml#core_mov6_measure71"/>
-                  <measure xml:id="Ackermann1951_mov6_measure72" sameas="../freidi-work.xml#core_mov6_measure72"/>
-                  <measure xml:id="Ackermann1951_mov6_measure73" sameas="../freidi-work.xml#core_mov6_measure73"/>
-                  <measure xml:id="Ackermann1951_mov6_measure74" sameas="../freidi-work.xml#core_mov6_measure74"/>
-                  <measure xml:id="Ackermann1951_mov6_measure75" sameas="../freidi-work.xml#core_mov6_measure75"/>
-                  <measure xml:id="Ackermann1951_mov6_measure76" sameas="../freidi-work.xml#core_mov6_measure76"/>
-                  <measure xml:id="Ackermann1951_mov6_measure77" sameas="../freidi-work.xml#core_mov6_measure77"/>
-                  <measure xml:id="Ackermann1951_mov6_measure78" sameas="../freidi-work.xml#core_mov6_measure78"/>
-                  <measure xml:id="Ackermann1951_mov6_measure79" sameas="../freidi-work.xml#core_mov6_measure79"/>
-                  <measure xml:id="Ackermann1951_mov6_measure80" sameas="../freidi-work.xml#core_mov6_measure80"/>
-                  <measure xml:id="Ackermann1951_mov6_measure81" sameas="../freidi-work.xml#core_mov6_measure81"/>
-                  <measure xml:id="Ackermann1951_mov6_measure82" sameas="../freidi-work.xml#core_mov6_measure82"/>
-                  <measure xml:id="Ackermann1951_mov6_measure83" sameas="../freidi-work.xml#core_mov6_measure83"/>
-                  <measure xml:id="Ackermann1951_mov6_measure84" sameas="../freidi-work.xml#core_mov6_measure84"/>
-                  <measure xml:id="Ackermann1951_mov6_measure85" sameas="../freidi-work.xml#core_mov6_measure85"/>
-                  <measure xml:id="Ackermann1951_mov6_measure86" sameas="../freidi-work.xml#core_mov6_measure86"/>
-                  <measure xml:id="Ackermann1951_mov6_measure87" sameas="../freidi-work.xml#core_mov6_measure87"/>
-                  <measure xml:id="Ackermann1951_mov6_measure88" sameas="../freidi-work.xml#core_mov6_measure88"/>
-                  <measure xml:id="Ackermann1951_mov6_measure89" sameas="../freidi-work.xml#core_mov6_measure89"/>
-                  <measure xml:id="Ackermann1951_mov6_measure90" sameas="../freidi-work.xml#core_mov6_measure90"/>
-                  <measure xml:id="Ackermann1951_mov6_measure91" sameas="../freidi-work.xml#core_mov6_measure91"/>
-                  <measure xml:id="Ackermann1951_mov6_measure92" sameas="../freidi-work.xml#core_mov6_measure92"/>
-                  <measure xml:id="Ackermann1951_mov6_measure93" sameas="../freidi-work.xml#core_mov6_measure93"/>
-                  <measure xml:id="Ackermann1951_mov6_measure94" sameas="../freidi-work.xml#core_mov6_measure94"/>
-                  <measure xml:id="Ackermann1951_mov6_measure95" sameas="../freidi-work.xml#core_mov6_measure95"/>
-                  <measure xml:id="Ackermann1951_mov6_measure96" sameas="../freidi-work.xml#core_mov6_measure96"/>
-                  <measure xml:id="Ackermann1951_mov6_measure97" sameas="../freidi-work.xml#core_mov6_measure97"/>
-                  <measure xml:id="Ackermann1951_mov6_measure98" sameas="../freidi-work.xml#core_mov6_measure98"/>
-                  <measure xml:id="Ackermann1951_mov6_measure99" sameas="../freidi-work.xml#core_mov6_measure99"/>
-                  <measure xml:id="Ackermann1951_mov6_measure100" sameas="../freidi-work.xml#core_mov6_measure100"/>
-                  <measure xml:id="Ackermann1951_mov6_measure101" sameas="../freidi-work.xml#core_mov6_measure101"/>
-                  <measure xml:id="Ackermann1951_mov6_measure102" sameas="../freidi-work.xml#core_mov6_measure102"/>
-                  <measure xml:id="Ackermann1951_mov6_measure103" sameas="../freidi-work.xml#core_mov6_measure103"/>
-                  <measure xml:id="Ackermann1951_mov6_measure104" sameas="../freidi-work.xml#core_mov6_measure104"/>
-                  <measure xml:id="Ackermann1951_mov6_measure105" sameas="../freidi-work.xml#core_mov6_measure105"/>
-                  <measure xml:id="Ackermann1951_mov6_measure106" sameas="../freidi-work.xml#core_mov6_measure106"/>
-                  <measure xml:id="Ackermann1951_mov6_measure107" sameas="../freidi-work.xml#core_mov6_measure107"/>
-                  <measure xml:id="Ackermann1951_mov6_measure108" sameas="../freidi-work.xml#core_mov6_measure108"/>
-                  <measure xml:id="Ackermann1951_mov6_measure109" sameas="../freidi-work.xml#core_mov6_measure109"/>
-                  <measure xml:id="Ackermann1951_mov6_measure110" sameas="../freidi-work.xml#core_mov6_measure110"/>
-                  <measure xml:id="Ackermann1951_mov6_measure111" sameas="../freidi-work.xml#core_mov6_measure111"/>
-                  <measure xml:id="Ackermann1951_mov6_measure112" sameas="../freidi-work.xml#core_mov6_measure112"/>
-                  <measure xml:id="Ackermann1951_mov6_measure113" sameas="../freidi-work.xml#core_mov6_measure113"/>
-                  <measure xml:id="Ackermann1951_mov6_measure114" sameas="../freidi-work.xml#core_mov6_measure114"/>
-                  <measure xml:id="Ackermann1951_mov6_measure115" sameas="../freidi-work.xml#core_mov6_measure115"/>
-                  <measure xml:id="Ackermann1951_mov6_measure116" sameas="../freidi-work.xml#core_mov6_measure116"/>
-                  <measure xml:id="Ackermann1951_mov6_measure117" sameas="../freidi-work.xml#core_mov6_measure117"/>
-                  <measure xml:id="Ackermann1951_mov6_measure118" sameas="../freidi-work.xml#core_mov6_measure118"/>
-                  <measure xml:id="Ackermann1951_mov6_measure119" sameas="../freidi-work.xml#core_mov6_measure119"/>
-                  <measure xml:id="Ackermann1951_mov6_measure120" sameas="../freidi-work.xml#core_mov6_measure120"/>
-                  <measure xml:id="Ackermann1951_mov6_measure121" sameas="../freidi-work.xml#core_mov6_measure121"/>
-                  <measure xml:id="Ackermann1951_mov6_measure122" sameas="../freidi-work.xml#core_mov6_measure122"/>
-                  <measure xml:id="Ackermann1951_mov6_measure123" sameas="../freidi-work.xml#core_mov6_measure123"/>
-                  <measure xml:id="Ackermann1951_mov6_measure124" sameas="../freidi-work.xml#core_mov6_measure124"/>
-                  <measure xml:id="Ackermann1951_mov6_measure125" sameas="../freidi-work.xml#core_mov6_measure125"/>
-                  <measure xml:id="Ackermann1951_mov6_measure126" sameas="../freidi-work.xml#core_mov6_measure126"/>
-                  <measure xml:id="Ackermann1951_mov6_measure127" sameas="../freidi-work.xml#core_mov6_measure127"/>
-                  <measure xml:id="Ackermann1951_mov6_measure128" sameas="../freidi-work.xml#core_mov6_measure128"/>
-                  <measure xml:id="Ackermann1951_mov6_measure129" sameas="../freidi-work.xml#core_mov6_measure129"/>
-                  <measure xml:id="Ackermann1951_mov6_measure130" sameas="../freidi-work.xml#core_mov6_measure130"/>
-                  <measure xml:id="Ackermann1951_mov6_measure131" sameas="../freidi-work.xml#core_mov6_measure131"/>
-                  <measure xml:id="Ackermann1951_mov6_measure132" sameas="../freidi-work.xml#core_mov6_measure132"/>
-                  <measure xml:id="Ackermann1951_mov6_measure133" sameas="../freidi-work.xml#core_mov6_measure133"/>
-                  <measure xml:id="Ackermann1951_mov6_measure134" sameas="../freidi-work.xml#core_mov6_measure134"/>
-                  <measure xml:id="Ackermann1951_mov6_measure135" sameas="../freidi-work.xml#core_mov6_measure135"/>
-                  <measure xml:id="Ackermann1951_mov6_measure136" sameas="../freidi-work.xml#core_mov6_measure136"/>
-                  <measure xml:id="Ackermann1951_mov6_measure137" sameas="../freidi-work.xml#core_mov6_measure137"/>
-                  <measure xml:id="Ackermann1951_mov6_measure138" sameas="../freidi-work.xml#core_mov6_measure138"/>
-                  <measure xml:id="Ackermann1951_mov6_measure139" sameas="../freidi-work.xml#core_mov6_measure139"/>
-                  <measure xml:id="Ackermann1951_mov6_measure140" sameas="../freidi-work.xml#core_mov6_measure140"/>
-                  <measure xml:id="Ackermann1951_mov6_measure141" sameas="../freidi-work.xml#core_mov6_measure141"/>
-                  <measure xml:id="Ackermann1951_mov6_measure142" sameas="../freidi-work.xml#core_mov6_measure142"/>
-                  <measure xml:id="Ackermann1951_mov6_measure143" sameas="../freidi-work.xml#core_mov6_measure143"/>
-                  <measure xml:id="Ackermann1951_mov6_measure144" sameas="../freidi-work.xml#core_mov6_measure144"/>
-                  <measure xml:id="Ackermann1951_mov6_measure145" sameas="../freidi-work.xml#core_mov6_measure145"/>
-                  <measure xml:id="Ackermann1951_mov6_measure146" sameas="../freidi-work.xml#core_mov6_measure146"/>
-                  <measure xml:id="Ackermann1951_mov6_measure147" sameas="../freidi-work.xml#core_mov6_measure147"/>
-                  <measure xml:id="Ackermann1951_mov6_measure148" sameas="../freidi-work.xml#core_mov6_measure148"/>
-                  <measure xml:id="Ackermann1951_mov6_measure149" sameas="../freidi-work.xml#core_mov6_measure149"/>
-               </section>
-            </score>
-         </mdiv>
-            <mdiv xml:id="freidi-recording_Ackermann1951_mov8" label="Ackermann1951_mov8">
-            <score>
-               <section>
-                  <measure xml:id="Ackermann1951_mov8_measure1" sameas="../freidi-work.xml#core_mov8_measure1"/>
-                  <measure xml:id="Ackermann1951_mov8_measure2" sameas="../freidi-work.xml#core_mov8_measure2"/>
-                  <measure xml:id="Ackermann1951_mov8_measure3" sameas="../freidi-work.xml#core_mov8_measure3"/>
-                  <measure xml:id="Ackermann1951_mov8_measure4" sameas="../freidi-work.xml#core_mov8_measure4"/>
-                  <measure xml:id="Ackermann1951_mov8_measure5" sameas="../freidi-work.xml#core_mov8_measure5"/>
-                  <measure xml:id="Ackermann1951_mov8_measure6" sameas="../freidi-work.xml#core_mov8_measure6"/>
-                  <measure xml:id="Ackermann1951_mov8_measure7" sameas="../freidi-work.xml#core_mov8_measure7"/>
-                  <measure xml:id="Ackermann1951_mov8_measure8" sameas="../freidi-work.xml#core_mov8_measure8"/>
-                  <measure xml:id="Ackermann1951_mov8_measure9" sameas="../freidi-work.xml#core_mov8_measure9"/>
-                  <measure xml:id="Ackermann1951_mov8_measure10" sameas="../freidi-work.xml#core_mov8_measure10"/>
-                  <measure xml:id="Ackermann1951_mov8_measure11" sameas="../freidi-work.xml#core_mov8_measure11"/>
-                  <measure xml:id="Ackermann1951_mov8_measure12" sameas="../freidi-work.xml#core_mov8_measure12"/>
-                  <measure xml:id="Ackermann1951_mov8_measure13" sameas="../freidi-work.xml#core_mov8_measure13"/>
-                  <measure xml:id="Ackermann1951_mov8_measure14" sameas="../freidi-work.xml#core_mov8_measure14"/>
-                  <measure xml:id="Ackermann1951_mov8_measure15" sameas="../freidi-work.xml#core_mov8_measure15"/>
-                  <measure xml:id="Ackermann1951_mov8_measure16" sameas="../freidi-work.xml#core_mov8_measure16"/>
-                  <measure xml:id="Ackermann1951_mov8_measure17" sameas="../freidi-work.xml#core_mov8_measure17"/>
-                  <measure xml:id="Ackermann1951_mov8_measure18" sameas="../freidi-work.xml#core_mov8_measure18"/>
-                  <measure xml:id="Ackermann1951_mov8_measure19" sameas="../freidi-work.xml#core_mov8_measure19"/>
-                  <measure xml:id="Ackermann1951_mov8_measure20" sameas="../freidi-work.xml#core_mov8_measure20"/>
-                  <measure xml:id="Ackermann1951_mov8_measure21" sameas="../freidi-work.xml#core_mov8_measure21"/>
-                  <measure xml:id="Ackermann1951_mov8_measure22" sameas="../freidi-work.xml#core_mov8_measure22"/>
-                  <measure xml:id="Ackermann1951_mov8_measure23" sameas="../freidi-work.xml#core_mov8_measure23"/>
-                  <measure xml:id="Ackermann1951_mov8_measure24" sameas="../freidi-work.xml#core_mov8_measure24"/>
-                  <measure xml:id="Ackermann1951_mov8_measure25" sameas="../freidi-work.xml#core_mov8_measure25"/>
-                  <measure xml:id="Ackermann1951_mov8_measure26" sameas="../freidi-work.xml#core_mov8_measure26"/>
-                  <measure xml:id="Ackermann1951_mov8_measure27" sameas="../freidi-work.xml#core_mov8_measure27"/>
-                  <measure xml:id="Ackermann1951_mov8_measure28" sameas="../freidi-work.xml#core_mov8_measure28"/>
-                  <measure xml:id="Ackermann1951_mov8_measure29" sameas="../freidi-work.xml#core_mov8_measure29"/>
-                  <measure xml:id="Ackermann1951_mov8_measure30" sameas="../freidi-work.xml#core_mov8_measure30"/>
-                  <measure xml:id="Ackermann1951_mov8_measure31" sameas="../freidi-work.xml#core_mov8_measure31"/>
-                  <measure xml:id="Ackermann1951_mov8_measure32" sameas="../freidi-work.xml#core_mov8_measure32"/>
-                  <measure xml:id="Ackermann1951_mov8_measure33" sameas="../freidi-work.xml#core_mov8_measure33"/>
-                  <measure xml:id="Ackermann1951_mov8_measure34" sameas="../freidi-work.xml#core_mov8_measure34"/>
-                  <measure xml:id="Ackermann1951_mov8_measure35" sameas="../freidi-work.xml#core_mov8_measure35"/>
-                  <measure xml:id="Ackermann1951_mov8_measure36" sameas="../freidi-work.xml#core_mov8_measure36"/>
-                  <measure xml:id="Ackermann1951_mov8_measure37" sameas="../freidi-work.xml#core_mov8_measure37"/>
-                  <measure xml:id="Ackermann1951_mov8_measure38" sameas="../freidi-work.xml#core_mov8_measure38"/>
-                  <measure xml:id="Ackermann1951_mov8_measure39" sameas="../freidi-work.xml#core_mov8_measure39"/>
-                  <measure xml:id="Ackermann1951_mov8_measure40" sameas="../freidi-work.xml#core_mov8_measure40"/>
-                  <measure xml:id="Ackermann1951_mov8_measure41" sameas="../freidi-work.xml#core_mov8_measure41"/>
-                  <measure xml:id="Ackermann1951_mov8_measure42" sameas="../freidi-work.xml#core_mov8_measure42"/>
-                  <measure xml:id="Ackermann1951_mov8_measure43" sameas="../freidi-work.xml#core_mov8_measure43"/>
-                  <measure xml:id="Ackermann1951_mov8_measure44" sameas="../freidi-work.xml#core_mov8_measure44"/>
-                  <measure xml:id="Ackermann1951_mov8_measure45" sameas="../freidi-work.xml#core_mov8_measure45"/>
-                  <measure xml:id="Ackermann1951_mov8_measure46" sameas="../freidi-work.xml#core_mov8_measure46"/>
-                  <measure xml:id="Ackermann1951_mov8_measure47" sameas="../freidi-work.xml#core_mov8_measure47"/>
-                  <measure xml:id="Ackermann1951_mov8_measure48" sameas="../freidi-work.xml#core_mov8_measure48"/>
-                  <measure xml:id="Ackermann1951_mov8_measure49" sameas="../freidi-work.xml#core_mov8_measure49"/>
-                  <measure xml:id="Ackermann1951_mov8_measure50" sameas="../freidi-work.xml#core_mov8_measure50"/>
-                  <measure xml:id="Ackermann1951_mov8_measure51" sameas="../freidi-work.xml#core_mov8_measure51"/>
-                  <measure xml:id="Ackermann1951_mov8_measure52" sameas="../freidi-work.xml#core_mov8_measure52"/>
-                  <measure xml:id="Ackermann1951_mov8_measure53" sameas="../freidi-work.xml#core_mov8_measure53"/>
-                  <measure xml:id="Ackermann1951_mov8_measure54" sameas="../freidi-work.xml#core_mov8_measure54"/>
-                  <measure xml:id="Ackermann1951_mov8_measure55" sameas="../freidi-work.xml#core_mov8_measure55"/>
-                  <measure xml:id="Ackermann1951_mov8_measure56" sameas="../freidi-work.xml#core_mov8_measure56"/>
-                  <measure xml:id="Ackermann1951_mov8_measure57" sameas="../freidi-work.xml#core_mov8_measure57"/>
-                  <measure xml:id="Ackermann1951_mov8_measure58" sameas="../freidi-work.xml#core_mov8_measure58"/>
-                  <measure xml:id="Ackermann1951_mov8_measure59" sameas="../freidi-work.xml#core_mov8_measure59"/>
-                  <measure xml:id="Ackermann1951_mov8_measure60" sameas="../freidi-work.xml#core_mov8_measure60"/>
-                  <measure xml:id="Ackermann1951_mov8_measure61" sameas="../freidi-work.xml#core_mov8_measure61"/>
-                  <measure xml:id="Ackermann1951_mov8_measure62" sameas="../freidi-work.xml#core_mov8_measure62"/>
-                  <measure xml:id="Ackermann1951_mov8_measure63" sameas="../freidi-work.xml#core_mov8_measure63"/>
-                  <measure xml:id="Ackermann1951_mov8_measure64" sameas="../freidi-work.xml#core_mov8_measure64"/>
-                  <measure xml:id="Ackermann1951_mov8_measure65" sameas="../freidi-work.xml#core_mov8_measure65"/>
-                  <measure xml:id="Ackermann1951_mov8_measure66" sameas="../freidi-work.xml#core_mov8_measure66"/>
-                  <measure xml:id="Ackermann1951_mov8_measure67" sameas="../freidi-work.xml#core_mov8_measure67"/>
-                  <measure xml:id="Ackermann1951_mov8_measure68" sameas="../freidi-work.xml#core_mov8_measure68"/>
-                  <measure xml:id="Ackermann1951_mov8_measure69" sameas="../freidi-work.xml#core_mov8_measure69"/>
-                  <measure xml:id="Ackermann1951_mov8_measure70" sameas="../freidi-work.xml#core_mov8_measure70"/>
-                  <measure xml:id="Ackermann1951_mov8_measure71" sameas="../freidi-work.xml#core_mov8_measure71"/>
-                  <measure xml:id="Ackermann1951_mov8_measure72" sameas="../freidi-work.xml#core_mov8_measure72"/>
-                  <measure xml:id="Ackermann1951_mov8_measure73" sameas="../freidi-work.xml#core_mov8_measure73"/>
-                  <measure xml:id="Ackermann1951_mov8_measure74" sameas="../freidi-work.xml#core_mov8_measure74"/>
-                  <measure xml:id="Ackermann1951_mov8_measure75" sameas="../freidi-work.xml#core_mov8_measure75"/>
-                  <measure xml:id="Ackermann1951_mov8_measure76" sameas="../freidi-work.xml#core_mov8_measure76"/>
-                  <measure xml:id="Ackermann1951_mov8_measure77" sameas="../freidi-work.xml#core_mov8_measure77"/>
-                  <measure xml:id="Ackermann1951_mov8_measure78" sameas="../freidi-work.xml#core_mov8_measure78"/>
-                  <measure xml:id="Ackermann1951_mov8_measure79" sameas="../freidi-work.xml#core_mov8_measure79"/>
-                  <measure xml:id="Ackermann1951_mov8_measure80" sameas="../freidi-work.xml#core_mov8_measure80"/>
-                  <measure xml:id="Ackermann1951_mov8_measure81" sameas="../freidi-work.xml#core_mov8_measure81"/>
-                  <measure xml:id="Ackermann1951_mov8_measure82" sameas="../freidi-work.xml#core_mov8_measure82"/>
-                  <measure xml:id="Ackermann1951_mov8_measure83" sameas="../freidi-work.xml#core_mov8_measure83"/>
-                  <measure xml:id="Ackermann1951_mov8_measure84" sameas="../freidi-work.xml#core_mov8_measure84"/>
-                  <measure xml:id="Ackermann1951_mov8_measure85" sameas="../freidi-work.xml#core_mov8_measure85"/>
-                  <measure xml:id="Ackermann1951_mov8_measure86" sameas="../freidi-work.xml#core_mov8_measure86"/>
-                  <measure xml:id="Ackermann1951_mov8_measure87" sameas="../freidi-work.xml#core_mov8_measure87"/>
-                  <measure xml:id="Ackermann1951_mov8_measure88" sameas="../freidi-work.xml#core_mov8_measure88"/>
-                  <measure xml:id="Ackermann1951_mov8_measure89" sameas="../freidi-work.xml#core_mov8_measure89"/>
-                  <measure xml:id="Ackermann1951_mov8_measure90" sameas="../freidi-work.xml#core_mov8_measure90"/>
-                  <measure xml:id="Ackermann1951_mov8_measure91" sameas="../freidi-work.xml#core_mov8_measure91"/>
-                  <measure xml:id="Ackermann1951_mov8_measure92" sameas="../freidi-work.xml#core_mov8_measure92"/>
-                  <measure xml:id="Ackermann1951_mov8_measure93" sameas="../freidi-work.xml#core_mov8_measure93"/>
-                  <measure xml:id="Ackermann1951_mov8_measure94" sameas="../freidi-work.xml#core_mov8_measure94"/>
-                  <measure xml:id="Ackermann1951_mov8_measure95" sameas="../freidi-work.xml#core_mov8_measure95"/>
-                  <measure xml:id="Ackermann1951_mov8_measure96" sameas="../freidi-work.xml#core_mov8_measure96"/>
-                  <measure xml:id="Ackermann1951_mov8_measure97" sameas="../freidi-work.xml#core_mov8_measure97"/>
-                  <measure xml:id="Ackermann1951_mov8_measure98" sameas="../freidi-work.xml#core_mov8_measure98"/>
-                  <measure xml:id="Ackermann1951_mov8_measure99" sameas="../freidi-work.xml#core_mov8_measure99"/>
-                  <measure xml:id="Ackermann1951_mov8_measure100" sameas="../freidi-work.xml#core_mov8_measure100"/>
-                  <measure xml:id="Ackermann1951_mov8_measure101" sameas="../freidi-work.xml#core_mov8_measure101"/>
-                  <measure xml:id="Ackermann1951_mov8_measure102" sameas="../freidi-work.xml#core_mov8_measure102"/>
-                  <measure xml:id="Ackermann1951_mov8_measure103" sameas="../freidi-work.xml#core_mov8_measure103"/>
-                  <measure xml:id="Ackermann1951_mov8_measure104" sameas="../freidi-work.xml#core_mov8_measure104"/>
-                  <measure xml:id="Ackermann1951_mov8_measure105" sameas="../freidi-work.xml#core_mov8_measure105"/>
-                  <measure xml:id="Ackermann1951_mov8_measure106" sameas="../freidi-work.xml#core_mov8_measure106"/>
-                  <measure xml:id="Ackermann1951_mov8_measure107" sameas="../freidi-work.xml#core_mov8_measure107"/>
-                  <measure xml:id="Ackermann1951_mov8_measure108" sameas="../freidi-work.xml#core_mov8_measure108"/>
-                  <measure xml:id="Ackermann1951_mov8_measure109" sameas="../freidi-work.xml#core_mov8_measure109"/>
-                  <measure xml:id="Ackermann1951_mov8_measure110" sameas="../freidi-work.xml#core_mov8_measure110"/>
-                  <measure xml:id="Ackermann1951_mov8_measure111" sameas="../freidi-work.xml#core_mov8_measure111"/>
-                  <measure xml:id="Ackermann1951_mov8_measure112" sameas="../freidi-work.xml#core_mov8_measure112"/>
-                  <measure xml:id="Ackermann1951_mov8_measure113" sameas="../freidi-work.xml#core_mov8_measure113"/>
-                  <measure xml:id="Ackermann1951_mov8_measure114" sameas="../freidi-work.xml#core_mov8_measure114"/>
-                  <measure xml:id="Ackermann1951_mov8_measure115" sameas="../freidi-work.xml#core_mov8_measure115"/>
-                  <measure xml:id="Ackermann1951_mov8_measure116" sameas="../freidi-work.xml#core_mov8_measure116"/>
-                  <measure xml:id="Ackermann1951_mov8_measure117" sameas="../freidi-work.xml#core_mov8_measure117"/>
-                  <measure xml:id="Ackermann1951_mov8_measure118" sameas="../freidi-work.xml#core_mov8_measure118"/>
-                  <measure xml:id="Ackermann1951_mov8_measure119" sameas="../freidi-work.xml#core_mov8_measure119"/>
-                  <measure xml:id="Ackermann1951_mov8_measure120" sameas="../freidi-work.xml#core_mov8_measure120"/>
-                  <measure xml:id="Ackermann1951_mov8_measure121" sameas="../freidi-work.xml#core_mov8_measure121"/>
-                  <measure xml:id="Ackermann1951_mov8_measure122" sameas="../freidi-work.xml#core_mov8_measure122"/>
-                  <measure xml:id="Ackermann1951_mov8_measure123" sameas="../freidi-work.xml#core_mov8_measure123"/>
-                  <measure xml:id="Ackermann1951_mov8_measure124" sameas="../freidi-work.xml#core_mov8_measure124"/>
-                  <measure xml:id="Ackermann1951_mov8_measure125" sameas="../freidi-work.xml#core_mov8_measure125"/>
-                  <measure xml:id="Ackermann1951_mov8_measure126" sameas="../freidi-work.xml#core_mov8_measure126"/>
-                  <measure xml:id="Ackermann1951_mov8_measure127" sameas="../freidi-work.xml#core_mov8_measure127"/>
-                  <measure xml:id="Ackermann1951_mov8_measure128" sameas="../freidi-work.xml#core_mov8_measure128"/>
-                  <measure xml:id="Ackermann1951_mov8_measure129" sameas="../freidi-work.xml#core_mov8_measure129"/>
-                  <measure xml:id="Ackermann1951_mov8_measure130" sameas="../freidi-work.xml#core_mov8_measure130"/>
-                  <measure xml:id="Ackermann1951_mov8_measure131" sameas="../freidi-work.xml#core_mov8_measure131"/>
-                  <measure xml:id="Ackermann1951_mov8_measure132" sameas="../freidi-work.xml#core_mov8_measure132"/>
-                  <measure xml:id="Ackermann1951_mov8_measure133" sameas="../freidi-work.xml#core_mov8_measure133"/>
-                  <measure xml:id="Ackermann1951_mov8_measure134" sameas="../freidi-work.xml#core_mov8_measure134"/>
-                  <measure xml:id="Ackermann1951_mov8_measure135" sameas="../freidi-work.xml#core_mov8_measure135"/>
-                  <measure xml:id="Ackermann1951_mov8_measure136" sameas="../freidi-work.xml#core_mov8_measure136"/>
-                  <measure xml:id="Ackermann1951_mov8_measure137" sameas="../freidi-work.xml#core_mov8_measure137"/>
-                  <measure xml:id="Ackermann1951_mov8_measure138" sameas="../freidi-work.xml#core_mov8_measure138"/>
-                  <measure xml:id="Ackermann1951_mov8_measure139" sameas="../freidi-work.xml#core_mov8_measure139"/>
-                  <measure xml:id="Ackermann1951_mov8_measure140" sameas="../freidi-work.xml#core_mov8_measure140"/>
-                  <measure xml:id="Ackermann1951_mov8_measure141" sameas="../freidi-work.xml#core_mov8_measure141"/>
-                  <measure xml:id="Ackermann1951_mov8_measure142" sameas="../freidi-work.xml#core_mov8_measure142"/>
-                  <measure xml:id="Ackermann1951_mov8_measure143" sameas="../freidi-work.xml#core_mov8_measure143"/>
-                  <measure xml:id="Ackermann1951_mov8_measure144" sameas="../freidi-work.xml#core_mov8_measure144"/>
-                  <measure xml:id="Ackermann1951_mov8_measure145" sameas="../freidi-work.xml#core_mov8_measure145"/>
-                  <measure xml:id="Ackermann1951_mov8_measure146" sameas="../freidi-work.xml#core_mov8_measure146"/>
-                  <measure xml:id="Ackermann1951_mov8_measure147" sameas="../freidi-work.xml#core_mov8_measure147"/>
-                  <measure xml:id="Ackermann1951_mov8_measure148" sameas="../freidi-work.xml#core_mov8_measure148"/>
-                  <measure xml:id="Ackermann1951_mov8_measure149" sameas="../freidi-work.xml#core_mov8_measure149"/>
-                  <measure xml:id="Ackermann1951_mov8_measure150" sameas="../freidi-work.xml#core_mov8_measure150"/>
-                  <measure xml:id="Ackermann1951_mov8_measure151" sameas="../freidi-work.xml#core_mov8_measure151"/>
-                  <measure xml:id="Ackermann1951_mov8_measure152" sameas="../freidi-work.xml#core_mov8_measure152"/>
-                  <measure xml:id="Ackermann1951_mov8_measure153" sameas="../freidi-work.xml#core_mov8_measure153"/>
-                  <measure xml:id="Ackermann1951_mov8_measure154" sameas="../freidi-work.xml#core_mov8_measure154"/>
-                  <measure xml:id="Ackermann1951_mov8_measure155" sameas="../freidi-work.xml#core_mov8_measure155"/>
-                  <measure xml:id="Ackermann1951_mov8_measure156" sameas="../freidi-work.xml#core_mov8_measure156"/>
-                  <measure xml:id="Ackermann1951_mov8_measure157" sameas="../freidi-work.xml#core_mov8_measure157"/>
-                  <measure xml:id="Ackermann1951_mov8_measure158" sameas="../freidi-work.xml#core_mov8_measure158"/>
-                  <measure xml:id="Ackermann1951_mov8_measure159" sameas="../freidi-work.xml#core_mov8_measure159"/>
-                  <measure xml:id="Ackermann1951_mov8_measure160" sameas="../freidi-work.xml#core_mov8_measure160"/>
-                  <measure xml:id="Ackermann1951_mov8_measure161" sameas="../freidi-work.xml#core_mov8_measure161"/>
-                  <measure xml:id="Ackermann1951_mov8_measure162" sameas="../freidi-work.xml#core_mov8_measure162"/>
-                  <measure xml:id="Ackermann1951_mov8_measure163" sameas="../freidi-work.xml#core_mov8_measure163"/>
-                  <measure xml:id="Ackermann1951_mov8_measure164" sameas="../freidi-work.xml#core_mov8_measure164"/>
-                  <measure xml:id="Ackermann1951_mov8_measure165" sameas="../freidi-work.xml#core_mov8_measure165"/>
-                  <measure xml:id="Ackermann1951_mov8_measure166" sameas="../freidi-work.xml#core_mov8_measure166"/>
-                  <measure xml:id="Ackermann1951_mov8_measure167" sameas="../freidi-work.xml#core_mov8_measure167"/>
-                  <measure xml:id="Ackermann1951_mov8_measure168" sameas="../freidi-work.xml#core_mov8_measure168"/>
-                  <measure xml:id="Ackermann1951_mov8_measure169" sameas="../freidi-work.xml#core_mov8_measure169"/>
-                  <measure xml:id="Ackermann1951_mov8_measure170" sameas="../freidi-work.xml#core_mov8_measure170"/>
-                  <measure xml:id="Ackermann1951_mov8_measure171" sameas="../freidi-work.xml#core_mov8_measure171"/>
-                  <measure xml:id="Ackermann1951_mov8_measure172" sameas="../freidi-work.xml#core_mov8_measure172"/>
-                  <measure xml:id="Ackermann1951_mov8_measure173" sameas="../freidi-work.xml#core_mov8_measure173"/>
-                  <measure xml:id="Ackermann1951_mov8_measure174" sameas="../freidi-work.xml#core_mov8_measure174"/>
-                  <measure xml:id="Ackermann1951_mov8_measure175" sameas="../freidi-work.xml#core_mov8_measure175"/>
-                  <measure xml:id="Ackermann1951_mov8_measure176" sameas="../freidi-work.xml#core_mov8_measure176"/>
-                  <measure xml:id="Ackermann1951_mov8_measure177" sameas="../freidi-work.xml#core_mov8_measure177"/>
-                  <measure xml:id="Ackermann1951_mov8_measure178" sameas="../freidi-work.xml#core_mov8_measure178"/>
-                  <measure xml:id="Ackermann1951_mov8_measure179" sameas="../freidi-work.xml#core_mov8_measure179"/>
-                  <measure xml:id="Ackermann1951_mov8_measure180" sameas="../freidi-work.xml#core_mov8_measure180"/>
-                  <measure xml:id="Ackermann1951_mov8_measure181" sameas="../freidi-work.xml#core_mov8_measure181"/>
-                  <measure xml:id="Ackermann1951_mov8_measure182" sameas="../freidi-work.xml#core_mov8_measure182"/>
-                  <measure xml:id="Ackermann1951_mov8_measure183" sameas="../freidi-work.xml#core_mov8_measure183"/>
-                  <measure xml:id="Ackermann1951_mov8_measure184" sameas="../freidi-work.xml#core_mov8_measure184"/>
-                  <measure xml:id="Ackermann1951_mov8_measure185" sameas="../freidi-work.xml#core_mov8_measure185"/>
-                  <measure xml:id="Ackermann1951_mov8_measure186" sameas="../freidi-work.xml#core_mov8_measure186"/>
-                  <measure xml:id="Ackermann1951_mov8_measure187" sameas="../freidi-work.xml#core_mov8_measure187"/>
-                  <measure xml:id="Ackermann1951_mov8_measure188" sameas="../freidi-work.xml#core_mov8_measure188"/>
-                  <measure xml:id="Ackermann1951_mov8_measure189" sameas="../freidi-work.xml#core_mov8_measure189"/>
-                  <measure xml:id="Ackermann1951_mov8_measure190" sameas="../freidi-work.xml#core_mov8_measure190"/>
-                  <measure xml:id="Ackermann1951_mov8_measure191" sameas="../freidi-work.xml#core_mov8_measure191"/>
-                  <measure xml:id="Ackermann1951_mov8_measure192" sameas="../freidi-work.xml#core_mov8_measure192"/>
-                  <measure xml:id="Ackermann1951_mov8_measure193" sameas="../freidi-work.xml#core_mov8_measure193"/>
-                  <measure xml:id="Ackermann1951_mov8_measure194" sameas="../freidi-work.xml#core_mov8_measure194"/>
-                  <measure xml:id="Ackermann1951_mov8_measure195" sameas="../freidi-work.xml#core_mov8_measure195"/>
-                  <measure xml:id="Ackermann1951_mov8_measure196" sameas="../freidi-work.xml#core_mov8_measure196"/>
-                  <measure xml:id="Ackermann1951_mov8_measure197" sameas="../freidi-work.xml#core_mov8_measure197"/>
-                  <measure xml:id="Ackermann1951_mov8_measure198" sameas="../freidi-work.xml#core_mov8_measure198"/>
-               </section>
-            </score>
-         </mdiv>
-         <mdiv xml:id="freidi-recording_Ackermann1951_mov9" label="Ackermann1951_mov9">
-            <score>
-               <section>
-                  <measure xml:id="Ackermann1951_mov9_measure1" sameas="../freidi-work.xml#core_mov9_measure1"/>
-                  <measure xml:id="Ackermann1951_mov9_measure2" sameas="../freidi-work.xml#core_mov9_measure2"/>
-                  <measure xml:id="Ackermann1951_mov9_measure3" sameas="../freidi-work.xml#core_mov9_measure3"/>
-                  <measure xml:id="Ackermann1951_mov9_measure4" sameas="../freidi-work.xml#core_mov9_measure4"/>
-                  <measure xml:id="Ackermann1951_mov9_measure5" sameas="../freidi-work.xml#core_mov9_measure5"/>
-                  <measure xml:id="Ackermann1951_mov9_measure6" sameas="../freidi-work.xml#core_mov9_measure6"/>
-                  <measure xml:id="Ackermann1951_mov9_measure7" sameas="../freidi-work.xml#core_mov9_measure7"/>
-                  <measure xml:id="Ackermann1951_mov9_measure8" sameas="../freidi-work.xml#core_mov9_measure8"/>
-                  <measure xml:id="Ackermann1951_mov9_measure9" sameas="../freidi-work.xml#core_mov9_measure9"/>
-                  <measure xml:id="Ackermann1951_mov9_measure10" sameas="../freidi-work.xml#core_mov9_measure10"/>
-                  <measure xml:id="Ackermann1951_mov9_measure11" sameas="../freidi-work.xml#core_mov9_measure11"/>
-                  <measure xml:id="Ackermann1951_mov9_measure12" sameas="../freidi-work.xml#core_mov9_measure12"/>
-                  <measure xml:id="Ackermann1951_mov9_measure13" sameas="../freidi-work.xml#core_mov9_measure13"/>
-                  <measure xml:id="Ackermann1951_mov9_measure14" sameas="../freidi-work.xml#core_mov9_measure14"/>
-                  <measure xml:id="Ackermann1951_mov9_measure15" sameas="../freidi-work.xml#core_mov9_measure15"/>
-                  <measure xml:id="Ackermann1951_mov9_measure16" sameas="../freidi-work.xml#core_mov9_measure16"/>
-                  <measure xml:id="Ackermann1951_mov9_measure17" sameas="../freidi-work.xml#core_mov9_measure17"/>
-                  <measure xml:id="Ackermann1951_mov9_measure18" sameas="../freidi-work.xml#core_mov9_measure18"/>
-                  <measure xml:id="Ackermann1951_mov9_measure19" sameas="../freidi-work.xml#core_mov9_measure19"/>
-                  <measure xml:id="Ackermann1951_mov9_measure20" sameas="../freidi-work.xml#core_mov9_measure20"/>
-                  <measure xml:id="Ackermann1951_mov9_measure21" sameas="../freidi-work.xml#core_mov9_measure21"/>
-                  <measure xml:id="Ackermann1951_mov9_measure22" sameas="../freidi-work.xml#core_mov9_measure22"/>
-                  <measure xml:id="Ackermann1951_mov9_measure23" sameas="../freidi-work.xml#core_mov9_measure23"/>
-                  <measure xml:id="Ackermann1951_mov9_measure24" sameas="../freidi-work.xml#core_mov9_measure24"/>
-                  <measure xml:id="Ackermann1951_mov9_measure25" sameas="../freidi-work.xml#core_mov9_measure25"/>
-                  <measure xml:id="Ackermann1951_mov9_measure26" sameas="../freidi-work.xml#core_mov9_measure26"/>
-                  <measure xml:id="Ackermann1951_mov9_measure27" sameas="../freidi-work.xml#core_mov9_measure27"/>
-                  <measure xml:id="Ackermann1951_mov9_measure28" sameas="../freidi-work.xml#core_mov9_measure28"/>
-                  <measure xml:id="Ackermann1951_mov9_measure29" sameas="../freidi-work.xml#core_mov9_measure29"/>
-                  <measure xml:id="Ackermann1951_mov9_measure30" sameas="../freidi-work.xml#core_mov9_measure30"/>
-                  <measure xml:id="Ackermann1951_mov9_measure31" sameas="../freidi-work.xml#core_mov9_measure31"/>
-                  <measure xml:id="Ackermann1951_mov9_measure32" sameas="../freidi-work.xml#core_mov9_measure32"/>
-                  <measure xml:id="Ackermann1951_mov9_measure33" sameas="../freidi-work.xml#core_mov9_measure33"/>
-                  <measure xml:id="Ackermann1951_mov9_measure34" sameas="../freidi-work.xml#core_mov9_measure34"/>
-                  <measure xml:id="Ackermann1951_mov9_measure35" sameas="../freidi-work.xml#core_mov9_measure35"/>
-                  <measure xml:id="Ackermann1951_mov9_measure36" sameas="../freidi-work.xml#core_mov9_measure36"/>
-                  <measure xml:id="Ackermann1951_mov9_measure37" sameas="../freidi-work.xml#core_mov9_measure37"/>
-                  <measure xml:id="Ackermann1951_mov9_measure38" sameas="../freidi-work.xml#core_mov9_measure38"/>
-                  <measure xml:id="Ackermann1951_mov9_measure39" sameas="../freidi-work.xml#core_mov9_measure39"/>
-                  <measure xml:id="Ackermann1951_mov9_measure40" sameas="../freidi-work.xml#core_mov9_measure40"/>
-                  <measure xml:id="Ackermann1951_mov9_measure41" sameas="../freidi-work.xml#core_mov9_measure41"/>
-                  <measure xml:id="Ackermann1951_mov9_measure42" sameas="../freidi-work.xml#core_mov9_measure42"/>
-                  <measure xml:id="Ackermann1951_mov9_measure43" sameas="../freidi-work.xml#core_mov9_measure43"/>
-                  <measure xml:id="Ackermann1951_mov9_measure44" sameas="../freidi-work.xml#core_mov9_measure44"/>
-                  <measure xml:id="Ackermann1951_mov9_measure45" sameas="../freidi-work.xml#core_mov9_measure45"/>
-                  <measure xml:id="Ackermann1951_mov9_measure46" sameas="../freidi-work.xml#core_mov9_measure46"/>
-                  <measure xml:id="Ackermann1951_mov9_measure47" sameas="../freidi-work.xml#core_mov9_measure47"/>
-                  <measure xml:id="Ackermann1951_mov9_measure48" sameas="../freidi-work.xml#core_mov9_measure48"/>
-                  <measure xml:id="Ackermann1951_mov9_measure49" sameas="../freidi-work.xml#core_mov9_measure49"/>
-                  <measure xml:id="Ackermann1951_mov9_measure50" sameas="../freidi-work.xml#core_mov9_measure50"/>
-                  <measure xml:id="Ackermann1951_mov9_measure51" sameas="../freidi-work.xml#core_mov9_measure51"/>
-                  <measure xml:id="Ackermann1951_mov9_measure52" sameas="../freidi-work.xml#core_mov9_measure52"/>
-                  <measure xml:id="Ackermann1951_mov9_measure53" sameas="../freidi-work.xml#core_mov9_measure53"/>
-                  <measure xml:id="Ackermann1951_mov9_measure54" sameas="../freidi-work.xml#core_mov9_measure54"/>
-                  <measure xml:id="Ackermann1951_mov9_measure55" sameas="../freidi-work.xml#core_mov9_measure55"/>
-                  <measure xml:id="Ackermann1951_mov9_measure56" sameas="../freidi-work.xml#core_mov9_measure56"/>
-                  <measure xml:id="Ackermann1951_mov9_measure57" sameas="../freidi-work.xml#core_mov9_measure57"/>
-                  <measure xml:id="Ackermann1951_mov9_measure58" sameas="../freidi-work.xml#core_mov9_measure58"/>
-                  <measure xml:id="Ackermann1951_mov9_measure59" sameas="../freidi-work.xml#core_mov9_measure59"/>
-                  <measure xml:id="Ackermann1951_mov9_measure60" sameas="../freidi-work.xml#core_mov9_measure60"/>
-                  <measure xml:id="Ackermann1951_mov9_measure61" sameas="../freidi-work.xml#core_mov9_measure61"/>
-                  <measure xml:id="Ackermann1951_mov9_measure62" sameas="../freidi-work.xml#core_mov9_measure62"/>
-                  <measure xml:id="Ackermann1951_mov9_measure63" sameas="../freidi-work.xml#core_mov9_measure63"/>
-                  <measure xml:id="Ackermann1951_mov9_measure64" sameas="../freidi-work.xml#core_mov9_measure64"/>
-                  <measure xml:id="Ackermann1951_mov9_measure65" sameas="../freidi-work.xml#core_mov9_measure65"/>
-                  <measure xml:id="Ackermann1951_mov9_measure66" sameas="../freidi-work.xml#core_mov9_measure66"/>
-                  <measure xml:id="Ackermann1951_mov9_measure67" sameas="../freidi-work.xml#core_mov9_measure67"/>
-                  <measure xml:id="Ackermann1951_mov9_measure68" sameas="../freidi-work.xml#core_mov9_measure68"/>
-                  <measure xml:id="Ackermann1951_mov9_measure69" sameas="../freidi-work.xml#core_mov9_measure69"/>
-                  <measure xml:id="Ackermann1951_mov9_measure70" sameas="../freidi-work.xml#core_mov9_measure70"/>
-                  <measure xml:id="Ackermann1951_mov9_measure71" sameas="../freidi-work.xml#core_mov9_measure71"/>
-                  <measure xml:id="Ackermann1951_mov9_measure72" sameas="../freidi-work.xml#core_mov9_measure72"/>
-                  <measure xml:id="Ackermann1951_mov9_measure73" sameas="../freidi-work.xml#core_mov9_measure73"/>
-                  <measure xml:id="Ackermann1951_mov9_measure74" sameas="../freidi-work.xml#core_mov9_measure74"/>
-                  <measure xml:id="Ackermann1951_mov9_measure75" sameas="../freidi-work.xml#core_mov9_measure75"/>
-                  <measure xml:id="Ackermann1951_mov9_measure76" sameas="../freidi-work.xml#core_mov9_measure76"/>
-                  <measure xml:id="Ackermann1951_mov9_measure77" sameas="../freidi-work.xml#core_mov9_measure77"/>
-                  <measure xml:id="Ackermann1951_mov9_measure78" sameas="../freidi-work.xml#core_mov9_measure78"/>
-                  <measure xml:id="Ackermann1951_mov9_measure79" sameas="../freidi-work.xml#core_mov9_measure79"/>
-                  <measure xml:id="Ackermann1951_mov9_measure80" sameas="../freidi-work.xml#core_mov9_measure80"/>
-                  <measure xml:id="Ackermann1951_mov9_measure81" sameas="../freidi-work.xml#core_mov9_measure81"/>
-                  <measure xml:id="Ackermann1951_mov9_measure82" sameas="../freidi-work.xml#core_mov9_measure82"/>
-                  <measure xml:id="Ackermann1951_mov9_measure83" sameas="../freidi-work.xml#core_mov9_measure83"/>
-                  <measure xml:id="Ackermann1951_mov9_measure84" sameas="../freidi-work.xml#core_mov9_measure84"/>
-                  <measure xml:id="Ackermann1951_mov9_measure85" sameas="../freidi-work.xml#core_mov9_measure85"/>
-                  <measure xml:id="Ackermann1951_mov9_measure86" sameas="../freidi-work.xml#core_mov9_measure86"/>
-                  <measure xml:id="Ackermann1951_mov9_measure87" sameas="../freidi-work.xml#core_mov9_measure87"/>
-                  <measure xml:id="Ackermann1951_mov9_measure88" sameas="../freidi-work.xml#core_mov9_measure88"/>
-                  <measure xml:id="Ackermann1951_mov9_measure89" sameas="../freidi-work.xml#core_mov9_measure89"/>
-                  <measure xml:id="Ackermann1951_mov9_measure90" sameas="../freidi-work.xml#core_mov9_measure90"/>
-                  <measure xml:id="Ackermann1951_mov9_measure91" sameas="../freidi-work.xml#core_mov9_measure91"/>
-                  <measure xml:id="Ackermann1951_mov9_measure92" sameas="../freidi-work.xml#core_mov9_measure92"/>
-                  <measure xml:id="Ackermann1951_mov9_measure93" sameas="../freidi-work.xml#core_mov9_measure93"/>
-                  <measure xml:id="Ackermann1951_mov9_measure94" sameas="../freidi-work.xml#core_mov9_measure94"/>
-                  <measure xml:id="Ackermann1951_mov9_measure95" sameas="../freidi-work.xml#core_mov9_measure95"/>
-                  <measure xml:id="Ackermann1951_mov9_measure96" sameas="../freidi-work.xml#core_mov9_measure96"/>
-                  <measure xml:id="Ackermann1951_mov9_measure97" sameas="../freidi-work.xml#core_mov9_measure97"/>
-                  <measure xml:id="Ackermann1951_mov9_measure98" sameas="../freidi-work.xml#core_mov9_measure98"/>
-                  <measure xml:id="Ackermann1951_mov9_measure99" sameas="../freidi-work.xml#core_mov9_measure99"/>
-                  <measure xml:id="Ackermann1951_mov9_measure100" sameas="../freidi-work.xml#core_mov9_measure100"/>
-                  <measure xml:id="Ackermann1951_mov9_measure101" sameas="../freidi-work.xml#core_mov9_measure101"/>
-                  <measure xml:id="Ackermann1951_mov9_measure102" sameas="../freidi-work.xml#core_mov9_measure102"/>
-                  <measure xml:id="Ackermann1951_mov9_measure103" sameas="../freidi-work.xml#core_mov9_measure103"/>
-                  <measure xml:id="Ackermann1951_mov9_measure104" sameas="../freidi-work.xml#core_mov9_measure104"/>
-                  <measure xml:id="Ackermann1951_mov9_measure105" sameas="../freidi-work.xml#core_mov9_measure105"/>
-                  <measure xml:id="Ackermann1951_mov9_measure106" sameas="../freidi-work.xml#core_mov9_measure106"/>
-                  <measure xml:id="Ackermann1951_mov9_measure107" sameas="../freidi-work.xml#core_mov9_measure107"/>
-                  <measure xml:id="Ackermann1951_mov9_measure108" sameas="../freidi-work.xml#core_mov9_measure108"/>
-                  <measure xml:id="Ackermann1951_mov9_measure109" sameas="../freidi-work.xml#core_mov9_measure109"/>
-                  <measure xml:id="Ackermann1951_mov9_measure110" sameas="../freidi-work.xml#core_mov9_measure110"/>
-                  <measure xml:id="Ackermann1951_mov9_measure111" sameas="../freidi-work.xml#core_mov9_measure111"/>
-                  <measure xml:id="Ackermann1951_mov9_measure112" sameas="../freidi-work.xml#core_mov9_measure112"/>
-                  <measure xml:id="Ackermann1951_mov9_measure113" sameas="../freidi-work.xml#core_mov9_measure113"/>
-                  <measure xml:id="Ackermann1951_mov9_measure114" sameas="../freidi-work.xml#core_mov9_measure114"/>
-                  <measure xml:id="Ackermann1951_mov9_measure115" sameas="../freidi-work.xml#core_mov9_measure115"/>
-                  <measure xml:id="Ackermann1951_mov9_measure116" sameas="../freidi-work.xml#core_mov9_measure116"/>
-                  <measure xml:id="Ackermann1951_mov9_measure117" sameas="../freidi-work.xml#core_mov9_measure117"/>
-                  <measure xml:id="Ackermann1951_mov9_measure118" sameas="../freidi-work.xml#core_mov9_measure118"/>
-                  <measure xml:id="Ackermann1951_mov9_measure119" sameas="../freidi-work.xml#core_mov9_measure119"/>
-                  <measure xml:id="Ackermann1951_mov9_measure120" sameas="../freidi-work.xml#core_mov9_measure120"/>
-                  <measure xml:id="Ackermann1951_mov9_measure121" sameas="../freidi-work.xml#core_mov9_measure121"/>
-                  <measure xml:id="Ackermann1951_mov9_measure122" sameas="../freidi-work.xml#core_mov9_measure122"/>
-                  <measure xml:id="Ackermann1951_mov9_measure123" sameas="../freidi-work.xml#core_mov9_measure123"/>
-                  <measure xml:id="Ackermann1951_mov9_measure124" sameas="../freidi-work.xml#core_mov9_measure124"/>
-                  <measure xml:id="Ackermann1951_mov9_measure125" sameas="../freidi-work.xml#core_mov9_measure125"/>
-                  <measure xml:id="Ackermann1951_mov9_measure126" sameas="../freidi-work.xml#core_mov9_measure126"/>
-                  <measure xml:id="Ackermann1951_mov9_measure127" sameas="../freidi-work.xml#core_mov9_measure127"/>
-                  <measure xml:id="Ackermann1951_mov9_measure128" sameas="../freidi-work.xml#core_mov9_measure128"/>
-                  <measure xml:id="Ackermann1951_mov9_measure129" sameas="../freidi-work.xml#core_mov9_measure129"/>
-                  <measure xml:id="Ackermann1951_mov9_measure130" sameas="../freidi-work.xml#core_mov9_measure130"/>
-                  <measure xml:id="Ackermann1951_mov9_measure131" sameas="../freidi-work.xml#core_mov9_measure131"/>
-                  <measure xml:id="Ackermann1951_mov9_measure132" sameas="../freidi-work.xml#core_mov9_measure132"/>
-                  <measure xml:id="Ackermann1951_mov9_measure133" sameas="../freidi-work.xml#core_mov9_measure133"/>
-                  <measure xml:id="Ackermann1951_mov9_measure134" sameas="../freidi-work.xml#core_mov9_measure134"/>
-                  <measure xml:id="Ackermann1951_mov9_measure135" sameas="../freidi-work.xml#core_mov9_measure135"/>
-                  <measure xml:id="Ackermann1951_mov9_measure136" sameas="../freidi-work.xml#core_mov9_measure136"/>
-                  <measure xml:id="Ackermann1951_mov9_measure137" sameas="../freidi-work.xml#core_mov9_measure137"/>
-                  <measure xml:id="Ackermann1951_mov9_measure138" sameas="../freidi-work.xml#core_mov9_measure138"/>
-                  <measure xml:id="Ackermann1951_mov9_measure139" sameas="../freidi-work.xml#core_mov9_measure139"/>
-                  <measure xml:id="Ackermann1951_mov9_measure140" sameas="../freidi-work.xml#core_mov9_measure140"/>
-                  <measure xml:id="Ackermann1951_mov9_measure141" sameas="../freidi-work.xml#core_mov9_measure141"/>
-                  <measure xml:id="Ackermann1951_mov9_measure142" sameas="../freidi-work.xml#core_mov9_measure142"/>
-                  <measure xml:id="Ackermann1951_mov9_measure143" sameas="../freidi-work.xml#core_mov9_measure143"/>
-                  <measure xml:id="Ackermann1951_mov9_measure144" sameas="../freidi-work.xml#core_mov9_measure144"/>
-                  <measure xml:id="Ackermann1951_mov9_measure145" sameas="../freidi-work.xml#core_mov9_measure145"/>
-                  <measure xml:id="Ackermann1951_mov9_measure146" sameas="../freidi-work.xml#core_mov9_measure146"/>
-                  <measure xml:id="Ackermann1951_mov9_measure147" sameas="../freidi-work.xml#core_mov9_measure147"/>
-                  <measure xml:id="Ackermann1951_mov9_measure148" sameas="../freidi-work.xml#core_mov9_measure148"/>
-                  <measure xml:id="Ackermann1951_mov9_measure149" sameas="../freidi-work.xml#core_mov9_measure149"/>
-                  <measure xml:id="Ackermann1951_mov9_measure150" sameas="../freidi-work.xml#core_mov9_measure150"/>
-                  <measure xml:id="Ackermann1951_mov9_measure151" sameas="../freidi-work.xml#core_mov9_measure151"/>
-                  <measure xml:id="Ackermann1951_mov9_measure152" sameas="../freidi-work.xml#core_mov9_measure152"/>
-                  <measure xml:id="Ackermann1951_mov9_measure153" sameas="../freidi-work.xml#core_mov9_measure153"/>
-                  <measure xml:id="Ackermann1951_mov9_measure154" sameas="../freidi-work.xml#core_mov9_measure154"/>
-                  <measure xml:id="Ackermann1951_mov9_measure155" sameas="../freidi-work.xml#core_mov9_measure155"/>
-                  <measure xml:id="Ackermann1951_mov9_measure156" sameas="../freidi-work.xml#core_mov9_measure156"/>
-                  <measure xml:id="Ackermann1951_mov9_measure157" sameas="../freidi-work.xml#core_mov9_measure157"/>
-                  <measure xml:id="Ackermann1951_mov9_measure158" sameas="../freidi-work.xml#core_mov9_measure158"/>
-                  <measure xml:id="Ackermann1951_mov9_measure159" sameas="../freidi-work.xml#core_mov9_measure159"/>
-                  <measure xml:id="Ackermann1951_mov9_measure160" sameas="../freidi-work.xml#core_mov9_measure160"/>
-                  <measure xml:id="Ackermann1951_mov9_measure161" sameas="../freidi-work.xml#core_mov9_measure161"/>
-                  <measure xml:id="Ackermann1951_mov9_measure162" sameas="../freidi-work.xml#core_mov9_measure162"/>
-                  <measure xml:id="Ackermann1951_mov9_measure163" sameas="../freidi-work.xml#core_mov9_measure163"/>
-                  <measure xml:id="Ackermann1951_mov9_measure164" sameas="../freidi-work.xml#core_mov9_measure164"/>
-                  <measure xml:id="Ackermann1951_mov9_measure165" sameas="../freidi-work.xml#core_mov9_measure165"/>
-                  <measure xml:id="Ackermann1951_mov9_measure166" sameas="../freidi-work.xml#core_mov9_measure166"/>
-                  <measure xml:id="Ackermann1951_mov9_measure167" sameas="../freidi-work.xml#core_mov9_measure167"/>
-                  <measure xml:id="Ackermann1951_mov9_measure168" sameas="../freidi-work.xml#core_mov9_measure168"/>
-                  <measure xml:id="Ackermann1951_mov9_measure169" sameas="../freidi-work.xml#core_mov9_measure169"/>
-                  <measure xml:id="Ackermann1951_mov9_measure170" sameas="../freidi-work.xml#core_mov9_measure170"/>
-                  <measure xml:id="Ackermann1951_mov9_measure171" sameas="../freidi-work.xml#core_mov9_measure171"/>
-                  <measure xml:id="Ackermann1951_mov9_measure172" sameas="../freidi-work.xml#core_mov9_measure172"/>
-                  <measure xml:id="Ackermann1951_mov9_measure173" sameas="../freidi-work.xml#core_mov9_measure173"/>
-                  <measure xml:id="Ackermann1951_mov9_measure174" sameas="../freidi-work.xml#core_mov9_measure174"/>
-                  <measure xml:id="Ackermann1951_mov9_measure175" sameas="../freidi-work.xml#core_mov9_measure175"/>
-                  <measure xml:id="Ackermann1951_mov9_measure176" sameas="../freidi-work.xml#core_mov9_measure176"/>
-                  <measure xml:id="Ackermann1951_mov9_measure177" sameas="../freidi-work.xml#core_mov9_measure177"/>
-                  <measure xml:id="Ackermann1951_mov9_measure178" sameas="../freidi-work.xml#core_mov9_measure178"/>
-                  <measure xml:id="Ackermann1951_mov9_measure179" sameas="../freidi-work.xml#core_mov9_measure179"/>
-                  <measure xml:id="Ackermann1951_mov9_measure180" sameas="../freidi-work.xml#core_mov9_measure180"/>
-                  <measure xml:id="Ackermann1951_mov9_measure181" sameas="../freidi-work.xml#core_mov9_measure181"/>
-                  <measure xml:id="Ackermann1951_mov9_measure182" sameas="../freidi-work.xml#core_mov9_measure182"/>
-                  <measure xml:id="Ackermann1951_mov9_measure183" sameas="../freidi-work.xml#core_mov9_measure183"/>
-                  <measure xml:id="Ackermann1951_mov9_measure184" sameas="../freidi-work.xml#core_mov9_measure184"/>
-                  <measure xml:id="Ackermann1951_mov9_measure185" sameas="../freidi-work.xml#core_mov9_measure185"/>
-                  <measure xml:id="Ackermann1951_mov9_measure186" sameas="../freidi-work.xml#core_mov9_measure186"/>
-                  <measure xml:id="Ackermann1951_mov9_measure187" sameas="../freidi-work.xml#core_mov9_measure187"/>
-                  <measure xml:id="Ackermann1951_mov9_measure188" sameas="../freidi-work.xml#core_mov9_measure188"/>
-                  <measure xml:id="Ackermann1951_mov9_measure189" sameas="../freidi-work.xml#core_mov9_measure189"/>
-                  <measure xml:id="Ackermann1951_mov9_measure190" sameas="../freidi-work.xml#core_mov9_measure190"/>
-                  <measure xml:id="Ackermann1951_mov9_measure191" sameas="../freidi-work.xml#core_mov9_measure191"/>
-                  <measure xml:id="Ackermann1951_mov9_measure192" sameas="../freidi-work.xml#core_mov9_measure192"/>
-                  <measure xml:id="Ackermann1951_mov9_measure193" sameas="../freidi-work.xml#core_mov9_measure193"/>
-                  <measure xml:id="Ackermann1951_mov9_measure194" sameas="../freidi-work.xml#core_mov9_measure194"/>
-                  <measure xml:id="Ackermann1951_mov9_measure195" sameas="../freidi-work.xml#core_mov9_measure195"/>
-                  <measure xml:id="Ackermann1951_mov9_measure196" sameas="../freidi-work.xml#core_mov9_measure196"/>
-                  <measure xml:id="Ackermann1951_mov9_measure197" sameas="../freidi-work.xml#core_mov9_measure197"/>
-                  <measure xml:id="Ackermann1951_mov9_measure198" sameas="../freidi-work.xml#core_mov9_measure198"/>
-                  <measure xml:id="Ackermann1951_mov9_measure199" sameas="../freidi-work.xml#core_mov9_measure199"/>
-               </section>
-            </score>
-         </mdiv>
-        </body>
-    </music>
+                  </perfResList>
+                </perfMedium>
+              </expression>
+              <expression label="A_mov9" xml:id="freidi-work_exp-musicSource_A_mov9">
+                <title>
+                  Nro. 9. Terzetto.
+                </title>
+                <perfMedium>
+                  <perfResList>
+                    <perfRes xml:id="in47162fd8-64cd-419b-938e-0b2352e9187f"
+                      label="Flauti"
+                      n="1"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="wa"/>
+                    <perfRes xml:id="in413d5458-fb36-4dc0-ac36-b4061fb276f1"
+                      label="Clarinetti B"
+                      n="2"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="wc"/>
+                    <perfRes xml:id="in796a1d11-c6ee-475c-b9ff-db2fe0b1efb3"
+                      label="Corni Es"
+                      n="3"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="wf"/>
+                    <perfRes xml:id="inb89bb81e-a46e-44fb-8ebe-8cbe3a653f1b"
+                      label="Fagotti"
+                      n="4"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="wd"/>
+                    <perfRes xml:id="in5750d6ea-e941-4220-98b8-a0b984af40e2"
+                      label="Violini I"
+                      n="5"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="sa"/>
+                    <perfRes xml:id="in49de499c-e2f7-4ca1-9f01-9b5b4625d70c"
+                      label="Violini II"
+                      n="6"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="sa"/>
+                    <perfRes xml:id="in8b9b7d51-3497-4642-a73a-4c50cc10c56c"
+                      label="Viole"
+                      n="7"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="sb"/>
+                    <perfRes xml:id="in53382a90-816d-4ae8-9018-53547b5deba4"
+                      label="Agathe"
+                      n="8"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="va"
+                      solo="true"/>
+                    <perfRes xml:id="in3c095f72-26c6-4833-b4df-6f76fb59609d"
+                      label="Ännchen"
+                      n="9"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="va"
+                      solo="true"/>
+                    <perfRes xml:id="incb25774d-01b3-4fd8-999c-8e59a256a0f8"
+                      label="Max"
+                      n="10"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="vd"
+                      solo="true"/>
+                    <perfRes xml:id="in3d50ab6a-3467-416c-a8f7-9fa085745671"
+                      label="Violoncelli"
+                      n="11"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="sc"/>
+                    <perfRes xml:id="incde47967-bc12-4c82-a2cd-58978d8afa4b"
+                      label="Bassi"
+                      n="12"
+                      auth.uri="http://www.loc.gov/standards/valuelist/marcmusperf.html"
+                      codedval="sd"/>
+                  </perfResList>
+                </perfMedium>
+              </expression>
+              
+              
+              
+              
+              
+              
+              
+            </componentList>
+          </expression>
+          
+          <!-- für alle musicSources anlegen -->
+          
+          <!-- chronologisch einsortieren nur zur Dokumentation -->
+          
+          <!-- Aufführungen -->
+        </expressionList>
+      </work>
+    </workList>
+  </meiHead>
+  <music>
+  </music>
 </mei>
