@@ -4,16 +4,16 @@
 <mei xmlns:xlink="http://www.w3.org/1999/xlink"
      xmlns="http://www.music-encoding.org/ns/mei"
      meiversion="4.0.0">
-   <meiHead><!-- Beispiel für Handschrift, nach gedruckter Quellenbescheribung  -->
+   <meiHead>
       <fileDesc>
          <titleStmt>
-            
+            <title></title>
          </titleStmt>
          <pubStmt>
             
          </pubStmt>
          <sourceDesc>
-            
+            <source></source>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
@@ -25,17 +25,15 @@
 
             <title></title>
             
-            <?TODO  ?>
-            
             <langUsage>
-               
+               <language></language>
             </langUsage>
             <perfMedium>
                
             </perfMedium>
             <expressionList>
                <expression>
-                       
+                    <title></title>   
                </expression>
             </expressionList> 
          </work>

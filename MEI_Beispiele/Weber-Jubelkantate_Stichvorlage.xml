@@ -63,18 +63,7 @@
             </perfMedium>
             <expressionList>
                <expression>
-                  <title></title>
-                 <!-- <classification>
-                     <termList>
-                        <term class="http://www.bsz-bw.de/cgi-bin/oswd-suche.pl">
-                            <identifier></identifier>
-                           <title>Vokalmusik</title>
-                        </term>
-                         <term class="http://d-nb.info/gnd/">
-                           <title>Chormusik</title>
-                        </term>
-                     </termList>
-                  </classification>-->      
+                  <title></title> 
                </expression>
             </expressionList> 
          </work>
