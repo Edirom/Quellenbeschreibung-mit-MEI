@@ -96,7 +96,13 @@
                 <titlePage n="2" label="cover"><p>Jubel-<lb/>oder<lb/>Erndte-Cantate<lb/>von<lb/>Carl Maria v. Weber.<lb/><fig><figDesc>Dünne Linie</figDesc></fig><lb/>Partitur.<lb/><fig><figDesc>doppelte dünne Linie</figDesc></fig></p></titlePage>
                <extent unit="fol">50 (96 beschriebene Seiten)</extent>
                <dimensions unit="cm">31 x 24,5</dimensions>
-               <dimensions><locusGrp><locus from="fol33" to="fol48"></locus><locus from="fol89" to="fol96"></locus></locusGrp>30 x 24,5</dimensions><!-- Seite 33–48 und 89-96 sind schmaler und unten nicht beschnitten -->
+               <dimensions>
+                  <locusGrp>
+                     <locus from="fol33" to="fol48">33-48</locus>
+                     <locus from="fol89" to="fol96">89-96</locus></locusGrp>
+                  <width>30</width>
+                  <height>24,5</height>
+               </dimensions><!-- Seite 33–48 und 89-96 sind schmaler und unten nicht beschnitten -->
                <bindingDesc>fester mit braunem Papier kaschierter Pappeinband</bindingDesc>
                <condition>Ecken und Rücken des Einbands sind leicht bestoßen. Äußere Seiten nachgedunkelt</condition>
                <scriptDesc></scriptDesc>
