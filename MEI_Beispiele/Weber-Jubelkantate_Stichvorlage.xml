@@ -167,6 +167,7 @@
                <date label="Notentext" notafter="1818-09-10">vor 10. September 1818</date>
                <date label="titlePage" isodate="1819-06-22">22. Juni 1819: Titelblatt und rote Nachträge Webers</date><!-- wie Verweise auf Herkunft der Daten? -->
             </creation>
+            <history></history>
             <contents>
                <contentItem n="1">vollständige Partitur</contentItem>
             </contents>
