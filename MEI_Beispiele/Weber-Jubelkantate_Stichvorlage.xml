@@ -112,8 +112,8 @@
                <stamp n="1">rechteckiger Stempel: Manskopfsches Museum<lb/>für<lb/>Musik- und Theatergeschichte<lb/>Frankfurt a. Main</stamp>
                <stamp n="2"><locusGrp><locus>Bl3r</locus><locus>p93</locus><locus>p94</locus></locusGrp>rechteckiger Stempel: Manskopfsches Museum<lb/>f. Musik- u. Theatergesch.<lb/>Stadt Frankfurt a. M.</stamp><!-- Bl 3r und S. 93/94 -->
                <handList>
-                  <hand medium="ink" initial="true">Friederike Koch</hand>
-                  <hand medium="red ink" initial="false">Carl Maria von Weber<annot>(Nachträge und Korrekturen)</annot></hand>
+                  <hand xml:id="scribe" medium="ink" initial="true" corresp="#sn1">Friederike Koch</hand>
+                  <hand medium="red ink" initial="false" evidence="internal"><persName cert="low" evidence="external" source="#source-1" resp="#irmlind">Carl Maria von Weber</persName><annot>(Nachträge und Korrekturen)</annot></hand>
                </handList>
                <watermark></watermark>
                <foliaDesc>
