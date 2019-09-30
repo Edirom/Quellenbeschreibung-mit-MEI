@@ -117,7 +117,9 @@
                <titlePage n="1" type="titlePage">
                   <p>Jubel Cantate<lb/>zur<lb/>Feier des funfzig-jährigen Regierungsantritts<lb/>Sr. Majestät des Königs von Sachsen<lb/>am 20ten September 1818.<lb/>Gedicht von Friedrich Kind, nebst einem zweiten Texte:<lb/>Erndte Cantate<lb/>Gedicht von Wendt<lb/>Musik von<lb/>Carl Maria v. Weber.<lb/>Partitur.<lb/>M. Westphal sc.<lb/>Op. 58<lb/>No 1605.<lb/>Eigenthum des Verlegers.<lb/>Berlin,<lb/>in der Schlesinger'schen Buch u. Musikhandlung<lb/>Unter den Linden No. 34</p>
                </titlePage> 
-                <decoDesc><decoNote>mit Schmuckrahmen von F. Baumgarten</decoNote></decoDesc>
+                <decoDesc>
+                   <decoNote>mit Schmuckrahmen von F. Baumgarten</decoNote>
+                </decoDesc>
                 <dimensions unit="cm">18,9 x 27 cm</dimensions>
                <extent unit="page">134</extent>
                <plateNum>1285</plateNum>
