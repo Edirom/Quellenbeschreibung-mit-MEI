@@ -83,11 +83,11 @@
         <moduleRef key="MEI.harmony"/>
         <moduleRef key="MEI.header"/>
         <moduleRef key="MEI.lyrics"/>
-        <moduleRef key="MEI.mensural"/>
-        <moduleRef key="MEI.midi"/>
+        <!--<moduleRef key="MEI.mensural"/>-->
+        <!--<moduleRef key="MEI.midi"/>-->
         <moduleRef key="MEI.msDesc"/>
         <moduleRef key="MEI.namesdates"/>
-        <moduleRef key="MEI.neumes"/>
+        <!--<moduleRef key="MEI.neumes"/>-->
         <moduleRef key="MEI.performance"/>
         <moduleRef key="MEI.ptrref"/>
         <moduleRef key="MEI.shared" except="head"/>
