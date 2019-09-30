@@ -115,7 +115,9 @@
                   <hand xml:id="scribe" medium="ink" initial="true" corresp="#sn1">Friederike Koch</hand>
                   <hand medium="red ink" initial="false" evidence="internal"><persName cert="low" evidence="external" source="#source-1" resp="#irmlind">Carl Maria von Weber</persName><annot>(Nachträge und Korrekturen)</annot></hand>
                </handList>
-               <watermark></watermark>
+               <watermark facs="#facsimile-1" auth.uri="" codedval="">
+                  Dieses Wasserzeichen ist auch definiert unter: <ptr target="https://url.com"/>
+               </watermark>
                <foliaDesc>
                   <!--4 ineinandergelegte Dbl-->
                   <bifolium outer.recto="#surface-in-this-MEI">
