@@ -164,7 +164,7 @@
 * contents
 * context
 * correction
-* cutout
+
 * dedication
 * domainsDecl
 * editionStmt
@@ -175,10 +175,14 @@
 * fileChar
 * fileDesc
 * fingerprint
-* foliaDesc
-* folium
-* hand
-* handList
+
+* **foliaDesc**
+* **folium**
+* **patch**
+* **cutout**
+ 
+* **hand**
+* **handList**
 * history
 * incipCode
 * incipText
@@ -186,7 +190,7 @@
 * interpretation
 * key
 * language
-* langUsage
+* **langUsage**
 * meiHead
 * mensuration
 * meter
@@ -194,7 +198,7 @@
 * normalization
 * notesStmt
 * otherChar
-* patch
+
 * perfDuration
 * perfMedium
 * perfRes
@@ -280,8 +284,8 @@
 * heraldry
 * layout
 * layoutDesc
-* locus
-* locusGrp
+* **locus**
+* **locusGrp**
 * rubric
 * scriptDesc
 * scriptNote
