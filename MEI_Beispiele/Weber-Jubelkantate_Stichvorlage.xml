@@ -118,7 +118,7 @@
                <watermark></watermark>
                <foliaDesc>
                   <!--4 ineinandergelegte Dbl-->
-                  <bifolium>
+                  <bifolium outer.recto="#surface-in-this-MEI">
                      <bifolium>
                         <bifolium>
                            <bifolium></bifolium>
