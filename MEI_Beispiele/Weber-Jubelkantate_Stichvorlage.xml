@@ -105,7 +105,9 @@
                </dimensions><!-- Seite 33–48 und 89-96 sind schmaler und unten nicht beschnitten -->
                <bindingDesc>fester mit braunem Papier kaschierter Pappeinband</bindingDesc>
                <condition>Ecken und Rücken des Einbands sind leicht bestoßen. Äußere Seiten nachgedunkelt</condition>
-               <scriptDesc></scriptDesc>
+               <scriptDesc>
+                  <scriptNote xml:id="sn1" corresp="#scribe">very nice</scriptNote>
+               </scriptDesc>
                <layoutDesc>16zeilig mit 2er Rastral</layoutDesc>
                <stamp n="1">rechteckiger Stempel: Manskopfsches Museum<lb/>für<lb/>Musik- und Theatergeschichte<lb/>Frankfurt a. Main</stamp>
                <stamp n="2"><locusGrp><locus>Bl3r</locus><locus>p93</locus><locus>p94</locus></locusGrp>rechteckiger Stempel: Manskopfsches Museum<lb/>f. Musik- u. Theatergesch.<lb/>Stadt Frankfurt a. M.</stamp><!-- Bl 3r und S. 93/94 -->
