@@ -155,7 +155,7 @@
                      analog="marc:852a">D-F</identifier></repository>
                <identifier type="shelfLocation" analog="marc:852c">Mus Hs 353</identifier>
                <history>
-                  <provenance n="1">Verlagsarchiv Schlesinger</provenance>
+                  <provenance n="1"><date></date>Verlagsarchiv Schlesinger</provenance>
                   <provenance n="2">Friedrich Wilhelm Jähns? (von Liepmannssohn so interpretiert)</provenance>
                   <provenance n="3">Leo Liepmannssohn, Berlin, Katalog zur Versteigerung am 18./19. November 1889, Nr. 229</provenance>
                   <provenance n="4">Leo Liepmannssohn, Berlin, Katalog zur XVIII. Autographen-Versteigerung (17. Oktober 1896), Nr. 222</provenance>
