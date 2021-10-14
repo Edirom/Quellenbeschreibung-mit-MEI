@@ -20,6 +20,9 @@
             <unpub/>
          </pubStmt>
          <sourceDesc>
+            <source>
+               <bibl></bibl>
+            </source>
             <!-- MEI-L: Which sources should be listed here? -->
             <source xml:id="source-1">
                <!-- MEI-L: Clarify use of <locus> -->
@@ -92,10 +95,10 @@
                      codedval="118629662">Carl Maria von Weber</persName>
                </respStmt>
                <respStmt>
-                  <persName role="librettist"></persName>
+                  <persName role="librettist">Friedrich Kind</persName>
                </respStmt>
                <respStmt>
-                  <persName role="librettist"></persName>
+                  <persName role="librettist">Carl Amadeus Wendt</persName>
                </respStmt>
             </titleStmt>
             <editionStmt>
@@ -153,10 +156,10 @@
                 <item n="2">
                    <physDesc>
                       <bindingDesc></bindingDesc>
-                      <titlePage><p><rend type="capitals">Jubel Cantate</rend><lb/><rend rend="latintype">zur<lb/>Feier des funfzig-jährigen Regierungsantritts</rend><lb/>Sr. Majestät des Königs von Sachsen<lb/>am 20<rend>ten</rend> September 1818.<lb/>Gedicht von Friedrich Kind, nebst einem zweiten Texte:<lb/>Erndte Cantate<lb/>Gedicht von Wendt<lb/>Musik von<lb/>Carl Maria v. Weber.<lb/>Partitur.<lb/>M. Westphal sc.<lb/>Op. 58<lb/>No 1605.<lb/>Eigenthum des Verlegers.<lb/>Berlin,<lb/>in der Schlesinger'schen Buch u. Musikhandlung<lb/>Unter den Linden No. 34</p></titlePage>
+                      <titlePage><p><rend type="capitals">Jubel Cantate</rend><lb/><rend rend="italic">zur<lb/>Feier des funfzig-jährigen Regierungsantritts</rend><lb/>Sr. Majestät des Königs von Sachsen<lb/>am 20<rend>ten</rend> September 1818.<lb/>Gedicht von Friedrich Kind, nebst einem zweiten Texte:<lb/>Erndte Cantate<lb/>Gedicht von Wendt<lb/>Musik von<lb/>Carl Maria v. Weber.<lb/>Partitur.<lb/>M. Westphal sc.<lb/>Op. 58<lb/>No 1605.<lb/>Eigenthum des Verlegers.<lb/>Berlin,<lb/>in der Schlesinger'schen Buch u. Musikhandlung<lb/>Unter den Linden No. 34</p></titlePage>
                       <extent unit="page">134</extent>
                       <inscription><locus>unten links</locus><rend><del>72</del></rend> 89 b.</inscription>
-                      <stamp><locus>untenlinks, über inscription</locus>ovaler Stempel mit den verschlungenen Buchstaben MS</stamp>
+                      <stamp><locus>unten links, über inscription</locus>ovaler Stempel mit den verschlungenen Buchstaben MS</stamp>
                       <bindingDesc>mit hellgrünem Leinen(?) kaschierter fester Pappumschlag; Rückenschild mit handschriftlichem Vermerk: Karl Maria von Weber: Jubelkantate<lb></lb>Partitur</bindingDesc>
                    </physDesc>
                     <physLoc>

@@ -10,10 +10,9 @@
             <title>Jubel-Kantate</title>
             <respStmt>
                <resp></resp>
-               <persName role="composer"
+               <persName role="editor"
                          auth="GND"
-                         auth.uri="http://d-nb.info/gnd/"
-                         codedval="">Irmlind Capelle</persName>
+                         auth.uri="http://d-nb.info/gnd/104004584">Irmlind Capelle</persName>
             </respStmt>
          </titleStmt>
          <pubStmt>
