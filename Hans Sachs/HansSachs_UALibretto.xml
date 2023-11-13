@@ -2303,7 +2303,7 @@
 				<div2 type="scene" n="4">
 					<head><app><lem>4.</lem><rdg wit="ED">Vierte</rdg></app> Scene</head>
 					<stage>Verwandlung<!-- steht über Scenenangabe auch in ED--></stage>
-					<stage>Freier Platz<app><lem>, Wiese</lem><rdg wit="ED"/></app> bei Nürnberg. Reges Leben, wohin das Auge sieht; einzeln stehend Buden mit Lebkuchen und Spielzeug. Ganz im Vordergrunde Volksspiele, Kegelwerfen, Balkenreiten, Schaukeln u.s.w. Rechts, fast im Vordergrunde<app><lem>,</lem><rdg wit="ED"/></app> ein Wirthschaftszelt, um dieses Tische<app><lem>,</lem><rdg wit="ED"> und</rdg></app> Bänke für die Gäste.</stage>
+					<stage>Freier Platz, Wiese bei Nürnberg. Reges Leben, wohin das Auge sieht; einzeln stehend Buden mit Lebkuchen und Spielzeug. Ganz im Vordergrunde Volksspiele, Kegelwerfen, Balkenreiten, Schaukeln u.s.w. Rechts, fast im Vordergrunde<app><lem>,</lem><rdg wit="ED"/></app> ein Wirthschaftszelt, um dieses Tische<app><lem>,</lem><rdg wit="ED"> und</rdg></app> Bänke für die Gäste.</stage>
 					<!--Achtung, hier habe ich bei der Auszeichnung eingegriffen, das muß noch angepaßt werden-->
 					<stage>Bürger, Bürgerinnen; unter diesen Görg, Kinder, Verkäufer.</stage>
 					<stage>Nr. <app><lem><subst><del>8</del><add>9</add></subst></lem><rdg wit="ED">9</rdg></app>. Chor.</stage>
@@ -2318,19 +2318,19 @@
 						<l>Er ist uns ein <app><lem>willkommner</lem><rdg wit="ED">willkomm'ner</rdg></app> Gast.</l>
 						<l>Wir drehen ihn so lang' im Kreise,</l>
 						<l>Wir scherzen derb, doch ohne Groll,</l>
-						<l>Daß er sich bald in <app><lem>unsre</lem><rdg wit="ED">uns're</rdg></app> Weise,</l>
+						<l>Daß er sich bald in uns're Weise,</l>
 						<l>In unser Treiben schicken soll.</l>
-						<l><app><lem>Drum</lem><rdg wit="ED">D'rum</rdg></app> kommt herbei mit frohem Sinn<app><lem>!</lem><rdg wit="ED"/></app></l>
+						<l>D'rum kommt herbei mit frohem Sinn<app><lem>!</lem><rdg wit="ED"/></app></l>
 						<l>Und gebt Euch ganz der Freude hin<app><lem>!</lem><rdg wit="ED">.</rdg></app></l>
 					</sp>
 					<stage>Nr. <app><lem><subst><del>9</del><add>10.</add></subst></lem><rdg wit="ED">10</rdg></app> Tanz.</stage>
 					<stage>(Nach dem Tanze werden die Tische von den Gästen besetzt<app><lem>. Rechts</lem><rdg wit="ED">; rechts</rdg></app> im Vordergrunde sitzen zwei Bogenschützen des Kaisers und <app><lem><subst><del>zwei Diener des Eoban. Links mehrere Bürger.</del><add>Bürger</add></subst></lem><rdg wit="ED">Bürger.</rdg></app>)</stage>
 					<sp>
-						<speaker>Erster Bogenschütze</speaker>
+						<speaker>Erster Bogenschütze.</speaker>
 						<p>Weiß Gott, ein fröhlich Leben doch in Nürnberg<app><lem>!</lem><rdg wit="ED">.</rdg></app></p>
 					</sp>
 					<sp>
-						<speaker>Zweiter Bogenschütze</speaker>
+						<speaker>Zweiter Bogenschütze.</speaker>
 						<p>Ich wollte nur, wir könnten länger hier verweilen.</p>
 					</sp>
 					<sp>
@@ -2365,52 +2365,52 @@
 					<stage><app><lem>Die Vorigen</lem><rdg wit="ED">Vorige</rdg></app>. Görg. Kordula<app><lem>, junge</lem><rdg wit="ED">. Junge</rdg></app> Burschen und Mädchen.<!-- IN ED ist "Junge ..." kleiner gedruckt als die übrigen Namen. wie folgende Szenenangabe --></stage>
 					<stage>(Die Bürger verlassen ihren Sitz und mengen sich grüßend unter die Angekommenen)</stage>
 					<sp>
-						<speaker>Görg</speaker>
-						<p>Kommt hieher, Freunde, kommt, hier wollen wir ein ganz besonderes Fest noch feiern - das Wiegenfest von meiner Kordula. - Auf meine Kosten geht's! Heda! Frau Saberl, bringt frisches Bier und sonst<app><lem/><rdg wit="ED">,</rdg></app> was <app><lem>jedem</lem><rdg wit="ED">Jedem</rdg></app> noch beliebt..</p>
+						<speaker>Görg.</speaker>
+						<p>Kommt hieher, Freunde, kommt, hier wollen wir ein ganz besonderes Fest noch feiern – das Wiegenfest von meiner Kordula. – Auf meine Kosten geht's! Heda! Frau Saberl, bringt frisches Bier und sonst<app><lem/><rdg wit="ED">,</rdg></app> was <app><lem>jedem</lem><rdg wit="ED">Jedem</rdg></app> noch beliebt.</p>
 					</sp>
 					<sp>
-						<speaker>Die Wirthin</speaker>
+						<speaker>Die Wirthin.</speaker>
 						<stage>(im Zelte rufend)</stage>
 						<!-- Regie in ED bei speaker -->
 						<p>Gleich, gleich, Herr Görg<app><lem>. Nur hurtig</lem><rdg wit="ED">, nur hurtig,</rdg></app> Mädchen, flink.</p>
 					</sp>
 					<stage>(Die Mägde bringen das Verlangte)</stage>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<p>Der Görg giebt seinen letzten Heller, wenn Ihr mir nur mein Mädchen leben laßt.</p>
 					</sp>
 					<sp>
-						<speaker>Alle</speaker>
+						<speaker>Alle.</speaker>
 						<p>Sie lebe hoch<app><lem>!</lem><rdg wit="ED">.</rdg></app></p>
 					</sp>
 					<sp>
-						<speaker>Die Bogenschützen</speaker>
+						<speaker>Die Bogenschützen.</speaker>
 						<stage>(zu Görg, das Glas erhebend)</stage>
 						<!-- in ED bei speaker -->
 						<p>Und dreimal hoch!</p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
+						<speaker>Kordula.</speaker>
 						<stage>(zu den <app><lem>Mädchen und Burschen</lem><rdg wit="ED">Burschen und Mädchen</rdg></app>)</stage>
 						<!-- in ED bei speaker -->
 						<p>Ich dank' Euch, meine Freunde<app><lem>,</lem><rdg wit="ED">,</rdg></app>
-							<stage>(zu den Bogenschützen)</stage> und Euch, Ihr werthen Herrn!</p>
+							<stage>(zu den Bogenschützen)</stage> und Euch, Ihr werthen Herrn.</p>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<stage>(zu den Bogenschützen).</stage>
 						<!-- in ED bei speaker -->
 						<p><app><lem>Seyd</lem><rdg wit="ED">Seid</rdg></app> Ihr's? <app><lem>I</lem><rdg wit="ED">Je</rdg></app>, Gott zum Gruß! <app><lem>da</lem><rdg wit="ED">Da</rdg></app> können wir ja die Bekanntschaft, die wir zwar gestern Abend erst gemacht, bei frohem Lied und Becherklang erneuen. Kommt her, nehmt Theil an <app><lem>unsrer</lem><rdg wit="ED">uns'rer</rdg></app> Freude.</p>
 					</sp>
 					<sp>
-						<speaker>Die Bogenschützen</speaker>
+						<speaker>Die Bogenschützen.</speaker>
 						<p>Von Herzen gern<app><lem>.</lem><rdg wit="ED">!</rdg></app>
 							<stage>(<app><lem>gehn</lem><rdg wit="ED">gehen</rdg></app> nach der andern Seite.)</stage></p>
 					</sp>
 					<app>
 						<lem>
 							<sp>
-								<speaker>Erster Diener</speaker>
+								<speaker>Erster Diener.</speaker>
 								<stage>(zu dem zweiten Bogenschützen)</stage>
 								<p>Wer ist denn dieser junge Bursch'?</p>
 							</sp>
@@ -2419,18 +2419,18 @@
 								<p>Ein froh Gemüth, wenn ich nicht irr', ein Schuster.</p>
 							</sp>
 							<sp>
-								<speaker>Erster Diener</speaker>
+								<speaker>Erster Diener.</speaker>
 								<p>Pfui! Spinne!<stage>(zum zweiten Diener)</stage>Da können wir unmöglich länger hier verweilen.</p>
 							</sp>
 							<sp>
-								<speaker>Zweiter Diener</speaker>
-								<p>Meinst Du? Das Bier scheint aber mir besonders gut - <stage>(auf Görg zeigend)</stage>und<stage>(Görg giebt den Mädchen Geld)</stage>billig. - Und dann die hübschen Mädchen, Claus, mir wird ganz sonderbar!</p>
+								<speaker>Zweiter Diener.</speaker>
+								<p>Meinst Du? Das Bier scheint aber mir besonders gut - <stage>(auf Görg zeigend)</stage>und<stage>(Görg giebt den Mädchen Geld)</stage> billig. - Und dann die hübschen Mädchen, Claus, mir wird ganz sonderbar!</p>
 							</sp>
 							<sp>
-								<speaker>Erster Diener</speaker>
+								<speaker>Erster Diener.</speaker>
 								<p>Wenn auch, bedenke stets, daß wir mehr Diener eines Raths als Menschen sind.<stage>(zieht ihn fort)</stage></p>
 							</sp>
-							<sp><speaker>Zweiter Diener</speaker><stage>(mit einem Seufzer)</stage>Ich glaub', ich bin in diesem Augenblick mehr Mensch.<stage>(Beide ab)</stage></sp>
+							<sp><speaker>Zweiter Diener.</speaker><stage>(mit einem Seufzer)</stage>Ich glaub', ich bin in diesem Augenblick mehr Mensch.<stage>(Beide ab)</stage></sp>
 						</lem>
 						<rdg wit="ED"/>
 					</app>
@@ -2445,29 +2445,29 @@
 						<rdg/>
 					</app>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<p>Nun, Freunde, <app><lem>seyd</lem><rdg wit="ED">seid</rdg></app> Ihr fertig?</p>
 					</sp>
 					<sp>
-						<speaker>Alle</speaker>
+						<speaker>Alle.</speaker>
 						<p>Ja, ja!</p>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<stage>(mit komischem Pathos).</stage>
 						<!-- in ED bei speaker -->
 						<p>So komm, Du liebe Kordula, nimm diesen Sitz, den ich für Dich bestimmt, nun ein; von dort aus höre mein Gedicht, das ich in einem <app><lem>müß'gen</lem><rdg wit="ED">müßigen</rdg></app> Augenblick gefunden -</p>
 					</sp>
 					<sp>
-						<speaker>Alle</speaker>
+						<speaker>Alle.</speaker>
 						<p>Gefunden<app><lem>?</lem><rdg wit="ED">,</rdg></app> wo?</p>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
-						<p>Wo anders, als im Geist - <stage>(fortfahrend)</stage> Ja, überzeuge Dich, wie ich nur stets <app><lem>mit Dir allein</lem><rdg wit="ED">allein mit Dir</rdg></app> beschäftigt bin, und welche Zukunft Deiner wartet. Ich werde Dich einst auf den Händen tragen, das heißt: auf Schuhen, die ich selbst gemacht.</p>
+						<speaker>Görg.</speaker>
+						<p>Wo anders, als im Geist – <stage>(fortfahrend)</stage> Ja, überzeuge Dich, wie ich nur stets <app><lem>mit Dir allein</lem><rdg wit="ED">allein mit Dir</rdg></app> beschäftigt bin, und welche Zukunft Deiner wartet. Ich werde Dich einst auf den Händen tragen, das heißt: auf Schuhen, die ich selbst gemacht.</p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
+						<speaker>Kordula.</speaker>
 						<stage>(ihn nachäffend).</stage>
 						<!-- in ED bei speaker -->
 						<p>Für den Pantoffel will ich dann schon sorgen, und Du wirst <app><lem>Dir es</lem><rdg wit="ED">es Dir</rdg></app> selber zuzuschreiben haben, wenn er nicht sanft auf Deinen Schultern ruht.</p>
@@ -2490,7 +2490,7 @@
 						</supplied>
 						<l>An dem Tag, der Dich <app><lem>gegeben</lem><rdg wit="ED">geboren</rdg></app></l>
 						<l>Dieser Welt voll Sorg' und Pein,</l>
-						<l>Möchte ich<app><lem/><rdg wit="ED">,</rdg></app> mein süßes Leben,</l>
+						<l>Möchte ich, mein süßes Leben,</l>
 						<l>Dir ein Lied der Liebe <app><lem>weihn</lem><rdg wit="ED">weih'n</rdg></app>!</l>
 						<l>Doch die Liebe hat nicht Laute,</l>
 						<l>Hat nur <app><lem><hi rend="underline">Thaten</hi></lem><rdg wit="ED">Thaten</rdg></app>, <app><lem><hi rend="underline">Wunsch</hi></lem><rdg wit="ED">Wunsch</rdg></app> und <app><lem><hi rend="underline">Blick</hi></lem><rdg wit="ED">Blick</rdg></app>,</l>
@@ -2503,74 +2503,73 @@
 						<stage>(<app><lem>am</lem><rdg wit="ED">Am</rdg></app> Schluß überreicht er ihr den Blumenstrauß)</stage>
 					</sp>
 					<sp>
-						<speaker>Alle</speaker>
+						<speaker>Alle.</speaker>
 						<p>Bravo, bravo<app><lem/><rdg wit="ED">,</rdg></app> Görg!</p>
 					</sp>
 					<sp>
-						<speaker>Erster Bürger</speaker>
+						<speaker>Erster Bürger.</speaker>
 						<p>Er ist gar nicht so dumm, wie wir geglaubt.</p>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<p>Ich danke schön, Ihr Herrn!</p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
-						<stage>(die<app><lem/><rdg wit="ED">,</rdg></app> mit <app><lem>Hilfe</lem><rdg wit="ED">Hülfw</rdg></app> der jungen <app><lem>Burschen</lem><rdg wit="ED">Bursche,</rdg></app> den Sitz verlassen, zu Görg eilend).</stage>
+						<speaker>Kordula.</speaker>
+						<stage>(die<app><lem/><rdg wit="ED">,</rdg></app> mit Hülfe der jungen <app><lem>Burschen</lem><rdg wit="ED">Bursche,</rdg></app> den Sitz verlassen, zu Görg eilend).</stage>
 						<p>Den besten Dank, mein lieber Görg, Du machst mich wahrhaft stolz auf Deine Liebe, nun glaub' ich's, daß auch Du ein Meistersänger wirst.</p>
 					</sp>
 					<sp>
-						<speaker>Erster Bürger</speaker>
+						<speaker>Erster Bürger.</speaker>
 						<p>Man hört's ihm an, daß er bei Sachs studirt.</p>
 						<stage>(<app><lem>macht</lem><rdg wit="ED">Macht</rdg></app> die Bewegung des Schuhnähens)</stage>
 					</sp>
 					<sp>
-						<speaker>Erster Bogenschütze</speaker>
+						<speaker>Erster Bogenschütze.</speaker>
 						<p>Ich glaub', dem Kaiser selbst würd' dieser Reim gefallen.</p>
 					</sp>
 					<sp>
-						<speaker><app><lem>Dritter</lem><rdg wit="ED">Zweiter</rdg></app> Bürger</speaker>
+						<speaker><app><lem>Dritter</lem><rdg wit="ED">Zweiter</rdg></app> Bürger.</speaker>
 						<p>Es klingt, als ob's der Sachs gemacht.</p>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<p>Ich sollt' es zwar nicht sagen, doch kommt mir's selbst so vor.</p>
 					</sp>
 					<sp>
-						<speaker>Ein junger Bursche</speaker>
-						<p>Doch nun<app><lem/><rdg wit="ED">,</rdg></app> ein lustig Lied, so eins, wo wir am Schlusse Dich fröhlich mit begleiten können.</p>
+						<speaker>Ein junger Bursche.</speaker>
+						<p>Doch nun<app><lem/><rdg wit="ED">,</rdg></app> ein lustig Lied, so eins, wo wir am Schluß Dich fröhlich mit begleiten können.</p>
 					</sp>
 					<sp>
-						<speaker>Ein Mädchen</speaker>
+						<speaker>Ein Mädchen.</speaker>
 						<p>Und das mit einem Tanze schließt.</p>
 					</sp>
 					<sp>
-						<speaker>Alle</speaker>
+						<speaker>Alle.</speaker>
 						<p>Ach ja<app><lem>,</lem><rdg wit="ED">!</rdg></app> ach ja! ein Lied mit Tanz!</p>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
-						<p>So stellt Euch denn im Kreis und singt den Schlußreim mit.</p>
+						<speaker>Görg.</speaker>
+						<p>So stellt Euch denn in Kreis und singt den Schlußreim mit.</p>
 						<stage>Nr. <app><lem><subst><del>10</del><add>11</add></subst></lem><rdg wit="ED">11</rdg></app>. Lied.</stage>
 						<l>Die Schusterzunft bleibt immer doch</l>
 						<l>Die <app><lem>Wichtigste</lem><rdg wit="ED">wichtigste</rdg></app> von allen,<!-- Lesart in UA ev. ; --></l>
 						<l>Sonst müßten alle Menschen noch</l>
 						<l>Barfuß durch's Leben wallen.</l>
 						<l>So aber giebt der Schuh allein</l>
-						<l>Vor <app><lem>jedem</lem><rdg wit="ED">jedem</rdg></app> Dorn und manchem Stein</l>
+						<l>Vor jedem Dorn und manchem Stein</l>
 						<l>Uns Sicherheit und Schutz.</l>
 						<l>Juchhe! Juchhe! <app><lem>Ju fal=la=la=ra! Juhe!</lem><rdg wit="ED">Jufal - la la - ra.</rdg></app>.</l>
 					</sp>
 					<sp>
-						<speaker>Chor </speaker>
-						<l>Juchhe<app><lem>! etc.</lem><rdg wit="ED"> etc.</rdg></app></l>
-						<l>Juchhe! Juchhe! falle rallera.</l>
+						<speaker>Chor. </speaker>
+						<l>Juchhe<app><lem>! pp.</lem><rdg wit="ED"> etc.</rdg></app></l>
 					</sp>
 					<sp>
 						<speaker>
 							<app>
 								<lem>
-									<supplied>Görg</supplied>
+									<supplied>Görg.</supplied>
 								</lem>
 								<rdg wit="ED">Görg.</rdg>
 							</app>
@@ -2584,16 +2583,16 @@
 						<l>Vor dem sich <app><lem>jeder</lem><rdg wit="ED">Jeder</rdg></app> neigt.</l>
 						<l>
 							<app>
-								<lem>Juche! Juhe! Ju=fal= etc.</lem>
+								<lem>Juche! Juhe! Ju=fal= pp.</lem>
 								<rdg wit="ED">Juchhe etc.</rdg>
 							</app>
 						</l>
 					</sp>
 					<sp>
-						<speaker>Chor</speaker>
+						<speaker>Chor.</speaker>
 						<l>
 							<app>
-								<lem>Juhe etc.</lem>
+								<lem>Juhe pp.</lem>
 								<rdg wit="ED">Juchhe etc.</rdg>
 							</app>
 						</l>
@@ -2602,7 +2601,7 @@
 						<speaker>
 							<app>
 								<lem>
-									<supplied>Görg</supplied>
+									<supplied>Görg.</supplied>
 								</lem>
 								<rdg wit="ED">Görg.</rdg>
 							</app>
@@ -2616,23 +2615,23 @@
 						<l>Da giebt's nur einen Leisten.</l>
 						<l>
 							<app>
-								<lem>Juche! fal etc.</lem>
+								<lem>Juche! fal pp.</lem>
 								<rdg wit="ED">Juchhe etc.</rdg>
 							</app>
 						</l>
 					</sp>
 					<sp>
-						<speaker>Chor</speaker>
+						<speaker>Chor.</speaker>
 						<l>
 							<app>
-								<lem>Juhe! fal etc.</lem>
+								<lem>Juhe! fal pp.</lem>
 								<rdg wit="ED">Juchhe etc.</rdg>
 							</app>
 						</l>
 					</sp>
 					<stage>(Bei dem letzten <app><lem>Rundtanze</lem><rdg wit="ED">Rundtanz</rdg></app> hat Görg das eben vorgetragene Gedicht aus der Tasche verloren, welches in der Nähe des Bogenschützen liegen bleibt.)</stage>
 					<sp>
-						<speaker>Alle</speaker>
+						<speaker>Alle.</speaker>
 						<p>Hoch lebe Görg und seine schöne Braut! Vivat hoch!</p>
 						<stage>(<app><lem>man</lem><rdg wit="ED">Man</rdg></app> hört einen Festmarsch, der sich immer mehr entfernt.)</stage>
 					</sp>
@@ -2641,17 +2640,17 @@
 					<head><app><lem>6.</lem><rdg wit="ED">Sechste</rdg></app> Scene.</head>
 					<stage><app><lem/><rdg wit="ED">Vorige. </rdg></app>Bürger und Bürgerinnen mit ihren Kindern eilen über die Bühne.<app><lem> Vorige.</lem><rdg/></app></stage>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<stage>(<app><lem>Einige</lem><rdg wit="ED">einige</rdg></app> aufhaltend).</stage>
 						<p>Wohin so eilig, Freunde? Schließt Euch uns nur an, wir feiern hier ein Doppelfest.</p>
 					</sp>
 					<sp>
-						<speaker>Zweiter Bürger</speaker>
-						<p>Wenn auch. So eben führt man den neuen Bürgermeister in das für ihn gebaute große Zelt, begleitet von den Gilden, Zünften und Gewerken; so ein wichtiges Ereigniß versäumt kein Bürger <app><lem>Nürnbergs</lem><rdg wit="ED">Nürnberg's</rdg></app>, der es redlich meint. <stage>(<app><lem>ab</lem><rdg wit="ED">Ab</rdg></app>.)</stage></p>
+						<speaker>Ein Bürger.</speaker>
+						<p>Wenn auch. So eben führt man den neuen Bürgermeister in das für ihn gebaute große Zelt, begleitet von den Gilden, Zünften und Gewerken; so wichtiges Ereigniß versäumt kein Bürger <app><lem>Nürnbergs</lem><rdg wit="ED">Nürnberg's</rdg></app>, der es redlich meint. <stage>(<app><lem>ab</lem><rdg wit="ED">Ab</rdg></app>.)</stage></p>
 					</sp>
 					<sp>
-						<speaker>Alle</speaker>
-						<p>Da habt Ihr <app><lem>recht</lem><rdg wit="ED">Recht</rdg></app>, wir gehen <app><lem>alle, alle</lem><rdg wit="ED">Alle, Alle</rdg></app> mit. - <stage>(folgen tumultuarisch.)</stage>!</p>
+						<speaker>Alle.</speaker>
+						<p>Da habt Ihr <app><lem>recht</lem><rdg wit="ED">Recht</rdg></app>; wir gehen <app><lem>alle, alle</lem><rdg wit="ED">Alle, Alle</rdg></app> mit! <stage>(folgen tumultuarisch.)</stage></p>
 					</sp>
 				</div2>
 				<div2 type="scene" n="7">
@@ -2662,85 +2661,80 @@
 						<p>Wir sind keine Bürger <app><lem>Nürnbergs</lem><rdg wit="ED">Nürnberg's</rdg></app>, doch können wir den Spaß uns auch betrachten. <app><lem>Komm</lem><rdg wit="ED">Komm'</rdg></app> mit!</p>
 					</sp>
 					<sp>
-						<speaker><app><lem>2.</lem><rdg wit="ED">Zweiter</rdg></app> Bogenschütz<app><lem/><rdg wit="ED"><stage>(das Papier aufhebend)</stage></rdg></app></speaker>
-						<app>
-							<lem>
+						<speaker><app><lem>2.</lem><rdg wit="ED">Zweiter</rdg></app></speaker>
 								<stage>(das Papier aufhebend)</stage>
-							</lem>
-							<rdg wit="ED"/>
-						</app>
 						<p>Was liegt denn da? Sieh! kannst Du lesen?</p>
 					</sp>
 					<sp>
-						<speaker><app><lem>1.</lem><rdg wit="ED">Erster</rdg></app> Bogenschütz</speaker>
+						<speaker><app><lem>1.</lem><rdg wit="ED">Erster</rdg></app> Bogenschütz.</speaker>
 						<p>Ich nicht.</p>
 					</sp>
 					<sp>
-						<speaker><app><lem>2.</lem><rdg wit="ED">Zweiter</rdg></app> Bogenschütz</speaker>
-						<p>Ich auch nicht. Doch irr' ich nicht, so ist es jener Reim, den eben hier der Schuster seiner Braut zum <app><lem>besten</lem><rdg wit="ED">Besten</rdg></app> gab. <app><lem>- </lem><rdg wit="ED"/></app>Das Ding ist gar nicht schlecht..</p>
+						<speaker><app><lem>2.</lem><rdg wit="ED">Zweiter</rdg></app> Bogenschütz.</speaker>
+						<p>Ich auch nicht. Doch irr' ich nicht, so ist es jener Reim, den eben hier der Schuster seiner Braut zum Besten gab. <app><lem>– </lem><rdg wit="ED"/></app>Das Ding ist gar nicht schlecht.</p>
 					</sp>
 					<sp>
-						<speaker><app><lem>1.</lem><rdg wit="ED">Erster</rdg></app> Bogenschütze</speaker>
-						<p>Wir nehmen's mit. Der Rottenführer ist der Sohn des kaiserlichen Kochs, der Koch <app><lem>ein</lem><rdg wit="ED">der</rdg></app> Freund des kaiserlichen Narren; - so kommt vielleicht das Lied vor's Aug' des Kaisers, und so wird endlich gar des Burschen Glück gemacht.</p>
+						<speaker><app><lem>1.</lem><rdg wit="ED">Erster</rdg></app> Bogenschütz.</speaker>
+						<p>Wir nehmen's mit. Der Rottenführer ist der Sohn des kaiserlichen Kochs. Der Koch <app><lem>ein</lem><rdg wit="ED">der</rdg></app> Freund des kaiserlichen Narren; – so kommt vielleicht das Lied vor's Aug' des Kaisers, und so wird endlich gar des Burschen Glück gemacht.</p>
 					</sp>
 					<sp>
-						<speaker><app><lem>2.</lem><rdg wit="ED">Zweiter</rdg></app> Bogenschütz</speaker>
-						<p>Wohl möglich. - <stage>(indem <app><lem>Beide</lem><rdg wit="ED">beide</rdg></app> abgehen)</stage> Es wär' der Erste nicht, der einem Narren sein Glück verdankte.</p>
+						<speaker><app><lem>2.</lem><rdg wit="ED">Zweiter</rdg></app> Bogenschütz.</speaker>
+						<p>Wohl möglich. <stage>(indem <app><lem>Beide</lem><rdg wit="ED">beide</rdg></app> abgehen)</stage> Es wär' der Erste nicht, der einem Narren sein Glück verdankte.</p>
 					</sp>
 				</div2>
 				<div2 type="scene" n="8">
 					<head><app><lem>8.</lem><rdg>Achte</rdg></app> Scene.</head>
 					<stage>Kunigunde. Sachs.</stage>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunigunde.</speaker>
 						<stage>(eilig und dringend).</stage>
 						<!-- Regie in UA bei speaker -->
-						<p>Komm, lieber Sachs! Indeß der Vater dort in jenem Zelt mit <app><lem>Nürnbergs</lem><rdg wit="ED">Nürnberg's</rdg></app> Wohl und <app><lem>Weh'</lem><rdg wit="ED">Weh</rdg></app> beschäftigt ist, vermißt er mich wohl nicht. Wir woll<app><del rend="UA">t</del></app>en hier nun unser Wohl und <app><lem>Weh'</lem><rdg wit="ED">Weh</rdg></app>' berathen, das wahrlich wichtiger mir ist, als das von allen Städten <app><lem>in dem</lem><rdg wit="ED">im</rdg></app> lieben deutschen Reich.</p>
+						<p>Komm, lieber Sachs! Indeß der Vater dort in jenem Zelt mit <app><lem>Nürnbergs</lem><rdg wit="ED">Nürnberg's</rdg></app> Wohl und <app><lem>Weh'</lem><rdg wit="ED">Weh</rdg></app> beschäftigt ist, vermißt er mich wohl nicht. Wir woll<app><del rend="UA">t</del></app>en hier nun unser Wohl und Weh berathen, das wahrlich wichtiger mir ist, als das von allen Städten <app><lem>in dem</lem><rdg wit="ED">im</rdg></app> lieben deutschen Reich.</p>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
-						<p>Zu rathen ist nicht mehr und nicht zu helfen. Der Vater hat mich schnöde abgewiesen, <app><lem>drum</lem><rdg wit="ED">d'rum</rdg></app> ist hier meines Bleibens ferner nicht<app><lem> - Nur</lem><rdg wit="ED"> - nur</rdg></app> Lebewohl will ich Dir<app><lem> Traute</lem><rdg wit="ED">, Traute,</rdg></app> sagen und <app><lem>Dich verlassen dann auf immer</lem><rdg wit="ED">dann verlassen Dich auf immer</rdg></app>.</p>
+						<speaker>Sachs.</speaker>
+						<p>Zu rathen ist nicht mehr und nicht zu helfen. Der Vater hat mich schnöde abgewiesen, <app><lem>drum</lem><rdg wit="ED">d'rum</rdg></app> ist hier meines Bleibens ferner nicht<app><lem> – Nur</lem><rdg wit="ED"> – nur</rdg></app> Lebewohl will ich Dir<app><lem> Traute</lem><rdg wit="ED">, Traute,</rdg></app> sagen und <app><lem>Dich verlassen dann auf immer</lem><rdg wit="ED">dann verlassen Dich auf immer</rdg></app>.</p>
 					</sp>
 					<stage>Nr. <app><lem><subst><del>11</del><add>12</add></subst></lem><rdg wit="ED">12</rdg></app>. Duett <app><lem>u.</lem><rdg wit="ED">und</rdg></app> Finale.</stage>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunigunde.</speaker>
 						<l>Verlassen mich? O<app><lem>,</lem><rdg wit="ED"/></app> scherze doch so grausam nicht.</l>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<l>Fort muß ich, fort, wenn auch das Herz darüber bricht.</l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunigunde.</speaker>
 						<l>Kannst Du so von mir scheiden,</l>
 						<l>Von dem Mädchen, das Dich liebt,</l>
 						<l>Das in Leid und in Freuden</l>
 						<l>Ganz sich Dir zu eigen giebt.</l>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<l>Das <app><lem>Bewußtseyn</lem><rdg wit="ED">Bewußtsein</rdg></app> Deiner Liebe</l>
 						<l>Ist mein Schild, mein Wanderstab;</l>
 						<l>Wenn uns auch die Räume scheiden,</l>
 						<l>Bleiben sich die Herzen nah<app><lem>!</lem><rdg wit="ED">.</rdg></app></l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunigunde.</speaker>
 						<l>Wann werd' ich Dich wiedersehen?</l>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<l>Wenn vor Gott vereint wir stehen!</l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunigunde.</speaker>
 						<l>Dort mit Dir vereint zu werden,</l>
 						<l>Gott <app><lem>sey</lem><rdg wit="ED">sei</rdg></app> Dank<app><lem>!</lem><rdg wit="ED">,</rdg></app> die Zeit ist fern;</l>
 						<l>Darum ging ich hier auf Erden</l>
 						<l>Noch an Deiner Seite gern.</l>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<l>Diesem Glück muß ich entsagen.</l>
 						<app>
 							<lem/>
@@ -2750,7 +2744,7 @@
 						</app>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunigunde.</speaker>
 						<l>Wer wird sich mit Grillen plagen;</l>
 						<l>Was Du jetzt ein Glück genannt,</l>
 						<l>Liegt allein in Deiner Hand.</l>
@@ -2758,11 +2752,11 @@
 						<l>Einem nur mußt Du entsagen.</l>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<l><app><lem>Einem? </lem><rdg wit="ED"/></app>Nun, was ist es, sprich?</l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunigunde.</speaker>
 						<stage>(rasch).</stage>
 						<!-- steht in ED bei speaker -->
 						<l>Dem Dreifuß, der Ahle, dem Leder,</l>
@@ -2772,24 +2766,24 @@
 						<l>Sieh, Hänschen, das ist es allein!</l>
 					</sp>
 					<sp>
-						<speaker>Sachs<stage>(aufflammend).</stage></speaker>
+						<speaker>Sachs. <stage>(aufflammend)</stage></speaker>
 						<l>Einem Stand, der mich ernähret,</l>
 						<l>Der mit Ehren mich <app><lem>erfüllt</lem><rdg wit="ED">erhält</rdg></app>,</l>
 						<l>Sollt' ich ohne Grund entsagen?</l>
 						<l>Nein! um keinen <app><lem>Preiß</lem><rdg wit="ED">Preis</rdg></app> der Welt<app><lem>!</lem><rdg wit="ED">.</rdg></app></l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunigunde.</speaker>
 						<l>Mußt Du denn nur gleich so toben?</l>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<l>Mäß'ge sich da, wer es kann,</l>
 						<l>Der ist mir ein schlechter Mann,</l>
 						<l>Der<app><lem>,</lem><rdg wit="ED"/></app> ob meines <app><lem>Stand's</lem><rdg wit="ED">Stands</rdg></app> mich schmähet.</l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde<stage>(pikirt)</stage></speaker>
+						<speaker>Kunig. <stage>(pikirt)</stage></speaker>
 						<l>Wie sich das gleich <app><lem>spreitzt</lem><rdg wit="ED">spreizt</rdg></app> und blähet!</l>
 						<l>Oben aus und nirgends hin;</l>
 						<l>Bürgermeister ist der Vater,</l>
@@ -2799,26 +2793,26 @@
 						<l>Eines Schusters Pechdrath <app><lem>ziehn!?</lem><rdg wit="ED">zieh'n?</rdg></app></l>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<l>Hat auch Dich das Gift der Schmähsucht</l>
 						<l>Und des Hochmuths schon <app><lem>verderbet</lem><rdg wit="ED">verderbt</rdg></app>?</l>
 						<l>Dich beklagend muß ich scheiden,</l>
 						<l>Und der Schmerz der Trennung weichet</l>
-						<l>Einem tiefern, tiefern Leiden: -</l>
+						<l>Einem tiefern, tiefern Leiden: –</l>
 						<l>Auch von Dir verhöhnt zu werden,</l>
 						<l>Die mein Himmel war auf Erden,</l>
 						<l>Ach<app><lem>! Das</lem><rdg wit="ED">, das</rdg></app> glaubt' ich nimmermehr!</l>
 						<l><app><lem><hi rend="underline">Leichter</hi></lem><rdg wit="ED">Leichter</rdg></app> machst Du zwar das <app><lem><hi rend="underline">Scheiden</hi></lem><rdg wit="ED">Scheiden</rdg></app>,</l>
-						<l>Die <app><lem><hi rend="underline">Erinnerung</hi></lem><rdg wit="ED">Erinn'rung</rdg></app> aber - <app><lem><hi rend="underline">schwer</hi></lem><rdg wit="ED">schwer</rdg></app>.</l>
+						<l>Die <app><lem><hi rend="underline">Erinnerung</hi></lem><rdg wit="ED">Erinn'rung</rdg></app> aber – <app><lem><hi rend="underline">schwer</hi></lem><rdg wit="ED">schwer</rdg></app>.</l>
 						<stage>(wendet sich zum Gehen.)</stage>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<stage>(die mit Scham, inniger Rührung und Freude ihm zugehört, ihn zurückhaltend.)</stage>
-						<l>Lieber Sachs,<app><lem> um Gotteswillen</lem></app></l>
+						<l>Lieber Sachs, um Gotteswillen!</l>
 						<l><app><lem>Meine Angst,</lem><rdg/></app> mein Leid zu stillen,</l>
-						<l>Weile<app><lem>, weile</lem><rdg wit="ED"/></app> nur noch einen Augenblick. -</l>
-						<l>- Glaube Deiner Kunigunde<app><lem>,</lem><rdg wit="ED"> -</rdg></app></l>
+						<l>Weile<app><lem>, weile</lem><rdg wit="ED"/></app> nur noch einen Augenblick. –</l>
+						<l>– Glaube Deiner Kunigunde<app><lem>,</lem><rdg wit="ED"> -</rdg></app></l>
 						<l>Bei den Leiden dieser Stunde:</l>
 						<l>Was die Lippe thöricht sprach,</l>
 						<l>Klang nicht in dem Herzen nach,</l>
@@ -2827,25 +2821,25 @@
 						<l>Laß mich theilen Dein Geschick!</l>
 						<l>Folgen will ich Deinen Schritten,</l>
 						<l>Laß mich nicht vergebens bitten,</l>
-						<l>Dir allein gehör' ich ganz -</l>
-						<stage>(zwischen <app><lem>Lachen und Weinen</lem><rdg wit="ED">Weinen und Lachen</rdg></app>.)</stage>
+						<l>Dir allein gehör' ich ganz –</l>
+						<stage>(zwischen <app><lem>Lachen und Weinen</lem><rdg wit="ED">Weinen und Lachen</rdg></app>)</stage>
 						<l>Nimm mich mit, mein lieber Hans<app><lem>.</lem><rdg wit="ED">!</rdg></app></l>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<stage>(schließt sie in seine Arme)</stage>
 						<!-- steht in ED bei speaker -->
 						<l>Ja<app><lem/><rdg wit="ED">,</rdg></app> das ist des Herzens Stimme,</l>
 						<l>Kunigunde<app><lem>? Theure, mein!</lem><rdg wit="ED">, Theure mein?</rdg></app></l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunigunde.</speaker>
 						<l>Nur allein durch Deine Liebe</l>
 						<l>Kann, o Freund, ich glücklich <app><lem>seyn</lem><rdg wit="ED">sein</rdg></app>.</l>
 					</sp>
 					<stage>(<app><lem>Er </lem><rdg wit="ED"/></app>schließt sie in seine Arme)</stage>
 					<sp>
-						<speaker>Beide</speaker>
+						<speaker>Beide.</speaker>
 						<l>O unnennbare Wonne<app><lem>,</lem><rdg wit="ED">!</rdg></app></l>
 						<l>O namenloses Glück!</l>
 						<l>Wie nach dem Sturm die Sonne,</l>
@@ -2854,23 +2848,23 @@
 						<l>Und dennoch muß ich fragen?</l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
+						<l>Du liebst mich? –</l>
+					</sp>
+					<sp>
+						<speaker>Sachs.</speaker>
 						<l>Du liebst mich? -</l>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
-						<l>Du liebst mich? -</l>
-					</sp>
-					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<l>Von Herzen!</l>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<l>Von Herzen!</l>
 					</sp>
 					<sp>
-						<speaker>Beide</speaker>
+						<speaker>Beide.</speaker>
 						<l>O namenloses Glück!</l>
 						<stage>(Umarmung)</stage>
 					</sp>
@@ -2883,62 +2877,62 @@
 					</head>
 					<stage>Steffen. Eoban. Görg. Kordula. <app><lem>Rathsherrn. Meistersänger. Merker und das sämmtliche Chor</lem><rdg wit="ED">Rathsherren. Meistersänger und der sämmtliche Chor</rdg></app>.</stage>
 					<sp>
-						<speaker>Steffen<stage>(starr)</stage></speaker>
+						<speaker>Steffen. <stage>(starr)</stage></speaker>
 						<l>Schaut dorthin, Bürger, schaut!</l>
 					</sp>
 					<sp>
-						<speaker>Eoban</speaker>
+						<speaker>Eoban.</speaker>
 						<stage>(Kunigunde dem Sachs entreißend und zur Seite führend)</stage>
 						<!-- in ED bei speaker -->
 						<l>Verführer meiner Braut!</l>
 						<l>Ha<app><lem/><rdg wit="ED">,</rdg></app> das ist schauderhaft!</l>
 					</sp>
 					<sp>
-						<speaker>Chor</speaker>
+						<speaker>Chor.</speaker>
 						<l>Nun<app><lem>,</lem><rdg wit="ED"/></app> was denn<app><lem>?</lem><rdg wit="ED">,</rdg></app> was denn? <app><lem>was?</lem><rdg wit="ED">sprecht!</rdg></app></l>
 					</sp>
 					<sp>
-						<speaker>Steffen</speaker>
-						<l><app><lem>Was fragt Ihr</lem><rdg wit="ED">Ihr fragt noch</rdg></app>? <app><lem>Sah't</lem><rdg wit="ED">Saht</rdg></app> Ihr nicht</l>
+						<speaker>Steffen.</speaker>
+						<l><app><lem>Was fragt Ihr</lem><rdg wit="ED">Ihr fragt noch</rdg></app>? Saht Ihr nicht</l>
 						<l>Wie dieser freche Mann</l>
 						<l>Mein Kind <app><lem>verführt im Freien</lem><rdg wit="ED">bethört mit Liebe</rdg></app>,</l>
 						<l>Zum Himmel will es schreien!</l>
 						<l>Und Ihr fragt fühllos, was?</l>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<l>Hört meinen Entschluß, Bürger,</l>
-						<l>Der mich <app><lem>hierher</lem><rdg wit="ED">hieher</rdg></app> gebracht -</l>
+						<l>Der mich <app><lem>hierher</lem><rdg wit="ED">hieher</rdg></app> gebracht –</l>
 						<l>Aus <app><lem>Nürnbergs</lem><rdg wit="ED">Nürnberg's</rdg></app> Mauern scheide</l>
 						<l>Ich noch in dieser Nacht<app><lem> -</lem><rdg wit="ED">.</rdg></app></l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<l>Mein Vater!</l>
 					</sp>
 					<sp>
-						<speaker>Steffen</speaker>
+						<speaker>Steffen.</speaker>
 						<l>Schweige!</l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde<stage>(zu Sachs)</stage></speaker>
+						<speaker>Kunig. <stage>(zu Sachs)</stage></speaker>
 						<l>Geliebter!</l>
 					</sp>
 					<sp>
-						<speaker>Eoban<stage>(den Degen ziehend)</stage></speaker>
+						<speaker>Eoban. <stage>(den Degen ziehend)</stage></speaker>
 						<l>Hier bin ich!</l>
 					</sp>
 					<sp>
-						<speaker>Steffen</speaker>
+						<speaker>Steffen.</speaker>
 						<l>Ha<app><lem/><rdg wit="ED">,</rdg></app> Rache!</l>
 					</sp>
 					<stage>(tritt zu den Rathsherrn, die einen Kreis um ihn schließen.)</stage>
 					<sp>
-						<speaker>Kordula</speaker>
+						<speaker>Kordul.</speaker>
 						<l>Beruh'ge<app><lem/><rdg wit="ED">,</rdg></app> Freundin<app><lem/><rdg wit="ED">,</rdg></app> Dich!</l>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<stage>(etwas angetrunken zu Eoban).</stage>
 						<!-- Regie in ED bei speaker -->
 						<l><app><lem>Macht Euch</lem><rdg wit="ED">Seid doch</rdg></app> nicht lächerlich<app><lem>!</lem><rdg wit="ED">,</rdg></app></l>
@@ -2950,14 +2944,14 @@
 					</sp>
 					<stage>(Er drückt ihm eine <app><lem>Pfefferkuchen=Puppe</lem><rdg wit="ED">Pfefferkuchenpuppe</rdg></app> auf die Degenspitze)</stage>
 					<sp>
-						<speaker>Chor</speaker>
+						<speaker>Chor.</speaker>
 						<l>Hahaha<app><lem/><rdg wit="ED">ha</rdg></app>!</l>
 						<l>Wir scherzen derb, doch ohne Groll,</l>
 						<l>Daß er sich bald in <app><lem>unsre</lem><rdg wit="ED">uns're</rdg></app> Weise,</l>
 						<l>In unser Treiben schicken soll.</l>
 					</sp>
 					<sp>
-						<speaker>Steffen</speaker>
+						<speaker>Steffen.</speaker>
 						<stage>(tritt aus dem Kreise.).</stage>
 						<!-- in ED Regie bei speaker -->
 						<l>Hört, was so eben wir beschlossen:</l>
@@ -2965,27 +2959,27 @@
 						<l>Jetzt aus der Vaterstadt enteilen.</l>
 					</sp>
 					<sp>
-						<speaker>Sachs<stage>(entrüstet)</stage></speaker>
+						<speaker>Sachs. <stage>(entrüstet)</stage></speaker>
 						<l>Verwiesen<app><lem>!</lem><rdg wit="ED">,</rdg></app> verwiesen<app><lem>!</lem><rdg wit="ED"/></app></l>
 						<l>Aus meiner Vaterstadt!</l>
 					</sp>
 					<sp>
-						<speaker>Bürger</speaker>
+						<speaker>Bürger.</speaker>
 						<l>Verwiesen<app><lem>?!</lem><rdg wit="ED">!</rdg></app> Verwiesen<app><lem>?!</lem><rdg wit="ED">!</rdg></app></l>
 					</sp>
 					<sp>
-						<speaker>Sachs<stage>(auflodernd)</stage></speaker>
+						<speaker>Sachs. <stage>(auflodernd)</stage></speaker>
 						<l>Ihr habt kein Recht, mich zu verjagen;</l>
 						<l>Ich scheide als ein freier Mann,</l>
 						<l>Der, was er denkt, auch redlich sagen,</l>
 						<l>Die Stirne offen zeigen kann.</l>
 					</sp>
 					<sp>
-						<speaker>Steffen</speaker>
+						<speaker>Steffen.</speaker>
 						<l>Ihr wolltet mir mein Kind verführen,</l>
 						<l><app><lem>Drum</lem><rdg wit="ED">D'rum</rdg></app> müßt Ihr Euren Bündel schnüren;</l>
-						<l><!-- die nächsten 4 Zeilen in UA autograph AL --><app><lem>Von</lem><rdg wit="ED">Vom</rdg></app> Bleiben kann die Red' nicht <app><lem>seyn</lem><rdg wit="ED">sein</rdg></app> - </l>
-						<l>Ich bin's Gesetz, <app><lem>drum</lem><rdg wit="ED">d'rum</rdg></app> fügt Euch <app><lem>drein</lem><rdg wit="ED">drein</rdg></app>.</l>
+						<l><!-- die nächsten 4 Zeilen in UA autograph AL --><app><lem>Von</lem><rdg wit="ED">Vom</rdg></app> Bleiben kann die Red' nicht <app><lem>seyn</lem><rdg wit="ED">sein</rdg></app> – </l>
+						<l>Ich bin's Gesetz, <app><lem>drum</lem><rdg wit="ED">d'rum</rdg></app> fügt Euch drein.</l>
 					</sp>
 					<sp>
 						<speaker>Rathsherrn</speaker>
@@ -2993,7 +2987,7 @@
 						<l>So spricht's Gesetz, <app><lem>drum</lem><rdg wit="ED">d'rum</rdg></app> fügt Euch <app><lem>drein</lem><rdg wit="ED">d'rein</rdg></app>.</l>
 					</sp>
 					<sp>
-						<speaker>Sachs<stage>(schmerzlich)</stage></speaker>
+						<speaker>Sachs. <stage>(schmerzlich)</stage></speaker>
 						<l>Verwiesen! Verwiesen!</l>
 						<l>Aus meiner Vaterstadt!</l>
 						<app>
@@ -3009,21 +3003,21 @@
 						<l>Was ich bereitet Dir?</l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<l>Ich scheide nicht von Dir,</l>
 						<l>Mein Wort hab' ich gegeben,</l>
-						<l>Zu folgen Dir durch's Leben.</l>
+						<l>Zu folgen Dir durch's Leben,</l>
 						<l>Halt' auch das Deine mir.</l>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
+						<speaker>Kordul.</speaker>
 						<l>Er scheidet nun von hier<app><lem>;</lem><rdg wit="ED">,</rdg></app></l>
 						<l>Vergebens war sein Streben,</l>
 						<l>Beglückt mit ihr zu leben;</l>
 						<l>Wer spendet Tröstung ihr!</l>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<l>Ich scheide auch von hier<app><lem>;</lem><rdg wit="ED">,</rdg></app></l>
 						<l>Mag sie es mir vergeben,</l>
 						<l>Ich weihe ihm mein Leben,</l>
@@ -3036,7 +3030,7 @@
 						<l>Mag er nun den Lorbeer, den Ruhm genießen.</l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<l><app><lem>O</lem><rdg wit="ED">O, </rdg></app> laß mich theilen Dein Geschick!</l>
 						<l>Denn nimmer kehrst Du mir zurück.</l>
 						<l>Nein, nein, Du scheidest nicht von hier,</l>
@@ -3044,129 +3038,129 @@
 						<l>Und das bleibt ewig hier zurück.</l>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
+						<speaker>Kordul.</speaker>
 						<l>Er folget dem Geschick,</l>
 						<l>Sein Herz bleibt hier zurück.</l>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<l>Ich folge dem Geschick,</l>
 						<l>Mein Herz bleibt hier zurück.</l>
 					</sp>
 					<sp>
-						<speaker>Bürger</speaker>
+						<speaker>Bürger.</speaker>
 						<l>Er muß nun fort</l>
 						<l>Von diesem Ort,</l>
 						<l>Sein Herz bleibt ewig <app><lem>hier</lem><rdg wit="ED"/></app> zurück.</l>
 					</sp>
 					<sp>
-						<speaker>Eoban. Steffen. Meistersänger und <app><lem>Rathsherrn</lem><rdg wit="ED">Rathsherren</rdg></app></speaker>
+						<speaker>Eoban. Steffen. Meisters. u. <app><lem>Rathsh.</lem><rdg wit="ED">Rathsherren</rdg></app></speaker>
 						<l>Hier brachte sein Hochmuth</l>
 						<l>Ihm wenig Glück.</l>
 					</sp>
 					<sp>
-						<speaker><app><lem>Rathsherrn und Meistersänger</lem><rdg wit="ED">Meistersänger und Rathsherren</rdg></app>.</speaker>
+						<speaker>Meisters. u. Rathsherren.</speaker>
 						<l>Verwiesen<app><lem>! Verwiesen!</lem><rdg wit="ED">, verwiesen,</rdg></app></l>
 						<l><app><lem>Seyd</lem><rdg wit="ED">Seid</rdg></app> Ihr und verbannt,</l>
-						<l><app><lem>Drum</lem><rdg wit="ED">D'rum</rdg></app> säumt nun nicht länger,</l>
+						<l>D'rum säumt nun nicht länger,</l>
 						<l>Nehmt den Wanderstab zur Hand.</l>
 					</sp>
 					<sp>
-						<speaker>Bürger</speaker>
+						<speaker>Bürger.</speaker>
 						<l>Gönnt nur dem Armen kurze Frist,</l>
 						<l>Er zieht ja fort</l>
 						<l>Von diesem Ort.</l>
 					</sp>
 					<sp>
-						<speaker>Eoban. Steffen. Meistersänger<app><lem> u. Rathsherrn</lem><rdg wit="ED">. Rathsherren</rdg></app></speaker>
-						<l>Nein fort!, gleich fort!</l>
+						<speaker>Eoban. Steffen. Meisters. Rathsherrn.</speaker>
+						<l>Nein fort! gleich fort!</l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<l>Mein Vater!</l>
 					</sp>
 					<sp>
-						<speaker>Steffen</speaker>
+						<speaker>Steffen.</speaker>
 						<l>Schweige!</l>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
+						<speaker>Kordul.</speaker>
 						<l>Habt Mitleid!</l>
 					</sp>
 					<sp>
-						<speaker>Eoban</speaker>
+						<speaker>Eoban.</speaker>
 						<l>Geliebte!</l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<l>Laßt mich!</l>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<l>Ich folg' Euch!</l>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<l>Bleibe!</l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<l>Erbarmen!</l>
 						<l>Gönnt ihm nur kurze Frist!</l>
 					</sp>
 					<sp>
-						<speaker>Alle</speaker>
+						<speaker>Alle.</speaker>
 						<l>Mit dem Wanderstab zur Hand,</l>
 						<l>Verwiesen, verbannt,</l>
 						<l>Verstoßen, verkannt,</l>
 						<l>Muß er aus seiner Heimath eilen!</l>
 					</sp>
 					<sp>
-						<speaker>Eoban. Steffen. <app><lem>Rathsherrn und</lem><rdg wit="ED">Rathsherren. </rdg></app> Meistersänger<stage>(höhnend)</stage></speaker>
+						<speaker>Eoban. Steffen. <app><lem>Rathsherrn und</lem><rdg wit="ED">Rathsherren. </rdg></app> Meistersänger <stage>(höhnend)</stage></speaker>
 						<l>Als deutscher Minnesänger zieht durch's Land,</l>
 						<l>Den Wanderstab in Eurer Dichterhand<app><lem>.</lem><rdg wit="ED">!</rdg></app></l>
 						<l>Nur fort<app><lem>!</lem><rdg wit="ED">,</rdg></app> nur fort!</l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde. Kordula. Sachs</speaker>
+						<speaker>Kunig. Kordul. Sachs.</speaker>
 						<l>Allmächtiger<app><lem/><rdg wit="ED">,</rdg></app> in <app><lem>deine</lem><rdg wit="ED">Deine</rdg></app> Hand</l>
 						<l><app><lem>Leg</lem><rdg wit="ED">Leg'</rdg></app> ich sein/ihr theures Leben,</l>
 						<l>Du wirst im weitentfernten Land</l>
 						<l>Stets schützend ihn/sie umschweben.</l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde. Sachs</speaker>
+						<speaker>Kunig. Sachs.</speaker>
 						<l>Uns trennt Gewalt,</l>
 						<l>Doch wird uns bald</l>
 						<l>Ein ewig Band umschweben.</l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<l>Er zieht nun fort,</l>
-						<l>Gott wird ihm Sträke geben.</l>
+						<l>Gott wird ihm Stärke geben.</l>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<l>Verhöhnt habt Ihr uns und verkannt,</l>
-						<l><app><lem>Drum</lem><rdg wit="ED">D'rum</rdg></app> weilen wir nicht länger;</l>
+						<l>D'rum weilen wir nicht länger;</l>
 						<l>Den Wanderstab in <app><lem>unsrer</lem><rdg wit="ED">uns'rer</rdg></app> Hand,</l>
-						<l>Als deutsche Meistersänger<app><lem/><rdg wit="ED"> -</rdg></app></l>
+						<l>Als deutsche Meistersänger<app><lem/><rdg wit="ED"> –</rdg></app></l>
 						<l>So zieh'n wir fort<app><lem>!</lem><rdg wit="">.</rdg></app></l>
 					</sp>
 					<sp>
-						<speaker>Bürger</speaker>
+						<speaker>Bürger.</speaker>
 						<l>O gönnt <app><lem>ihm</lem><rdg wit="ED">Ihm</rdg></app> nur die kurze Frist<app><lem>!</lem><rdg wit="ED">,</rdg></app></l>
-						<l>Er zieht ja fort etc.</l>
+						<l>Er zieht ja fort pp.</l>
 					</sp>
 					<sp>
-						<speaker>Eoban. Steffen. Meistersänger. <app><lem>Rathsherrn</lem></app><rdg wit="ED">Rathsherren</rdg></speaker>
-						<l>So nehmt den Wanderstab zur Hand etc.</l>
+						<speaker>Eoban. Steffen. Meisters. <app><lem>Rathsherrn.</lem></app><rdg wit="ED">Rathsherren</rdg></speaker>
+						<l>So nehmt den Wanderstab zur Hand pp.</l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<l>Leb' wohl!</l>
 					</sp>
-					<stage>(Sachs, von Steffen, den Ratsherren <hi rend="latintype">etc.</hi> wiederholt zum Entfernen ermahnt, geht rasch, von Görg gefolgt, ab. Kunigunde will ihm nach, wird aber <app><lem>durch Eoban und Steffen</lem><rdg wit="ED">von Steffen und Eoban</rdg></app> zurückgehalten und bleibt trostlos in Kordula's Armen).</stage>
+					<stage>(Sachs, von Steffen, den Ratsherrn <hi rend="latintype">etc.</hi> wiederholt zum Entfernen ermahnt, geht rasch, von Görg gefolgt, ab. Kunigunde will ihm nach, wird aber <app><lem>durch Eoban und Steffen</lem><rdg wit="ED">von Steffen und Eoban</rdg></app> zurückgehalten und bleibt trostlos in Kordula's Armen)</stage>
 					<app>
 						<lem>
 							<stage>(Der Vorhang fällt</stage>
