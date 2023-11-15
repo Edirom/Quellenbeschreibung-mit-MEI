@@ -3177,7 +3177,7 @@
 						<rdg wit="ED">Dritter Act</rdg>
 					</app>
 				</head>
-				<stage>Kurzes Theater. Kunigundens Gemach. Es ist Abend. Im Prospecte befinden sich ein oder mehrere Fenster, durch welche man die Stadt illuminirt erblickt. Zu beiden Seiten im Hintergrunde Treppen, die in obere Gemächer führen, daneben auf jeder Seite <hi rend="italic">parterre</hi> Thüren, deren eine rechts nach dem Garten, die andere links in das Innere des Hauses führt.</stage>
+				<stage>Kurzes Theater. Kunigundens Gemach. Es ist Abend. Im Prospecte befinden sich ein oder mehrere Fenster, durch welche man die Stadt illuminirt erblickt. Zu beiden Seiten im Hintergrunde Treppen, die in obere Gemächer führen, daneben auf jeder Seite <hi rend="italic">parterre</hi> Thüren, deren eine rechts nach dem Garten, die andere links in das Innere des Hauses führt. Kunigunde, festlich gekleidet, sitzt betrübt an einem Tische. Kordula, ebenfalls geschmückt, kommt, nachdem die Bühne eine kurze Zeit unbeleuchtet war, mit einer Lampe die Treppe herab. <add>Lampe auf den Tisch.</add></stage>
 				<p>
 					<supplied>Nr. 13. Einleitungsmusik</supplied>
 				</p>
@@ -3185,64 +3185,61 @@
 					<head>
 						<supplied>Scene 1.</supplied>
 					</head>
-					<!--Achtung, hier habe ich bei der Auszeichnung eingegriffen, das muß noch angepaßt werden-->
-					<stage>Kunigunde, festlich gekleidet, sitzt betrübt an einem Tische. Kordula, ebenfalls geschmückt, kommt, nachdem die Bühne eine kurze Zeit unbeleuchtet war, mit einer Lampe die Treppe herab. <app><lem>Beide Auftritte unter der entsprechenden Musik.</lem><rdg wit="ED"/></app></stage>
-					<!-- Diese Regieanweisung steht in ED direkt bei der obigen Bühnenbild-Beschreibugn -->
 					<sp>
-						<speaker>Kordula</speaker>
-						<p>Wie, Kundchen, wie? Du sitzest hier im Finstern? <app><lem>ich</lem><rdg wit="ED">Ich</rdg></app> suchte Dich im ganzen <app><lem>Haus</lem><rdg wit="ED">Hause</rdg></app>.<app><lem> ach, </lem><rdg wit="ED">Ach </rdg></app>Du hast viel versäumt; wir standen an dem Giebelfenster und sahen hinunter auf die Straße: es zog der Kaiser ein bei Fackelschein in <app><lem>unsre</lem><rdg wit="ED">uns're</rdg></app> Stadt, gefolgt von einer Schaar von Reisigen und Pagen, es glänzten ihre Harnische und Wämser, wie Deines Vaters Laden, wenn die Sonne ihn bescheint. Und heute <app><lem>abend</lem><rdg wit="ED">Abend</rdg></app> wird die Pracht noch größer; im großen Saale bei dem Kerzenglanz - wie freu' ich mich darauf! <app><lem>- jedoch</lem><rdg wit="ED">jedocj, </rdg></app> Du hörst mich nicht?</p>
+						<speaker>Kordula.</speaker>
+						<p>Wie, Kundchen, wie? Du sitzest hier im Finstern? <app><lem>ich</lem><rdg wit="ED">Ich</rdg></app> suchte Dich im ganzen <app><lem>Haus</lem><rdg wit="ED">Hause</rdg></app>.<app><lem> ach, </lem><rdg wit="ED">Ach </rdg></app>Du hast viel versäumt; wir standen an dem Giebelfenster und sahn hinunter auf die Straße: es zog der Kaiser ein bei Fackelschein in <app><lem>unsre</lem><rdg wit="ED">uns're</rdg></app> Stadt, gefolgt von einer Schaar von Reisigen und Pagen, es glänzten ihre Harnische und Wämser, wie Deines Vaters Laden, wenn die Sonne ihn bescheint. Und heute Abend wird die Pracht noch größer; im großen Saale bei dem Kerzenglanz – wie freu' ich mich darauf! <app><lem>– jedoch</lem><rdg wit="ED">jedoch, </rdg></app> Du hörst mich nicht?</p>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
-						<p>Ach, wie beneid' ich Dich um Deinen frohen Sinn; könnt' ich nur theilen Deine Lust; doch ist mein Herz voll Sorg' um den Geliebten. Ach, wo mag er weilen<app><lem>!</lem><rdg wit="ED">.</rdg></app></p>
+						<speaker>Kunig.</speaker>
+						<p>Ach wie beneid' ich Dich um Deinen frohen Sinn; könnt' ich nur theilen Deine Lust; doch ist mein Herz voll Sorg' um den Geliebten. Ach, wo mag er weilen<app><lem>!</lem><rdg wit="ED">.</rdg></app></p>
 					</sp>
 					<sp>
 						<speaker>Kordula</speaker>
-						<p>Geh', Kundchen, laß die Grillen fahren, bin ich denn nicht in gleichem Fall? Auch mein Herzliebster nahm die Freiheit sich und sagte <app><lem><hi rend="underline">mir</hi></lem><rdg wit="ED">mir</rdg></app> und <app><lem>Nürnbergs</lem><rdg wit="ED">Nürnberg's</rdg></app> Mauern Lebewohl - so hat's den Anschein - doch ein altes Sprüchwort sagt: <app><lem>Wenn</lem><rdg wit="ED">wenn</rdg></app> man den Wolf <app><lem>nennt</lem><rdg wit="ED">nennt,</rdg></app> ist er auch nicht weit<app><lem/><rdg wit="ED">;</rdg></app> und trügt mich meine Ahnung nicht, so sind sie <app><lem>beide</lem><rdg wit="ED">Beide</rdg></app> nicht so fern, als wir es denken.<app><lem/><rdg wit="ED"> - </rdg></app>
-							<stage>(in komischem Zorn.)</stage> Der dumme Sachs! - vergieb mir, Kunigunde, es war im Unmuth mir herausgeplatzt. Konnt' er nicht warten bis <app><lem>heut'</lem><rdg wit="">heut</rdg></app> Abend. War es doch gestern schon bekannt, daß uns der Kaiser mit seiner hohen Gegenwart erfreuen werde<app><lem>,</lem><rdg wit="ED">;</rdg></app> wär' er nur hier, dann <app><lem>ließ</lem><rdg wit="ED">ließ'</rdg></app> sich <app><lem>manches</lem><rdg wit="ED">Manches</rdg></app> thun und reden, und <app><lem>vieles</lem><rdg wit="ED">Vieles</rdg></app> wäre <app><lem>ungeschehn</lem><rdg wit="ED">ungeschehen</rdg></app> geblieben.</p>
+						<p>Geh, Kundchen, laß die Grillen fahren, bin ich denn nicht in gleichem Fall? Auch mein Herzliebster nahm die Freiheit sich und sagte <app><lem><hi rend="underline">mir</hi></lem><rdg wit="ED">mir</rdg></app> und <app><lem>Nürnbergs</lem><rdg wit="ED">Nürnberg's</rdg></app> Mauern Lebewohl – so hat's den Anschein – doch ein altes Sprüchwort sagt: <app><lem>Wenn</lem><rdg wit="ED">wenn</rdg></app> man den Wolf <app><lem>nennt</lem><rdg wit="ED">nennt,</rdg></app> ist er auch nicht weit<app><lem/><rdg wit="ED">;</rdg></app> und trügt mich meine Ahnung nicht, so sind sie <app><lem>beide</lem><rdg wit="ED">Beide</rdg></app> nicht so fern, als wir es denken.<app><lem/><rdg wit="ED"> - </rdg></app>
+							<stage>(in komischem Zorn.)</stage> Der dumme Sachs! – vergieb mir, Kunigunde, es war im Unmuth mir herausgeplatzt. Konnt' er nicht warten bis <app><lem>heut'</lem><rdg wit="">heut</rdg></app> Abend. War es doch gestern schon bekannt, daß uns der Kaiser mit seiner hohen Gegenwart erfreuen werde<app><lem>,</lem><rdg wit="ED">;</rdg></app> wär' er nur hier, dann <app><lem>ließ</lem><rdg wit="ED">ließ'</rdg></app> sich <app><lem>manches</lem><rdg wit="ED">Manches</rdg></app> thun und reden, und <app><lem>vieles</lem><rdg wit="ED">Vieles</rdg></app> wäre <app><lem>ungeschehn</lem><rdg wit="ED">ungeschehen</rdg></app> geblieben.</p>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
-						<p>Meinst Du, der Kaiser <app><lem>kümmre</lem><rdg wit="ED">kümm're</rdg></app> sich um solche Dinge?</p>
+						<speaker>Kunig.</speaker>
+						<p>Meinst Du der Kaiser <app><lem>kümmre</lem><rdg wit="ED">kümm're</rdg></app> sich um solche Dinge?</p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
-						<p>Ei freilich<app><lem>,</lem><rdg wit="ED"/></app> und warum denn nicht? Wenn man's nur auf die rechte Weise macht. Der Kaiser wird zu <app><lem><hi rend="underline">ihm</hi></lem><rdg wit="ED">ihm</rdg></app> nicht kommen <app><lem>- freilich </lem><rdg wit="ED"/></app>und sagen: "<app><lem>lieber</lem><rdg wit="ED">Lieber</rdg></app> Sachs, erlaubt Ihr wohl, daß ich in Eurer Schusterwerkstatt <app><lem>kann ein Wörtchen mit Euch reden</lem><rdg wit="ED">ein Wörtchen mit Euch reden kann</rdg></app>." Nein, <app><lem><hi rend="underline">Morgen</hi></lem><rdg wit="ED">morgen</rdg></app> zum Exempel mußt' er zu ihm gehen, heut' Abend nicht, da ist der Kaiser müde, hat Hunger wohl und Durst, doch morgen früh konnt' er ihm sagen: "Herr Kaiser, ich bin der und der, man that mir das und das drauf,<app><lem/><rdg wit="ED">" - d'rauf,</rdg></app> wett' ich, würd' der Kaiser sagen: <app><lem>so</lem><rdg wit="ED">"So</rdg></app> und so<app><lem>, und dieses und jenes</lem><rdg wit="ED"> und Dieses und Jenes"</rdg></app> - und so wär' Alles gleich im Klaren dann gewesen; doch wegzulaufen in die weite Welt<app><lem>,</lem><rdg wit="ED"/></app> ohn' Lebewohl - und mir mein <app><lem>Bischen</lem><rdg wit="ED">bischen</rdg></app> Liebes auch noch mitzunehmen - <app><lem>(denn sicherlich sind sie beisammen)</lem><rdg wit="ED">denn sicherlich sind sie beisammen -</rdg></app> das ist zu arg! - <hi rend="latintype">Fiat justitia!</hi> sagt der Herr Pathe, wenn die Gerechtigkeit gehandhabt werden soll, darum, der Sachs geht mich nichts an, den magst <app><lem><hi rend="underline">Du</hi></lem><rdg wit="ED">Du</rdg></app> strafen<app><lem/><rdg wit="ED">,</rdg></app> wie Du willst, das sei ganz Deine Sache; doch <app><lem><hi rend="underline">meinen</hi></lem><rdg wit="ED">Meinen</rdg></app> werd' ich auf 'ne Weise empfangen, daß das Fortlaufen künftig ihm vergehen soll<app><lem>.</lem><rdg wit="ED"> - </rdg></app><stage>(mit Pantomime einer Ohrfeige.)</stage></p>
+						<speaker>Kordu.</speaker>
+						<p>Ei freilich<app><lem>,</lem><rdg wit="ED"/></app> und warum denn nicht? Wenn man's nur auf die rechte Weise macht. Der Kaiser wird zu <app><lem><hi rend="underline">ihm</hi></lem><rdg wit="ED">ihm</rdg></app> nicht kommen <app><lem>– freilich </lem><rdg wit="ED"/></app>und sagen: "<app><lem>lieber</lem><rdg wit="ED">Lieber</rdg></app> Sachs, erlaubt Ihr wohl, daß ich in Eurer Schusterwerkstatt <app><lem>kann ein Wörtchen mit Euch reden</lem><rdg wit="ED">ein Wörtchen mit Euch reden kann</rdg></app>." Nein, <app><lem><hi rend="underline">Morgen</hi></lem><rdg wit="ED">morgen</rdg></app> zum Exempel mußt' er zu ihm gehen, heut' Abend nicht, da ist der Kaiser müde, hat Hunger wohl und Durst, doch morgen früh konnt' er ihm sagen: "Herr Kaiser, ich bin der und der, man that mir das und das, drauf,<app><lem/><rdg wit="ED">" - d'rauf,</rdg></app> wett' ich, würd' der Kaiser sagen: <app><lem>so</lem><rdg wit="ED">"So</rdg></app> und so<app><lem>, und dieses und jenes</lem><rdg wit="ED"> und Dieses und Jenes"</rdg></app> – und so wär' Alles gleich im Klaren dann gewesen; doch wegzulaufen in die weite Welt<app><lem>,</lem><rdg wit="ED"/></app> ohn' Lebewohl – und mir mein <app><lem>Bischen</lem><rdg wit="ED">bischen</rdg></app> Liebes auch noch mitzunehmen – <app><lem>(denn sicherlich sind sie beisammen)</lem><rdg wit="ED">denn sicherlich sind sie beisammen –</rdg></app> das ist zu arg! – <hi rend="latintype">Fiat justitia!</hi> sagt der Herr Pathe, wenn die Gerechtigkeit gehandhabt werden soll, darum, der Sachs geht mich nichts an, den magst <app><lem><hi rend="underline">Du</hi></lem><rdg wit="ED">Du</rdg></app> strafen, wie Du willst, das sey ganz Deine Sache; doch <app><lem><hi rend="underline">meinen</hi></lem><rdg wit="ED">Meinen</rdg></app> werd' ich auf 'ne Weise empfangen, daß das Fortlaufen künftig ihm vergehen soll<app><lem>.</lem><rdg wit="ED"> - </rdg></app><stage>(mit Pantomime einer Ohrfeige)</stage></p>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
-						<p>Du <app><lem><hi rend="underline">scherzest</hi></lem><rdg wit="ED">schrzest,</rdg></app> und die Sache ist so <app><lem><hi rend="underline">ernst</hi></lem><rdg wit="ED">ernst</rdg></app>! - <app><lem>nein</lem><rdg wit="ED">nein,</rdg></app> niemals kehrt er wieder, denn ach, zu tief war er verletzt.</p>
+						<speaker>Kunig.</speaker>
+						<p>Du <app><lem><hi rend="underline">scherzest</hi></lem><rdg wit="ED">schrzest,</rdg></app> und die Sache ist so <app><lem><hi rend="underline">ernst</hi></lem><rdg wit="ED">ernst</rdg></app> – <app><lem>Nein</lem><rdg wit="ED">nein,</rdg></app> niemals kehrt er wieder, denn ach zu tief war er verletzt.</p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
-						<p>Und ich behaupte fest, sie kommen <app><lem><hi rend="underline">beide</hi></lem><rdg wit="ED">beide</rdg></app> - wann? <app><lem>- nun ja, das</lem><rdg wit="ED">Das</rdg></app> läßt sich freilich nicht bestimmen; denn blieben sie uns aus - <stage>(wehmüthig)</stage> was soll aus uns dann werden? <app><lem>- </lem><rdg wit="ED"/></app>Du fängst fast an, mit Deiner Traurigkeit mich anzustecken, doch <app><lem>soll's dir</lem><rdg wit="ED">soll Dir's</rdg></app> nicht gelingen. Wüßt' ich nur Jemand, der - ach schade <app><lem>drum</lem><rdg wit="ED">d'rum</rdg></app>, daß meine alte Base nicht mehr lebt, denn die verstand die Kunst, aus Karten das <app><lem>künft'ge</lem><rdg wit="ED">künftige</rdg></app> Geschick zu prophezeien; doch heimlich kann ich Dir vertrauen, ich hab' die Hexerei ihr abgelernt. Wart', Kundchen, wart', ich lege Dir die Karten, Dir, mir, dem Sachs, uns Allen sag' ich wahr - <stage>(wichtig.)</stage>
-							<app><lem>O!</lem><rdg wit="ED">O</rdg></app> man versteht sich auf verborg'ne Dinge<app><lem>!</lem><rdg wit="ED"/></app> - geschwind<app><lem>,</lem><rdg wit="ED"/></app> die Karten.</p>
+						<speaker>Kordul.</speaker>
+						<p>Und ich behaupte fest, sie kommen <app><lem><hi rend="underline">beide</hi></lem><rdg wit="ED">beide</rdg></app> – wann? <app><lem> – nun ja, das</lem><rdg wit="ED">Das</rdg></app> läßt sich freilich nicht bestimmen; denn blieben sie uns aus - <stage>(wehmüthig)</stage> was soll aus uns dann werden? <app><lem>– </lem><rdg wit="ED"/></app>Du fängst fast an, mit Deiner Traurigkeit mich anzustecken, doch soll Dir's nicht gelingen. Wüßt' ich nur Jemand, der – ach schade d'rum, daß meine alte Base nicht mehr lebt, denn die verstand die Kunst aus Karten das <app><lem>künft'ge</lem><rdg wit="ED">künftige</rdg></app> Geschick zu prophezeien; doch heimlich kann ich Dir vertrauen, ich hab' die Hexerei ihr abgelernt. Wart', Kundchen, wart', ich lege Dir die Karten, Dir, mir, dem Sachs, uns Allen sag' ich wahr – <stage>(wichtig.)</stage>
+							<app><lem>O!</lem><rdg wit="ED">O</rdg></app> man versteht sich auf verborg'ne Dinge<app><lem>!</lem><rdg wit="ED"/></app> – geschwind<app><lem>,</lem><rdg wit="ED"/></app> die Karten.</p>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<p>Du gutes Mädchen, ja<app><lem>,</lem><rdg wit="ED"/></app> Du bist allein vermögend, meines Kummers <app><lem>Weh'</lem><rdg wit="ED">Weh</rdg></app> zu lindern. Könnt' ich den Vater nur bewegen, mich daheim zu lassen in dem stillen Zimmer; das lärmende Gewühl, selbst jene hellen Fenster, Lust und Jubel kündend, das <app><lem>alles</lem><rdg wit="ED">Alles</rdg></app> ist in Widerspruch mit meinem Gram.</p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
-						<p>Von <app><lem><hi rend="underline">einer</hi></lem><rdg wit="ED">einer</rdg></app> Störung will ich Dich erlösen. - <stage>(sie schließt die Vorhänge der Fenster <app><l>im Hintergrunde.</l><rdg wit="ED"/></app>)</stage> So - der <app><lem><hi rend="underline">andern</hi></lem><rdg wit="ED">andern</rdg></app> werden wir uns fügen müssen, wer weiß, vielleicht behagt's uns besser<app><lem/><rdg wit="ED">,</rdg></app> als wir glauben. <app><lem>- </lem><rdg wit="ED"/></app>Nun, Kundchen, setz' Dich her zu mir - gönn' mir die Freude - <stage>(wichtig)</stage> Du wirst ob meiner Weisheit höchlich staunen.<app><lem/><rdg wit="ED"> -</rdg></app>
+						<speaker>Kordul.</speaker>
+						<p>Von <app><lem><hi rend="underline">einer</hi></lem><rdg wit="ED">einer</rdg></app> Störung will ich Dich erlösen. <stage>(sie schließt die Vorhänge der Fenster <app><l>im Hintergrunde</l><rdg wit="ED"/></app>)</stage> So – der <app><lem><hi rend="underline">andern</hi></lem><rdg wit="ED">andern</rdg></app> werden wir uns fügen müssen, wer weiß, vielleicht behagt's uns besser, als wir glauben. <app><lem>– </lem><rdg wit="ED"/></app>Nun, Kundchen, setz' Dich her zu mir – gönn' mir die Freude – <stage>(wichtig)</stage> Du wirst ob meiner Weisheit höchlich staunen.<app><lem/><rdg wit="ED"> -</rdg></app>
 							<stage>(<add><lem>sie</lem><rdg wit="ED">Sie</rdg></add> setzt Kunigunden einen Stuhl, rückt den Tisch, stellt sich dahinter, nimmt aus der Schublade Karten (deutsche) und eine Brille und beginnt im beschwörenden Tone)</stage></p>
 					</sp>
 					<p>
 						<stage>Nr. <app><lem><subst><del>12</del><add>13</add></subst></lem><rdg wit="ED">13</rdg></app>. Arie und Duett.</stage>
 					</p>
 					<sp>
-						<speaker>Kordula</speaker>
+						<supplied><speaker>Kordula</speaker></supplied>
 						<l>Komm, meine Tochter, setz' Dich mir zur Seiten,</l>
 						<l>Vernimm aus meinem Munde Dein Geschick,</l>
 						<l>Du siehst in mir die Krone der Geweihten,</l>
-						<l>In dunkle Fernen schweift mein Blick.</l>
-						<l>Und trifft nicht ein, was man von mir geheischt -</l>
-						<l>Dann - allerdings - dann hab' ich mich getäuscht.<app><lem> -</lem><rdg wit="ED"> -</rdg></app></l>
+						<l>In dunkle Fernen schweift mein Blick,</l>
+						<l>Und trifft nicht ein, was man von mir geheischt –</l>
+						<l>Dann – allerdings – dann hab' ich mich getäuscht. –</l>
 						<stage>(in ihrem natürlichen <app><lem>Ton</lem><rdg wit="ED">Tone</rdg></app>)</stage>
 						<l>Doch<app><lem/><rdg wit="ED">,</rdg></app> ohne Scherz, schon manchmal traf es ein,</l>
 						<l><app><lem>Drum</lem><rdg wit="ED">D'rum</rdg></app> mußt Du nicht<app><lem/><rdg wit="ED">so </rdg></app> still und traurig <app><lem>seyn</lem><rdg wit="ED">sein</rdg></app>.</l>
-						<stage>(Kunigunde will etwas erwidern, <app><lem>Cordula</lem><rdg wit="ED">Kordula</rdg></app> nimmt schnell ihre feierliche Haltung an).</stage>
-						<l>Jetzt Ruhe<app><lem>!</lem><rdg wit="ED">,</rdg></app> feierliche Stille -</l>
+						<stage>(Kunigunde will etwas erwidern, <app><lem>Cordula</lem><rdg wit="ED">Kordula</rdg></app> nimmt schnell ihre feierliche Haltung an)</stage>
+						<l>Jetzt Ruhe<app><lem>!</lem><rdg wit="ED">,</rdg></app> feierliche Stille –</l>
 						<l>Und auf die Nase erst die Brille.</l>
 						<stage>(<app><l>sie</l><rdg wit="ED">Sie</rdg></app> setzt die Brille auf, und beginnt mit ernster Gravität die Karten zu legen, nickt und schüttelt dann und wann mit dem Kopfe, legt den Finger an die Nase <app><lem>u.s.w.</lem><rdg wit="ED">etc.</rdg></app>)</stage>
 						<l>
@@ -3253,44 +3250,44 @@
 						</l>
 						<l>Aha, sieh, sieh<app><lem>!</lem><rdg wit="ED">,</rdg></app> na na, ist's wahr?</l>
 						<l><app><lem>O</lem><rdg wit="ED">Oho</rdg></app> - - - - - - <!-- in UA ein langer Strich, in ED fünf Gedankenstriche -->wie dumm!</l>
-						<l><app><lem>'S</lem><rdg wit="ED">'s</rdg></app> ist seltsam doch <app><lem/><rdg wit="ED">-</rdg></app>
+						<l><app><lem>'S</lem><rdg wit="ED">'s</rdg></app> ist seltsam doch –
 							<stage>(dreht eine Karte, die sie verkehrt <app><lem>legte</lem><rdg wit="ED">gelegt</rdg></app>)</stage><app><lem>nein,</lem><rdg wit="ED">nein</rdg></app> so herum.</l>
-						<stage>(<app><lem>ist</lem><rdg wit="ED">Ist</rdg></app> mit dem Kartenlegen fertig und übersieht sie bedächtig.)</stage>
-						<l><app><lem>Ei ei ei ei?</lem><rdg wit="ED">Ei, ei, ei,. ei?</rdg></app> 's ist doch kurios!</l>
+						<stage>(<app><lem>ist</lem><rdg wit="ED">Ist</rdg></app> mit dem Kartenlegen fertig und übersieht sie bedächtig)</stage>
+						<l><app><lem>Ei ei ei ei?</lem><rdg wit="ED">Ei, ei, ei, ei?</rdg></app> 's ist doch kurios!</l>
 						<l>Kind zitt're nicht, jetzt geht es los.</l>
 						<stage>(sie nimmt die Brille ab)</stage>
 						<l><app><lem>Sieh</lem><rdg wit="ED">Sieh'</rdg></app> da, was hier die Karten zeigen:</l>
-						<l>"Ein hübscher Gatte wird Dein eigenk</l>
+						<l>"Ein hübscher Gatte wird Dein eigen,</l>
 						<l>"Von aller Welt als brav <app><lem>erkannt</lem><rdg wit="ED">erkannt.</rdg></app>" -</l>
 					</sp>
 					<stage>(Kunigunde neigt sich hier freundlich zu den Karten).</stage>
 					<sp>
-						<speaker>Kordula</speaker>
+						<speaker>Kordula.</speaker>
 						<stage>(achselzuckend und auf die Karten deutend)</stage>
 						<l>Doch leider ist er nicht benannt.</l>
-						<stage>(Kunigunde wendet sich seufzend ab).</stage>
+						<stage>(Kunigunde wendet sich seufzend ab)</stage>
 						<l>Er wird Dich auf den Händen tragen,</l>
 						<l>Dir niemals einen Wunsch versagen,</l>
-						<l>Und Du - wo bin ich<app><lem>stehn</lem><rdg wit="ED">doch gleich steh'n</rdg></app> geblieben - </l>
-						<l>O weh - da stoß' ich auf die Sieben - </l>
-						<l>Das wird doch wohl nicht gar - o nein -</l>
-						<l>'ne böser Vorbedeutung <app><lem>seyn</lem><rdg wit="ED">sein</rdg></app>?</l>
+						<l>Und Du - wo bin ich<app><lem>stehn</lem><rdg wit="ED">doch gleich steh'n</rdg></app> geblieben – </l>
+						<l>O weh - da stoß' ich auf die Sieben –</l>
+						<l>Das wird doch wohl nicht gar – o nein –</l>
+						<l>'Ne böser Vorbedeutung <app><lem>seyn</lem><rdg wit="ED">sein</rdg></app>?</l>
 						<app>
 							<lem/>
 							<rdg wit="ED">
 								<l>Ei, ei, ei, ei -</l>
 							</rdg>
 						</app>
-						<stage>(Sie droht ihr mit dem Finger.)</stage>
-						<l>Der Schellen=Unter deutet an:</l>
-						<l>Herr Eoban -</l>
+						<stage>(Sie droht ihr mit dem Finger)</stage>
+						<l>Der Schellen-Unter deutet an:</l>
+						<l>Herr Eoban </l>
 						<stage>(Kunigunde wendet sich ab).</stage>
 						<l>wird nicht Dein Mann.</l>
-						<l>Er ist<app><lem> - ich weiß es auch - warum -</lem><rdg wit="ED">, ich weiß es auch warum,</rdg></app></l>
+						<l>Er ist<app><lem> – ich weiß es auch – warum –</lem><rdg wit="ED">, ich weiß es auch warum,</rdg></app></l>
 						<l>Zum Ehemann doch gar zu dumm<app><lem>.</lem><rdg wit="ED">!</rdg></app></l>
 						<l>Die grüne Zehne hier ist mein<app><lem/><rdg wit="ED">,</rdg></app></l>
-						<l>Das Daus, die <app><lem>rothe</lem><rdg wit="ED"/></app> Acht, die <app><lem/><rdg wit="ED">rothe</rdg></app>Neun -</l>
-						<l>Der <app><lem>Ober,</lem><rdg wit="ED">Wenzel</rdg></app> mit dem Schafsgesicht -</l>
+						<l>Das Daus, die <app><lem>rothe</lem><rdg wit="ED"/></app> Acht, die <app><lem/><rdg wit="ED">rothe</rdg></app>Neun –</l>
+						<l>Der <app><lem>Ober,</lem><rdg wit="ED">Wenzel</rdg></app> mit dem Schafsgesicht –</l>
 						<l><stage>(gerührt.)</stage> Das ist mein Görg, der mit mir spricht<app><lem>;</lem><rdg wit="ED">.</rdg></app></l>
 						<l>Das rothe Herz in seiner Hand</l>
 						<l>Ist seiner Treue Unterpfand.</l>
@@ -3299,9 +3296,11 @@
 						<l>Das ist <app><lem><hi rend="underline">Dein</hi></lem><rdg wit="ED">Dein</rdg></app> Alter, <app><lem>ja 's ist wahr</lem><rdg wit="ED">ja, 's ist wahr,</rdg></app></l>
 						<l>Er sieht ihm ähnlich auf ein Haar<app><lem>,</lem><rdg wit="ED">.</rdg></app></l>
 						<l>Durch ihn wird Nürnberg <app><lem>erst</lem><rdg wit="ED">jetzt</rdg></app> erfahren<app><lem>,</lem><rdg wit="ED"> -</rdg></app></l>
+						<l>Er sieht ihm ähnlich auf ein Haar,</l>
+						<l>Durch ihn wird Nünrberg erst erfahren – </l>
 						<l>Was es gewußt seit langen Jahren.</l>
 						<l>Doch sieh, was muß ich hier erblicken?</l>
-						<l>Das <app><lem>rothe</lem><rdg wit="ED"/></app> Daus - der König - <app><lem>o welch</lem><rdg wit="ED">welch'</rdg></app> Entzücken,</l>
+						<l>Das <app><lem>rothe</lem><rdg wit="ED"/></app> Daus – der König – <app><lem>o welch</lem><rdg wit="ED">welch'</rdg></app> Entzücken,</l>
 						<app>
 							<lem>
 								<l>Sie künden Dir Dein nahes Glück,</l>
@@ -3311,7 +3310,7 @@
 						<l>Es kehrt der Sachs hieher zurück;</l>
 						<l>Der Kaiser nimmt sich seiner an,</l>
 						<l>Er wird ein hochberühmter Mann.</l>
-						<stage>(<app><lem>Sie</lem></app> verläßt den Tisch in <app><lem>ausgelassner</lem><rdg wit="ED">ausgelass'ner</rdg></app> Freude.)</stage>
+						<stage>(sie verläßt den Tisch in <app><lem>ausgelassner</lem><rdg wit="ED">ausgelass'ner</rdg></app> Freude)</stage>
 						<l>Er kehrt zurück, Du darfst es glauben,</l>
 						<l>Der liebe Gott erhört <app><lem>mein Flehn</lem><rdg wit="ED">Dein Fleh'n</rdg></app>,</l>
 						<l>Wird nicht den süßen Trost mir rauben,</l>
@@ -3320,12 +3319,12 @@
 						<l>Er kehrt zurück, er ging nicht fort;</l>
 						<l>Senk' nicht betrübt das Köpfchen nieder,</l>
 						<l>Er kehrt zurück, trau' meinem Wort.</l>
-						<l>Und wenn auch <app><lem>alles</lem><rdg wit="ED">Alles</rdg></app> Täuschung wäre -</l>
-						<l>So trifft <app><lem><hi rend="underline">das</hi></lem><rdg wit="ED">das</rdg></app> zu - bei meiner Ehre<app><lem>!</lem><rdg wit="ED">.</rdg></app></l>
-						<stage>(<app><lem>Sie</lem><rdg wit="ED">sie</rdg></app> schlägt sich mit komischem Pathos vor die Brust)</stage>
+						<l>Und wenn auch <app><lem>alles</lem><rdg wit="ED">Alles</rdg></app> Täuschung wäre –</l>
+						<l>So trifft <app><lem><hi rend="underline">das</hi></lem><rdg wit="ED">das</rdg></app> zu – bei meiner Ehre<app><lem>!</lem><rdg wit="ED">.</rdg></app></l>
+						<stage>(sie schlägt sich mit komischem Pathos vor die Brust)</stage>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<stage>(mit ergriffen).</stage>
 						<l>Er kehrt zurück, soll ich es glauben<app><lem>;</lem><rdg wit="ED">,</rdg></app></l>
 						<l>Es hört der liebe Gott mein <app><lem>Flehn</lem><rdg wit="ED">Fleh'n</rdg></app>?</l>
@@ -3337,9 +3336,9 @@
 						<l>Zurück zu mir, er ging nicht fort.</l>
 					</sp>
 					<sp>
-						<speaker>Beide</speaker>
+						<speaker>Beide.</speaker>
 						<stage>(in höchster Aufregung)</stage>
-						<l>Er kehrt zurück etc.</l>
+						<l>Er kehrt zurück pp</l>
 					</sp>
 				</div2>
 				<div2 type="scene" n="2">
@@ -3347,46 +3346,46 @@
 					<stage>Vorige. Sachs.</stage>
 					<stage>(trat gegen <app><lem>das</lem><rdg wit="ED"/></app> Ende des Duetts aus der Thüre rechts. Kunigunde wendet sich und stürzt<app><lem/><rdg wit="ED">,</rdg></app> außer sich vor Freude<app><lem/><rdg wit="ED">,</rdg></app> ihm an die Brust</stage>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<p>Mein Sachs<app><lem>,</lem><rdg wit="ED">!</rdg></app> mein Sachs<app><lem>,</lem><rdg wit="ED">!</rdg></app> mein lieber Sachs!</p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
+						<speaker>Kordula.</speaker>
 						<p>Da ist er ja, was hab' ich denn gesagt?</p>
 					</sp>
 					<app>
 						<lem>
 							<sp>
-								<speaker>Kunigunde</speaker>
+								<speaker>Kunig.</speaker>
 								<stage>(mit kindischer Freude)</stage>
-								<p>Du bist's, Du bist's, mein lieber theurer Hans! Wo kommst Du her, wo warst Du, rede doch; damit ich Dich für einen Geist nicht halte, damit ich weiß, daß Du mir lebst!</p>
+								<p>Du bist's, Du bist's, mein lieber theurer Hans! Wo kommst Du her, wo warst Du, rede doch, damit ich Dich für einen Geist nicht halte, damit ich weiß, daß Du mir lebst!</p>
 							</sp>
 							<sp>
-								<speaker>Kordula</speaker>
+								<speaker>Kordul.</speaker>
 								<stage>(für sich)</stage>
-								<p>Wär's nur mein Görg, gleich wollt' ich sehen, ob Fleisch und Blut in seinen Wangen ist. <stage>(,acht die Bewegung des Zuschlagens)</stage></p>
+								<p>Wär's nur mein Görg, gleich wollt' ich sehen, ob Fleisch und Blut in seinen Wangen ist. <stage>(macht die Bewegung des Zuschlagens)</stage></p>
 							</sp>
 						</lem>
 						<rdg wit="ED"/>
 					</app>
 					<sp>
-						<speaker>Sachs</speaker>
-						<p>Ach, Kunigunde, liebes<app><lem/><rdg wit="ED">,</rdg></app> theures Leben, ein neuer Hoffnungsstern hat mich hieher geführt -</p>
+						<speaker>Sachs.</speaker>
+						<p>Ach, Kunigunde, liebes<app><lem/><rdg wit="ED">,</rdg></app> theures Leben, ein neuer Hoffnungsstern hat mich hieher geführt –</p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
+						<speaker>Kordul.</speaker>
 						<p><stage>(ihn unterbrechend)</stage> Ich bin auch da, Herr Sachs. Erlaubt mir doch die Frage: kommt Ihr allein? Ist sonst <app><lem>niemand</lem><rdg wit="ED">Niemand</rdg></app> bei Euch?</p>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<p><stage>(zu Kordula)</stage> O schweige doch! <stage><supplied>(zu Sachs)</supplied></stage> Ein Hoffnungsstern? o rede, rede, rede, damit auch ich an seinem Licht mich labe.</p>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<p>Fern von der Stadt verweilte ich seit gestern, den Wanderstab bereits in meiner Hand, begleitet von dem treuen Görg, der mich trotz aller Mahnung nicht verlassen wollte.</p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
+						<speaker>Kordul.</speaker>
 						<p>Aha!</p>
 					</sp>
 					<sp>
@@ -3395,42 +3394,42 @@
 					</sp>
 					<sp>
 						<speaker>Kordula</speaker>
-						<p><stage>(für sich.)</stage> Die hat er doch bemerkt.</p>
+						<p><stage>(für sich)</stage> Die hat er doch bemerkt.</p>
 					</sp>
 					<sp>
 						<speaker>Sachs</speaker>
 						<p><stage>(fortfahrend)</stage>
-							<app><lem>Wir hielten staunend an und fragten einen Söldner, was diese Pracht, der Glanz und jene Menge bewehrten Volkes wohl bedeute -? "Der Kaiser zieht 'gen Nürnberg" sprach er trutzig und zog fürbaß.</lem><rdg wit="ED"/></app> Da wir nun längs dem Zuge <app><lem>weitergingen</lem><rdg wit="ED"/></app>, da hört' ich plötzlich <app><lem>aus einer Reihe dicht geschaarter Ritter</lem><rdg wit="ED"/></app> meinen Namen nennen. "Herr Sachs<app><lem>",</lem><rdg wit="ED">,"</rdg></app> so rief's, "wohin so eilig? Zieht Ihr von Nürnberg weg <app><lem>grad'</lem><rdg wit="ED">gerad'</rdg></app> an dem Tage, wo Euer Kaiser Euch mit seiner Gegenwart erfreut? Er liebt die Stadt und seine guten Bürger, und wie ich meine<app><lem/><rdg wit="ED">,</rdg></app> werdet Ihr fürwahr wohl nicht der Letzte <app><lem>seyn</lem><rdg wit="ED">sein</rdg></app>, den er zu <app><l>sehn</l><rdg wit="ED">seh'n</rdg></app> verlangt <app><lem>-!"</lem><rdg wit="ED">!" -</rdg></app> Nun fiel es mir<app><lem/><rdg wit="ED">,</rdg></app> wie Schuppen von den Augen; es war der Mann, der vor <app><lem>3</lem><rdg wit="ED">drei</rdg></app> Tagen in meiner Werkstatt mich <app><lem>gesucht</lem><rdg wit="ED">besucht</rdg></app>, der mir gesagt: wenn je ein Leid mich quäle, so sollte ich getrost mich an den Kaiser wenden. - Ich faßte mir eine Herz, erzählte ihm den Vorgang dieser Tage und bat um seinen Rath. Er klopfte mir vertraulich auf die Schulter und hieß zurück mich nur nach Nürnberg kehren; er wolle, sprach er, diesen Streit schon schlichten und mit des Kaisers Hülfe meine Wünsche krönen. Da lief ich fort, als ob der Kopf mir brennte - und so<app><lem/><rdg wit="ED">,</rdg></app> mein Liebchen<app><lem/><rdg wit="ED">,</rdg></app> bin ich wieder da.</p>
+							<app><lem>Wir hielten staunend an und fragten einen Söldner, was diese Pracht, der Glanz und jene Menge bewehrten Volkes wohl bedeute -? "Der Kaiser zieht 'gen Nürnberg" sprach er trutzig und zog fürbaß.</lem><rdg wit="ED"/></app> Da wir nun längs dem Zuge <app><lem>weiter gingen</lem><rdg wit="ED"/></app>, da hört' ich plötzlich <app><lem>aus einer Reihe dicht geschaarter Ritter</lem><rdg wit="ED"/></app> meinen Namen nennen. "Herr Sachs<app><lem>",</lem><rdg wit="ED">,"</rdg></app> so rief's, "wohin so eilig? Zieht Ihr von Nürnberg weg <app><lem>grad'</lem><rdg wit="ED">gerad'</rdg></app> an dem Tage, wo Euer Kaiser Euch mit seiner Gegenwart erfreut? Er liebt die Stadt und seine guten Bürger, und wie ich meine<app><lem/><rdg wit="ED">,</rdg></app> werdet Ihr fürwahr wohl nicht der Letzte <app><lem>seyn</lem><rdg wit="ED">sein</rdg></app>, den er zu <app><l>sehn</l><rdg wit="ED">seh'n</rdg></app> verlangt <app><lem>-!"</lem><rdg wit="ED">!" -</rdg></app> Nun fiel es mir<app><lem/><rdg wit="ED">,</rdg></app> wie Schuppen von den Augen; es war der Mann, der vor <app><lem>3</lem><rdg wit="ED">drei</rdg></app> Tagen in meiner Werkstatt mich <app><lem>gesucht</lem><rdg wit="ED">besucht</rdg></app>, der mir gesagt: wenn je ein Leid mich quäle, so sollte ich getrost mich an den Kaiser wenden. – Ich faßte mir eine Herz, erzählte ihm den Vorgang dieser Tage und bat um seinen Rath. Er klopfte mir vertraulich auf die Schulter und hieß zurück mich nur nach Nürnberg kehren; er wolle, sprach er, diesen Streit schon schlichten, und mit des Kaisers Hülfe meine Wünsche krönen. Da lief ich fort als ob der Kopf mir brennte – und so<app><lem/><rdg wit="ED">,</rdg></app> mein Liebchen<app><lem/><rdg wit="ED">,</rdg></app> bin ich wieder da.</p>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<p>Ach, lieber Sachs, ein Stein fällt mir vom Herzen; es war gewiß ein großer Herr.</p>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<p>So schien's.</p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
-						<p>Wie freu' ich mich. Es wird sich Alles nun zum Guten wenden. - Er klopft' Euch auf die Schulter, sagtet Ihr? Ach hätt' er meinen Görg doch auch ein wenig nur geklopft. Wo ist er denn, der Görg?</p>
+						<speaker>Kordul.</speaker>
+						<p>Wie freu' ich mich. Es wird sich Alles nun zum Guten wenden. – Er klopft' Euch auf die Schulter, sagtet Ihr? Ach hätt' er meinen Görg doch auch ein wenig nur geklopft. Wo ist er denn, der Görg?</p>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<p>Bald wird er da <app><lem>seyn</lem><rdg wit="ED">sein</rdg></app>, um mich abzuholen.</p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
-						<p>Still<app><lem>,</lem><rdg wit="ED"> -</rdg></app> horch - wer pocht dort an der <app><lem>Thüre</lem><rdg wit="ED">Thür</rdg></app>?</p>
+						<speaker>Kordul.</speaker>
+						<p>Still<app><lem>,</lem><rdg wit="ED"> -</rdg></app> horch – wer pocht dort an der <app><lem>Thüre</lem><rdg wit="ED">Thür</rdg></app>?</p>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<p><stage>(erschreckt).</stage> Doch nicht der Vater?</p>
 					</sp>
 					<sp>
 						<app>
 							<lem>
-								<speaker>Kordula</speaker>
-								<stage>(hat bereits die Thüre geöffnet, welche nach dem Garten führt. Görg tritt ein).</stage>
+								<speaker>Kordul.</speaker>
+								<stage>(hat bereits die Thüre geöffnet, welche nach dem Garten führt. Görg tritt ein)</stage>
 							</lem>
 							<rdg wit="ED">
 								<stage>Kordula hat bereits die Thör geöffnet, welche nach dem Garten führt, es tritt ein)</stage>
@@ -3447,86 +3446,86 @@
 						</app>
 					</stage>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<p><stage>(geheimnißvoll)</stage>Ach<app><lem/><rdg wit="ED">,</rdg></app> Meister! Meister!</p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
+						<speaker>Kordul.</speaker>
 						<p><stage>(giebt ihm eine Ohrfeige)</stage>Bei uns ist's Sitte, daß man guten Abend sagt.</p>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
-						<p><stage>(verweisend)</stage>So laß ihn doch -</p>
+						<speaker>Kunig.</speaker>
+						<p><stage>(verweisend)</stage>So laß ihn doch –</p>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
-						<p>Was hast Du, Görg?</p>
+						<speaker>Sachs.</speaker>
+						<p>Was hast Du Görg?</p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
-						<p>Ei, guten Abend, mein Herr Görg!<stage>(giebt ihm einen Rippenstoß)</stage></p>
+						<speaker>Kordul.</speaker>
+						<p>Ei guten Abend, mein Herr Görg.<stage>(giebt ihm einen Rippenstoß)</stage></p>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<p><stage>(sich die Backe reibend)</stage>Ich danke.</p>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<p><stage>(zu Kordula)</stage>Thu' mir die Liebe, geh' hinaus, damit man uns nicht überrascht.</p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
-						<p>Sogleich. Vom Garten her kann <app><lem>keiner</lem><rdg wit="ED">Keiner</rdg></app> kommen, also da hinaus<app><lem>.</lem><rdg wit="ED"> -</rdg></app>
-							<stage>(zu Görg)</stage>Das war 'ne Kleinigkeit, nur zum Empfang, es kommt noch besser.<app><lem/><rdg wit="ED"> -</rdg></app><stage>(zu den <app><lem>andern</lem><rdg wit="ED">Andern</rdg></app>.)</stage> Ich halte Wacht. - <stage>(links unten ab)</stage>
+						<speaker>Kordul.</speaker>
+						<p>Sogleich. Vom Garten her kann <app><lem>keiner</lem><rdg wit="ED">Keiner</rdg></app> kommen, also <hi rend="underline">da</hi> hinaus<app><lem>.</lem><rdg wit="ED"> -</rdg></app>
+							<stage>(zu Görg)</stage>Das war 'ne Kleinigkeit, nur zum Empfang, es kommt noch besser.<app><lem/><rdg wit="ED"> -</rdg></app><stage>(zu den Andern)</stage> Ich halte Wacht. <stage>(links unten ab)</stage>
 						</p>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<p><stage>(sich noch immer die Backe reibend.)</stage>Nun - das gesteh' ich -</p>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<p>Was hatt'st Du mir zu sagen?</p>
 					</sp>
 					<sp>
 						<speaker>Görg</speaker>
-						<p>Laßt mich nur erst ein wenig fassen. Der zärtliche Empfang hat mich ganz aus dem Text gebracht. - So hört: <app><lem>wie</lem><rdg wit="ED">Wie</rdg></app> ich vorhin nach Eurer Wohnung gehen will, begegnet mir mein Freund, der <app><lem>Bogenschütz</lem><rdg wit="ED">Bogenschütze</rdg></app>, mit dem ich gestern trank, er kannte mich gleich wieder, gab freundlich mir die Hand und sprach: "<app><lem>weißt</lem><rdg wit="ED">Weißt</rdg></app> Du denn nicht, wo Dein Meister geblieben ist? wie ich höre, hat er die Stadt verlassen," sagte er - mein Freund, der Bogenschütze nämlich. Ja, leider ist es so, antwortete ich ihm - ich durfte Euch doch nicht verrathen. "Ich gäbe was <app><lem>drum</lem><rdg wit="ED">darum</rdg></app>, könnte ich seinen Aufenthalt erfahren" sagte er<app><lem> -</lem><rdg wit="ED">,</rdg></app> mein Freund<app><lem>,</lem><rdg wit="ED"/></app> der Bogenschütze<app><lem/><rdg wit="ED">,</rdg></app> wieder. Wie so? sag' ich. "<app><lem>I</lem><rdg wit="ED">Je</rdg></app> nun, sagt er, <app><lem>"</lem><rdg wit="ED"/></app>man spricht davon, der Kaiser habe sehr angelegentlich nach ihm gefragt und wünsche ihn zu sprechen."</p>
+						<p>Laßt mich nur erst ein wenig fassen. Der zärtliche Empfang hat mich ganz aus dem Text gebracht. – So hört: <app><lem>wie</lem><rdg wit="ED">Wie</rdg></app> ich vorhin nach Eurer Wohnung gehen will, begegnet mir mein Freund, der <app><lem>Bogenschütz</lem><rdg wit="ED">Bogenschütze</rdg></app>, mit dem ich gestern trank, er kannte mich gleich wieder, gab freundlich mir die Hand und sprach: "<app><lem>weißt</lem><rdg wit="ED">Weißt</rdg></app> Du denn nicht, wo Dein Meister geblieben ist? wie ich höre, hat er die Stadt verlassen," sagte er – mein Freund, der Bogenschütze nämlich. Ja leider ist es so, antwortete ich ihm – ich durfte Euch doch nicht verrathen. "Ich gäbe was <app><lem>drum</lem><rdg wit="ED">darum</rdg></app>, könnt' ich seinen Aufenthalt erfahren" sagte er<app><lem> –</lem><rdg wit="ED">,</rdg></app> mein Freund<app><lem>,</lem><rdg wit="ED"/></app> der Bogenschütze<app><lem/><rdg wit="ED">,</rdg></app> wieder. Wie so? sag' ich. "<app><lem>I</lem><rdg wit="ED">Je</rdg></app> nun, sagt er, <app><lem>"</lem><rdg wit="ED"/></app>man spricht davon, der Kaiser habe sehr angelegentlich nach ihm gefragt und wünsche ihn zu sprechen."</p>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<p><stage>(schnell)</stage>Was hör' ich?</p>
 					</sp>
 					<app>
 						<lem>
 							<sp>
-								<speaker>Kunigunde</speaker>
+								<speaker>Kunig.</speaker>
 								<p>Der Kaiser?</p>
 							</sp>
 						</lem>
 						<rdg wit="ED"/>
 					</app>
 					<sp>
-						<speaker>Görg</speaker>
-						<p>So sagt mein Freund, der Bogenschütze, er wünsche ihn zu sprechen, - der <app><lem><hi rend="underline">Kaiser</hi></lem><rdg wit="ED">Kaiser</rdg></app> nämlich<app><lem>,</lem><rdg wit="ED"/></app> und habe genau nach seinem Lebenswandel sich erkundigt.</p>
+						<speaker>Görg.</speaker>
+						<p>So sagt mein Freund, der Bogenschütze, er wünsche ihn zu sprechen, – der <app><lem><hi rend="underline">Kaiser</hi></lem><rdg wit="ED">Kaiser</rdg></app> nämlich<app><lem>,</lem><rdg wit="ED"/></app> und habe genau nach seinem Lebenswandel sich erkundigt.</p>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
-						<p><stage>(gespannt)</stage>Kunigunde - was soll ich davon denken<app><lem>!</lem><rdg wit="ED">?</rdg></app></p>
+						<speaker>Sachs.</speaker>
+						<p><stage>(gespannt)</stage>Kunigunde, – was soll ich davon denken<app><lem>!</lem><rdg wit="ED">?</rdg></app></p>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<p>Daß uns frohe Hoffnung lacht.</p>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<p>Nun denkt Euch meine Lage; ich sollte mit ihm <app><lem>gehn</lem><rdg wit="ED">geh'n</rdg></app> und trinken, mit meinem <app><lem>Freunde,</lem><rdg wit="ED">Freund</rdg></app> dem Bogenschützen nämlich, und stand doch wie auf Kohlen, Euch die wicht'ge Nachricht zu verkünden. Da plötzlich faßt' ich mich und sagte: Ich wollte morgen <app><lem>mich in aller Frühe</lem><rdg wit="ED">in aller Frühe mich</rdg></app> nach Euch umthun und hoffte so, Euch aufzufinden. <app><lem>Drauf</lem><rdg wit="ED">D'rauf</rdg></app> schieden wir. Er machte mir noch <app><lem>ein'ge</lem><rdg wit="ED">einige</rdg></app> Lobsprüche wegen meines Gedichts.</p>
 					</sp>
 					<sp>
-						<speaker>Sachs und Kunigunde</speaker>
+						<speaker>Sachs u. Kunig.</speaker>
 						<p><app><lem>Welch</lem><rdg wit="ED">Welch'</rdg></app> ein Gedicht?</p>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<p><stage>(sich verbessernd)</stage>Wegen meines <app><lem><hi rend="underline">Gedankens</hi></lem><rdg wit="ED">Gedankens</rdg></app>, Euch aufsuchen zu wollen, und so lief ich hieher.</p>
 					</sp>
 				</div2>
@@ -3534,41 +3533,41 @@
 					<head><app><lem>4.</lem><rdg wit="ED">Vierte</rdg></app> Scene.</head>
 					<stage>Vorige. Kordula</stage>
 					<sp>
-						<speaker>Kordula</speaker>
+						<speaker>Kordula.</speaker>
 						<p><stage>(eilig)</stage>Um Gottes willen nicht so laut, entfernt Euch schnell, der Vater kommt den Gang herauf und <app><lem>grad</lem><rdg wit="ED">gerade</rdg></app> hieher.</p>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<p>Er komme nur, ich steh' ihm Rede.</p>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<p>Hier in meiner Kammer?</p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
+						<speaker>Kordul.</speaker>
 						<p><stage>(sich vor ihn stellend)</stage><app><lem><hi rend="underline">Das</hi>
 									<hi rend="underline">schickt</hi>
 									<hi rend="underlin">sich</hi>
 									<hi rend="underline">nicht</hi></lem><rdg wit="ED">Das schickt sich nicht</rdg></app>, das muß ich die Ehre haben, Euch zu sagen - was sollt' er davon denken. Geschwind hinaus in den Garten.</p>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
-						<p><stage>(zu Kunigunde)</stage>Es <app><lem>sey</lem><rdg wit="ED">sei</rdg></app>, um Dich zu schonen.<app><lem/><rdg wit="ED"> -</rdg></app>
-							<stage>(sie sind an der Thüre rechts.)</stage></p>
+						<speaker>Sachs.</speaker>
+						<p><stage>(zu Kunig)</stage>Es <app><lem>sey</lem><rdg wit="ED">sei</rdg></app> um Dich zu schonen.<app><lem/><rdg wit="ED"> -</rdg></app>
+							<stage>(sie sind an der Thüre rechts)</stage></p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
+						<speaker>Kordul.</speaker>
 						<p>So ist's recht; die Thüre ist abgeschnappt, der Schlüssel fehlt.</p>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<p>Dort liegt er in der Lade.</p>
 					</sp>
 					<sp>
 						<app>
 							<lem>
-								<speaker>Kordula</speaker>
+								<speaker>Kordul.</speaker>
 								<p>
 									<stage>(will zum Tische gehen, ihn holen.)</stage>
 								</p>
@@ -3579,15 +3578,15 @@
 						</app>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<p><stage>(der horchte)</stage>Es trampelt schon Einer vor der Thüre.</p>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
-						<p>Heiliger <app><lem/><rdg wit="ED">! -</rdg></app> geschwind <app><lem><hi rend="underline">da</hi></lem><rdg wit="ED">da</rdg></app> hinauf und haltet Euch hübsch ruhig. -<stage>(<app><lem>Sie</lem><rdg wit="ED">sie</rdg></app> weist Sachs und Görg die eine Treppe hinauf)<!-- in UA Korr. von Lortzing --></stage></p>
+						<speaker>Kordul.</speaker>
+						<p>Heiliger <app><lem>– !</lem><rdg wit="ED">! –</rdg></app> geschwind <app><lem><hi rend="underline">da</hi></lem><rdg wit="ED">da</rdg></app> hinauf und haltet Euch hübsch ruhig. -<stage>(sie weist Sachs und Görg die eine Treppe hinauf)<!-- in UA Korr. von Lortzing --></stage></p>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<p>Was mag der Vater wollen zu der ungewohnten Stunde?</p>
 					</sp>
 				</div2>
@@ -3602,97 +3601,97 @@
 					</p>
 					<sp>
 						<speaker>Steffen</speaker>
-						<stage>(sehr bestürzt).</stage>
-						<l>O, ich armer, <app><lem>ich</lem><rdg wit="ED"/></app> geschlagener Mann<app><lem> -</lem><rdg wit="ED">,</rdg></app></l>
+						<stage>(sehr bestürzt)</stage>
+						<l>O, ich armer, <app><lem>ich</lem><rdg wit="ED"/></app> geschlagener Mann<app><lem> –</lem><rdg wit="ED">,</rdg></app></l>
 						<l>Nun bin ich sauber verrathen!</l>
 					</sp>
 					<sp>
-						<speaker>Die Mädchen</speaker>
-						<l>Was ist geschehn<app><lem> - Vater - sagt an!</lem><rdg wit="ED">? Vater, sagt an.</rdg></app></l>
+						<speaker>Die Mädchen.</speaker>
+						<l>Was ist geschehn<app><lem> – Vater – sagt an!</lem><rdg wit="ED">? Vater, sagt an.</rdg></app></l>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<stage>(versteckt)</stage>
-						<l>Was gilt's - ich rieche den Braten.</l>
+						<l>Was gilt's – ich rieche den Braten.</l>
 					</sp>
 					<sp>
-						<speaker>Steffen</speaker>
-						<l>Der gnäd'ge Kaiser sendet <app><lem>soeben</lem><rdg wit="ED">so eben</rdg></app> -</l>
-						<l>Ach Gott - wer giebt mir 'nen Rath?</l>
+						<speaker>Steffen.</speaker>
+						<l>Der gnäd'ge Kaiser sendet so eben –</l>
+						<l>Ach Gott - wer giebt mir 'nen Rath?!</l>
 					</sp>
 					<sp>
-						<speaker>Die Mädchen</speaker>
+						<speaker>Die Mädchen.</speaker>
 						<l>So sprecht doch nur, was hat es gegeben?</l>
 					</sp>
 					<sp>
-						<speaker>Steffen</speaker>
-						<l>Der Kaiser will wissen - <app><lem>halt, horch! -</lem><rdg wit="ED"/></app> wer naht?</l>
+						<speaker>Steffen.</speaker>
+						<l>Der Kaiser will wissen – <app><lem>halt, horch! –</lem><rdg wit="ED"/></app> wer naht?</l>
 					</sp>
 					<sp>
-						<speaker>Erster Rathsherr</speaker>
+						<speaker>Erster Rathsherr.</speaker>
 						<stage>(tritt eilig ein)</stage>
 						<l>Wißt Ihr, was sich zugetragen?</l>
 					</sp>
 					<sp>
-						<speaker>Steffen</speaker>
-						<l>Ach freilich<app><lem> -</lem><rdg wit="ED">,</rdg></app> mir beben die Glieder.</l>
+						<speaker>Steffen.</speaker>
+						<l>Ach freilich<app><lem> –</lem><rdg wit="ED">,</rdg></app> mir beben die Glieder.</l>
 					</sp>
 					<sp>
-						<speaker>Die Mädchen</speaker>
-						<l>Wollt Ihr nicht uns endlich<app><lem> es</lem><rdg wit="ED"/></app> sagen -</l>
+						<speaker>Die Mädchen.</speaker>
+						<l>Wollt Ihr nicht uns endlich<app><lem> es</lem><rdg wit="ED"/></app> sagen –</l>
 					</sp>
 					<sp>
-						<speaker>Steffen</speaker>
+						<speaker>Steffen.</speaker>
 						<l>Der Kaiser - wer stört uns schon wieder?</l>
 					</sp>
 					<sp>
-						<speaker>Zweiter Rathsherr</speaker>
+						<speaker>Zweiter Rathsherr.</speaker>
 						<stage>(<app><lem>tritt ein wie oben</lem><rdg wit="ED">tritt eilig ein</rdg></app>).</stage>
 						<l>Nun sitzen wir schön in der Falle,</l>
 						<l>Habt Ihr schon die Kunde vernommen?</l>
 					</sp>
 					<sp>
-						<speaker>Steffen</speaker>
+						<speaker>Steffen.</speaker>
 						<l>Ich wußt' es eh'r doch als Ihr <app><lem>Alle</lem><rdg wit="ED">alle</rdg></app>!</l>
 					</sp>
 					<sp>
-						<speaker>Die Mädchen</speaker>
+						<speaker>Die Mädchen.</speaker>
 						<l>Wann wird es zu Ohren uns kommen?</l>
 					</sp>
 					<sp>
 						<speaker>Eoban</speaker>
 						<stage>(tritt ein).</stage>
-						<l>Gut, daß ich Euch treffe; Ihr <app><lem>wißt</lem><rdg wit="ED">wisset</rdg></app> doch schon,</l>
+						<l>Gut, daß ich Euch treffe; Ihr wisset doch schon,</l>
 						<l>Daß der Kaiser so eben gesendet?</l>
 					</sp>
 					<sp>
-						<speaker>Die Mädchen</speaker>
+						<speaker>Die Mädchen.</speaker>
 						<stage>(ungeduldig mit den Füßen stampfend).</stage>
 						<l>Was will <app><lem>denn</lem><rdg wit="ED"/></app> der Kaiser?</l>
 					</sp>
 					<sp>
-						<speaker>Steffen</speaker>
+						<speaker>Steffen.</speaker>
 						<stage>(zieht eine Schrift hervor).</stage>
 						<app>
 							<lem>
-								<l>Herr Schwiegersohn</l>
+								<l>Herr Schwiegersohn,</l>
 							</lem>
 							<rdg wit="ED"/>
 						</app>
 						<l><app><lem>Ach thut</lem><rdg wit="ED">Thut</rdg></app> mir die Liebe und endet.</l>
 					</sp>
 					<sp>
-						<speaker>Eoban</speaker>
-						<l>Es schickt uns der Kaiser hier dieses Gedicht</l>
+						<speaker>Eoban.</speaker>
+						<l>Es schickt uns der Kaiser hier dieses Gedicht,</l>
 						<l>Und wünscht den Verfasser zu kennen,</l>
 						<l>Will <app><lem>sehn</lem><rdg wit="ED">sehen</rdg></app> ihn <app><lem>noch heute </lem><rdg wit="ED"/></app>von Angesicht.</l>
 					</sp>
 					<sp>
-						<speaker>Die Mädchen</speaker>
+						<speaker>Die Mädchen.</speaker>
 						<l>Wollt Ihr uns die Verse nicht nennen?!</l>
 					</sp>
 					<sp>
-						<speaker>Steffen</speaker>
+						<speaker>Steffen.</speaker>
 						<l>Ach! <app><lem><hi rend="underline">uns</hi></lem><rdg wit="ED">uns</rdg></app> sind sie leider nur zu bekannt!</l>
 						<l>Das bringt uns ja eben zum Rasen;</l>
 						<l>Wer hat dem erhab'nen Monarchen wohl</l>
@@ -3705,47 +3704,47 @@
 						</l>
 					</sp>
 					<sp>
-						<speaker>Kunigunde</speaker>
+						<speaker>Kunig.</speaker>
 						<stage>(nimmt Eoban das Gedicht aus der Hand und liest)</stage>
 						<l>"An dem Tag, der Dich gegeben</l>
-						<l>Dieser Welt voll Sorg' und Pein etc. "</l>
+						<l>Dieser Welt voll Sorg' und Pein pp.</l>
 						<stage>(erfreut.)</stage>
 						<l>Der Sachs!</l>
 					</sp>
 					<sp>
-						<speaker>Kordula</speaker>
+						<speaker>Kordul.</speaker>
 						<stage>(für sich, erfreut).</stage>
 						<l>Der Görg!</l>
 					</sp>
 					<sp>
-						<speaker>Görg</speaker>
+						<speaker>Görg.</speaker>
 						<l><app><lem>Sieh'</lem><rdg wit="ED">Sieh</rdg></app> da, mein Werk<app><lem>!</lem><rdg wit="ED">.</rdg></app></l>
 					</sp>
 					<sp>
-						<speaker>Sachs</speaker>
+						<speaker>Sachs.</speaker>
 						<l>Das kam zur guten Stunde!</l>
 					</sp>
 					<sp>
-						<speaker>Steffen</speaker>
+						<speaker>Steffen.</speaker>
 						<l>Nun freilich ist der Sachs gemeint<app><lem>!</lem><rdg wit="ED">,</rdg></app></l>
 						<l>Doch wer giebt von ihm uns Kunde<app><lem>!</lem><rdg wit="ED">.</rdg></app></l>
 					</sp>
 					<sp>
-						<speaker>Eoban. Steffen und die Rathsherren</speaker>
+						<speaker>Eoban. Steffen und die Rathsherren.</speaker>
 						<l>Der Fall wird, so viel seh' ich ein,</l>
 						<l>Für uns von <app><lem>üblen</lem><rdg wit="ED">übeln</rdg></app> Folgen <app><lem>seyn</lem><rdg wit="ED">sein</rdg></app>;</l>
-						<l>Es finde nun Berathung statt<app><lem> -</lem><rdg wit="ED">,</rdg></app></l>
+						<l>Es finde nun Berathung statt<app><lem> –</lem><rdg wit="ED">,</rdg></app></l>
 						<l>Wie man sich zu benehmen hat.</l>
 					</sp>
 					<sp>
-						<speaker>Die Mädchen. Sachs<app><lem> und</lem><rdg wit="ED">.</rdg></app> Görg</speaker>
-						<l>Das kann - o träfe es doch ein -</l>
+						<speaker>Die Mädchen. Sachs u. Görg.</speaker>
+						<l>Das kann – o träfe es doch ein –</l>
 						<l>Für uns von guter Wirkung <app><lem>seyn</lem><rdg wit="ED">sein</rdg></app>.</l>
 						<l>Ein Wechsel findet sicher statt,</l>
 						<l>Der gute Folgen für uns hat.</l>
 					</sp>
 					<sp>
-						<speaker>Erster Merker</speaker>
+						<speaker>Erster Merker.</speaker>
 						<stage>(tritt eilig ein)</stage>
 						<l>Der gnäd'ge Kai -Kai - Kai - Kai -stai -</l>
 						<l>- - - - - - lassen.</l>
@@ -3753,8 +3752,8 @@
 					<sp>
 						<app>
 							<lem>
-								<speaker>Die Mädchen</speaker>
-								<stage>(lachen).</stage>
+								<speaker>Die Mädchen.</speaker>
+								<stage>(lachen)</stage>
 							</lem>
 							<rdg wit="ED">
 								<stage>(Die Mädchen lachen.)</stage>
@@ -3762,7 +3761,7 @@
 						</app>
 					</sp>
 					<sp>
-						<speaker>Steffen</speaker>
+						<speaker>Steffen.</speaker>
 						<l>Ganz richtig, wir sind <app><lem>grad</lem><rdg wit="ED">gerad'</rdg></app> dabei<app><lem/><rdg wit="ED">,</rdg></app></l>
 						<l>'nen Ausweg zu erfassen.</l>
 						<l>Nur nachgedacht!<app><lem> -</lem><rdg wit="ED"/></app></l>
